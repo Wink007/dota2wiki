@@ -24,6 +24,10 @@
         flex-direction: row-reverse;
 
         .preview-text {
+            display: flex;
+            align-items: flex-end;
+            flex-direction: column;
+            line-height: 1.2;
             text-align: right;
         }
 

@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import classnames from 'classnames';
+import { Link } from 'react-router-dom';
 
 import './index.scss';
 
@@ -12,7 +13,7 @@ Preview.propTypes = {
 
 
 export default function Preview({ tab, className }) {
-    const { title, subtitle, content, img } = tab;
+    const { title, subtitle, content, img, link } = tab;
     return (
         <div className={classnames('preview-wrap', className)}>
             <div className="preview-text">
@@ -23,7 +24,7 @@ export default function Preview({ tab, className }) {
                         <span key={index}>{item}</span>
                     ))
                 }
-                <a href="#" className="button">Перейти</a>
+                <Link to={link} className="button">Перейти</Link>
             </div>
             <div className="preview-image">
                 <img src={img} alt=""/>
