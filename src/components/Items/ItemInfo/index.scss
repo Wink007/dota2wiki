@@ -11,7 +11,7 @@
 
     .wrapper {
         padding: 10px;
-        border: 1px solid #000;
+        background-color: rgba(0, 0, 0, .2);
 
         .info-head {
             display: flex;
@@ -20,9 +20,9 @@
             img {
                 display: block;
                 width: 50px;
-                height: 30px;
+                height: 35px;
                 margin-right: 10px;
-                background-color:rgba(0,0,0, .5);
+                background-color:rgba(0, 0, 0, .5);
             }
 
             .title {
@@ -55,14 +55,35 @@
             }
         }
 
-        .description {
+        .about {
 
-            .description-head {
-                background-image: linear-gradient(to right, #273f27 0%, #192721 51%, transparent 100%);
-
+            .about-main {
+                margin-bottom: 15px;
+                padding: 5px;
+                background-color: rgba(#273f27, .3);
+                color: #677560;
+                font-size: 12px;
+                
                 .use {
+                    background-image: linear-gradient(to right, #273f27 0%, #192721 51%, transparent 100%);
                     color: #8ab271;
+                    font-size: 14px;
+
+                    span {
+                        display: inline-block;
+                        
+                        &:first-letter {
+                            text-transform: uppercase;
+                        }
+                    }
                 }
+            }
+
+            .notation {
+                padding: 5px;
+                background-color: #7a8b99;
+                color: #343d43;
+                font-size: 12px;
             }
         }
     }

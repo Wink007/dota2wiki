@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+//import mainItems from 'cfg/main-items';
 
 import './index.scss';
 
@@ -16,12 +17,13 @@ export default class ItemInfo extends Component {
                             <p className="price">50</p>
                         </div>
                     </div>
-                    <div className="description">
-                        <div className="description-head">
-                            <span className="use">Использовать телепорт</span>
-                            <span className="mana">50</span>
-                            <span className="reload">80</span>
+                    <div className="about">
+                        <div className="about-main">
+                            <p className="use">Использование: <span>телепорт</span></p>
+                            <p className="stats">+1 к уму</p>
+                            <p className="description">описание предмета</p>
                         </div>
+                        <p className="notation">какое то дополнение</p>
                     </div>
                 </div>
             </div>
