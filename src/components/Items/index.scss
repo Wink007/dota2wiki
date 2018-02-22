@@ -1,5 +1,15 @@
 .items-container {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     font-family: 'Jura', sans-serif;
+
+    .items {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    
+        > div {
+            margin: 0 30px;
+        }
+    }
 }

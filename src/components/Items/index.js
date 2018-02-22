@@ -1,20 +1,24 @@
 import React, { Component } from 'react';
 import ItemInfo from './ItemInfo';
-import MainItems from './MainItems';
-import ImprovedItems from './ImprovedItems';
+import AllItems from './AllItems';
+import Nav from '../Nav';
 
-//import mainItems from 'cfg/main-items';
+import mainItems from 'cfg/main-items';
+import imporvedItems from 'cfg/improved-items';
 import './index.scss';
 
 
 export default class Items extends Component {
     render () {
-        // const { title, image, price, add_stats, usage, description, notation } = mainItems;
+        const path = this.props.location.pathname;
         return (
             <div className="items-container">
-                <ItemInfo />
-                <MainItems />
-                <ImprovedItems />
+                <Nav path={path} />
+                <div className="items">
+                    <ItemInfo />
+                    <AllItems main mainItems={mainItems} />
+                    <AllItems imporvedItems={imporvedItems} />
+                </div>
             </div>
         )
     }

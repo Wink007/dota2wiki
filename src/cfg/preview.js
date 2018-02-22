@@ -9,7 +9,7 @@ export default {
             "история.",
         ],
         img: require('image/lich.png'),
-        link: '/allheroes',
+        link: '/heroes',
     },
     items : {
         title: "Предметы",
