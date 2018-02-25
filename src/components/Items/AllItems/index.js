@@ -6,7 +6,7 @@ import './index.scss';
 
 export default class MainItems extends Component {
     render () {
-        const { imporvedItems, mainItems, main } = this.props;
+        const { imporvedItems, mainItems, main, showItem } = this.props;
         return (
             main ? 
             <div className="main-item">
@@ -14,13 +14,18 @@ export default class MainItems extends Component {
                 <div className="wrapper">
                     {
                         mainItems.map((item, idx) => (
-                            <span key={idx} tooltip={item.title} flow="down">
+                            <a
+                                key={idx}
+                                tooltip={item.title}
+                                flow="down"
+                                onClick={showItem(item)}
+                            >
                                 <img
                                     className="item-logo"
                                     src={item.image}
                                     alt={item.title}
                                 />
-                            </span>
+                            </a>
                         ))
                     }
                 </div>
@@ -30,13 +35,18 @@ export default class MainItems extends Component {
                 <div className="wrapper improved-wrapper">
                     {
                         imporvedItems.map((item, idx) => (
-                            <span key={idx} tooltip={item.title} flow="down">
+                            <a
+                                key={idx}
+                                tooltip={item.title}
+                                flow="down"
+                                onClick={showItem(item)}
+                            >
                                 <img
                                     className="item-logo"
                                     src={item.image}
                                     alt={item.title}
                                 />
-                            </span>
+                            </a>
                         ))
                     }
                 </div>

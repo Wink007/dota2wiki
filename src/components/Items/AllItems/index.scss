@@ -4,6 +4,7 @@
     //margin: 0 50px;
 
     h3 {
+        padding-top: 5px;
         background-color: rgba(0, 0, 0, .2);
         color: rgba(#fff, .8);
         text-align: center;
@@ -21,7 +22,7 @@
             width: 305px;
         }
 
-        span {
+        > a {
             cursor: pointer;
 
             .item-logo {
