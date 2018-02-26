@@ -6,7 +6,7 @@ import './index.scss';
 
 export default class MainItems extends Component {
     render () {
-        const { imporvedItems, mainItems, main, showItem } = this.props;
+        const { baseShop, sideShop, secretShop, imporvedItems, mainItems, main, showItem } = this.props;
         return (
             main ? 
             <div className="main-item">
@@ -21,7 +21,7 @@ export default class MainItems extends Component {
                                 onClick={showItem(item)}
                             >
                                 <img
-                                    className="item-logo"
+                                    className={(baseShop && !item.base_shop) || (sideShop && !item.sideShop) || (secretShop && !item.secretShop) ? "item-logo onClick" : "item-logo" }
                                     src={item.image}
                                     alt={item.title}
                                 />
@@ -42,7 +42,7 @@ export default class MainItems extends Component {
                                 onClick={showItem(item)}
                             >
                                 <img
-                                    className="item-logo"
+                                    className={(baseShop && !item.base_shop) || (sideShop && !item.sideShop) || (secretShop && !item.secretShop) ? "item-logo onClick" : "item-logo" }
                                     src={item.image}
                                     alt={item.title}
                                 />

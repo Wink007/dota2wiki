@@ -25,11 +25,15 @@
         > a {
             cursor: pointer;
 
-            .item-logo {
+            .item-logo {             
                 display: block;
                 width: 45px;
                 height: 30px;
                 margin: 2px;
+
+                &.onClick {
+                    opacity: .1;
+                }
             }
 
             &[tooltip] {

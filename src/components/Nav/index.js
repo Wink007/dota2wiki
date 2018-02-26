@@ -6,8 +6,6 @@ import './index.scss';
 
 export default class Items extends Component {
     render () {
-        const { path } = this.props;
-        console.log(path)
         return (
             <div className="nav">
                 <NavLink

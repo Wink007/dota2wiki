@@ -12,4 +12,12 @@
             margin: 0 25px;
         }
     }
+    .shopButtons {
+        display: flex;
+        flex-direction: column;
+
+        buttons {
+            width: 150px;
+        }
+    }
 }

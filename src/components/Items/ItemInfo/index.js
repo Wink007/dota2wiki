@@ -28,12 +28,16 @@ export default class ItemInfo extends Component {
                     </div>
                     <div className="about">
                         <div className="about-main">
-                            <p className="use">Использование: <span>{usage || ''}</span></p>
-                            <p className="stats">
-                                <span>{(add_stats && add_stats.value) || ''}</span>
-                                <span>{(add_stats && add_stats.feature) || ''}</span>
-                            </p>
-                            <p className="description">{description || ''}</p>
+                            {usage && <p className="use">Использование: <span>{usage || ''}</span></p>}
+                            {
+                                add_stats && add_stats.map((stat, index) => (
+                                    <p className="stats" key={index}>
+                                        <span className="value">{stat.value}</span>
+                                        <span className="feature">{stat.feature}</span>
+                                    </p>
+                                ))
+                            }
+                            {description && <p className="description">{description || ''}</p>}
                         </div>
                         {notation && <p className="notation">{notation || ''}</p>}
                     </div>

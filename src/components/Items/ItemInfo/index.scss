@@ -3,6 +3,7 @@
     flex-direction: column;
     
     h3 {
+        width: 270px;
         padding-top: 5px;
         background-color: rgba(0, 0, 0, .2);
         color: rgba(#fff, .8);
@@ -11,30 +12,26 @@
     }
 
     .wrapper {
-        width: 260px;
+        width: 270px;
         padding: 10px;
         background-color: rgba(0, 0, 0, .2);
-        
-        .fade-in {
-            animation: fade-in 300ms ease-out forwards;
+        animation: fade-in 300ms ease-out backwards;
 
-            @keyframes fade-in {
-                0% {opacity: 0;}
-                50% {opacity: .5;}
-                100% {opacity: 1;}
-            }
+        @keyframes fade-in {
+            0% {opacity: 0;}
+            50% {opacity: .5;}
+            100% {opacity: 1;}
         }
 
         .info-head {
             display: flex;
-            margin-bottom: 10px;
 
             img {
                 display: block;
                 width: 50px;
                 height: 35px;
                 margin-right: 10px;
-                background-color:rgba(0, 0, 0, .5);
+                //background-color:rgba(0, 0, 0, .5);
             }
 
             .title {
@@ -70,17 +67,16 @@
         .about {
 
             .about-main {
-                margin-bottom: 15px;
-                padding: 5px;
-                background-color: rgba(#273f27, .3);
+                padding: 5px 0;
                 color: #677560;
                 font-size: 12px;
                 
                 .use {
-                    padding: 2px;
+                    padding: 5px;
                     background-image: linear-gradient(to right, #273f27 0%, #192721 51%, transparent 100%);
                     color: #8ab271;
                     font-size: 14px;
+                    white-space: pre-line;
 
                     span {
                         display: inline-block;
@@ -90,9 +86,25 @@
                         }
                     }
                 }
+
+                .stats {
+                    padding: 4px 0;
+
+                    .value {
+                        color: rgba(255, 255, 255, .7);
+                        font-family: sans-serif;
+                        font-weight: 900;
+                    }
+                }
+
+                .description {
+                    padding: 2px 5px;
+                    background-color: rgba(#273f27, .3);
+                }
             }
 
             .notation {
+                margin-top: 10px;
                 padding: 5px;
                 background-color: #7a8b99;
                 color: #343d43;
