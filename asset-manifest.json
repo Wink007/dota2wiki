@@ -1,6 +1,11 @@
 {
-  "main.js": "static/js/main.b701bb65.js",
-  "main.js.map": "static/js/main.b701bb65.js.map",
+  "main.css": "static/css/main.23c5400c.css",
+  "main.css.map": "static/css/main.23c5400c.css.map",
+  "main.js": "static/js/main.7cc82bd3.js",
+  "main.js.map": "static/js/main.7cc82bd3.js.map",
+  "static/media/1.jpg": "static/media/1.3d4f1979.jpg",
+  "static/media/2.jpg": "static/media/2.ee46446a.jpg",
+  "static/media/3.jpg": "static/media/3.25acad52.jpg",
   "static/media/Abyssal_Blade_icon.png": "static/media/Abyssal_Blade_icon.8a939c9d.png",
   "static/media/Aeon_Disk_icon.png": "static/media/Aeon_Disk_icon.68e1ff77.png",
   "static/media/Aether_Lens_icon.png": "static/media/Aether_Lens_icon.1a68b840.png",
@@ -119,7 +124,9 @@
   "static/media/Wraith_Band_icon.png": "static/media/Wraith_Band_icon.cd2b351f.png",
   "static/media/Yasha_icon.png": "static/media/Yasha_icon.560dfb45.png",
   "static/media/am.png": "static/media/am.feac51cb.png",
-  "static/media/index.scss": "static/media/index.cdaabea6.scss",
+  "static/media/dota2main.png": "static/media/dota2main.5dcc7ad4.png",
   "static/media/lich.png": "static/media/lich.654f9ead.png",
+  "static/media/minimap.png": "static/media/minimap.f212e706.png",
+  "static/media/minimap_all.png": "static/media/minimap_all.064501a5.png",
   "static/media/pa.png": "static/media/pa.5450e982.png"
 }
