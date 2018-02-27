@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 
 //import mainItems from 'cfg/main-items';
 import './index.scss';
@@ -54,3 +55,13 @@ export default class MainItems extends Component {
         )
     }
 }
+
+MainItems.propTypes = {
+    baseShop: PropTypes.bool.isRequired,
+    sideShop: PropTypes.bool.isRequired,
+    secretShop: PropTypes.bool.isRequired,
+    imporvedItems: PropTypes.array,
+    mainItems: PropTypes.array,
+    main: PropTypes.bool,
+    showItem: PropTypes.func.isRequired,
+};

@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
+import classnames from 'classnames';
 
 import ItemInfo from './ItemInfo';
 import AllItems from './AllItems';
+import ShopButtons from './ShopButtons';
 import Nav from '../Nav';
 
 import mainItems from 'cfg/main-items';
@@ -11,6 +13,7 @@ import './index.scss';
 
 export default class Items extends Component {
     state = {
+        allShop: false,
         baseShop: false,
         secretShop: false,
         sideShop: false,
@@ -25,39 +28,74 @@ export default class Items extends Component {
 
     showBaseItem = () => {
         this.setState({
-            baseShop: !this.state.baseShop,
+            allShop: false,
+            baseShop: true,
             sideShop: false,
             secretShop: false,
         });
     };
     showSideItem = () => {
         this.setState({
-            sideShop: !this.state.sideShop,
+            allShop: false,
+            sideShop: true,
             baseShop: false,
             secretShop: false,
         });
     };
     showSecretItem = () => {
         this.setState({
-            secretShop: !this.state.secretShop,
+            allShop: false,
+            secretShop: true,
             baseShop: false,
             sideShop: false,
         });
     };
+
+    showAllItem = () => {
+        this.setState({
+            allShop: true,
+            secretShop: false,
+            baseShop: false,
+            sideShop: false,
+        });
+    };
+
     render () {
         const path = this.props.location.pathname;
-        const { baseShop, sideShop, secretShop, currentItem } = this.state;
+        const { allShop, baseShop, sideShop, secretShop, currentItem } = this.state;
         return (
             <div className="items-container">
                 <Nav path={path} />
                 <div className="items">
                     <ItemInfo currentItem={currentItem} />
-                    <AllItems baseShop={baseShop} sideShop={sideShop} secretShop={secretShop} main mainItems={mainItems} showItem={this.showItem} />
-                    <AllItems baseShop={baseShop} sideShop={sideShop} secretShop={secretShop} imporvedItems={imporvedItems} showItem={this.showItem} />
-                    <div className="shopButtons">
-                        <button onClick={this.showBaseItem}>Лавка на базе</button>
-                        <button onClick={this.showSideItem}>Боковая лавка</button>
-                        <button onClick={this.showSecretItem}>Секретная лавка</button>
+                    <AllItems
+                        baseShop={baseShop}
+                        sideShop={sideShop}
+                        secretShop={secretShop}
+                        main
+                        mainItems={mainItems}
+                        showItem={this.showItem}
+                    />
+                    <AllItems
+                        baseShop={baseShop}
+                        sideShop={sideShop}
+                        secretShop={secretShop}
+                        imporvedItems={imporvedItems}
+                        showItem={this.showItem}
+                    />
+                    <div className="shops">
+                        <ShopButtons
+                            showAllItem={this.showAllItem}
+                            showBaseItem={this.showBaseItem}
+                            showSideItem={this.showSideItem}
+                            showSecretItem={this.showSecretItem}
+                        />
+                        {
+                            allShop ? 
+                            <div className="mini-map-all"></div>
+                            :
+                            <div className={classnames('mini-map', {'base': baseShop}, {'side': sideShop}, {'secret': secretShop})}></div>
+                        }
                     </div>
                 </div>
             </div>

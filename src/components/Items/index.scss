@@ -8,16 +8,98 @@
         justify-content: center;
         margin-top: 15px;
     
-        > div {
+        > div:not(:last-child) {
             margin: 0 25px;
         }
-    }
-    .shopButtons {
-        display: flex;
-        flex-direction: column;
 
-        buttons {
-            width: 150px;
+        .shops {
+
+            .mini-map {
+                position: relative;
+                width: 250px;
+                height: 250px;
+                margin-top: 20px;
+                background: url('../../image/minimap.png') no-repeat;
+                background-size: contain;
+
+                &::before {
+                    position: absolute;
+                    width: 18px;
+                    height: 18px;
+                    content: '';
+                }
+
+                &::after {
+                    position: absolute;
+                    width: 18px;
+                    height: 18px;
+                    content: '';
+                }
+
+
+                &.base {
+                    box-shadow: 0 0 60px rgba(0, 50, 255, 0.4);
+                    
+                    &::before {
+                        bottom: 12px;
+                        left: 8px;
+                        background: url('../../image/Main_Shop.png') no-repeat;
+                        background-size: contain;
+                    }
+
+                    &::after {
+                        top: 12px;
+                        right: 8px;
+                        background: url('../../image/Main_Shop.png') no-repeat;
+                        background-size: contain;
+                    }
+                }
+
+                &.side {
+                    box-shadow: 0 0 60px rgba(0, 50, 255, 0.4);
+                    
+                    &::before {
+                        top: 46px;
+                        left: 8px;
+                        background: url('../../image/Side_Lane_Shop.png') no-repeat;
+                        background-size: contain;
+                    }
+
+                    &::after {
+                        bottom: 46px;
+                        right: 8px;
+                        background: url('../../image/Side_Lane_Shop.png') no-repeat;
+                        background-size: contain;
+                    }
+                }
+
+                &.secret {
+                    box-shadow: 0 0 60px rgba(0, 50, 255, 0.4);
+                    
+                    &::before {
+                        top: 90px;
+                        left: 46px;
+                        background: url('../../image/Secret_Shop.png') no-repeat;
+                        background-size: contain;
+                    }
+
+                    &::after {
+                        bottom: 90px;
+                        right: 48px;
+                        background: url('../../image/Secret_Shop.png') no-repeat;
+                        background-size: contain;
+                    }
+                }
+            }
+
+            .mini-map-all {
+                width: 250px;
+                height: 250px;
+                margin-top: 20px;
+                background: url('../../image/minimap_all.png') no-repeat;
+                background-size: contain;
+                box-shadow: 0 0 60px rgba(0, 50, 255, 0.4);
+            }
         }
     }
 }

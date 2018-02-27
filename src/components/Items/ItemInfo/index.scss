@@ -4,9 +4,10 @@
     
     h3 {
         width: 270px;
-        padding-top: 5px;
+        //padding-top: 5px;
         background-color: rgba(0, 0, 0, .2);
         color: rgba(#fff, .8);
+        line-height: 27px;
         text-align: center;
         text-transform: uppercase;
     }
@@ -31,7 +32,6 @@
                 width: 50px;
                 height: 35px;
                 margin-right: 10px;
-                //background-color:rgba(0, 0, 0, .5);
             }
 
             .title {
@@ -40,6 +40,7 @@
                 letter-spacing: 1.4px;
                 font-weight: 700;
                 text-transform: uppercase;
+                text-shadow: 0 0 1px #fff;
             }
 
             .price {
@@ -107,7 +108,7 @@
                 margin-top: 10px;
                 padding: 5px;
                 background-color: #7a8b99;
-                color: #343d43;
+                color: #000;
                 font-size: 12px;
             }
         }

@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 
 import './index.scss';
 
@@ -46,3 +47,7 @@ export default class ItemInfo extends Component {
         )
     }
 }
+
+ItemInfo.propTypes = {
+    currentItem: PropTypes.object,
+};

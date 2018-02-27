@@ -1,0 +1,77 @@
+.shopButtons {
+    width: 250px;
+    
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        background-color: rgba(0,0,0, .2);
+
+        button {
+            position: relative;
+            margin-bottom: 10px;
+            border: 0;
+            outline: 0;
+            background: rgb(81,92,102) linear-gradient(rgb(81,92,102), rgb(69,78,87));
+            box-shadow:
+                inset 0 1px rgba(101,114,126,1),
+                inset 0 0 1px rgba(140,150,170,.8),
+                0 1px rgb(83,94,104),
+                0 0 1px rgb(86,96,106);
+            color: rgba(255,255,255, .8);
+            font-size: 14px;
+            font-family: inherit;    
+            //background-color: #444d54;
+            line-height: 30px;
+            text-transform: uppercase;
+
+            &::before {
+                position: absolute;
+                top: calc(50% - 9px);
+                left: 10px;
+                width: 18px;
+                height: 18px;
+                content: '';
+            }
+
+            &.base 
+            {
+                &::before {
+                    background: url('../../../image/Main_Shop.png') no-repeat;
+                    background-size: contain;
+                    content: '';
+                }
+   
+            }
+
+            &.side {
+
+                &::before {
+                    background: url('../../../image/Side_Lane_Shop.png') no-repeat;
+                    background-size: contain;
+                    content: '';
+                }
+            }
+
+            &.secret {
+
+                &::before {
+                    background: url('../../../image/Secret_Shop.png') no-repeat;
+                    background-size: contain;
+                    content: '';
+                }
+            }
+
+            &:active {
+                box-shadow:
+                    inset 0 1px 3px rgba(0,10,20,.5),
+                    0 1px rgb(83,94,104),
+                    0 0 1px rgb(86,96,106);
+            }
+
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+    }
+}
