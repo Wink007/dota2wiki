@@ -1,5 +1,6 @@
 {
   "name": "dota2wiki",
+  "homepage": "https://wink007.github.io/dota2wiki/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
