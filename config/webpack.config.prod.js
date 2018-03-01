@@ -135,13 +135,30 @@ module.exports = {
         oneOf: [
           // "url" loader works just like "file" loader but it also embeds
           // assets smaller than specified size as data URLs to avoid requests.
+          // {
+          //   test: [/\.bmp$/, /\.gif$/, /\.jpe?g$/, /\.png$/],
+          //   loader: require.resolve('url-loader'),
+          //   options: {
+          //     limit: 10000,
+          //     name: 'static/media/[name].[hash:8].[ext]',
+          //   },
+          // },
           {
-            test: [/\.bmp$/, /\.gif$/, /\.jpe?g$/, /\.png$/],
-            loader: require.resolve('url-loader'),
-            options: {
-              limit: 10000,
-              name: 'static/media/[name].[hash:8].[ext]',
-            },
+            test: /\.(gif|png|jpe?g|svg)$/i,
+            use: [
+              {
+                loader: require.resolve('file-loader'),          
+                options: {
+                  name: 'static/media/[name].[hash:8].[ext]',
+                },
+              },
+              {
+                loader: 'image-webpack-loader',
+                options: {
+                  bypassOnDebug: true,
+                }
+              },
+            ],
           },
           // Process JS with Babel.
           {
@@ -225,7 +242,7 @@ module.exports = {
             // it's runtime that would otherwise processed through "file" loader.
             // Also exclude `html` and `json` extensions so they get processed
             // by webpacks internal loaders.
-            exclude: [/\.(js|jsx|mjs)$/, /\.html$/, /\.json$/],
+            exclude: [/\.js$/, /\.html$/, /\.json$/, /\.scss/],
             options: {
               name: 'static/media/[name].[hash:8].[ext]',
             },
@@ -277,7 +294,7 @@ module.exports = {
       },
       mangle: {
         safari10: true,
-      },
+      },        
       output: {
         comments: false,
         // Turned on because emoji and regex is not minified properly using default
