@@ -323,9 +323,9 @@ export default [
         sideShop: true,
         title: "boots of speed",
         image: require("image/items/Boots_of_Speed_icon.png"),
-        price: "400",
+        price: "500",
         add_stats: [{
-            value: "+40 ",
+            value: "+50 ",
             feature: "к скорости передвижения",
         }],
         usage: "",

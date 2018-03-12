@@ -1,16 +1,45 @@
 import React, { Component } from 'react';
 
+import AllHeroes from './AllHeroes';
+import HeroInfo from './HeroInfo';
+import heroes from 'cfg/heroes';
 import Nav from '../Nav';
-import 'styles/index.scss';
+
+import './index.scss';
 
 export default class Heroes extends Component {
+    state = {
+        currentHero: null,
+    };
+    
+    showHero = (currentHero) => (e) => {
+        e.preventDefault();
+        this.setState({
+            currentHero
+        });
+    };
+
+    closeHeroInfo = (currentHero) => (e) => {
+        e.preventDefault();
+        this.setState({
+            currentHero: null,
+        });
+    };
+
     render () {
         const path = this.props.location.pathname;
-        console.log(path);
+        const { currentHero } = this.state;
         return (
             <div>
                 <Nav path={path} />
-                HEROES
+                <div className="heroes-container">
+                    <div className="wrapper" style={currentHero ? {flex: 2} : {}}>
+                        <AllHeroes showHero={this.showHero} strength heroes={heroes} />
+                        <AllHeroes showHero={this.showHero} agility heroes={heroes} />
+                        <AllHeroes showHero={this.showHero} intelligence heroes={heroes} />
+                    </div>
+                    <HeroInfo closeHeroInfo={this.closeHeroInfo} currentHero={currentHero} />
+                </div>
             </div>
         )
     }

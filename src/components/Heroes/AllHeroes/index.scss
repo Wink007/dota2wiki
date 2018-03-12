@@ -1,0 +1,66 @@
+.heroes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    font-family: 'Jura', sans-serif;
+
+    .characters {
+        padding: 15px 5px;
+        border-right: 1px solid #fff;
+        color: #fff;
+        writing-mode: vertical-rl;
+        text-orientation: upright;
+        text-transform: uppercase;
+    }
+
+    .heroes-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-left: 10px;
+
+        > a {
+            position: relative;
+            width: 90px;
+            height: 60px;
+
+            &:after {
+                display: block;
+                position: absolute;
+                bottom: 5px;
+                left: 5px;
+                color: rgba(#fff, .9);
+                font-size: 10px;
+                text-shadow: 0 1px 3px #000;
+                content: attr(data-text);
+            }
+
+            > img {
+                position: relative;
+                display: block;
+                width: 90px;
+                height: 60px;
+                padding: 5px;
+                transition: transform ease .1s;
+
+                &:after {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    display: block;
+                    content: attr(data-text);
+                }
+
+                &:hover {
+                    display: block;
+                    position: absolute;
+                    bottom: 0;
+                    left: calc(50% - 57px);
+                    transform: scale(1.7, 1.7);
+                    z-index: 2;                  
+                }
+            }
+        }
+    }
+}

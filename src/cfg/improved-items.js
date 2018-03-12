@@ -564,7 +564,7 @@ export default [
         sideShop: false,
         title: "tranquil boots",
         image: require("image/items/Tranquil_Boots_(Active)_icon.png"),
-        price: "950",
+        price: "1050",
         add_stats: [
             {
                 value: "+90 ",
@@ -673,10 +673,10 @@ export default [
         sideShop: false,
         title: "phase boots",
         image: require("image/items/Phase_Boots_icon.png"),
-        price: "1240",
+        price: "1340",
         add_stats: [
             {
-                value: "+45 ",
+                value: "+50 ",
                 feature: "к скорости передвижения",
             },
             {
@@ -815,10 +815,10 @@ export default [
         sideShop: true,
         title: "power treads",
         image: require("image/items/Power_Treads_icon.png"),
-        price: "1350",
+        price: "1450",
         add_stats: [
             {
-                value: "+45 ",
+                value: "+50 ",
                 feature: "к скорости передвижения",
             },
             {
@@ -978,7 +978,7 @@ export default [
         sideShop: true,
         title: "arcane boots",
         image: require("image/items/Arcane_Boots_icon.png"),
-        price: "1300",
+        price: "1400",
         add_stats: [
             {
                 value: "+50 ",
@@ -1359,7 +1359,7 @@ export default [
         sideShop: false,
         title: "boots of travel",
         image: require("image/items/Boots_of_Travel_1_icon.png"),
-        price: "2400",
+        price: "2500",
         add_stats: [
             {
                 value: "+100 ",
