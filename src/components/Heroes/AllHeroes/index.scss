@@ -7,11 +7,12 @@
 
     .characters {
         padding: 15px 5px;
-        border-right: 1px solid #fff;
-        color: #fff;
+        border-right: 1px solid #777;
+        color: #777;
         writing-mode: vertical-rl;
         text-orientation: upright;
         text-transform: uppercase;
+        box-shadow: inset -10px 0px 5px -9px #000000;
     }
 
     .heroes-wrapper {

@@ -64,5 +64,8 @@ export default class AllHeroes extends Component {
 }
 
 AllHeroes.propTypes = {
-    
+    heroes: PropTypes.array.isRequired,
+    strength: PropTypes.bool,
+    agility: PropTypes.bool,
+    showHero: PropTypes.func.isRequired,
 };

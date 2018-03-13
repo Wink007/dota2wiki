@@ -10,12 +10,27 @@ import './index.scss';
 export default class Heroes extends Component {
     state = {
         currentHero: null,
+        currentSkill: null,
     };
     
     showHero = (currentHero) => (e) => {
         e.preventDefault();
         this.setState({
             currentHero
+        });
+    };
+
+    showSkill = (currentSkill) => (e) => {
+        e.preventDefault();
+        this.setState({
+            currentSkill
+        });
+    };
+
+    hideSkill = (currentSkill) => (e) => {
+        e.preventDefault();
+        this.setState({
+            currentSkill: null,
         });
     };
 
@@ -28,7 +43,7 @@ export default class Heroes extends Component {
 
     render () {
         const path = this.props.location.pathname;
-        const { currentHero } = this.state;
+        const { currentHero, currentSkill } = this.state;
         return (
             <div>
                 <Nav path={path} />
@@ -38,7 +53,13 @@ export default class Heroes extends Component {
                         <AllHeroes showHero={this.showHero} agility heroes={heroes} />
                         <AllHeroes showHero={this.showHero} intelligence heroes={heroes} />
                     </div>
-                    <HeroInfo closeHeroInfo={this.closeHeroInfo} currentHero={currentHero} />
+                    <HeroInfo
+                        closeHeroInfo={this.closeHeroInfo}
+                        showSkill={this.showSkill}
+                        hideSkill={this.hideSkill}
+                        currentHero={currentHero}
+                        currentSkill={currentSkill}
+                    />
                 </div>
             </div>
         )

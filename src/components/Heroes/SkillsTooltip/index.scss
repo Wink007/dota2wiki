@@ -1,0 +1,40 @@
+.skill-tooltip {
+    position: absolute;
+    top: 120%;
+    left: 0;
+    width: 300px;
+    //padding: 2px 10px;
+    border: 2px solid #1C242D;
+    background-color: rgba(36,47,57,0.95);
+    color: #C4C4C4;
+    z-index: 999;
+
+    .title {
+        display: flex;
+        padding: 3px 7px;
+        background-color:rgba(46,55,64,0.9);
+        color: #fff;
+
+        > img {
+            width: 40px;
+            height: 40px;
+            margin-right: 10px;
+        }
+
+        .skill-info {
+            display: flex;
+            flex-direction: column;
+
+            .skill-owner {
+                color: rgba(0, 0, 0, .7);
+                font-size: 13px;
+                line-height: 20px;
+            }
+        }
+    }
+
+    .about {
+        padding: 4px 7px;
+        font-size: 14px;
+    }
+}
