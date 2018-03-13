@@ -18,7 +18,6 @@
     .heroes-wrapper {
         display: flex;
         flex-wrap: wrap;
-        justify-content: center;
         padding-left: 10px;
 
         > a {
@@ -54,12 +53,13 @@
                 }
 
                 &:hover {
-                    display: block;
                     position: absolute;
                     bottom: 0;
-                    left: calc(50% - 57px);
-                    transform: scale(1.7, 1.7);
-                    z-index: 2;                  
+                    left: calc(50% - 45px);
+                    padding: 0;
+                    box-shadow: 0 0 3px 1px #000;
+                    transform: scale(1.5, 1.5);
+                    z-index: 999;                  
                 }
             }
         }
