@@ -3,6 +3,25 @@ export default [
         name: 'Abbadon',
         image: require("image/heroes/Abaddon_icon.png"),
         characteristic: 'Strength',
+        hp: [
+            {
+                health: '660',
+                restore: '+1.7',
+            },
+        ],
+        mp: [
+            {
+                mana: '327',
+                restore: '+1.3',
+            },
+        ],
+        stats: [
+            {
+                strength: '23',
+                agility: '17',
+                intelligence: '21',
+            }
+        ],
         skills: [
             {
                 image: require("image/skills/Abaddon_mist_coil.png"),
@@ -51,7 +70,7 @@ export default [
                         deflation: 'нет',
                     }
                 ],
-                description: 'Обращает весь получаемый урон в лечение. При применении снимает большинство негативных эффектов. Если способность готова, то она сработает, как только здоровье владельца упадет ниже %hp_threshold%.\n\nУлучшается с Aghanim\'s Scepter.\n\nТИП РАЗВЕИВАНИЯ: Сильное',
+                description: 'Обращает весь получаемый урон в лечение. При применении снимает большинство негативных эффектов. Если способность готова, то она сработает, как только здоровье владельца упадет ниже 400.\n\nТИП РАЗВЕИВАНИЯ: Сильное',
                 aghanim_description: 'Увеличивает длительность. Во время действия часть урона по союзным героям неподалёку будет наноситься владельцу способности.',
             },
         ],
@@ -62,6 +81,25 @@ export default [
         name: 'Alchemist',
         image: require("image/heroes/Alchemist_icon.png"),
         characteristic: 'Strength',
+        hp: [
+            {
+                health: '700',
+                restore: '+1.7',
+            },
+        ],
+        mp: [
+            {
+                mana: '375',
+                restore: '+1.4',
+            },
+        ],
+        stats: [
+            {
+                strength: '25',
+                agility: '16',
+                intelligence: '25',
+            }
+        ],
         skills: [
             {
                 image: require("image/skills/Acid_Spray_icon.png"),
@@ -119,6 +157,25 @@ export default [
         name: 'Ancient Apparition',
         image: require("image/heroes/Ancient_Apparition_icon.png"),
         characteristic: 'Intelligence',
+        hp: [
+            {
+                health: '560',
+                restore: '+1.6',
+            },
+        ],
+        mp: [
+            {
+                mana: '375',
+                restore: '+1.4',
+            },
+        ],
+        stats: [
+            {
+                strength: '18',
+                agility: '20',
+                intelligence: '25',
+            }
+        ],
         skills: [
             {
                 image: require("image/skills/Ancient_apparition_cold_feet.png"),
@@ -172,7 +229,7 @@ export default [
                         deflation: 'нет',
                     }
                 ],
-                description: 'Отправляет снаряд в направлении выбранной точки на карте. Повторное применение запускает ледяной шар, который взорвётся там, где находился снаряд на момент активации. Чем дальше он пролетит, тем больше будет радиус взрыва. У врагов, которые оказались в радиусе взрыва или на пути ледяного шара, застывает кровь, что делает невозможным лечение или регенерацию. Если здоровье поражённых целей упадет ниже определённого уровня, они мгновенно разобьются на осколки.\n\nУлучшается с Aghanim\'s Scepter.',
+                description: 'Отправляет снаряд в направлении выбранной точки на карте. Повторное применение запускает ледяной шар, который взорвётся там, где находился снаряд на момент активации. Чем дальше он пролетит, тем больше будет радиус взрыва. У врагов, которые оказались в радиусе взрыва или на пути ледяного шара, застывает кровь, что делает невозможным лечение или регенерацию. Если здоровье поражённых целей упадет ниже определённого уровня, они мгновенно разобьются на осколки.',
                 aghanim_description: 'Увеличивает длительность обморожения.',
             },
         ],
@@ -183,6 +240,25 @@ export default [
         name: 'Anti-Mage',
         image: require("image/heroes/Anti-Mage_icon.png"),
         characteristic: 'Agility',
+        hp: [
+            {
+                health: '640',
+                restore: '+1.7',
+            },
+        ],
+        mp: [
+            {
+                mana: '219',
+                restore: '+1.1',
+            },
+        ],
+        stats: [
+            {
+                strength: '22',
+                agility: '22',
+                intelligence: '12',
+            }
+        ],
         skills: [
             {
                 image: require("image/skills/Antimage_mana_break.png"),
@@ -214,7 +290,7 @@ export default [
                         type: 'пассивная',
                     }
                 ],
-                description: 'Увеличивает сопротивление магическому урону.\n\nУлучшается с Aghanim\'s Scepter.',
+                description: 'Увеличивает сопротивление магическому урону.',
                 aghanim_description: 'Способность блокирует и отражает одно направленное заклинание каждые 12 секунд.',
             },
             {
@@ -238,6 +314,25 @@ export default [
         name: 'Arc Warden',
         image: require("image/heroes/Arc_Warden_icon.png"),
         characteristic: 'Agility',
+        hp: [
+            {
+                health: '680',
+                restore: '+1.7',
+            },
+        ],
+        mp: [
+            {
+                mana: '363',
+                restore: '+1.4',
+            },
+        ],
+        stats: [
+            {
+                strength: '24',
+                agility: '15',
+                intelligence: '24',
+            }
+        ],
         skills: [
             {
                 image: require("image/skills/Flux_icon.png"),
@@ -294,6 +389,25 @@ export default [
         name: 'Axe',
         image: require("image/heroes/Axe_icon.png"),
         characteristic: 'Strength',
+        hp: [
+            {
+                health: '700',
+                restore: '+4.4',
+            },
+        ],
+        mp: [
+            {
+                mana: '291',
+                restore: '+1.3',
+            },
+        ],
+        stats: [
+            {
+                strength: '25',
+                agility: '20',
+                intelligence: '1.8',
+            }
+        ],
         skills: [
             {
                 image: require("image/skills/Axe_berserkers_call.png"),
@@ -319,7 +433,7 @@ export default [
                         deflation: 'да',
                     }
                 ],
-                description: 'Приводит врага в бешенство, замедляя его и нанося ему урон, пока он кого-нибудь не убьёт или действие способности не закончится. Герой получает бонус к скорости передвижения за каждое существо под воздействием этой способности.\n\nУлучшается с Aghanim\'s Scepter.',
+                description: 'Приводит врага в бешенство, замедляя его и нанося ему урон, пока он кого-нибудь не убьёт или действие способности не закончится. Герой получает бонус к скорости передвижения за каждое существо под воздействием этой способности.',
                 aghanim_description: 'Способность снижает весь урон жертв на 30% и применяется на ближайших врагов после успешного использования Culling Blade.',
             },
             {
@@ -355,6 +469,25 @@ export default [
         name: 'Bane',
         image: require("image/heroes/Bane_icon.png"),
         characteristic: 'Intelligence',
+        hp: [
+            {
+                health: '660',
+                restore: '+1.7',
+            },
+        ],
+        mp: [
+            {
+                mana: '351',
+                restore: '+1.4',
+            },
+        ],
+        stats: [
+            {
+                strength: '23',
+                agility: '23',
+                intelligence: '23',
+            }
+        ],
         skills: [
             {
                 image: require("image/skills/Bane_enfeeble.png"),
@@ -380,7 +513,7 @@ export default [
                         immunity: 'нет',
                     }
                 ],
-                description: 'Высасывает жизненную энергию врага, нанося ему урон и восстанавливая здоровье героя.\n\nУлучшается с Aghanim\'s Scepter.',
+                description: 'Высасывает жизненную энергию врага, нанося ему урон и восстанавливая здоровье героя.',
                 aghanim_description: 'Уменьшает перезарядку и позволяет применять способность сквозь невосприимчивость к магии.',
             },
             {
@@ -419,6 +552,25 @@ export default [
         name: 'Batrider',
         image: require("image/heroes/Batrider_icon.png"),
         characteristic: 'Intelligence',
+        hp: [
+            {
+                health: '660',
+                restore: '+3.4',
+            },
+        ],
+        mp: [
+            {
+                mana: '363',
+                restore: '+1.4',
+            },
+        ],
+        stats: [
+            {
+                strength: '23',
+                agility: '15',
+                intelligence: '24',
+            }
+        ],
         skills: [
             {
                 image: require("image/skills/Batrider_sticky_napalm.png"),
@@ -469,7 +621,7 @@ export default [
                         deflation: 'сильным развеиванием',
                     }
                 ],
-                description: 'Захватывает врага в огненное лассо, не давая ему атаковать, двигаться или использовать способности. Жертву можно перетаскивать за собой, однако нельзя затянуть на непроходимую территорию. Телепортация или использование Blink Dagger разорвёт лассо.\n\nУлучшается с Aghanim\'s Scepter.',
+                description: 'Захватывает врага в огненное лассо, не давая ему атаковать, двигаться или использовать способности. Жертву можно перетаскивать за собой, однако нельзя затянуть на непроходимую территорию. Телепортация или использование Blink Dagger разорвёт лассо.',
                 aghanim_description: 'Способность наносит 100 урона в секунду и, помимо цели, захватывает ближайшего к ней вражеского героя в радиусе 400. Вторая цель привязана к первой.',
             },
         ],
@@ -480,6 +632,25 @@ export default [
         name: 'Beastmaster',
         image: require("image/heroes/Beastmaster_icon.png"),
         characteristic: 'Strength',
+        hp: [
+            {
+                health: '660',
+                restore: '+1.7',
+            },
+        ],
+        mp: [
+            {
+                mana: '267',
+                restore: '+1.2',
+            },
+        ],
+        stats: [
+            {
+                strength: '23',
+                agility: '18',
+                intelligence: '16',
+            }
+        ],
         skills: [
             {
                 image: require("image/skills/Beastmaster_wild_axes.png"),
@@ -495,7 +666,7 @@ export default [
                 description: 'Герой швыряет топоры, которые прорубают деревья и противников на своём пути и возвращаются обратно. Каждый топор задевает одного врага лишь единожды и увеличивает урон, получаемый от героя и его существ.',
             },
             {
-                image: require("image/skills/Beastmaster_call_of_the_wild.png"),
+                image: require("image/skills/Beastmaster_call_of_the_wild_boar.png"),
                 name: 'Call of the Wild',
                 about: [
                     {
@@ -527,7 +698,7 @@ export default [
                         deflation: 'сильным развеиванием',
                     }
                 ],
-                description: 'Герой издаёт громогласный рык, который оглушает цель и раскидывает всех противников на пути к ней. Все задетые враги получают урон, а у отлетевших в стороны врагов снижается скорость атаки и передвижения. Также на 3 секунды скорость передвижения героя и его существ увеличивается на 30%.\n\nУлучшается с Aghanim\'s Scepter.',
+                description: 'Герой издаёт громогласный рык, который оглушает цель и раскидывает всех противников на пути к ней. Все задетые враги получают урон, а у отлетевших в стороны врагов снижается скорость атаки и передвижения. Также на 3 секунды скорость передвижения героя и его существ увеличивается на 30%.',
                 aghanim_description: 'Уменьшает время перезарядки и увеличивает дальность применения.',
             },
         ],
@@ -538,6 +709,25 @@ export default [
         name: 'Bloodseeker',
         image: require("image/heroes/Bloodseeker_icon.png"),
         characteristic: 'Agility',
+        hp: [
+            {
+                health: '660',
+                restore: '+1.7',
+            },
+        ],
+        mp: [
+            {
+                mana: '291',
+                restore: '+1.3',
+            },
+        ],
+        stats: [
+            {
+                strength: '23',
+                agility: '24',
+                intelligence: '18',
+            }
+        ],
         skills: [
             {
                 image: require("image/skills/Bloodseeker_bloodrage.png"),
@@ -588,7 +778,7 @@ export default [
                         deflation: 'нет',
                     }
                 ],
-                description: 'Разрывает кожу врага. Если он будет передвигаться, то получит урон, пропорциональный пройденному расстоянию. Урон проходит сквозь невосприимчивость к магии.\n\nУлучшается с Aghanim\'s Scepter.',
+                description: 'Разрывает кожу врага. Если он будет передвигаться, то получит урон, пропорциональный пройденному расстоянию. Урон проходит сквозь невосприимчивость к магии.',
                 aghanim_description: 'Перезарядка заменяется 2 зарядами, восполняющимися каждые 40 секунд.',
             },
         ],
@@ -599,6 +789,25 @@ export default [
         name: 'Bounty Hunter',
         image: require("image/heroes/Bounty_Hunter_icon.png"),
         characteristic: 'Agility',
+        hp: [
+            {
+                health: '540',
+                restore: '+2.1',
+            },
+        ],
+        mp: [
+            {
+                mana: '303',
+                restore: '+1.3',
+            },
+        ],
+        stats: [
+            {
+                strength: '17',
+                agility: '21',
+                intelligence: '19',
+            }
+        ],
         skills: [
             {
                 image: require("image/skills/Bounty_hunter_shuriken_toss.png"),
@@ -611,7 +820,7 @@ export default [
                         immunity: 'нет',
                     }
                 ],
-                description: 'Запускает во врага смертельный сюрикен, наносящий урон и ненадолго оглушающий цель. Сюрикен будет отскакивать между помеченными способностью Track противниками в радиусе %bounce_aoe% друг от друга.\n\nУлучшается с Aghanim\'s Scepter.',
+                description: 'Запускает во врага смертельный сюрикен, наносящий урон и ненадолго оглушающий цель. Сюрикен будет отскакивать между помеченными способностью Track противниками в радиусе %bounce_aoe% друг от друга.',
                 aghanim_description: 'Снаряд от этой способности отскакивает по каждому герою дважды.',
             },
             {
@@ -659,6 +868,25 @@ export default [
         name: 'Brewmaster',
         image: require("image/heroes/Brewmaster_icon.png"),
         characteristic: 'Strength',
+        hp: [
+            {
+                health: '660',
+                restore: '+2.2',
+            },
+        ],
+        mp: [
+            {
+                mana: '243',
+                restore: '+1.2',
+            },
+        ],
+        stats: [
+            {
+                strength: '23',
+                agility: '22',
+                intelligence: '14',
+            }
+        ],
         skills: [
             {
                 image: require("image/skills/Brewmaster_thunder_clap.png"),
@@ -705,7 +933,7 @@ export default [
                         deflation: 'нет',
                     }
                 ],
-                description: 'Разделяет героя на трёх выносливых воинов-элементалей. Если хотя бы один из них доживёт до окончания действия способности, герой вернётся в свою прежнюю форму.\n\nУлучшается с Aghanim\'s Scepter.',
+                description: 'Разделяет героя на трёх выносливых воинов-элементалей. Если хотя бы один из них доживёт до окончания действия способности, герой вернётся в свою прежнюю форму.',
                 aghanim_description: 'Воин земли получает способность Thunder Clap, воин шторма — Drunken Haze, а воин огня — Drunken Brawler.',
             },
         ],
@@ -716,6 +944,25 @@ export default [
         name: 'Bristleback',
         image: require("image/heroes/Bristleback_icon.png"),
         characteristic: 'Strength',
+        hp: [
+            {
+                health: '640',
+                restore: '+1.7',
+            },
+        ],
+        mp: [
+            {
+                mana: '243',
+                restore: '+1.2',
+            },
+        ],
+        stats: [
+            {
+                strength: '22',
+                agility: '17',
+                intelligence: '14',
+            }
+        ],
         skills: [
             {
                 image: require("image/skills/Bristleback_viscous_nasal_goo.png"),
@@ -728,7 +975,7 @@ export default [
                         deflation: 'да',
                     }
                 ],
-                description: 'Обильно сморкается на жертву, снижая её броню и скорость передвижения. Эффекты способности складываются, а время действия обновляется с каждым повторным применением.\n\nУлучшается с Aghanim\'s Scepter.',
+                description: 'Обильно сморкается на жертву, снижая её броню и скорость передвижения. Эффекты способности складываются, а время действия обновляется с каждым повторным применением.',
                 aghanim_description: 'Делает способность ненаправленной, отчего она применяется на всех врагов вокруг героя.',
             },
             {
@@ -773,6 +1020,25 @@ export default [
         name: 'Broodmother',
         image: require("image/heroes/Broodmother_icon.png"),
         characteristic: 'Agility',
+        hp: [
+            {
+                health: '540',
+                restore: '+1.6',
+            },
+        ],
+        mp: [
+            {
+                mana: '291',
+                restore: '+1.3',
+            },
+        ],
+        stats: [
+            {
+                strength: '17',
+                agility: '18',
+                intelligence: '18',
+            }
+        ],
         skills: [
             {
                 image: require("image/skills/Broodmother_spawn_spiderlings.png"),
@@ -829,6 +1095,25 @@ export default [
         name: 'Centaur Warrunner',
         image: require("image/heroes/Centaur_Warrunner_icon.png"),
         characteristic: 'Strength',
+        hp: [
+            {
+                health: '660',
+                restore: '+1.7',
+            },
+        ],
+        mp: [
+            {
+                mana: '255',
+                restore: '+1.2',
+            },
+        ],
+        stats: [
+            {
+                strength: '23',
+                agility: '15',
+                intelligence: '15',
+            }
+        ],
         skills: [
             {
                 image: require("image/skills/Centaur_warrunner_hoof_stomp.png"),
@@ -878,7 +1163,7 @@ export default [
                         deflation: 'нет',
                     }
                 ],
-                description: 'Герой отправляет в указанном направлении ударную волну, наносящую урон врагам.\n\nУлучшается с Aghanim\'s Scepter.',
+                description: 'Герой отправляет в указанном направлении ударную волну, наносящую урон врагам.',
                 aghanim_description: 'Способность уменьшает получаемый урон, а также позволяет проходить сквозь препятствия, в том числе деревья и уступы.',
             },
         ],
@@ -889,6 +1174,25 @@ export default [
         name: 'Chaos Knight',
         image: require("image/heroes/Chaos_Knight_icon.png"),
         characteristic: 'Strength',
+        hp: [
+            {
+                health: '640',
+                restore: '+1.7',
+            },
+        ],
+        mp: [
+            {
+                mana: '267',
+                restore: '+1.2',
+            },
+        ],
+        stats: [
+            {
+                strength: '22',
+                agility: '14',
+                intelligence: '16',
+            }
+        ],
         skills: [
             {
                 image: require("image/skills/Chaos_knight_chaos_bolt.png"),
@@ -937,7 +1241,7 @@ export default [
                         affect: 'на союзных героев',
                     }
                 ],
-                description: 'Призывает несколько копий героя из параллельных измерений. С шансом в 50% появится одна дополнительная копия. Иллюзии наносят 100% урона, а получают 260 урона.\n\nУлучшается с Aghanim\'s Scepter.\n\nТИП РАЗВЕИВАНИЯ: Нормальное',
+                description: 'Призывает несколько копий героя из параллельных измерений. С шансом в 50% появится одна дополнительная копия. Иллюзии наносят 100% урона, а получают 260 урона.\n\nТИП РАЗВЕИВАНИЯ: Нормальное',
                 aghanim_description: 'Уменьшает перезарядку до 20 секунд и позволяет применить эту способность на союзного героя в радиусе 1200.',
             },
         ],
@@ -948,6 +1252,25 @@ export default [
         name: 'Chen',
         image: require("image/heroes/Chen_icon.png"),
         characteristic: 'Intelligence',
+        hp: [
+            {
+                health: '660',
+                restore: '+1.7',
+            },
+        ],
+        mp: [
+            {
+                mana: '327',
+                restore: '+1.3',
+            },
+        ],
+        stats: [
+            {
+                strength: '23',
+                agility: '15',
+                intelligence: '21',
+            }
+        ],
         skills: [
             {
                 image: require("image/skills/Chen_penitence.png"),
@@ -985,7 +1308,7 @@ export default [
                         deflation: 'нет',
                     }
                 ],
-                description: 'Подчиняет вражеского или нейтрального крипа. Если его максимальный запас здоровья ниже определённого порога, то здоровье существа увеличится до этого значения.\n\nЕсли применить на союзника, он телепортируется на базу, а если на владельца способности — к нему переместятся все его подконтрольные крипы.\n\nУлучшается с Aghanim\'s Scepter.',
+                description: 'Подчиняет вражеского или нейтрального крипа. Если его максимальный запас здоровья ниже определённого порога, то здоровье существа увеличится до этого значения.\n\nЕсли применить на союзника, он телепортируется на базу, а если на владельца способности — к нему переместятся все его подконтрольные крипы.',
                 aghanim_description: 'Позволяет приручать древних крипов в количестве, равном уровню ульта.',
             },
             {
@@ -1007,6 +1330,25 @@ export default [
         name: 'Clinkz',
         image: require("image/heroes/Clinkz_icon.png"),
         characteristic: 'Agility',
+        hp: [
+            {
+                health: '500',
+                restore: '+1.6',
+            },
+        ],
+        mp: [
+            {
+                mana: '267',
+                restore: '+1.2',
+            },
+        ],
+        stats: [
+            {
+                strength: '15',
+                agility: '22',
+                intelligence: '16',
+            }
+        ],
         skills: [
             {
                 image: require("image/skills/Clinkz_strafe.png"),
@@ -1063,6 +1405,25 @@ export default [
         name: 'Clockwerk',
         image: require("image/heroes/Clockwerk_icon.png"),
         characteristic: 'Strength',
+        hp: [
+            {
+                health: '720',
+                restore: '+1.7',
+            },
+        ],
+        mp: [
+            {
+                mana: '279',
+                restore: '+1.2',
+            },
+        ],
+        stats: [
+            {
+                strength: '26',
+                agility: '13',
+                intelligence: '17',
+            }
+        ],
         skills: [
             {
                 image: require("image/skills/Clockwerk_battery_assault.png"),
@@ -1112,7 +1473,7 @@ export default [
                         deflation: 'сильным развеиванием',
                     }
                 ],
-                description: 'Быстро выпускает захватное устройство в указанном направлении. Если крюк попадает в живое существо, герой запускает себя в цель, оглушая её и нанося урон. Любые враги, с которыми герой сталкивается по пути, также получают урон и оглушаются.\n\nУлучшается с Aghanim\'s Scepter.',
+                description: 'Быстро выпускает захватное устройство в указанном направлении. Если крюк попадает в живое существо, герой запускает себя в цель, оглушая её и нанося урон. Любые враги, с которыми герой сталкивается по пути, также получают урон и оглушаются.',
                 aghanim_description: 'Снижает время перезарядки.',
             },
         ],
@@ -1123,6 +1484,25 @@ export default [
         name: 'Crystal Maiden',
         image: require("image/heroes/Crystal_Maiden_icon.png"),
         characteristic: 'Intelligence',
+        hp: [
+            {
+                health: '520',
+                restore: '+1.6',
+            },
+        ],
+        mp: [
+            {
+                mana: '267',
+                restore: '+1.2',
+            },
+        ],
+        stats: [
+            {
+                strength: '16',
+                agility: '16',
+                intelligence: '16',
+            }
+        ],
         skills: [
             {
                 image: require("image/skills/Crystal_maiden_crystal_nova.png"),
@@ -1172,7 +1552,7 @@ export default [
                         immunity: 'нет',
                     }
                 ],
-                description: 'ПРЕРЫВАЕМАЯ — на 10 секунд окружает героя случайными ледяными взрывами, замедляющими врагов и наносящими большой урон.\n\nУлучшается с Aghanim\'s Scepter.',
+                description: 'ПРЕРЫВАЕМАЯ — на 10 секунд окружает героя случайными ледяными взрывами, замедляющими врагов и наносящими большой урон.',
                 aghanim_description: 'На существ, находящихся под действием ульта больше 2,5 секунды, применяется способность Frostbite.',
             },
         ],
@@ -1183,6 +1563,25 @@ export default [
         name: 'Dark Seer',
         image: require("image/heroes/Dark_Seer_icon.png"),
         characteristic: 'Intelligence',
+        hp: [
+            {
+                health: '640',
+                restore: '+1.7',
+            },
+        ],
+        mp: [
+            {
+                mana: '351',
+                restore: '+1.4',
+            },
+        ],
+        stats: [
+            {
+                strength: '22',
+                agility: '12',
+                intelligence: '23',
+            }
+        ],
         skills: [
             {
                 image: require("image/skills/Dark_seer_vacuum.png"),
@@ -1245,6 +1644,25 @@ export default [
         name: 'Dark Willow',
         image: require("image/heroes/Dark_Willow_icon.png"),
         characteristic: 'Intelligence',
+        hp: [
+            {
+                health: '560',
+                restore: '+1.6',
+            },
+        ],
+        mp: [
+            {
+                mana: '315',
+                restore: '+1.3',
+            },
+        ],
+        stats: [
+            {
+                strength: '18',
+                agility: '18',
+                intelligence: '20',
+            }
+        ],
         skills: [
             {
                 image: require("image/skills/Bramble_Maze_icon.png"),
@@ -1318,6 +1736,25 @@ export default [
         name: 'Dazzle',
         image: require("image/heroes/Dazzle_icon.png"),
         characteristic: 'Intelligence',
+        hp: [
+            {
+                health: '520',
+                restore: '+1.6',
+            },
+        ],
+        mp: [
+            {
+                mana: '399',
+                restore: '+1.4',
+            },
+        ],
+        stats: [
+            {
+                strength: '16',
+                agility: '21',
+                intelligence: '27',
+            }
+        ],
         skills: [
             {
                 image: require("image/skills/Dazzle_poison_touch.png"),
@@ -1344,7 +1781,7 @@ export default [
                         deflation: 'нет',
                     }
                 ],
-                description: 'Накладывает на союзника священную защиту, не позволяющую ему умереть.\n\nУлучшается с Aghanim\'s Scepter.',
+                description: 'Накладывает на союзника священную защиту, не позволяющую ему умереть.',
                 aghanim_description: 'Позволяет применять способность Shallow Grave по площади.',
             },
             {
@@ -1380,6 +1817,25 @@ export default [
         name: 'Death Prophet',
         image: require("image/heroes/Death_Prophet_icon.png"),
         characteristic: 'Intelligence',
+        hp: [
+            {
+                health: '540',
+                restore: '+2.1',
+            },
+        ],
+        mp: [
+            {
+                mana: '351',
+                restore: '+2.4',
+            },
+        ],
+        stats: [
+            {
+                strength: '17',
+                agility: '14',
+                intelligence: '23',
+            }
+        ],
         skills: [
             {
                 image: require("image/skills/Death_prophet_crypt_swarm.png"),
@@ -1441,6 +1897,25 @@ export default [
         name: 'Disruptor',
         image: require("image/heroes/Disruptor_icon.png"),
         characteristic: 'Intelligence',
+        hp: [
+            {
+                health: '580',
+                restore: '+1.6',
+            },
+        ],
+        mp: [
+            {
+                mana: '339',
+                restore: '+1.3',
+            },
+        ],
+        stats: [
+            {
+                strength: '19',
+                agility: '15',
+                intelligence: '22',
+            }
+        ],
         skills: [
             {
                 image: require("image/skills/Disruptor_thunder_strike.png"),
@@ -1491,7 +1966,7 @@ export default [
                         deflation: 'нет',
                     }
                 ],
-                description: 'Создаёт статический шторм, наносящий урон и запрещающий применять способности всем вражеским существам в указанной области. Урон увеличивается со временем действия способности.\n\nУлучшается с Aghanim\'s Scepter.',
+                description: 'Создаёт статический шторм, наносящий урон и запрещающий применять способности всем вражеским существам в указанной области. Урон увеличивается со временем действия способности.',
                 aghanim_description: 'Запрещает врагам использовать предметы и увеличивает время действия.',
             },
         ],
@@ -1502,6 +1977,25 @@ export default [
         name: 'Doom',
         image: require("image/heroes/Doom_icon.png"),
         characteristic: 'Strength',
+        hp: [
+            {
+                health: '720',
+                restore: '+1.7',
+            },
+        ],
+        mp: [
+            {
+                mana: '255',
+                restore: '+1.2',
+            },
+        ],
+        stats: [
+            {
+                strength: '26',
+                agility: '11',
+                intelligence: '15',
+            }
+        ],
         skills: [
             {
                 image: require("image/skills/Doom_bringer_devour.png"),
@@ -1553,7 +2047,7 @@ export default [
                         deflation: 'нет',
                     }
                 ],
-                description: 'Вражеского героя настигает жуткая участь, отчего тот получает периодический урон и не может применять способности или использовать предметы.\n\nУлучшается с Aghanim\'s Scepter.\n\nТИП РАЗВЕИВАНИЯ: Нормальное',
+                description: 'Вражеского героя настигает жуткая участь, отчего тот получает периодический урон и не может применять способности или использовать предметы.\n\nТИП РАЗВЕИВАНИЯ: Нормальное',
                 aghanim_description: 'Увеличивает время действия способности. Отсчёт длительности не действует, если находиться в радиусе 900 от цели. Также снимает с неё положительные эффекты и отключает ей большинство пассивных способностей.',
             },
         ],
@@ -1564,6 +2058,25 @@ export default [
         name: 'Dragon Knight',
         image: require("image/heroes/Dragon_Knight_icon.png"),
         characteristic: 'Strength',
+        hp: [
+            {
+                health: '580',
+                restore: '+1.6',
+            },
+        ],
+        mp: [
+            {
+                mana: '255',
+                restore: '+1.2',
+            },
+        ],
+        stats: [
+            {
+                strength: '19',
+                agility: '19',
+                intelligence: '15',
+            }
+        ],
         skills: [
             {
                 image: require("image/skills/Dragon_knight_breathe_fire.png"),
@@ -1623,6 +2136,25 @@ export default [
         name: 'Drow Ranger',
         image: require("image/heroes/Drow_Ranger_icon.png"),
         characteristic: 'Agility',
+        hp: [
+            {
+                health: '540',
+                restore: '+1.6',
+            },
+        ],
+        mp: [
+            {
+                mana: '255',
+                restore: '+1.2',
+            },
+        ],
+        stats: [
+            {
+                strength: '17',
+                agility: '26',
+                intelligence: '15',
+            }
+        ],
         skills: [
             {
                 image: require("image/skills/Drow_ranger_frost_arrows.png"),
@@ -1668,7 +2200,7 @@ export default [
                         type: 'пассивная',
                     }
                 ],
-                description: 'Боевой опыт героя увеличивает его эффективность в битве, наделяя дополнительной ловкостью. Бонус пропадает, если в радиусе 400 единиц есть вражеские герои.\n\nУлучшается с Aghanim\'s Scepter.',
+                description: 'Боевой опыт героя увеличивает его эффективность в битве, наделяя дополнительной ловкостью. Бонус пропадает, если в радиусе 400 единиц есть вражеские герои.',
                 aghanim_description: 'Стрелы героя разделяются при попадании, нанося урон случайным существам вокруг цели. Каждая такая стрела считается обычной атакой, но наносит уменьшенный урон.',
             },
         ],
@@ -1679,6 +2211,25 @@ export default [
         name: 'Earth Spirit',
         image: require("image/heroes/Earth_Spirit_icon.png"),
         characteristic: 'Strength',
+        hp: [
+            {
+                health: '620',
+                restore: '+1.6',
+            },
+        ],
+        mp: [
+            {
+                mana: '291',
+                restore: '+1.3',
+            },
+        ],
+        stats: [
+            {
+                strength: '21',
+                agility: '17',
+                intelligence: '18',
+            }
+        ],
         skills: [
             {
                 image: require("image/skills/Earth_spirit_boulder_smash.png"),
@@ -1751,6 +2302,25 @@ export default [
         name: 'Earthshaker',
         image: require("image/heroes/Earthshaker_icon.png"),
         characteristic: 'Strength',
+        hp: [
+            {
+                health: '640',
+                restore: '+2.2',
+            },
+        ],
+        mp: [
+            {
+                mana: '267',
+                restore: '+1.2',
+            },
+        ],
+        stats: [
+            {
+                strength: '22',
+                agility: '12',
+                intelligence: '16',
+            }
+        ],
         skills: [
             {
                 image: require("image/skills/Earthshaker_fissure.png"),
@@ -1775,7 +2345,7 @@ export default [
                         deflation: 'да',
                     }
                 ],
-                description: 'Заряжает тотем, увеличивая урон следующей атаки.\n\nУлучшается с Aghanim\'s Scepter.',
+                description: 'Заряжает тотем, увеличивая урон следующей атаки.',
                 aghanim_description: 'Позволяет прыгнуть в указанную точку в радиусе 900 и применить Enchant Totem в ней. Применение на себя работает как раньше, без прыжка.',
             },
             {
@@ -1811,6 +2381,25 @@ export default [
         name: 'Elder Titan',
         image: require("image/heroes/Elder_Titan_icon.png"),
         characteristic: 'Strength',
+        hp: [
+            {
+                health: '680',
+                restore: '+1.7',
+            },
+        ],
+        mp: [
+            {
+                mana: '351',
+                restore: '+1.4',
+            },
+        ],
+        stats: [
+            {
+                strength: '24',
+                agility: '14',
+                intelligence: '23',
+            }
+        ],
         skills: [
             {
                 image: require("image/skills/Elder_titan_echo_stomp.png"),
@@ -1862,7 +2451,7 @@ export default [
                         deflation: 'да',
                     }
                 ],
-                description: 'Герой раскалывает землю, посылая трещину в выбранном направлении. Через 3 секунды разлом схлопывается, замедляя всех попавшихся врагов и нанося им урон, зависящий от их максимального показателя здоровья. Половина урона будет физической, половина — магической.\n\nУлучшается с Aghanim\'s Scepter.',
+                description: 'Герой раскалывает землю, посылая трещину в выбранном направлении. Через 3 секунды разлом схлопывается, замедляя всех попавшихся врагов и нанося им урон, зависящий от их максимального показателя здоровья. Половина урона будет физической, половина — магической.',
                 aghanim_description: 'Увеличивает длительность замедления и накладывает бессилие на всех притянутых врагов.',
             },
         ],
@@ -1873,6 +2462,25 @@ export default [
         name: 'Ember Spirit',
         image: require("image/heroes/Ember_Spirit_icon.png"),
         characteristic: 'Agility',
+        hp: [
+            {
+                health: '580',
+                restore: '+2.1',
+            },
+        ],
+        mp: [
+            {
+                mana: '315',
+                restore: '+1.3',
+            },
+        ],
+        stats: [
+            {
+                strength: '19',
+                agility: '22',
+                intelligence: '20',
+            }
+        ],
         skills: [
             {
                 image: require("image/skills/Ember_spirit_searing_chains.png"),
@@ -1944,6 +2552,25 @@ export default [
         name: 'Enchantress',
         image: require("image/heroes/Enchantress_icon.png"),
         characteristic: 'Intelligence',
+        hp: [
+            {
+                health: '520',
+                restore: '+1.6',
+            },
+        ],
+        mp: [
+            {
+                mana: '327',
+                restore: '+1.3',
+            },
+        ],
+        stats: [
+            {
+                strength: '16',
+                agility: '19',
+                intelligence: '21',
+            }
+        ],
         skills: [
             {
                 image: require("image/skills/Enchantress_untouchable.png"),
@@ -1991,7 +2618,7 @@ export default [
                         immunity: 'да',
                     }
                 ],
-                description: 'Усиливает атаки героя, добавляя к ним урон, зависящий от расстояния до цели. Чем она дальше, тем больше урон.\n\nУлучшается с Aghanim\'s Scepter.',
+                description: 'Усиливает атаки героя, добавляя к ним урон, зависящий от расстояния до цели. Чем она дальше, тем больше урон.',
                 aghanim_description: 'Увеличивает дальность атаки и дальность применения этой способности.',
             },
         ],
@@ -2002,6 +2629,25 @@ export default [
         name: 'Enigma',
         image: require("image/heroes/Enigma_icon.png"),
         characteristic: 'Intelligence',
+        hp: [
+            {
+                health: '580',
+                restore: '+1.6',
+            },
+        ],
+        mp: [
+            {
+                mana: '315',
+                restore: '+1.3',
+            },
+        ],
+        stats: [
+            {
+                strength: '19',
+                agility: '14',
+                intelligence: '20',
+            }
+        ],
         skills: [
             {
                 image: require("image/skills/Enigma_malefice.png"),
@@ -2048,7 +2694,7 @@ export default [
                         immunity: 'да',
                     }
                 ],
-                description: 'ПРЕРЫВАЕМАЯ — образует воронку, всасывающую всех врагов в зоне действия. При этом они не могут двигаться, атаковать и применять способности.\n\nУлучшается с Aghanim\'s Scepter.',
+                description: 'ПРЕРЫВАЕМАЯ — образует воронку, всасывающую всех врагов в зоне действия. При этом они не могут двигаться, атаковать и применять способности.',
                 aghanim_description: 'Добавляет урон от способности Midnight Pulse текущего уровня.',
             },
         ],
@@ -2059,6 +2705,25 @@ export default [
         name: 'Faceless Void',
         image: require("image/heroes/Faceless_Void_icon.png"),
         characteristic: 'Agility',
+        hp: [
+            {
+                health: '660',
+                restore: '+2.2',
+            },
+        ],
+        mp: [
+            {
+                mana: '255',
+                restore: '+1.2',
+            },
+        ],
+        stats: [
+            {
+                strength: '23',
+                agility: '23',
+                intelligence: '15',
+            }
+        ],
         skills: [
             {
                 image: require("image/skills/Faceless_void_time_walk.png"),
@@ -2105,7 +2770,7 @@ export default [
                         deflation: 'нет',
                     }
                 ],
-                description: 'Создаёт сферу, которая останавливает действие пространства и времени. Внутри неё застывает всё, кроме владельца сферы и подконтрольных ему существ, которые передвигаются в ней с увеличенной скоростью. Внутри сферы раскрывается невидимость.\n\nУлучшается с Aghanim\'s Scepter.',
+                description: 'Создаёт сферу, которая останавливает действие пространства и времени. Внутри неё застывает всё, кроме владельца сферы и подконтрольных ему существ, которые передвигаются в ней с увеличенной скоростью. Внутри сферы раскрывается невидимость.',
                 aghanim_description: 'Уменьшает время перезарядки.',
             },
         ],
@@ -2116,6 +2781,25 @@ export default [
         name: 'Gyrocopter',
         image: require("image/heroes/Gyrocopter_icon.png"),
         characteristic: 'Agility',
+        hp: [
+            {
+                health: '560',
+                restore: '+1.6',
+            },
+        ],
+        mp: [
+            {
+                mana: '303',
+                restore: '+1.3',
+            },
+        ],
+        stats: [
+            {
+                strength: '18',
+                agility: '24',
+                intelligence: '19',
+            }
+        ],
         skills: [
             {
                 image: require("image/skills/Gyrocopter_rocket_barrage.png"),
@@ -2168,7 +2852,7 @@ export default [
                         deflation: 'да',
                     }
                 ],
-                description: 'Вызывает воздушный удар на выбранную область. С неба падает 2 снаряда: первый наносит большой урон и немного замедляет всех в области на 2 секунды, а второй наносит незначительный урон, но сильно замедляет врагов на 4 секунды.\n\nУлучшается с Aghanim\'s Scepter.',
+                description: 'Вызывает воздушный удар на выбранную область. С неба падает 2 снаряда: первый наносит большой урон и немного замедляет всех в области на 2 секунды, а второй наносит незначительный урон, но сильно замедляет врагов на 4 секунды.',
                 aghanim_description: 'Добавляет автоматическую турель, которая каждые 1,1 секунды стреляет по случайной вражеской цели в радиусе 600.',
             },
         ],
@@ -2179,6 +2863,25 @@ export default [
         name: 'Huskar',
         image: require("image/heroes/Huskar_icon.png"),
         characteristic: 'Strength',
+        hp: [
+            {
+                health: '620',
+                restore: '+1.6',
+            },
+        ],
+        mp: [
+            {
+                mana: '291',
+                restore: '+1.3',
+            },
+        ],
+        stats: [
+            {
+                strength: '21',
+                agility: '15',
+                intelligence: '18',
+            }
+        ],
         skills: [
             {
                 image: require("image/skills/Huskar_inner_vitality.png"),
@@ -2228,7 +2931,7 @@ export default [
                         deflation: 'да',
                     }
                 ],
-                description: 'Герой наносит огромный урон ценой собственного здоровья. Он прыгает к цели в радиусе своей атаки, отнимая часть текущего здоровья жертвы и замедляя её. Во время прыжка герой невосприимчив к магии.\n\nТИП РАЗВЕИВАНИЯ: нормальное\n\nУлучшается с Aghanim\'s Scepter.',
+                description: 'Герой наносит огромный урон ценой собственного здоровья. Он прыгает к цели в радиусе своей атаки, отнимая часть текущего здоровья жертвы и замедляя её. Во время прыжка герой невосприимчив к магии.\n\nТИП РАЗВЕИВАНИЯ: нормальное',
                 aghanim_description: 'Увеличивает наносимый урон и уменьшает время перезарядки.',
             },
         ],
@@ -2239,6 +2942,25 @@ export default [
         name: 'Invoker',
         image: require("image/heroes/Invoker_icon.png"),
         characteristic: 'Intelligence',
+        hp: [
+            {
+                health: '520',
+                restore: '+1.6',
+            },
+        ],
+        mp: [
+            {
+                mana: '267',
+                restore: '+1.2',
+            },
+        ],
+        stats: [
+            {
+                strength: '16',
+                agility: '14',
+                intelligence: '16',
+            }
+        ],
         skills: [
             {
                 image: require("image/skills/Invoker_quas.png"),
@@ -2292,6 +3014,25 @@ export default [
         name: 'Io',
         image: require("image/heroes/Io_icon.png"),
         characteristic: 'Strength',
+        hp: [
+            {
+                health: '540',
+                restore: '+1.6',
+            },
+        ],
+        mp: [
+            {
+                mana: '351',
+                restore: '+1.4',
+            },
+        ],
+        stats: [
+            {
+                strength: '17',
+                agility: '14',
+                intelligence: '23',
+            }
+        ],
         skills: [
             {
                 image: require("image/skills/Wisp_tether.png"),
@@ -2369,6 +3110,25 @@ export default [
         name: 'Jakiro',
         image: require("image/heroes/Jakiro_icon.png"),
         characteristic: 'Intelligence',
+        hp: [
+            {
+                health: '700',
+                restore: '+1.7',
+            },
+        ],
+        mp: [
+            {
+                mana: '411',
+                restore: '+1.5',
+            },
+        ],
+        stats: [
+            {
+                strength: '25',
+                agility: '10',
+                intelligence: '28',
+            }
+        ],
         skills: [
             {
                 image: require("image/skills/Jakiro_dual_breath.png"),
@@ -2423,7 +3183,7 @@ export default [
                         immunity: 'нет',
                     }
                 ],
-                description: 'Jakiro извергает широкую линию жидкого пламени, которое держится некоторое время и ежесекундно наносит урон вражеским юнитам.\n\nУлучшается с Aghanim\'s Scepter.',
+                description: 'Jakiro извергает широкую линию жидкого пламени, которое держится некоторое время и ежесекундно наносит урон вражеским юнитам.',
                 aghanim_description: 'Увеличенная длина линии огня, длительность действия и урон.',
             },
         ],
@@ -2434,6 +3194,25 @@ export default [
         name: 'Juggernaut',
         image: require("image/heroes/Juggernaut_icon.png"),
         characteristic: 'Agility',
+        hp: [
+            {
+                health: '600',
+                restore: '+2.1',
+            },
+        ],
+        mp: [
+            {
+                mana: '243',
+                restore: '+1.2',
+            },
+        ],
+        stats: [
+            {
+                strength: '20',
+                agility: '26',
+                intelligence: '14',
+            }
+        ],
         skills: [
             {
                 image: require("image/skills/Juggernaut_blade_fury.png"),
@@ -2479,7 +3258,7 @@ export default [
                         immunity: 'да',
                     }
                 ],
-                description: 'Герой прыгает к указанному врагу, атакуя его, а затем перескакивает по противникам неподалёку, нанося каждым ударом от 200 до 225 урона. На время действия способности герой становится неуязвимым.\n\nУлучшается с Aghanim\'s Scepter.',
+                description: 'Герой прыгает к указанному врагу, атакуя его, а затем перескакивает по противникам неподалёку, нанося каждым ударом от 200 до 225 урона. На время действия способности герой становится неуязвимым.',
                 aghanim_description: 'Увеличивает количество ударов и уменьшает время перезарядки.',
             },
         ],
@@ -2490,6 +3269,25 @@ export default [
         name: 'Keeper of the Light',
         image: require("image/heroes/Keeper_of_the_Light_icon.png"),
         characteristic: 'Intelligence',
+        hp: [
+            {
+                health: '480',
+                restore: '+1.6',
+            },
+        ],
+        mp: [
+            {
+                mana: '375',
+                restore: '+1.4',
+            },
+        ],
+        stats: [
+            {
+                strength: '14',
+                agility: '15',
+                intelligence: '25',
+            }
+        ],
         skills: [
             {
                 image: require("image/skills/Keeper_of_the_light_illuminate.png"),
@@ -2501,7 +3299,7 @@ export default [
                         immunity: 'нет',
                     }
                 ],
-                description: 'Создает перед собой волну светлой энергии, постепенно набирающую силу. Выпущенная волна наносит урон и временно раскрывает туман войны. Чем дольше волна создается, тем больше урона она нанесет.\n\nУлучшается с Aghanim\'s Scepter.',
+                description: 'Создает перед собой волну светлой энергии, постепенно набирающую силу. Выпущенная волна наносит урон и временно раскрывает туман войны. Чем дольше волна создается, тем больше урона она нанесет.',
                 aghanim_description: 'Лечит союзников на 100% от урона, наносимого врагам.',
             },
             {
@@ -2564,7 +3362,7 @@ export default [
                         deflation: 'нет',
                     }
                 ],
-                description: 'Обращает тело героя в чистый свет, что дает ему различные преимущества. Герой получает способности Blinding Light и Recall, а заклинание Illuminate в этой форме создается отдельным духом.\n\nУлучшается с Aghanim\'s Scepter.',
+                description: 'Обращает тело героя в чистый свет, что дает ему различные преимущества. Герой получает способности Blinding Light и Recall, а заклинание Illuminate в этой форме создается отдельным духом.',
                 aghanim_description: 'Постоянное действие ульта. Днем получает неограниченный обзор. Способность Illuminate лечит союзников на 100% от урона, наносимого врагам.',
             },
         ],
@@ -2575,6 +3373,25 @@ export default [
         name: 'Kunkka',
         image: require("image/heroes/Kunkka_icon.png"),
         characteristic: 'Strength',
+        hp: [
+            {
+                health: '680',
+                restore: '+1.7',
+            },
+        ],
+        mp: [
+            {
+                mana: '291',
+                restore: '+1.3',
+            },
+        ],
+        stats: [
+            {
+                strength: '24',
+                agility: '14',
+                intelligence: '18',
+            }
+        ],
         skills: [
             {
                 image: require("image/skills/Kunkka_torrent.png"),
@@ -2625,7 +3442,7 @@ export default [
                         deflation: 'нет',
                     }
                 ],
-                description: 'Вызывает призрачный корабль, который прорывается сквозь битву и разбивается, оглушая врагов и нанося им урон. Все союзники, задетые кораблем, оказываются под ливнем рома, получая дополнительную скорость передвижения и замедленную реакцию на урон.\n\nУлучшается с Aghanim\'s Scepter.',
+                description: 'Вызывает призрачный корабль, который прорывается сквозь битву и разбивается, оглушая врагов и нанося им урон. Все союзники, задетые кораблем, оказываются под ливнем рома, получая дополнительную скорость передвижения и замедленную реакцию на урон.',
                 aghanim_description: 'Корабль тащит врагов к месту крушения, однако при этом враги могут совершать действия.',
             },
         ],
@@ -2636,6 +3453,25 @@ export default [
         name: 'Legion Commander',
         image: require("image/heroes/Legion_Commander_icon.png"),
         characteristic: 'Strength',
+        hp: [
+            {
+                health: '720',
+                restore: '+1.7',
+            },
+        ],
+        mp: [
+            {
+                mana: '315',
+                restore: '+1.3',
+            },
+        ],
+        stats: [
+            {
+                strength: '26',
+                agility: '18',
+                intelligence: '20',
+            }
+        ],
         skills: [
             {
                 image: require("image/skills/Legion_commander_overwhelming_odds.png"),
@@ -2684,7 +3520,7 @@ export default [
                         deflation: 'нет',
                     }
                 ],
-                description: 'Вызывает выбранного вражеского героя на дуэль, в которой соперники вынуждены атаковать друг друга небольшой промежуток времени. Они не могут применять способности или использовать предметы. Если один из героев погибнет на дуэли, победитель получит постоянный бонус к урону.\n\nУлучшается с Aghanim\'s Scepter.',
+                description: 'Вызывает выбранного вражеского героя на дуэль, в которой соперники вынуждены атаковать друг друга небольшой промежуток времени. Они не могут применять способности или использовать предметы. Если один из героев погибнет на дуэли, победитель получит постоянный бонус к урону.',
                 aghanim_description: 'Увеличивает длительность дуэли, полностью блокирует урон от всех, кроме её участников, и даёт герою невосприимчивость к магии на время дуэли.',
             },
         ],
@@ -2695,13 +3531,36 @@ export default [
         name: 'Leshrac',
         image: require("image/heroes/Leshrac_icon.png"),
         characteristic: 'Intelligence',
+        hp: [
+            {
+                health: '520',
+                restore: '+1.6',
+            },
+        ],
+        mp: [
+            {
+                mana: '387',
+                restore: '+1.4',
+            },
+        ],
+        stats: [
+            {
+                strength: '16',
+                agility: '23',
+                intelligence: '26',
+            }
+        ],
         skills: [
             {
                 image: require("image/skills/Leshrac_split_earth.png"),
                 name: 'Split Earth',
                 about: [
                     {
-                        type: '',
+                        type: 'направленная на точку',
+                        affect: 'на вражеских существ',
+                        damage: 'Магический',
+                        immunity: 'нет',
+                        deflation: 'сильным развеиванием',
                     }
                 ],
                 description: 'Раскалывает землю под врагами. Наносит урон и ненадолго оглушает.',
@@ -2711,7 +3570,11 @@ export default [
                 name: 'Diabolic Edict',
                 about: [
                     {
-                        type: '',
+                        type: 'ненаправленная',
+                        affect: 'на вражеских существ и постройки',
+                        damage: 'магический',
+                        immunity: 'да',
+                        deflation: 'нет',
                     }
                 ],
                 description: 'Окружает героя магическими взрывами, которые наносят физический урон врагам и постройкам. Чем меньше рядом врагов, тем больше урона они получат. Башни получают на 40% больше урона. Действует 10 секунд.',
@@ -2721,10 +3584,14 @@ export default [
                 name: 'Lightning Storm',
                 about: [
                     {
-                        type: '',
+                        type: 'направленная на существо',
+                        affect: 'на вражеских существ',
+                        damage: 'магический',
+                        immunity: 'нет',
+                        deflation: 'да',
                     }
                 ],
-                description: 'Призывает шквал молний, которые бьют и замедляют сначала выбранного противника, а затем и соседних от него.\n\nУлучшается с Aghanim\'s Scepter.',
+                description: 'Призывает шквал молний, которые бьют и замедляют сначала выбранного противника, а затем и соседних от него.',
                 aghanim_description: 'Пока способность Pulse Nova активна, одна случайная цель в радиусе действия будет поражена молнией Lightning Storm каждые 1,75 секунды.',
             },
             {
@@ -2732,7 +3599,11 @@ export default [
                 name: 'Pulse Nova',
                 about: [
                     {
-                        type: '',
+                        type: 'переключаемая',
+                        affect: 'на вражеских существ',
+                        damage: 'магический',
+                        immunity: 'нет',
+                        deflation: 'нет',
                     }
                 ],
                 description: 'Создает вокруг героя волны энергии, которые раз в секунду наносят повреждения вражеским существам поблизости.',
@@ -2745,13 +3616,36 @@ export default [
         name: 'Lich',
         image: require("image/heroes/Lich_icon.png"),
         characteristic: 'Intelligence',
+        hp: [
+            {
+                health: '560',
+                restore: '+1.6',
+            },
+        ],
+        mp: [
+            {
+                mana: '291',
+                restore: '+1.3',
+            },
+        ],
+        stats: [
+            {
+                strength: '18',
+                agility: '15',
+                intelligence: '18',
+            }
+        ],
         skills: [
             {
                 image: require("image/skills/Lich_frost_blast.png"),
                 name: 'Frost Blast',
                 about: [
                     {
-                        type: '',
+                        type: 'направленная на существо',
+                        affect: 'на вражеских существ',
+                        damage: 'магический',
+                        immunity: 'нет',
+                        deflation: 'да',
                     }
                 ],
                 description: 'Создаёт вокруг указанного врага ледяной взрыв, который наносит урон и замедляет всех противников в области действия на 4 секунды. Основная цель получает наибольший урон.',
@@ -2761,7 +3655,10 @@ export default [
                 name: 'Ice Armor',
                 about: [
                     {
-                        type: '',
+                        type: 'автоматическая',
+                        affect: 'на вражеских существ и постройки',
+                        immunity: 'да',
+                        deflation: 'да',
                     }
                 ],
                 description: 'Создаёт вокруг союзника или дружественной постройки щит, который увеличивает броню цели и замедляет атакующих её существ. Действует 40 секунд.',
@@ -2771,7 +3668,8 @@ export default [
                 name: 'Sacrifice',
                 about: [
                     {
-                        type: '',
+                        type: 'направленная на существо',
+                        affect: 'на союзных крипов',
                     }
                 ],
                 description: 'Герой приносит в жертву союзного крипа и получает ману, пропорциональную текущему здоровью жертвы.',
@@ -2781,10 +3679,14 @@ export default [
                 name: 'Chain Frost',
                 about: [
                     {
-                        type: '',
+                        type: 'направленная на существо',
+                        affect: 'на вражеских существ',
+                        damage: 'магический',
+                        immunity: 'нет',
+                        deflation: 'да',
                     }
                 ],
-                description: 'Создаёт ледяной шар, который отскакивает от противников до 10 раз, замедляя их и нанося им урон.\n\nУлучшается с Aghanim\'s Scepter.',
+                description: 'Создаёт ледяной шар, который отскакивает от противников до 10 раз, замедляя их и нанося им урон.',
                 aghanim_description: 'Увеличивает урон и расстояние применения заклинания. Снимает ограничение на количество отскоков Chain Frost.',
             },
         ],
@@ -2795,13 +3697,33 @@ export default [
         name: 'Lifestealer',
         image: require("image/heroes/Lifestealer_icon.png"),
         characteristic: 'Strength',
+        hp: [
+            {
+                health: '700',
+                restore: '+1.7',
+            },
+        ],
+        mp: [
+            {
+                mana: '255',
+                restore: '+1.2',
+            },
+        ],
+        stats: [
+            {
+                strength: '25',
+                agility: '18',
+                intelligence: '15',
+            }
+        ],
         skills: [
             {
                 image: require("image/skills/Lifestealer_rage.png"),
                 name: 'Rage',
                 about: [
                     {
-                        type: '',
+                        type: 'ненаправленная',
+                        deflation: 'нет',
                     }
                 ],
                 description: 'Погружаясь в безумную ярость, герой становится невосприимчивым к магии, получает полное сопротивление магическому урону, а его скорость атаки увеличивается.\n\nТИП РАЗВЕИВАНИЯ: Нормальное',
@@ -2811,7 +3733,8 @@ export default [
                 name: 'Feast',
                 about: [
                     {
-                        type: '',
+                        type: 'пассивная',
+                        immunity: 'да',
                     }
                 ],
                 description: 'Каждая атака лечит вас на долю от текущего здоровья противника и наносит равноценное количество урона.',
@@ -2821,7 +3744,10 @@ export default [
                 name: 'Open Wounds',
                 about: [
                     {
-                        type: '',
+                        type: 'направленная на существо',
+                        affect: 'на вражеских существ',
+                        immunity: 'нет',
+                        deflation: 'да',
                     }
                 ],
                 description: 'Герой разрывает плоть вражеского существа, замедляя его и позволяя своим союзникам питаться его жизненной силой, получая в качестве здоровья часть нанесённого врагу урона. Вампиризм действует на любой вид урона, в том числе и от способностей. Скорость передвижения жертвы постепенно восстанавливается.',
@@ -2831,7 +3757,10 @@ export default [
                 name: 'Infest',
                 about: [
                     {
-                        type: '',
+                        type: 'направленная на существо',
+                        damage: 'магический',
+                        immunity: 'да',
+                        deflation: 'нет',
                     }
                 ],
                 description: 'Герой забирается в тело выбранного существа, становясь незаметным для противников. После этого он может вырваться из носителя, нанеся урон окружающим врагам. Находясь внутри вражеского или нейтрального крипа, герой может полностью управлять им или сожрать крипа изнутри, излечившись на количество его текущего здоровья. Не действует на вражеских героев.\n\nТИП РАЗВЕИВАНИЯ: Нормальное',
@@ -2844,13 +3773,35 @@ export default [
         name: 'Lina',
         image: require("image/heroes/Lina_icon.png"),
         characteristic: 'Intelligence',
+        hp: [
+            {
+                health: '560',
+                restore: '+1.6',
+            },
+        ],
+        mp: [
+            {
+                mana: '435',
+                restore: '+1.5',
+            },
+        ],
+        stats: [
+            {
+                strength: '18',
+                agility: '16',
+                intelligence: '30',
+            }
+        ],
         skills: [
             {
                 image: require("image/skills/Lina_dragon_slave.png"),
                 name: 'Dragon Slave',
                 about: [
                     {
-                        type: '',
+                        type: 'направленная на существо',
+                        affect: 'на вражеских существ',
+                        damage: 'магический',
+                        immunity: 'нет',
                     }
                 ],
                 description: 'Герой высвобождает дыхание дракона, сжигающее всех врагов на своём пути.',
@@ -2860,7 +3811,9 @@ export default [
                 name: 'Light Strike Array',
                 about: [
                     {
-                        type: '',
+                        type: 'направленная на точку',
+                        damage: 'магический',
+                        deflation: 'сильным развеиванием',
                     }
                 ],
                 description: 'Призывает столб пламени, который оглушает врагов и наносит им урон.',
@@ -2870,7 +3823,8 @@ export default [
                 name: 'Fiery Soul',
                 about: [
                     {
-                        type: '',
+                        type: 'пассивная',
+                        deflation: 'нет',
                     }
                 ],
                 description: 'Увеличивает скорость атаки и передвижения всякий раз, когда герой применяет способность. Эффекты способности складываются друг с другом. Действует 10 сек.',
@@ -2880,10 +3834,13 @@ export default [
                 name: 'Laguna Blade',
                 about: [
                     {
-                        type: '',
+                        type: 'направленная на существо',
+                        affect: 'на вражеских существ',
+                        damage: 'магический',
+                        immunity: 'нет',
                     }
                 ],
-                description: 'Выпускает разряд молнии в одного врага, нанося сокрушительный урон.\n\nУлучшается с Aghanim\'s Scepter.',
+                description: 'Выпускает разряд молнии в одного врага, нанося сокрушительный урон.',
                 aghanim_description: 'Изменяет тип урона на чистый и позволяет ему проходить сквозь невосприимчивость к магии.',
             },
         ],
@@ -2894,13 +3851,36 @@ export default [
         name: 'Lion',
         image: require("image/heroes/Lion_icon.png"),
         characteristic: 'Intelligence',
+        hp: [
+            {
+                health: '520',
+                restore: '+1.6',
+            },
+        ],
+        mp: [
+            {
+                mana: '315',
+                restore: '+1.3',
+            },
+        ],
+        stats: [
+            {
+                strength: '16',
+                agility: '15',
+                intelligence: '20',
+            }
+        ],
         skills: [
             {
                 image: require("image/skills/Lion_earth_spike.png"),
                 name: 'Earth Spike',
                 about: [
                     {
-                        type: '',
+                        type: 'направленная на существо',
+                        affect: 'на вражеских существ',
+                        damage: 'магический',
+                        immunity: 'нет',
+                        deflation: 'сильным развеиванием',
                     }
                 ],
                 description: 'Из земли прорывается полоса каменных шипов. Они подбрасывают врагов в воздух, а по приземлении оглушают их и наносят урон.',
@@ -2910,7 +3890,10 @@ export default [
                 name: 'Hex',
                 about: [
                     {
-                        type: '',
+                        type: 'направленная на существо',
+                        affect: 'на вражеских существ',
+                        immunity: 'нет',
+                        deflation: 'сильным развеиванием',
                     }
                 ],
                 description: 'Превращает врага в безобидную зверюшку, блокируя все его способности.',
@@ -2920,7 +3903,10 @@ export default [
                 name: 'Mana Drain',
                 about: [
                     {
-                        type: '',
+                        type: 'прерываемая',
+                        affect: 'на вражеских существ',
+                        immunity: 'нет',
+                        deflation: 'нет',
                     }
                 ],
                 description: 'ПРЕРЫВАЕМАЯ — поглощает магическую энергию цели, с каждой секундой передавая её ману владельцу способности.',
@@ -2930,10 +3916,13 @@ export default [
                 name: 'Finger of Death',
                 about: [
                     {
-                        type: '',
+                        type: 'направленная на существо',
+                        affect: 'на вражеских существ',
+                        damage: 'магический',
+                        immunity: 'нет',
                     }
                 ],
-                description: 'Разрывает вражеское существо, пытаясь вывернуть его наизнанку. Наносит очень много урона.\n\nУлучшается с Aghanim\'s Scepter.',
+                description: 'Разрывает вражеское существо, пытаясь вывернуть его наизнанку. Наносит очень много урона.',
                 aghanim_description: 'Увеличивает урон. Уменьшает время перезарядки. Finger of Death бьет юнитов в небольшой области.',
             },
         ],
@@ -2944,16 +3933,35 @@ export default [
         name: 'Lone Druid',
         image: require("image/heroes/Lone_Druid_icon.png"),
         characteristic: 'Agility',
+        hp: [
+            {
+                health: '540',
+                restore: '+1.9',
+            },
+        ],
+        mp: [
+            {
+                mana: '231',
+                restore: '+1.2',
+            },
+        ],
+        stats: [
+            {
+                strength: '17',
+                agility: '24',
+                intelligence: '13',
+            }
+        ],
         skills: [
             {
                 image: require("image/skills/Lone_druid_summon_spirit_bear.png"),
                 name: 'Summon Spirit Bear',
                 about: [
                     {
-                        type: '',
+                        type: 'ненаправленная',
                     }
                 ],
-                description: 'Призывает могучего медведя, который может использовать предметы. Он не может атаковать, если расстояние до владельца больше 1100. Если медведь погибнет, герой получит урон в размере %backlash_damage%%% от своего максимального здоровья. По мере повышения уровня медведь получает способности Return, Entangling Claws и Demolish. Сила, ловкость или интеллект от предметов не влияют на медведя.\n\nУлучшается с Aghanim\'s Scepter.',
+                description: 'Призывает могучего медведя, который может использовать предметы. Он не может атаковать, если расстояние до владельца больше 1100. Если медведь погибнет, герой получит урон в размере %backlash_damage%%% от своего максимального здоровья. По мере повышения уровня медведь получает способности Return, Entangling Claws и Demolish. Сила, ловкость или интеллект от предметов не влияют на медведя.',
                 aghanim_description: 'Позволяет медведю атаковать врагов на любом расстоянии от Lone Druid и выживать, если Lone Druid умирает.',
             },
             {
@@ -2961,7 +3969,8 @@ export default [
                 name: 'Rabid',
                 about: [
                     {
-                        type: '',
+                        type: 'ненаправленная',
+                        deflation: 'нет',
                     }
                 ],
                 description: 'Увеличивает скорость атаки и передвижения Lone Druid и Spirit Bear.',
@@ -2971,7 +3980,8 @@ export default [
                 name: 'Savage Roar',
                 about: [
                     {
-                        type: '',
+                        type: 'ненаправленная',
+                        deflation: 'да',
                     }
                 ],
                 description: 'Lone Druid издает яростный рев, заставляя врагов в ужасе бежать к своей базе. Их скорость передвижения увеличивается на 20%.',
@@ -2981,10 +3991,11 @@ export default [
                 name: 'True Form',
                 about: [
                     {
-                        type: '',
+                        type: 'ненаправленная',
+                        deflation: 'нет',
                     }
                 ],
-                description: 'Lone Druid приобретает способность превращаться в разъяренного медведя. При этом он переходит из дальнего боя в ближний и передвигается медленнее, однако его атаки становятся сильнее, а сам он получает способность Battle Cry. Герой может превращаться в медведя или обратно когда угодно.\n\nУлучшается с Aghanim\'s Scepter.',
+                description: 'Lone Druid приобретает способность превращаться в разъяренного медведя. При этом он переходит из дальнего боя в ближний и передвигается медленнее, однако его атаки становятся сильнее, а сам он получает способность Battle Cry. Герой может превращаться в медведя или обратно когда угодно.',
                 aghanim_description: '',
             },
         ],
@@ -2995,13 +4006,36 @@ export default [
         name: 'Luna',
         image: require("image/heroes/Luna_icon.png"),
         characteristic: 'Agility',
+        hp: [
+            {
+                health: '500',
+                restore: '+1.6',
+            },
+        ],
+        mp: [
+            {
+                mana: '267',
+                restore: '+1.2',
+            },
+        ],
+        stats: [
+            {
+                strength: '15',
+                agility: '18',
+                intelligence: '16',
+            }
+        ],
         skills: [
             {
                 image: require("image/skills/Luna_lucent_beam.png"),
                 name: 'Lucent Beam',
                 about: [
                     {
-                        type: '',
+                        type: 'направленная на существо',
+                        affect: 'на вражеских существ',
+                        damage: 'магический',
+                        immunity: 'нет',
+                        deflation: 'сильным развеиванием',
                     }
                 ],
                 description: 'Направляет во врага луч лунной энергии, нанося урон и ненадолго оглушая его.',
@@ -3011,7 +4045,8 @@ export default [
                 name: 'Moon Glaives',
                 about: [
                     {
-                        type: '',
+                        type: 'пассивная',
+                        immunity: 'да',
                     }
                 ],
                 description: 'Заклинает глефы героя, позволяя им отскакивать по нескольким врагам. Каждый следующий отскок наносит меньше урона.',
@@ -3021,7 +4056,7 @@ export default [
                 name: 'Lunar Blessing',
                 about: [
                     {
-                        type: '',
+                        type: 'пассивная',
                     }
                 ],
                 description: 'Повышает урон, наносимый атаками окружающих союзных героев и самой Luna, также наделяя ее улучшенным ночным зрением.',
@@ -3031,10 +4066,14 @@ export default [
                 name: 'Eclipse',
                 about: [
                     {
-                        type: '',
+                        type: 'ненаправленная',
+                        affect: 'на вражеских существ',
+                        damage: 'магический',
+                        immunity: 'нет',
+                        deflation: 'нет',
                     }
                 ],
-                description: 'Бьет случайных врагов рядом с Luna способностью Lucent Beam текущего уровня. Способность не оглушает цель и может ударить по ней лишь ограниченное число раз. Также способность на 10 секунд превращает день в ночь.\n\nУлучшается с Aghanim\'s Scepter.',
+                description: 'Бьет случайных врагов рядом с Luna способностью Lucent Beam текущего уровня. Способность не оглушает цель и может ударить по ней лишь ограниченное число раз. Также способность на 10 секунд превращает день в ночь.',
                 aghanim_description: 'Позволяет применять способность на область или любое союзное существо, чтобы она действовала вокруг него. Увеличивает количество лучей и длительность способности, снимает ограничение на число срабатываний по одному существу и уменьшает интервал между ударами в два раза.',
             },
         ],
@@ -3045,13 +4084,32 @@ export default [
         name: 'Lycan',
         image: require("image/heroes/Lycan_icon.png"),
         characteristic: 'Strength',
+        hp: [
+            {
+                health: '700',
+                restore: '+1.7',
+            },
+        ],
+        mp: [
+            {
+                mana: '279',
+                restore: '+1.2',
+            },
+        ],
+        stats: [
+            {
+                strength: '25',
+                agility: '16',
+                intelligence: '17',
+            }
+        ],
         skills: [
             {
                 image: require("image/skills/Lycan_summon_wolves.png"),
                 name: 'Summon Wolves',
                 about: [
                     {
-                        type: '',
+                        type: 'ненаправленная',
                     }
                 ],
                 description: 'Призывает двух волков, которые будут сражаться на стороне героя. Волки 3-4 уровней могут покалечить противника, а волки 4 уровня обладают постоянной невидимостью.',
@@ -3061,7 +4119,7 @@ export default [
                 name: 'Howl',
                 about: [
                     {
-                        type: '',
+                        type: 'ненаправленная',
                     }
                 ],
                 description: 'Увеличивает урон и запас здоровья героя, его союзников и всех подконтрольных существ. Ночью способность действует с удвоенной силой.',
@@ -3071,7 +4129,7 @@ export default [
                 name: 'Feral Impulse',
                 about: [
                     {
-                        type: '',
+                        type: 'пассивная',
                     }
                 ],
                 description: 'Увеличивает урон и восстановление здоровья у героя и всех подконтрольных ему существ.',
@@ -3081,7 +4139,8 @@ export default [
                 name: 'Shapeshift',
                 about: [
                     {
-                        type: '',
+                        type: 'ненаправленная',
+                        deflation: 'нет',
                     }
                 ],
                 description: 'Lycan принимает свою истинную форму. Во время действия этой способности Lycan и все существа под его контролем двигаются с увеличенной скоростью, не могут быть замедлены, получают увеличенный обзор ночью и шанс в 40% совершить критическую атаку, наносящую [160, 180, 200]% урона.',
@@ -3094,16 +4153,38 @@ export default [
         name: 'Magnus',
         image: require("image/heroes/Magnus_icon.png"),
         characteristic: 'Strength',
+        hp: [
+            {
+                health: '640',
+                restore: '+2.2',
+            },
+        ],
+        mp: [
+            {
+                mana: '303',
+                restore: '+1.3',
+            },
+        ],
+        stats: [
+            {
+                strength: '22',
+                agility: '15',
+                intelligence: '19',
+            }
+        ],
         skills: [
             {
                 image: require("image/skills/Magnus_shockwave.png"),
                 name: 'Shockwave',
                 about: [
                     {
-                        type: '',
+                        type: 'направленная на существо',
+                        affect: 'на вражеских существ',
+                        damage: 'магический',
+                        immunity: 'нет',
                     }
                 ],
-                description: 'Герой отправляет в указанном направлении ударную волну, наносящую урон врагам.\n\nУлучшается с Aghanim\'s Scepter.',
+                description: 'Герой отправляет в указанном направлении ударную волну, наносящую урон врагам.',
                 aghanim_description: 'Увеличивает дальность и скорость волны, а также возвращает её к обратно к герою. Обратная волна замедляет существ, но наносит крипам вдвое меньше урона.',
             },
             {
@@ -3111,7 +4192,10 @@ export default [
                 name: 'Empower',
                 about: [
                     {
-                        type: '',
+                        type: 'направленная на существо',
+                        affect: 'на вражеских существ',
+                        immunity: 'да',
+                        deflation: 'да',
                     }
                 ],
                 description: 'Даёт союзнику дополнительный урон и прорубающую атаку.',
@@ -3121,7 +4205,10 @@ export default [
                 name: 'Skewer',
                 about: [
                     {
-                        type: '',
+                        type: 'направленная на точку',
+                        damage: 'магический',
+                        immunity: 'нет',
+                        deflation: 'да',
                     }
                 ],
                 description: 'Герой бросается вперёд, пронзая врагов своим массивным рогом. Если на пути попадутся вражеские герои, то их протащит до места назначения, после чего они получат урон и будут замедлены.',
@@ -3131,7 +4218,10 @@ export default [
                 name: 'Reverse Polarity',
                 about: [
                     {
-                        type: '',
+                        type: 'ненаправленная',
+                        damage: 'магический',
+                        immunity: 'да',
+                        deflation: 'сильным развеиванием',
                     }
                 ],
                 description: 'Герой изменяет свойства материи, стягивая всех врагов вокруг в точку перед собой, оглушая их мощным хлопком и нанося им урон.',
@@ -3144,13 +4234,34 @@ export default [
         name: 'Medusa',
         image: require("image/heroes/Medusa_icon.png"),
         characteristic: 'Agility',
+        hp: [
+            {
+                health: '480',
+                restore: '+1.6',
+            },
+        ],
+        mp: [
+            {
+                mana: '303',
+                restore: '+1.3',
+            },
+        ],
+        stats: [
+            {
+                strength: '14',
+                agility: '20',
+                intelligence: '19',
+            }
+        ],
         skills: [
             {
                 image: require("image/skills/Medusa_split_shot.png"),
                 name: 'Split Shot',
                 about: [
                     {
-                        type: '',
+                        type: 'пассивная',
+                        immunity: 'да',
+                        deflation: 'нет',
                     }
                 ],
                 description: 'Герой магически расщепляет свои стрелы, атакуя несколько целей, но при этом нанося меньше урона.\n\nНа дополнительные цели не действуют эффекты атаки, такие как критический урон.',
@@ -3160,10 +4271,13 @@ export default [
                 name: 'Mystic Snake',
                 about: [
                     {
-                        type: '',
+                        type: 'направленная на существо',
+                        affect: 'на вражеских существ',
+                        damage: 'магический',
+                        immunity: 'нет',
                     }
                 ],
-                description: 'Выпускает энергетическую змею, которая прыгает от цели к цели, нанося урон и воруя ману. Достигнув последней цели, она вернётся к своей владелице, принеся ей всю украденную ману. С каждым прыжком змея наносит больше урона и ворует %snake_mana_steal%%% от общего запаса маны жертвы. Наносит чистый урон окаменевшим существам.\n\nУлучшается с Aghanim\'s Scepter.',
+                description: 'Выпускает энергетическую змею, которая прыгает от цели к цели, нанося урон и воруя ману. Достигнув последней цели, она вернётся к своей владелице, принеся ей всю украденную ману. С каждым прыжком змея наносит больше урона и ворует %snake_mana_steal%%% от общего запаса маны жертвы. Наносит чистый урон окаменевшим существам.',
                 aghanim_description: 'Способность обращает врагов в камень на 1 секунду. Длительность увеличивается на 0.3 сек. с каждым скачком.',
             },
             {
@@ -3171,7 +4285,8 @@ export default [
                 name: 'Mana Shield',
                 about: [
                     {
-                        type: '',
+                        type: 'переключаемая',
+                        deflation: 'нет',
                     }
                 ],
                 description: 'Создает щит, который поглощает %absorption_tooltip%%% получаемого урона, используя ману Medusa.',
@@ -3181,7 +4296,10 @@ export default [
                 name: 'Stone Gaze',
                 about: [
                     {
-                        type: '',
+                        type: 'ненаправленная',
+                        affect: 'на вражеских существ',
+                        immunity: 'да',
+                        deflation: 'нет',
                     }
                 ],
                 description: 'Любой вражеский юнит, который посмотрит на Medusa, получит снижение скорости атаки и бега. Если враг будет смотреть на Medusa более 2 секунд, пока Stone Gaze включен, он превратится в камень. Окаменевшие юниты оглушены и обладают полным сопротивлением магическому урону, но получают дополнительный физический урон. Окаменевшие иллюзии уничтожаются немедленно.',
@@ -3194,13 +4312,34 @@ export default [
         name: 'Meepo',
         image: require("image/heroes/Meepo_icon.png"),
         characteristic: 'Agility',
+        hp: [
+            {
+                health: '660',
+                restore: '+1.7',
+            },
+        ],
+        mp: [
+            {
+                mana: '315',
+                restore: '+1.3',
+            },
+        ],
+        stats: [
+            {
+                strength: '23',
+                agility: '23',
+                intelligence: '20',
+            }
+        ],
         skills: [
             {
                 image: require("image/skills/Meepo_earthbind.png"),
                 name: 'Earthbind',
                 about: [
                     {
-                        type: '',
+                        type: 'направленная на точку',
+                        immunity: 'нет',
+                        deflation: 'да',
                     }
                 ],
                 description: 'Бросает в указанную область сеть, которая приковывает врагов к земле. Жертва не может уйти в невидимость или выбраться из сети.',
@@ -3210,7 +4349,10 @@ export default [
                 name: 'Poof',
                 about: [
                     {
-                        type: '',
+                        type: 'направленная на существо',
+                        affect: 'на союзных героев',
+                        damage: 'магический',
+                        immunity: 'нет',
                     }
                 ],
                 description: 'Используя таинственную энергию земли, Meepo может телепортироваться к другому Meepo после произнесения заклинания в течение 1,5 секунд, нанося урон как в точке отправки, так и в месте прибытия.',
@@ -3220,7 +4362,9 @@ export default [
                 name: 'Geostrike',
                 about: [
                     {
-                        type: '',
+                        type: 'пассивная',
+                        immunity: 'да',
+                        deflation: 'да',
                     }
                 ],
                 description: 'Meepo наделяет свое оружие силой земли, нанося врагам урон с течением времени и замедляя их. Этот эффект складывается, если одну и ту же цель атакуют несколько Meepo.',
@@ -3230,10 +4374,10 @@ export default [
                 name: 'Divided We Stand',
                 about: [
                     {
-                        type: '',
+                        type: 'пассивная',
                     }
                 ],
-                description: 'Герой создаёт неидеальную и почти разумную копию самого себя. Эти клоны получают золото и опыт, а также перенимают способности, характеристики и уровень героя. Клоны не могут использовать какие-либо предметы, кроме сапог главного героя. Если хоть один из клонов погибнет, то умрут как все остальные клоны, так и сам герой.\n\nУлучшается с Aghanim\'s Scepter.',
+                description: 'Герой создаёт неидеальную и почти разумную копию самого себя. Эти клоны получают золото и опыт, а также перенимают способности, характеристики и уровень героя. Клоны не могут использовать какие-либо предметы, кроме сапог главного героя. Если хоть один из клонов погибнет, то умрут как все остальные клоны, так и сам герой.',
                 aghanim_description: 'Добавляет дополнительного клона.',
             },
         ],
@@ -3244,16 +4388,37 @@ export default [
         name: 'Mirana',
         image: require("image/heroes/Mirana_icon.png"),
         characteristic: 'Agility',
+        hp: [
+            {
+                health: '540',
+                restore: '+1.6',
+            },
+        ],
+        mp: [
+            {
+                mana: '279',
+                restore: '+1.2',
+            },
+        ],
+        stats: [
+            {
+                strength: '17',
+                agility: '18',
+                intelligence: '17',
+            }
+        ],
         skills: [
             {
                 image: require("image/skills/Mirana_starstorm.png"),
                 name: 'Starstorm',
                 about: [
                     {
-                        type: '',
+                        type: 'ненаправленная',
+                        damage: 'магический',
+                        immunity: 'нет',
                     }
                 ],
-                description: 'Призывает звёздный дождь, наносящий урон противникам, стоящим неподалеку. Ближайший враг в радиусе 425 получит второй удар, наносящий 75% от обычного урона.\n\nУлучшается с Aghanim\'s Scepter.',
+                description: 'Призывает звёздный дождь, наносящий урон противникам, стоящим неподалеку. Ближайший враг в радиусе 425 получит второй удар, наносящий 75% от обычного урона.',
                 aghanim_description: 'Позволяет автоматически применять каждые 10 секунд способность, идентичную Starstorm текущего уровня, но только если Mirana находится в поле зрения врагов.',
             },
             {
@@ -3261,7 +4426,10 @@ export default [
                 name: 'Sacred Arrow',
                 about: [
                     {
-                        type: '',
+                        type: 'направленная на точку',
+                        damage: 'магический',
+                        immunity: 'нет',
+                        deflation: 'сильным развеиванием',
                     }
                 ],
                 description: 'Выпускает невероятно точную стрелу, оглушающую первое существо на своем пути и наносящую ему урон. Преодолённое стрелой расстояние увеличивает её урон, который может достичь %arrow_bonus_damage%, и длительность оглушения, которое составляет от 0,01 секунды до 5.0. Мгновенно убивает любого крипа, если он не древний.',
@@ -3271,7 +4439,8 @@ export default [
                 name: 'Leap',
                 about: [
                     {
-                        type: '',
+                        type: 'ненаправленная',
+                        deflation: 'да',
                     }
                 ],
                 description: 'Герой врывается в битву, воодушевляясь свирепым рыком своего питомца, что даёт ему дополнительную скорость атаки и передвижения на 2.0 сек.',
@@ -3281,7 +4450,8 @@ export default [
                 name: 'Moonlight Shadow',
                 about: [
                     {
-                        type: '',
+                        type: 'ненаправленная',
+                        deflation: 'нет',
                     }
                 ],
                 description: 'Делает владельца способности и его союзных героев невидимыми. Если раскрыть невидимость, то после задержки она восстановится, если способность ещё действует.',
@@ -3294,13 +4464,34 @@ export default [
         name: 'Monkey King',
         image: require("image/heroes/Monkey_King_icon.png"),
         characteristic: 'Agility',
+        hp: [
+            {
+                health: '560',
+                restore: '+3.1',
+            },
+        ],
+        mp: [
+            {
+                mana: '315',
+                restore: '+1.3',
+            },
+        ],
+        stats: [
+            {
+                strength: '18',
+                agility: '22',
+                intelligence: '20',
+            }
+        ],
         skills: [
             {
                 image: require("image/skills/Boundless_Strike_icon.png"),
                 name: 'Boundless Strike',
                 about: [
                     {
-                        type: '',
+                        type: 'направленная на ирчку',
+                        affect: 'на вражеских существ',
+                        damage: 'физический',
                     }
                 ],
                 description: 'Герой увеличивает свой посох и бьёт им по земле, оглушая всех попавшихся врагов. Такая атака наносит критический урон и не может промахнуться.',
@@ -3310,7 +4501,8 @@ export default [
                 name: 'Tree Dance',
                 about: [
                     {
-                        type: '',
+                        type: 'направленная на существо',
+                        affect: 'на деревья',
                     }
                 ],
                 description: 'Герой запрыгивает на верхушку выбранного дерева. Там он получает прерываемую способность Primal Spring — направленную атаку в прыжке. Если разрушить дерево, герой упадет и будет оглушён на 4 секунды. При получении на земле урона от управляемых игроками существ или Рошана способность уходит на перезарядку.',
@@ -3320,7 +4512,9 @@ export default [
                 name: 'Primal Spring',
                 about: [
                     {
-                        type: '',
+                        type: 'прерываемая',
+                        damage: 'магический',
+                        immunity: 'нет',
                     }
                 ],
                 description: 'Герой спрыгивает с дерева, нанося урон врагам в указанной области и замедляя их. Урон и замедление усиливаются в зависимости от времени подготовки способности.',
@@ -3330,7 +4524,8 @@ export default [
                 name: 'Jingu Mastery',
                 about: [
                     {
-                        type: '',
+                        type: 'пассивная',
+                        immunity: 'да',
                     }
                 ],
                 description: 'Удары героя пробуждают мощь Цзиньгубана. Каждая четвертая атака по вражескому герою дарует четыре усиленные атаки с дополнительным уроном и вампиризмом.',
@@ -3340,7 +4535,7 @@ export default [
                 name: 'Mischief',
                 about: [
                     {
-                        type: '',
+                        type: 'ненаправленная',
                     }
                 ],
                 description: 'Изменяет форму героя, чтобы обхитрить противников. Маскировка зависит от окружения и спадает при получении урона, попытке атаковать и применении предметов или способностей.',
@@ -3350,7 +4545,8 @@ export default [
                 name: 'Wukong\'s Command',
                 about: [
                     {
-                        type: '',
+                        type: 'направленная на точку',
+                        damage: 'физический',
                     }
                 ],
                 description: 'Герой создаёт круговую формацию солдат, которые расходятся из его местоположения. Если герой покинет область действия способности, его солдаты исчезнут. Их атака идентична атаке владельца способности, а своей целью они выбирают только других героев. На время действия способности герой получает дополнительную броню.',
@@ -3363,13 +4559,34 @@ export default [
         name: 'Morphling',
         image: require("image/heroes/Morphling_icon.png"),
         characteristic: 'Agility',
+        hp: [
+            {
+                health: '580',
+                restore: '+1.6',
+            },
+        ],
+        mp: [
+            {
+                mana: '231',
+                restore: '+1.2',
+            },
+        ],
+        stats: [
+            {
+                strength: '19',
+                agility: '24',
+                intelligence: '13',
+            }
+        ],
         skills: [
             {
                 image: require("image/skills/Morphling_waveform.png"),
                 name: 'Waveform',
                 about: [
                     {
-                        type: '',
+                        type: 'направленная на точку',
+                        damage: 'магический',
+                        immunity: 'нет',
                     }
                 ],
                 description: 'Герой принимает жидкую форму и устремляется вперёд, нанося урон всем врагам на своём пути. Во время применения способности герой неуязвим.',
@@ -3379,7 +4596,11 @@ export default [
                 name: 'Adaptive Strike (ловкость)',
                 about: [
                     {
-                        type: '',
+                        type: 'направленная на существо',
+                        affect: 'на вражеских существ',
+                        damage: 'магический',
+                        immunity: 'нет',
+                        deflation: 'сильным развеиванием',
                     }
                 ],
                 description: 'Запускает во вражеское существо поток воды, нанося ему урон в зависимости от ловкости героя. Урон будет максимальным, если ловкость героя на 50% выше его силы.',
@@ -3389,7 +4610,11 @@ export default [
                 name: 'Adaptive Strike (сила)',
                 about: [
                     {
-                        type: '',
+                        type: 'направленная на существо',
+                        affect: 'на вражеских существ',
+                        damage: 'магический',
+                        immunity: 'нет',
+                        deflation: 'сильным развеиванием',
                     }
                 ],
                 description: 'Запускает во вражеское существо поток воды, оглушая и отталкивая его назад в зависимости от силы героя. Оглушение и толчок будут максимальными, если сила героя на 50% выше его ловкости.',
@@ -3399,7 +4624,7 @@ export default [
                 name: 'Attribute Shift (ловкость)',
                 about: [
                     {
-                        type: '',
+                        type: 'переключаемая',
                     }
                 ],
                 description: 'Герой меняет свою форму, превращая очки силы в очки ловкости. Этот процесс обратим. С уровнем растёт скорость превращения. Также даёт постоянный бонус к ловкости.',
@@ -3409,7 +4634,7 @@ export default [
                 name: 'Attribute Shift (сила)',
                 about: [
                     {
-                        type: '',
+                        type: 'переключаемая',
                     }
                 ],
                 description: 'Герой меняет свою форму, превращая очки ловкости в очки силы. Этот процесс обратим. С уровнем растёт скорость превращения. Также даёт постоянный бонус к силе.',
@@ -3419,7 +4644,8 @@ export default [
                 name: 'Morph',
                 about: [
                     {
-                        type: '',
+                        type: 'направленная на существо',
+                        immunity: 'да',
                     }
                 ],
                 description: 'Герой изменяет свою форму по образу и подобию выбранного противника, получая его основные способности.\n\nТИП РАЗВЕИВАНИЯ: нормальное',
@@ -3432,13 +4658,32 @@ export default [
         name: 'Naga Siren',
         image: require("image/heroes/Naga_Siren_icon.png"),
         characteristic: 'Agility',
+        hp: [
+            {
+                health: '620',
+                restore: '+3.2',
+            },
+        ],
+        mp: [
+            {
+                mana: '327',
+                restore: '+1.3',
+            },
+        ],
+        stats: [
+            {
+                strength: '21',
+                agility: '21',
+                intelligence: '21',
+            }
+        ],
         skills: [
             {
                 image: require("image/skills/Naga_siren_mirror_image.png"),
                 name: 'Mirror Image',
                 about: [
                     {
-                        type: '',
+                        type: 'ненаправленная',
                     }
                 ],
                 description: 'Создаёт иллюзии героя под его контролем.\n\nТИП РАЗВЕИВАНИЯ: Нормальное',
@@ -3448,7 +4693,10 @@ export default [
                 name: 'Ensnare',
                 about: [
                     {
-                        type: '',
+                        type: 'направленная на существо',
+                        affect: 'на вражеских существ',
+                        immunity: 'да',
+                        deflation: 'да',
                     }
                 ],
                 description: 'Прерывает действия цели, а также опутывает ее сетью, не давая двигаться и телепортироваться.',
@@ -3458,7 +4706,10 @@ export default [
                 name: 'Rip Tide',
                 about: [
                     {
-                        type: '',
+                        type: 'ненаправленная',
+                        damage: 'магический',
+                        immunity: 'нет',
+                        deflation: 'да',
                     }
                 ],
                 description: 'Герой и все его иллюзии обдают врагов рядом с собой мощной волной воды, нанося им урон и снижая их броню на 8 секунд.',
@@ -3468,10 +4719,12 @@ export default [
                 name: 'Song of the Siren',
                 about: [
                     {
-                        type: '',
+                        type: 'ненаправленная',
+                        immunity: 'нет',
+                        deflation: 'нет',
                     }
                 ],
-                description: 'Все враги в определённой области вокруг героя впадают в магический сон, в котором они не могут ничего делать, но их нельзя атаковать. Повторное применение способности завершит заклинание преждевременно.\n\nУлучшается с Aghanim\'s Scepter.',
+                description: 'Все враги в определённой области вокруг героя впадают в магический сон, в котором они не могут ничего делать, но их нельзя атаковать. Повторное применение способности завершит заклинание преждевременно.',
                 aghanim_description: 'Song of the Siren восстанавливает союзникам 10% здоровья в секунду.',
             },
         ],
@@ -3482,13 +4735,33 @@ export default [
         name: "Nature's Prophet",
         image: require("image/heroes/Nature's_Prophet_icon.png"),
         characteristic: 'Intelligence',
+        hp: [
+            {
+                health: '580',
+                restore: '+1.6',
+            },
+        ],
+        mp: [
+            {
+                mana: '375',
+                restore: '+1.4',
+            },
+        ],
+        stats: [
+            {
+                strength: '19',
+                agility: '18',
+                intelligence: '25',
+            }
+        ],
         skills: [
             {
                 image: require("image/skills/Natures_prophet_sprout.png"),
                 name: 'Sprout',
                 about: [
                     {
-                        type: '',
+                        type: 'направленная на существо',
+                        affect: 'на героев',
                     }
                 ],
                 description: 'Окружает существо кольцом деревьев, удерживая его на месте.',
@@ -3498,7 +4771,8 @@ export default [
                 name: 'Teleportation',
                 about: [
                     {
-                        type: '',
+                        type: 'направленная на точку',
+                        deflation: 'нет',
                     }
                 ],
                 description: 'Телепортирует в любую точку карты.',
@@ -3508,7 +4782,7 @@ export default [
                 name: 'Nature\'s Call',
                 about: [
                     {
-                        type: '',
+                        type: 'направленная на точку',
                     }
                 ],
                 description: 'Преобразует участок леса в энтов. Каждый из них имеет 550 здоровья и наносит 30-34 урона.',
@@ -3518,10 +4792,13 @@ export default [
                 name: 'Wrath of Nature',
                 about: [
                     {
-                        type: '',
+                        type: 'ненаправленная',
+                        affect: 'на вражеских существ',
+                        damage: 'магический',
+                        immunity: 'да',
                     }
                 ],
-                description: 'Вызывает сгусток энергии, отскакивающий от врагов в зоне видимости по всей карте и наносящий им урон. С каждой новой целью урон от сгустка увеличивается.\n\nУлучшается с Aghanim\'s Scepter.',
+                description: 'Вызывает сгусток энергии, отскакивающий от врагов в зоне видимости по всей карте и наносящий им урон. С каждой новой целью урон от сгустка увеличивается.',
                 aghanim_description: 'Увеличивает урон. Если юнит убит этой способностью или умрет в течение 4 секунд после получения урона, то на его месте появится энт, здоровье и урон которого зависят от уровня Nature\'s Call. При смерти героя появляется большой энт, здоровье и урон которого втрое больше обычного.',
             },
         ],
@@ -3532,13 +4809,34 @@ export default [
         name: "Necrophos",
         image: require("image/heroes/Necrophos_icon.png"),
         characteristic: 'Intelligence',
+        hp: [
+            {
+                health: '520',
+                restore: '+1.6',
+            },
+        ],
+        mp: [
+            {
+                mana: '339',
+                restore: '+1.3',
+            },
+        ],
+        stats: [
+            {
+                strength: '16',
+                agility: '15',
+                intelligence: '22',
+            }
+        ],
         skills: [
             {
                 image: require("image/skills/Necrophos_death_pulse.png"),
                 name: 'Death Pulse',
                 about: [
                     {
-                        type: '',
+                        type: 'ненаправленная',
+                        damage: 'магический',
+                        immunity: 'нет',
                     }
                 ],
                 description: 'Герой выпускает вокруг себя волну смерти, которая наносит урон врагам и исцеляет союзников. Также ускоряет регенерацию здоровья и маны на %regen_duration% сек. за каждое убитое героем существо.',
@@ -3548,7 +4846,7 @@ export default [
                 name: 'Ghost Shroud',
                 about: [
                     {
-                        type: '',
+                        type: 'ненаправленная',
                     }
                 ],
                 description: 'Герой открывает связь с миром усопших, замедляя врагов вокруг. В этой форме он не может атаковать, получает повышенный магический урон, но защищён от физических атак и быстрее восстанавливает свои здоровье и ману.',
@@ -3558,7 +4856,9 @@ export default [
                 name: 'Heartstopper Aura',
                 about: [
                     {
-                        type: '',
+                        type: 'аура',
+                        affect: 'на врагов',
+                        immunity: 'да',
                     }
                 ],
                 description: 'Necrophos останавливает сердца своих противников, заставляя врагов поблизости периодически терять часть их максимального здоровья.',
@@ -3568,10 +4868,14 @@ export default [
                 name: 'Reaper\'s Scythe',
                 about: [
                     {
-                        type: '',
+                        type: 'направленная на существо',
+                        affect: 'на вражеских героев',
+                        damage: 'Магический',
+                        immunity: 'да',
+                        deflation: 'нет',
                     }
                 ],
-                description: 'Оглушает выбранного вражеского героя, а затем наносит ему урон, пропорциональный количеству отсутствующего у него здоровья. Герой, убитый этой способностью, возрождается на %respawn_constant% секунд дольше обычного. Убийство врага под действием этой способности засчитывается её владельцу.\n\nУлучшается с Aghanim\'s Scepter.',
+                description: 'Оглушает выбранного вражеского героя, а затем наносит ему урон, пропорциональный количеству отсутствующего у него здоровья. Герой, убитый этой способностью, возрождается на %respawn_constant% секунд дольше обычного. Убийство врага под действием этой способности засчитывается её владельцу.',
                 aghanim_description: 'Уменьшает время перезарядки.',
             },
         ],
@@ -3582,13 +4886,36 @@ export default [
         name: "Night Stalker",
         image: require("image/heroes/Night_Stalker_icon.png"),
         characteristic: 'Strength',
+        hp: [
+            {
+                health: '660',
+                restore: '+3.4',
+            },
+        ],
+        mp: [
+            {
+                mana: '231',
+                restore: '+1.2',
+            },
+        ],
+        stats: [
+            {
+                strength: '23',
+                agility: '18',
+                intelligence: '13',
+            }
+        ],
         skills: [
             {
                 image: require("image/skills/Night_stalker_void.png"),
                 name: 'Void',
                 about: [
                     {
-                        type: '',
+                        type: 'направленная на существо',
+                        affect: 'на вражеских существ',
+                        damage: 'Магический',
+                        immunity: 'нет',
+                        deflation: 'да',
                     }
                 ],
                 description: 'Окружает врага губительной пустотой, которая замедляет цель и наносит ей урон. Ночью замедление длится дольше. Также ненадолго оглушает жертву, останавливая прерываемые способности.',
@@ -3598,7 +4925,10 @@ export default [
                 name: 'Crippling Fear',
                 about: [
                     {
-                        type: '',
+                        type: 'направленная на существо',
+                        affect: 'на вражеских существ',
+                        immunity: 'нет',
+                        deflation: 'да',
                     }
                 ],
                 description: 'Night Stalker вселяет ужас во вражеского героя, что заставляет его промахиваться и запрещает ему произносить заклинания. Ночью эффект длится дольше.',
@@ -3608,7 +4938,7 @@ export default [
                 name: 'Hunter in the Night',
                 about: [
                     {
-                        type: '',
+                        type: 'пассивная',
                     }
                 ],
                 description: 'Ночью герой оказывается в своей стихии: он атакует и передвигается с ещё большей скоростью. Способность можно применить ночью, чтобы герой на 2.0 секунды взмыл в воздух.',
@@ -3618,10 +4948,11 @@ export default [
                 name: 'Darkness',
                 about: [
                     {
-                        type: '',
+                        type: 'ненаправленная',
+                        deflation: 'нет',
                     }
                 ],
-                description: 'Подавляет солнечный свет, создавая непроглядную тьму и раскрывая силы героя в полной мере. Снижает радиус обзора вражеских героев, существ, вардов и построек.\n\nУлучшается с Aghanim\'s Scepter.',
+                description: 'Подавляет солнечный свет, создавая непроглядную тьму и раскрывая силы героя в полной мере. Снижает радиус обзора вражеских героев, существ, вардов и построек.',
                 aghanim_description: 'Дает неограниченный обзор ночью. Этот бонус активируется любой ночью, а не только той, которая была создана заклинанием Darkness.',
             },
         ],
@@ -3632,13 +4963,36 @@ export default [
         name: "Nyx Assassin",
         image: require("image/heroes/Nyx_Assassin_icon.png"),
         characteristic: 'Agility',
+        hp: [
+            {
+                health: '560',
+                restore: '+4.9',
+            },
+        ],
+        mp: [
+            {
+                mana: '291',
+                restore: '+1.3',
+            },
+        ],
+        stats: [
+            {
+                strength: '18',
+                agility: '19',
+                intelligence: '18',
+            }
+        ],
         skills: [
             {
                 image: require("image/skills/Nyx_assassin_impale.png"),
                 name: 'Impale',
                 about: [
                     {
-                        type: '',
+                        type: 'направленная на точку',
+                        affect: 'на вражеских существ',
+                        damage: 'Магический',
+                        immunity: 'нет',
+                        deflation: 'сильным развеиванием',
                     }
                 ],
                 description: 'Из земли прорывается полоса каменных шипов. Они подбрасывают врагов в воздух, а по приземлении оглушают их и наносят урон.',
@@ -3648,7 +5002,10 @@ export default [
                 name: 'Mana Burn',
                 about: [
                     {
-                        type: '',
+                        type: 'направленная на существо',
+                        affect: 'на вражеских героев',
+                        damage: 'Магический',
+                        immunity: 'нет',
                     }
                 ],
                 description: 'Выжигает у выбранного героя ману, пропорциональную его интеллекту, и наносит урон, равный выжженной мане.',
@@ -3658,7 +5015,10 @@ export default [
                 name: 'Spiked Carapace',
                 about: [
                     {
-                        type: '',
+                        type: 'ненаправленная',
+                        damage: 'чистый',
+                        immunity: 'нет',
+                        deflation: 'нет',
                     }
                 ],
                 description: 'Полностью блокирует урон от атаки или способности, по одному разу отражая урон и оглушая каждого, кто пытался его нанести. Не прерывает невидимость от способности Vendetta.\n\nЕсли герой находится под действием Burrow, эта способность мгновенно оглушает всех врагов вокруг.',
@@ -3668,7 +5028,10 @@ export default [
                 name: 'Vendetta',
                 about: [
                     {
-                        type: '',
+                        type: 'ненаправленная',
+                        damage: 'физический',
+                        immunity: 'да',
+                        deflation: 'нет',
                     }
                 ],
                 description: 'Делает Nyx Assassin невидимым и дает ему дополнительную скорость передвижения. Если Nyx Assassin атакует из невидимости, то он наносит огромный дополнительный урон.',
@@ -3681,13 +5044,36 @@ export default [
         name: "Ogre Magi",
         image: require("image/heroes/Ogre_Magi_icon.png"),
         characteristic: 'Intelligence',
+        hp: [
+            {
+                health: '660',
+                restore: '+4.9',
+            },
+        ],
+        mp: [
+            {
+                mana: '279',
+                restore: '+1.2',
+            },
+        ],
+        stats: [
+            {
+                strength: '23',
+                agility: '14',
+                intelligence: '17',
+            }
+        ],
         skills: [
             {
                 image: require("image/skills/Ogre_magi_fireblast.png"),
                 name: 'Fireblast',
                 about: [
                     {
-                        type: '',
+                        type: 'направленная на существо',
+                        affect: 'на вражеских существ',
+                        damage: 'Магический',
+                        immunity: 'нет',
+                        deflation: 'сильным развеиванием',
                     }
                 ],
                 description: 'Поражает врага огненной волной, нанося урон и оглушая цель.',
@@ -3697,7 +5083,11 @@ export default [
                 name: 'Ignite',
                 about: [
                     {
-                        type: '',
+                        type: 'направленная на существо',
+                        affect: 'на вражеских существ',
+                        damage: 'Магический',
+                        immunity: 'нет',
+                        deflation: 'да',
                     }
                 ],
                 description: 'Обливает цель летучими химикатами, провоцируя возгорание. Жертва испытывает невероятную боль, получает урон и замедляется.',
@@ -3707,17 +5097,35 @@ export default [
                 name: 'Bloodlust',
                 about: [
                     {
-                        type: '',
+                        type: 'автоматически',
+                        affect: 'на вражеских существ и постройки',
+                        damage: 'магический',
+                        immunity: 'нет',
+                        deflation: 'сильным развеиванием',
                     }
                 ],
                 description: 'Заставляет союзника впасть в бешенство, повышая скорость его атаки и передвижения. Можно применять на башни.',
+            },
+            {
+                image: require("image/skills/Unrefined_Fireblast_icon.png"),
+                name: 'Unrefined Fireblast',
+                about: [
+                    {
+                        type: 'направленная на существо',
+                        affect: 'на вражеских существ',
+                        damage: 'магический',
+                        immunity: 'нет',
+                        deflation: 'сильным развеиванием',
+                    }
+                ],
+                description: 'Поражает врага огненной волной, нанося цели урон и оглушая её. На применение этой способности уходит 60%% текущего запаса маны.',
             },
             {
                 image: require("image/skills/Ogre_magi_multicast.png"),
                 name: 'Multicast',
                 about: [
                     {
-                        type: '',
+                        type: 'пассивная',
                     }
                 ],
                 description: 'Позволяет способностям героя срабатывать по нескольку раз за одно применение и усиливает каждую из них: Fireblast получает уменьшенное время перезарядки, бóльшую дальность применения, но увеличенный расход маны.\nIgnite действует на область вокруг цели, получает увеличенную дальность применения и может сработать на случайных врагов вокруг.\n Bloodlust получает уменьшенное время перезарядки и может сработать на случайных союзников вокруг.',
@@ -3730,13 +5138,35 @@ export default [
         name: "Omniknight",
         image: require("image/heroes/Omniknight_icon.png"),
         characteristic: 'Strength',
+        hp: [
+            {
+                health: '640',
+                restore: '+1.7',
+            },
+        ],
+        mp: [
+            {
+                mana: '255',
+                restore: '+1.2',
+            },
+        ],
+        stats: [
+            {
+                strength: '22',
+                agility: '15',
+                intelligence: '15',
+            }
+        ],
         skills: [
             {
                 image: require("image/skills/Omniknight_purification.png"),
                 name: 'Purification',
                 about: [
                     {
-                        type: '',
+                        type: 'направленная на существо',
+                        affect: 'на союзных существ',
+                        damage: 'чистый',
+                        immunity: 'нет',
                     }
                 ],
                 description: 'Мгновенно исцеляет союзное существо и наносит урон врагам вокруг него.',
@@ -3746,7 +5176,10 @@ export default [
                 name: 'Repel',
                 about: [
                     {
-                        type: '',
+                        type: 'направленная на существо',
+                        affect: 'на союзных существ',
+                        immunity: 'нет',
+                        deflation: 'нет',
                     }
                 ],
                 description: 'Создаёт вокруг цели божественный щит, который даёт невосприимчивость к магии и полностью защищает от магического урона.\n\nТИП РАЗВЕИВАНИЯ: Нормальное',
@@ -3756,7 +5189,9 @@ export default [
                 name: 'Degen Aura',
                 about: [
                     {
-                        type: '',
+                        type: 'аура',
+                        affect: 'на врагов',
+                        immunity: 'нет',
                     }
                 ],
                 description: 'Значительно снижает скорость передвижения и атаки врагов, осмелившихся подойти слишком близко.',
@@ -3766,7 +5201,9 @@ export default [
                 name: 'Guardian Angel',
                 about: [
                     {
-                        type: '',
+                        type: 'ненаправленная',
+                        immunity: 'да',
+                        deflation: 'да',
                     }
                 ],
                 description: 'Призывает ангела-хранителя, который полностью защищает от физического урона.\n\nУлучшается с Aghanim\'s Scepter',
@@ -3780,13 +5217,36 @@ export default [
         name: "Oracle",
         image: require("image/heroes/Oracle_icon.png"),
         characteristic: 'Intelligence',
+        hp: [
+            {
+                health: '560',
+                restore: '+1.6',
+            },
+        ],
+        mp: [
+            {
+                mana: '351',
+                restore: '+1.4',
+            },
+        ],
+        stats: [
+            {
+                strength: '18',
+                agility: '15',
+                intelligence: '23',
+            }
+        ],
         skills: [
             {
                 image: require("image/skills/Fortune's_End_icon.png"),
                 name: 'Fortune\'s End',
                 about: [
                     {
-                        type: '',
+                        type: 'прерываемая',
+                        affect: 'на героев',
+                        damage: 'магический',
+                        immunity: 'нет',
+                        deflation: 'да',
                     }
                 ],
                 description: 'ПРЕРЫВАЕМАЯ — собирает мощь героя в заряд выжигающей энергии, который накладывает оцепенение на цель и врагов вокруг неё, наносит им урон и снимает с них положительные эффекты. Если целью является союзник, то способность только развеет отрицательные эффекты. Длительность оцепенения врагов равна времени применения способности — до 2.5 сек.\n\nТИП РАЗВЕИВАНИЯ: нормальное',
@@ -3796,7 +5256,10 @@ export default [
                 name: 'Fate\'s Edict',
                 about: [
                     {
-                        type: '',
+                        type: 'направленная на существо',
+                        affect: 'на героев',
+                        immunity: 'нет',
+                        deflation: 'да',
                     }
                 ],
                 description: 'Наполняет цель счастьем, обезоруживая ее и даруя сопротивление магии в 100%. Можно применять как на союзников, так и на врагов.',
@@ -3806,10 +5269,14 @@ export default [
                 name: 'Purifying Flames',
                 about: [
                     {
-                        type: '',
+                        type: 'направленная на существо',
+                        affect: 'на героев',
+                        damage: 'магический',
+                        immunity: 'нет',
+                        deflation: 'да',
                     }
                 ],
-                description: 'Выжигает скверну цели, нанося ей огромный урон, а затем постепенно восстанавливает её жизненные силы. Количество восстанавливаемого здоровья больше урона. Можно применять как на врагов, так и на союзников.\n\nУлучшается с Aghanim\'s Scepter.',
+                description: 'Выжигает скверну цели, нанося ей огромный урон, а затем постепенно восстанавливает её жизненные силы. Количество восстанавливаемого здоровья больше урона. Можно применять как на врагов, так и на союзников.',
                 aghanim_description: 'Уменьшает время перезарядки и задержку перед применением.',
             },
             {
@@ -3817,7 +5284,9 @@ export default [
                 name: 'False Promise',
                 about: [
                     {
-                        type: '',
+                        type: 'направленная на существо',
+                        affect: 'на вражеских существ',
+                        deflation: 'нет',
                     }
                 ],
                 description: 'Отсрочивает судьбу союзника, откладывая любое лечение и получение урона до конца действия этой способности. Любое лечение, примененное во время действия этой способности, удваивается. При применении снимает с цели большинство отрицательных эффектов.\n\nТИП РАЗВЕИВАНИЯ: Сильное',
@@ -3830,13 +5299,36 @@ export default [
         name: "Outworld Devourer",
         image: require("image/heroes/Outworld_Devourer_icon.png"),
         characteristic: 'Intelligence',
+        hp: [
+            {
+                health: '580',
+                restore: '+1.6',
+            },
+        ],
+        mp: [
+            {
+                mana: '387',
+                restore: '+1.4',
+            },
+        ],
+        stats: [
+            {
+                strength: '19',
+                agility: '24',
+                intelligence: '26',
+            }
+        ],
         skills: [
             {
                 image: require("image/skills/Outworld_devourer_arcane_orb.png"),
                 name: 'Arcane Orb',
                 about: [
                     {
-                        type: '',
+                        type: 'автоматически',
+                        affect: 'на вражеских существ',
+                        damage: 'чистый',
+                        immunity: 'нет',
+                        deflation: 'нет',
                     }
                 ],
                 description: 'Герой наполняет атаки дополнительным чистым уроном, зависящим от его текущего запаса маны. Каждое попадание по вражескому герою крадёт у него [1, 2, 3, 4] интеллекта на 80.0 секунд. Иллюзии и призванные существа получают дополнительный урон.',
@@ -3846,10 +5338,14 @@ export default [
                 name: 'Astral Imprisonment',
                 about: [
                     {
-                        type: '',
+                        type: 'направленная на существо',
+                        affect: 'на героев',
+                        damage: 'магический',
+                        immunity: 'нет',
+                        deflation: 'нет',
                     }
                 ],
-                description: 'Помещает выбранное существо в астральное заточение, где оно неуязвимо и неактивно. По окончании эффекта происходит взрыв, наносящий [100, 175, 250, 325] урона в радиусе 400 вокруг цели.\n\nУлучшается с Aghanim\'s Scepter.',
+                description: 'Помещает выбранное существо в астральное заточение, где оно неуязвимо и неактивно. По окончании эффекта происходит взрыв, наносящий [100, 175, 250, 325] урона в радиусе 400 вокруг цели.',
                 aghanim_description: 'Перезарядка Astral Imprisonment заменяется зарядами. Урон от способности складывается.',
             },
             {
@@ -3857,7 +5353,8 @@ export default [
                 name: 'Essence Aura',
                 about: [
                     {
-                        type: '',
+                        type: 'аура',
+                        affect: 'на союзных героев',
                     }
                 ],
                 description: 'Когда находящиеся неподалеку союзники или сам Outworld Devourer используют заклинания, у них есть шанс восстановить часть своей маны. Также Outworld Devourer пассивно получает бонус к базовому запасу маны. Некоторые способности без перезарядки и переключаемые способности не вызывают срабатывание ауры.',
@@ -3867,7 +5364,9 @@ export default [
                 name: 'Sanity\'s Eclipse',
                 about: [
                     {
-                        type: '',
+                        type: 'направленная на точку',
+                        damage: 'магический',
+                        immunity: 'нет',
                     }
                 ],
                 description: 'Вызывает ментальный взрыв, который сжигает вражеским героям %mana_drain%%% от их максимального запаса маны, а также наносит урон, зависящий от разницы в интеллекте между жертвами и самим героем. Если уровень интеллекта жертвы больше или равен тому, что у героя, то способность не нанесет урона. Действует на врагов, находящихся под действием Astral Imprisonment.',
@@ -3880,13 +5379,35 @@ export default [
         name: "Pangolier",
         image: require("image/heroes/Pangolier_icon.png"),
         characteristic: 'Agility',
+        hp: [
+            {
+                health: '520',
+                restore: '+1.6',
+            },
+        ],
+        mp: [
+            {
+                mana: '267',
+                restore: '+1.2',
+            },
+        ],
+        stats: [
+            {
+                strength: '16',
+                agility: '18',
+                intelligence: '16',
+            }
+        ],
         skills: [
             {
                 image: require("image/skills/Swashbuckle_icon.png"),
                 name: 'Swashbuckle',
                 about: [
                     {
-                        type: '',
+                        type: 'направленная на точку',
+                        damage: 'физический',
+                        immunity: 'да',
+                        deflation: 'нет',
                     }
                 ],
                 description: 'Направление действия выбирается отдельно. Герой отскакивает в указанную сторону, а затем атакует всех врагов в выбранном направлении несколькими быстрыми ударами.\n\nМожет активировать способность Heartpiercer.',
@@ -3896,7 +5417,10 @@ export default [
                 name: 'Shield Crash',
                 about: [
                     {
-                        type: '',
+                        type: 'ненаправленная',
+                        damage: 'магический',
+                        immunity: 'нет',
+                        deflation: 'да',
                     }
                 ],
                 description: 'Герой подпрыгивает и бьётся спиной о землю, нанося урон всем врагам неподалёку. За каждого задетого противника он получает эффект, ненадолго снижающий получаемый урон.\n\nЕсли применить эту способность во время действия Rolling Thunder, движение не прекратится, а герой перепрыгнет через любые препятствия.',
@@ -3906,7 +5430,9 @@ export default [
                 name: 'Heartpiercer',
                 about: [
                     {
-                        type: '',
+                        type: 'пассивная',
+                        immunity: 'нет',
+                        deflation: 'да',
                     }
                 ],
                 description: 'Герой видит врагов насквозь, искусно пронзая шпагой их броню. Каждая атака может сбросить броню врага и замедлить цель. Эффект активируется с небольшой задержкой после срабатывания.',
@@ -3916,7 +5442,10 @@ export default [
                 name: 'Rolling Thunder',
                 about: [
                     {
-                        type: '',
+                        type: 'ненаправленная',
+                        damage: 'магический',
+                        immunity: 'нет',
+                        deflation: 'нет',
                     }
                 ],
                 description: 'Герой сворачивается в невосприимчивый к магии шар и катится с увеличенной скоростью, проходя сквозь деревья, но поворачиваясь медленнее обычного. Шар отталкивает задетых врагов, а когда они приземляются — наносит им урон и оглушает.\n\nСтолкнувшись со стеной, шар после небольшой задержки покатится в обратную сторону.\n\nТИП РАЗВЕИВАНИЯ: нормальное',
@@ -3929,13 +5458,36 @@ export default [
         name: "Phantom Assassin",
         image: require("image/heroes/Phantom_Assassin_icon.png"),
         characteristic: 'Agility',
+        hp: [
+            {
+                health: '600',
+                restore: '+1.6',
+            },
+        ],
+        mp: [
+            {
+                mana: '255',
+                restore: '+1.2',
+            },
+        ],
+        stats: [
+            {
+                strength: '20',
+                agility: '23',
+                intelligence: '15',
+            }
+        ],
         skills: [
             {
                 image: require("image/skills/Phantom_assassin_stifling_dagger.png"),
                 name: 'Stifling Dagger',
                 about: [
                     {
-                        type: '',
+                        type: 'направленная на существо',
+                        affect: 'на вражеских существ',
+                        damage: 'физический',
+                        immunity: 'нет',
+                        deflation: 'да',
                     }
                 ],
                 description: 'Бросает кинжал, который замедляет скорость передвижения врага, наносит ему физический урон в размере 65 + [25, 40, 55, 77]% от атаки героя, а также накладывает эффекты предметов и способностей.',
@@ -3945,7 +5497,9 @@ export default [
                 name: 'Phantom Strike',
                 about: [
                     {
-                        type: '',
+                        type: 'направленная на существо',
+                        immunity: 'да',
+                        deflation: 'да',
                     }
                 ],
                 description: 'Герой телепортируется к выбранному существу и получает дополнительную скорость атаки по нему, если это противник.',
@@ -3955,7 +5509,7 @@ export default [
                 name: 'Blur',
                 about: [
                     {
-                        type: '',
+                        type: 'пассивная',
                     }
                 ],
                 description: 'Герой сосредотачивается на себе, что позволяет ему уклоняться от атак и скрываться с мини-карты противника, если рядом нет вражеских героев.\n\nСочетается с другими источниками уклонения по закону убывающей полезности.',
@@ -3965,7 +5519,8 @@ export default [
                 name: 'Coup de Grace',
                 about: [
                     {
-                        type: '',
+                        type: 'пассивная',
+                        immunity: 'да',
                     }
                 ],
                 description: 'Герой оттачивает свои боевые способности, получая шанс нанести сокрушительный критический удар по врагу. Способность Stifling Dagger также получает такой шанс.',
@@ -3978,16 +5533,39 @@ export default [
         name: "Phantom Lancer",
         image: require("image/heroes/Phantom_Lancer_icon.png"),
         characteristic: 'Agility',
+        hp: [
+            {
+                health: '620',
+                restore: '+3.2',
+            },
+        ],
+        mp: [
+            {
+                mana: '327',
+                restore: '+1.3',
+            },
+        ],
+        stats: [
+            {
+                strength: '21',
+                agility: '29',
+                intelligence: '21',
+            }
+        ],
         skills: [
             {
                 image: require("image/skills/Phantom_lancer_spirit_lance.png"),
                 name: 'Spirit Lance',
                 about: [
                     {
-                        type: '',
+                        type: 'направленная на существо',
+                        affect: 'на вражеских существ',
+                        damage: 'магический',
+                        immunity: 'нет',
+                        deflation: 'да',
                     }
                 ],
-                description: 'Метает в указанного врага магическое копьё, которое наносит цели урон и замедляет её, а также создает атакующую её союзную иллюзию.\n\nУлучшается с Aghanim\'s Scepter.',
+                description: 'Метает в указанного врага магическое копьё, которое наносит цели урон и замедляет её, а также создает атакующую её союзную иллюзию.',
                 aghanim_description: '',
             },
             {
@@ -3995,7 +5573,7 @@ export default [
                 name: 'Doppelganger',
                 about: [
                     {
-                        type: '',
+                        type: 'направленная на точку',
                     }
                 ],
                 description: 'Герой и все иллюзии неподалёку ненадолго исчезают с поля боя. Через 1.0 сек. в случайных точках указанной области появляются сам герой, его копии, а также две новые иллюзии с разными характеристиками. Продлевает время жизни всех иллюзий. Одна из них получает обычный урон, но не наносит его, а другая — получает 600%% и наносит 20%% урона.\n\nТИП РАЗВЕИВАНИЯ: Нормальное',
@@ -4005,7 +5583,7 @@ export default [
                 name: 'Phantom Rush',
                 about: [
                     {
-                        type: '',
+                        type: 'переключаемая',
                     }
                 ],
                 description: 'Выбрав цель атаки, Phantom Lancer быстро сближается с ней, на время получая дополнительную ловкость. Иллюзии героя также обладают этой способностью.',
@@ -4015,7 +5593,7 @@ export default [
                 name: 'Juxtapose',
                 about: [
                     {
-                        type: '',
+                        type: 'пассивная',
                     }
                 ],
                 description: 'При каждой атаке герой может раздробить свою сущность, создав иллюзорную копию себя. Все иллюзии героя также могут раздробиться. Копии, созданные самим героем, живут 4 сек., а копии, созданные другими иллюзиями — 4 сек.',
@@ -4028,13 +5606,35 @@ export default [
         name: "Phoenix",
         image: require("image/heroes/Phoenix_icon.png"),
         characteristic: 'Strength',
+        hp: [
+            {
+                health: '580',
+                restore: '+1.6',
+            },
+        ],
+        mp: [
+            {
+                mana: '291',
+                restore: '+1.3',
+            },
+        ],
+        stats: [
+            {
+                strength: '19',
+                agility: '12',
+                intelligence: '18',
+            }
+        ],
         skills: [
             {
                 image: require("image/skills/Phoenix_icarus_dive.png"),
                 name: 'Icarus Dive',
                 about: [
                     {
-                        type: '',
+                        type: 'направленная на точку',
+                        damage: 'магический',
+                        immunity: 'нет',
+                        deflation: 'да',
                     }
                 ],
                 description: 'Phoenix несется вперед по дуге, замедляя всех врагов на своем пути и нанося им урон, а затем возвращается на исходную позицию. Если Phoenix применяет Supernova, то способность прерывается.',
@@ -4044,7 +5644,10 @@ export default [
                 name: 'Fire Spirits',
                 about: [
                     {
-                        type: '',
+                        type: 'ненаправленная',
+                        damage: 'магический',
+                        immunity: 'нет',
+                        deflation: 'да',
                     }
                 ],
                 description: 'Призывает 4 огненных духа, которые кружатся вокруг героя. Каждого из них по отдельности можно выпустить в указанную точку. Долетев до неё, дух подожжёт всех противников вокруг себя, нанося им периодический урон и уменьшая их скорость атаки.',
@@ -4054,20 +5657,37 @@ export default [
                 name: 'Sun Ray',
                 about: [
                     {
-                        type: '',
+                        type: 'направленная на точку',
+                        damage: 'магический',
+                        immunity: 'нет',
+                        deflation: 'нет',
                     }
                 ],
                 description: 'Phoenix выпускает из себя луч света ценой собственного здоровья. Луч наносит урон врагам и исцеляет союзников на определенное значение плюс процент от общего запаса здоровья. Этот процент тем выше, чем дольше луч используется.',
+            },
+            {
+                image: require("image/skills/Phoenix_toggle_movement.png"),
+                name: 'toggle movement',
+                about: [
+                    {
+                        type: 'ненаправленная',
+                    }
+                ],
+                description: 'Включает медленное передвижение вперед во время действия Sun Ray',
             },
             {
                 image: require("image/skills/Phoenix_supernova.png"),
                 name: 'Supernova',
                 about: [
                     {
-                        type: '',
+                        type: 'ненаправленная',
+                        affect: 'на союзных героев',
+                        damage: 'магический',
+                        immunity: 'да',
+                        deflation: 'нет',
                     }
                 ],
-                description: 'Герой прекращает свою текущую жизнь ради шанса переродиться. Он превращается в горящее солнце, которое могут уничтожить вражеские герои. Солнце обжигает врагов в большом радиусе, а спустя %tooltip_duration% секунд взрывается, оглушая всех окружающих врагов. Герой появляется на месте взрыва с полным запасом здоровья, маны и без перезарядки на других способностях.\n\nУлучшается с Aghanim\'s Scepter.\n\nТИП РАЗВЕИВАНИЯ: Сильное',
+                description: 'Герой прекращает свою текущую жизнь ради шанса переродиться. Он превращается в горящее солнце, которое могут уничтожить вражеские герои. Солнце обжигает врагов в большом радиусе, а спустя %tooltip_duration% секунд взрывается, оглушая всех окружающих врагов. Герой появляется на месте взрыва с полным запасом здоровья, маны и без перезарядки на других способностях.\n\nТИП РАЗВЕИВАНИЯ: Сильное',
                 aghanim_description: 'Увеличивает число атак для уничтожения солнца, а также позволяет применять эту способность на союзного героя, чтобы переродиться вместе с ним. Не сбрасывает время перезарядки ультов.',
             },
         ],
@@ -4078,13 +5698,34 @@ export default [
         name: "Puck",
         image: require("image/heroes/Puck_icon.png"),
         characteristic: 'Intelligence',
+        hp: [
+            {
+                health: '500',
+                restore: '+1.6',
+            },
+        ],
+        mp: [
+            {
+                mana: '375',
+                restore: '+1.4',
+            },
+        ],
+        stats: [
+            {
+                strength: '15',
+                agility: '22',
+                intelligence: '25',
+            }
+        ],
         skills: [
             {
                 image: require("image/skills/Puck_illusory_orb.png"),               
                 name: 'Illusory Orb',
                 about: [
                     {
-                        type: '',
+                        type: 'направленная на точку',
+                        damage: 'магический',
+                        immunity: 'нет',
                     }
                 ],
                 description: 'Puck запускает волшебный шар, летящий по прямой и поражающий всех противников на своем пути. Puck может в любой момент телепортироваться к шару с помощью Ethereal Jaunt.',
@@ -4094,7 +5735,10 @@ export default [
                 name: 'Waning Rift',
                 about: [
                     {
-                        type: '',
+                        type: 'ненаправленная',
+                        damage: 'магический',
+                        immunity: 'нет',
+                        deflation: 'да',
                     }
                 ],
                 description: 'Герой выпускает облако волшебной пыльцы, нанося врагам вокруг урон и запрещая им применять способности.',
@@ -4104,20 +5748,33 @@ export default [
                 name: 'Phase Shift',
                 about: [
                     {
-                        type: '',
+                        type: 'прерываемая',
                     }
                 ],
                 description: 'Puck ненадолго смещается в другое измерение, защищающее от любых атак.',
+            },
+            {
+                image: require("image/skills/Puck_ethereal_jaunt.png"),
+                name: 'Ethereal Jaunt',
+                about: [
+                    {
+                        type: 'прерываемая',
+                    }
+                ],
+                description: 'Телепортирует Puck к летящему шару',
             },
             {
                 image: require("image/skills/Puck_dream_coil.png"),
                 name: 'Dream Coil',
                 about: [
                     {
-                        type: '',
+                        type: 'направленная на точку',
+                        damage: 'магический',
+                        immunity: 'нет',
+                        deflation: 'нет',
                     }
                 ],
-                description: 'Создает нестабильную магическую спираль, цепляющуюся за вражеских героев, оглушающую их на %stun_duration% секунды и наносящую урон. Если противник растягивает спираль, отойдя слишком далеко, то она рвется, оглушая его и нанося дополнительный урон.\n\nУлучшается с Aghanim\'s Scepter.',
+                description: 'Создает нестабильную магическую спираль, цепляющуюся за вражеских героев, оглушающую их на %stun_duration% секунды и наносящую урон. Если противник растягивает спираль, отойдя слишком далеко, то она рвется, оглушая его и нанося дополнительный урон.',
                 aghanim_description: 'Увеличивает урон от разрыва спирали и увеличивает время её действия. Оглушение от разрыва спирали проходит сквозь невосприимчивость к магии.',
             },
         ],
@@ -4128,16 +5785,37 @@ export default [
         name: "Pudge",
         image: require("image/heroes/Pudge_icon.png"),
         characteristic: 'Strength',
+        hp: [
+            {
+                health: '700',
+                restore: '+1.7',
+            },
+        ],
+        mp: [
+            {
+                mana: '243',
+                restore: '+1.2',
+            },
+        ],
+        stats: [
+            {
+                strength: '25',
+                agility: '14',
+                intelligence: '14',
+            }
+        ],
         skills: [
             {
                 image: require("image/skills/Pudge_meat_hook.png"),
                 name: 'Meat Hook',
                 about: [
                     {
-                        type: '',
+                        type: 'направленная на точку',
+                        damage: 'чистый',
+                        immunity: 'да',
                     }
                 ],
-                description: 'Бросает окровавленный крюк в указанную цель или в выбранном направлении. Крюк зацепится за первое существо, в которое попадёт, притащит его к герою и нанесёт урон, если целью оказался враг.\n\nУлучшается с Aghanim\'s Scepter.',
+                description: 'Бросает окровавленный крюк в указанную цель или в выбранном направлении. Крюк зацепится за первое существо, в которое попадёт, притащит его к герою и нанесёт урон, если целью оказался враг.',
                 aghanim_description: 'Уменьшает время перезарядки и увеличивает урон.',
             },
             {
@@ -4145,7 +5823,9 @@ export default [
                 name: 'Rot',
                 about: [
                     {
-                        type: '',
+                        type: 'переключаемая',
+                        damage: 'магический',
+                        immunity: 'нет',
                     }
                 ],
                 description: 'Ядовитое облако, которое замедляет врагов и наносит значительный урон и им, и владельцу способности.',
@@ -4155,7 +5835,7 @@ export default [
                 name: 'Flesh Heap',
                 about: [
                     {
-                        type: '',
+                        type: 'пассивная',
                     }
                 ],
                 description: 'Увеличивает сопротивление магическому урону, а также даёт герою дополнительную силу за каждого убитого им или погибшего поблизости вражеского героя. Заряды накапливаются с начала игры, но герой получит силу только после изучения способности.',
@@ -4165,7 +5845,11 @@ export default [
                 name: 'Dismember',
                 about: [
                     {
-                        type: '',
+                        type: 'прерываемая',
+                        affect: 'на вражеских существ',
+                        damage: 'магический',
+                        immunity: 'да',
+                        deflation: 'сильным развеиванием',
                     }
                 ],
                 description: 'ПРЕРЫВАЕМАЯ — герой заживо пожирает врага, оглушая его и нанося периодический урон. Весь нанесённый урон излечивает владельца способности. Длится 3 секунды на героях и 6 секунд на крипах.',
@@ -4178,13 +5862,34 @@ export default [
         name: "Pugna",
         image: require("image/heroes/Pugna_icon.png"),
         characteristic: 'Intelligence',
+        hp: [
+            {
+                health: '540',
+                restore: '+1.6',
+            },
+        ],
+        mp: [
+            {
+                mana: '387',
+                restore: '+1.4',
+            },
+        ],
+        stats: [
+            {
+                strength: '17',
+                agility: '16',
+                intelligence: '26',
+            }
+        ],
         skills: [
             {
                 image: require("image/skills/Pugna_nether_blast.png"),
                 name: 'Nether Blast',
                 about: [
                     {
-                        type: '',
+                        type: 'направленная на точку',
+                        damage: 'магический',
+                        immunity: 'нет',
                     }
                 ],
                 description: 'Pugna создает взрыв астральной энергии, который наносит урон врагам и сооружениям в области действия. Сооружения получают только половину урона.',
@@ -4194,7 +5899,9 @@ export default [
                 name: 'Decrepify',
                 about: [
                     {
-                        type: '',
+                        type: 'направленная на существо',
+                        immunity: 'нет',
+                        deflation: 'да',
                     }
                 ],
                 description: 'Могущественное заклятие изгнания замедляет выбранное существо, лишает его возможности атаковать или быть атакованным, а также увеличивает получаемый им урон от заклинаний.',
@@ -4204,7 +5911,9 @@ export default [
                 name: 'Nether Ward',
                 about: [
                     {
-                        type: '',
+                        type: 'направленная на точку',
+                        damage: 'магический',
+                        immunity: 'да',
                     }
                 ],
                 description: 'Pugna создает в указанном месте особый вард, который поглощает ману противников и атакует их, когда те применяют способности. Nether Ward наносит урон за каждую единицу маны, потраченную вражеским героем на применение способности.',
@@ -4214,10 +5923,14 @@ export default [
                 name: 'Life Drain',
                 about: [
                     {
-                        type: '',
+                        type: 'прерываемая',
+                        affect: 'на героев',
+                        damage: 'магический',
+                        immunity: 'да',
+                        deflation: 'нет',
                     }
                 ],
-                description: 'ПРЕРЫВАЕМАЯ — при применении на врага даёт над ним обзор и отнимает его жизненные силы, пополняя здоровье героя. После полного излечения эта способность пополняет ману героя.\n\nПри применении на союзника передаёт ему своё здоровье.\n\nУлучшается с Aghanim\'s Scepter.',
+                description: 'ПРЕРЫВАЕМАЯ — при применении на врага даёт над ним обзор и отнимает его жизненные силы, пополняя здоровье героя. После полного излечения эта способность пополняет ману героя.\n\nПри применении на союзника передаёт ему своё здоровье.',
                 aghanim_description: 'Увеличивает скорость поглощения и убирает перезарядку.',
             },
         ],
@@ -4228,13 +5941,36 @@ export default [
         name: "Queen of Pain",
         image: require("image/heroes/Queen_of_Pain_icon.png"),
         characteristic: 'Intelligence',
+        hp: [
+            {
+                health: '520',
+                restore: '+1.6',
+            },
+        ],
+        mp: [
+            {
+                mana: '363',
+                restore: '+1.4',
+            },
+        ],
+        stats: [
+            {
+                strength: '16',
+                agility: '18',
+                intelligence: '24',
+            }
+        ],
         skills: [
             {
                 image: require("image/skills/Queenofpain_shadow_strike.png"),
                 name: 'Shadow Strike',
                 about: [
                     {
-                        type: '',
+                        type: 'направленная на существо',
+                        affect: 'на вражеских существ',
+                        damage: 'магический',
+                        immunity: 'нет',
+                        deflation: 'да',
                     }
                 ],
                 description: 'Бросает кинжал, который наносит урон при попадании и отравляет цель на 15 секунд. Жертва передвигается медленнее и каждые 3 секунды получает урон от яда.',
@@ -4244,7 +5980,7 @@ export default [
                 name: 'Blink',
                 about: [
                     {
-                        type: '',
+                        type: 'направленная на точку',
                     }
                 ],
                 description: 'Телепортация на короткую дистанцию, позволяющая ворваться в схватку или быстро из неё сбежать.',
@@ -4254,7 +5990,9 @@ export default [
                 name: 'Scream Of Pain',
                 about: [
                     {
-                        type: '',
+                        type: 'ненаправленная',
+                        damage: 'магический',
+                        immunity: 'нет',
                     }
                 ],
                 description: 'Герой издаёт пронзительный вопль, нанося урон всем врагам поблизости.',
@@ -4264,10 +6002,12 @@ export default [
                 name: 'Sonic Wave',
                 about: [
                     {
-                        type: '',
+                        type: 'направленная на точку',
+                        damage: 'чистый',
+                        immunity: 'да',
                     }
                 ],
-                description: 'Создаёт перед героем гигантскую звуковую волну, наносящую огромный урон всем вражеским существам.\n\nУлучшается с Aghanim\'s Scepter.',
+                description: 'Создаёт перед героем гигантскую звуковую волну, наносящую огромный урон всем вражеским существам.',
                 aghanim_description: 'Увеличивает урон и уменьшает время перезарядки.',
             },
         ],
@@ -4278,13 +6018,34 @@ export default [
         name: "Razor",
         image: require("image/heroes/Razor_icon.png"),
         characteristic: 'Agility',
+        hp: [
+            {
+                health: '620',
+                restore: '+1.6',
+            },
+        ],
+        mp: [
+            {
+                mana: '327',
+                restore: '+1.3',
+            },
+        ],
+        stats: [
+            {
+                strength: '21',
+                agility: '22',
+                intelligence: '21',
+            }
+        ],
         skills: [
             {
                 image: require("image/skills/Razor_plasma_field.png"),
                 name: 'Plasma Field',
                 about: [
                     {
-                        type: '',
+                        type: 'ненаправленная',
+                        damage: 'магический',
+                        immunity: 'нет',
                     }
                 ],
                 description: 'Высвобождает волну энергетической плазмы, которая затем возвращается, усиливаясь по мере движения, и наносит урон всем врагам при каждом прикосновении. Чем дальше волна от героя, тем больше урона она наносит.',
@@ -4294,7 +6055,10 @@ export default [
                 name: 'Static Link',
                 about: [
                     {
-                        type: '',
+                        type: 'направленная на существо',
+                        affect: 'на вражеских существ',
+                        immunity: 'да',
+                        deflation: 'нет',
                     }
                 ],
                 description: 'Создаёт электрическую связь с выбранным вражеским героем, передавая его урон от атак владельцу способности.',
@@ -4304,7 +6068,10 @@ export default [
                 name: 'Unstable Current',
                 about: [
                     {
-                        type: '',
+                        type: 'пассивная',
+                        damage: 'магический',
+                        immunity: 'нет',
+                        deflation: 'да',
                     }
                 ],
                 description: 'Увеличивает скорость передвижения героя и раз в %hit_interval% сек. бьёт случайного противника неподалёку током. Электрический разряд замедляет жертву, наносит ей урон и снимает с неё положительные эффекты.\n\nТИП РАЗВЕИВАНИЯ: Нормальное',
@@ -4314,10 +6081,13 @@ export default [
                 name: 'Eye of the Storm',
                 about: [
                     {
-                        type: '',
+                        type: 'ненаправленная',
+                        damage: 'физический',
+                        immunity: 'да',
+                        deflation: 'нет',
                     }
                 ],
-                description: 'Собирает над героем грозовую тучу, которая бьёт молнией врага с наименьшим здоровьем, нанося ему урон и уменьшая его броню.\n\nУлучшается с Aghanim\'s Scepter.',
+                description: 'Собирает над героем грозовую тучу, которая бьёт молнией врага с наименьшим здоровьем, нанося ему урон и уменьшая его броню.',
                 aghanim_description: 'Снижает интервалы между ударами молнии, а также позволяет способности наносить урон башням, казармам и крепости.',
             },
         ],
@@ -4328,13 +6098,34 @@ export default [
         name: "Riki",
         image: require("image/heroes/Riki_icon.png"),
         characteristic: 'Agility',
+        hp: [
+            {
+                health: '540',
+                restore: '+1.6',
+            },
+        ],
+        mp: [
+            {
+                mana: '243',
+                restore: '+1.2',
+            },
+        ],
+        stats: [
+            {
+                strength: '17',
+                agility: '30',
+                intelligence: '14',
+            }
+        ],
         skills: [
             {
                 image: require("image/skills/Riki_smoke_screen.png"),
                 name: 'Smoke Screen',
                 about: [
                     {
-                        type: '',
+                        type: 'направленная на точку',
+                        immunity: 'нет',
+                        deflation: 'нет',
                     }
                 ],
                 description: 'Бросает дымовую бомбу, которая замедляет передвижение врагов, а также не позволяет им применять способности и заставляет их промахиваться почти всеми атаками.',
@@ -4344,7 +6135,9 @@ export default [
                 name: 'Blink Strike',
                 about: [
                     {
-                        type: '',
+                        type: 'направленная на существо',
+                        damage: 'магический',
+                        immunity: 'нет',
                     }
                 ],
                 description: 'Герой телепортируется за спину цели и, если это враг, наносит ему урон.',
@@ -4354,7 +6147,10 @@ export default [
                 name: 'Cloak and Dagger',
                 about: [
                     {
-                        type: '',
+                        type: 'пассивная',
+                        damage: 'физический',
+                        immunity: 'да',
+                        deflation: 'нет',
                     }
                 ],
                 description: 'Герой уходит в тень, становясь невидимым. Каждая его атака со спины наносит дополнительный урон, который зависит от ловкости. Если атаковать врага, невидимость пропадёт.',
@@ -4364,7 +6160,8 @@ export default [
                 name: 'Tricks of the Trade',
                 about: [
                     {
-                        type: '',
+                        type: 'прерываемая',
+                        affect: 'на союзных героев',
                     }
                 ],
                 description: 'Герой пропадает из нашего мира, каждую секунду атакуя со спины всех противников в радиусе 500 ед. вокруг себя.',
@@ -4377,13 +6174,35 @@ export default [
         name: "Rubick",
         image: require("image/heroes/Rubick_icon.png"),
         characteristic: 'Intelligence',
+        hp: [
+            {
+                health: '580',
+                restore: '+1.6',
+            },
+        ],
+        mp: [
+            {
+                mana: '399',
+                restore: '+1.4',
+            },
+        ],
+        stats: [
+            {
+                strength: '19',
+                agility: '14',
+                intelligence: '27',
+            }
+        ],
         skills: [
             {
                 image: require("image/skills/Rubick_telekinesis.png"),
                 name: 'Telekinesis',
                 about: [
                     {
-                        type: '',
+                        type: 'направленная на существо',
+                        affect: 'на вражеских существ',
+                        immunity: 'нет',
+                        deflation: 'сильным развеиванием',
                     }
                 ],
                 description: 'Используя телекинез, Rubick ненадолго поднимает противника в воздух, а затем швыряет его обратно на землю. Этого хватает, чтобы оглушить всех окружающих его врагов.',
@@ -4393,7 +6212,11 @@ export default [
                 name: 'Fade Bolt',
                 about: [
                     {
-                        type: '',
+                        type: 'направленная на существо',
+                        affect: 'на вражеских существ',
+                        damage: 'магический',
+                        immunity: 'нет',
+                        deflation: 'да',
                     }
                 ],
                 description: 'Rubick создает мощный поток магической энергии, которая перемещается между противниками, нанося им урон и снижая силу их атак. Каждый последующий скачок наносит меньше урона.',
@@ -4403,7 +6226,7 @@ export default [
                 name: 'Null Field',
                 about: [
                     {
-                        type: '',
+                        type: 'ненаправленная',
                     }
                 ],
                 description: 'Знания тайной магии создают ауру, которая усиливает разум колдуна или притупляет сознание врагов неподалёку. Способность либо снижает сопротивление магии у противников, либо увеличивает его у союзников.',
@@ -4413,10 +6236,13 @@ export default [
                 name: 'Spell Steal',
                 about: [
                     {
-                        type: '',
+                        type: 'направленная на существо',
+                        affect: 'на вражеских существ',
+                        immunity: 'да',
+                        deflation: 'нет',
                     }
                 ],
-                description: 'Герой улавливает следы магической энергии, обучаясь таинствам последней способности, применённой выбранным противником. Полученная способность находится в распоряжении героя несколько минут либо пока он не погибнет.\n\nУлучшается с Aghanim\'s Scepter.',
+                description: 'Герой улавливает следы магической энергии, обучаясь таинствам последней способности, применённой выбранным противником. Полученная способность находится в распоряжении героя несколько минут либо пока он не погибнет.',
                 aghanim_description: 'Уменьшает время перезарядки, увеличивает дальность применения и по возможности улучшает украденную способность.',
             },
         ],
@@ -4427,16 +6253,39 @@ export default [
         name: "Sand King",
         image: require("image/heroes/Sand_King_icon.png"),
         characteristic: 'Strength',
+        hp: [
+            {
+                health: '640',
+                restore: '+1.7',
+            },
+        ],
+        mp: [
+            {
+                mana: '267',
+                restore: '+1.2',
+            },
+        ],
+        stats: [
+            {
+                strength: '22',
+                agility: '19',
+                intelligence: '16',
+            }
+        ],
         skills: [
             {
                 image: require("image/skills/Sand_king_burrowstrike.png"),
                 name: 'Burrowstrike',
                 about: [
                     {
-                        type: '',
+                        type: 'направленная на существо',
+                        affect: 'на вражеских существ',
+                        damage: 'магический',
+                        immunity: 'нет',
+                        deflation: 'сильным развеиванием',
                     }
                 ],
-                description: 'Герой погружается в землю и прорывается вперёд, оглушая врагов на пути и нанося им урон.\n\nУлучшается с Aghanim\'s Scepter.',
+                description: 'Герой погружается в землю и прорывается вперёд, оглушая врагов на пути и нанося им урон.',
                 aghanim_description: 'Удваивает дальность применения способности Burrowstrike и применяет на всех задетых ею героев эффект Caustic Finale. Не действует на иллюзии.',
             },
             {
@@ -4444,7 +6293,10 @@ export default [
                 name: 'Sand Storm',
                 about: [
                     {
-                        type: '',
+                        type: 'прерываемая',
+                        damage: 'магический',
+                        immunity: 'нет',
+                        deflation: 'нет',
                     }
                 ],
                 description: 'ПРЕРЫВАЕМАЯ — герой вызывает ужасающую песчаную бурю, которая делает его невидимым и наносит урон врагам. Невидимость ненадолго сохраняется после окончания способности.',
@@ -4454,7 +6306,10 @@ export default [
                 name: 'Caustic Finale',
                 about: [
                     {
-                        type: '',
+                        type: 'пассивная',
+                        damage: 'магический',
+                        immunity: 'нет',
+                        deflation: 'да',
                     }
                 ],
                 description: 'Атаки героя наполняют тела жертв ядом, который разрывает их плоть через определённое время либо после смерти. Взрыв замедлит жертву и противников вокруг неё, а также нанесёт всем им урон — но меньше, если жертва ещё жива.',
@@ -4464,7 +6319,10 @@ export default [
                 name: 'Epicenter',
                 about: [
                     {
-                        type: '',
+                        type: 'прерываемая',
+                        damage: 'магический',
+                        immunity: 'нет',
+                        deflation: 'нет',
                     }
                 ],
                 description: 'ПРЕРЫВАЕМАЯ — после двухсекундной подготовки герой неистово сотрясает землю вокруг себя. Землетрясение наносит урон противникам и замедляет их, увеличиваясь в радиусе с каждым последующим толчком.',
@@ -4477,13 +6335,35 @@ export default [
         name: "Shadow Demon",
         image: require("image/heroes/Shadow_Demon_icon.png"),
         characteristic: 'Intelligence',
+        hp: [
+            {
+                health: '620',
+                restore: '+1.6',
+            },
+        ],
+        mp: [
+            {
+                mana: '351',
+                restore: '+1.4',
+            },
+        ],
+        stats: [
+            {
+                strength: '21',
+                agility: '18',
+                intelligence: '23',
+            }
+        ],
         skills: [
             {
                 image: require("image/skills/Shadow_demon_disruption.png"),
                 name: 'Disruption',
                 about: [
                     {
-                        type: '',
+                        type: 'направленная на существо',
+                        affect: 'на героев',
+                        immunity: 'нет',
+                        deflation: 'нет',
                     }
                 ],
                 description: 'Ненадолго изгоняет цель из этого мира. После возвращения создаются две иллюзии изгнанного героя, переходящие под ваш контроль.',
@@ -4493,7 +6373,10 @@ export default [
                 name: 'Soul Catcher',
                 about: [
                     {
-                        type: '',
+                        type: 'направленная на точку',
+                        damage: 'чистый',
+                        immunity: 'нет',
+                        deflation: 'да',
                     }
                 ],
                 description: 'Захватывает душу случайного врага в выбранной области, увеличивая урон по нему. Действует и на существ, находящихся под эффектом способности Disruption.',
@@ -4503,20 +6386,37 @@ export default [
                 name: 'Shadow Poison',
                 about: [
                     {
-                        type: '',
+                        type: 'направленная на точку',
+                        damage: 'магический',
+                        immunity: 'нет',
+                        deflation: 'да',
                     }
                 ],
                 description: 'Запускает в выбранном направлении облако, наносящее урон и отравляющее противников. Первые пять попаданий по одной и той же цели увеличивают базовый урон от яда в 1/2/4/8/16 раз, а за последующие добавляется по 50 урона. Накопленный урон наносится по окончании действия эффекта или при применении дополнительной способности Release Poison.',
+            },
+            {
+                image: require("image/skills/Shadow_demon_shadow_poison_release.png"),
+                name: 'Shadow Poison Release',
+                about: [
+                    {
+                        type: 'ненаправленная',
+                    }
+                ],
+                description: 'Выпускает яд в заражённых врагах, нанося урон, даже если жертва спрятана способностью Disruption.',
             },
             {
                 image: require("image/skills/Shadow_demon_demonic_purge.png"),
                 name: 'Demonic Purge',
                 about: [
                     {
-                        type: '',
+                        type: 'направленная на существо',
+                        affect: 'на вражеских существ',
+                        damage: 'магический',
+                        immunity: 'да',
+                        deflation: 'нет',
                     }
                 ],
-                description: 'Очищает цель, снимая с нее все положительные эффекты и замедляя ее. Скорость передвижения цели постепенно возвращается. По окончании действия скорость восстановится полностью, а цель получит урон. Эффект заклинания сработает на врагов под действием способности Disruption.\n\nУлучшается с Aghanim\'s Scepter.\n\nТИП РАЗВЕИВАНИЯ: Нормальное',
+                description: 'Очищает цель, снимая с нее все положительные эффекты и замедляя ее. Скорость передвижения цели постепенно возвращается. По окончании действия скорость восстановится полностью, а цель получит урон. Эффект заклинания сработает на врагов под действием способности Disruption.\n\nТИП РАЗВЕИВАНИЯ: Нормальное',
                 aghanim_description: 'Перезарядка заменяется 3 зарядами, восполняющимися каждые 40 секунд. Также позволяет отключать пассивные способности цели на время действия.',
             },
         ],
@@ -4527,13 +6427,34 @@ export default [
         name: "Shadow Fiend",
         image: require("image/heroes/Shadow_Fiend_icon.png"),
         characteristic: 'Agility',
+        hp: [
+            {
+                health: '500',
+                restore: '+1.9',
+            },
+        ],
+        mp: [
+            {
+                mana: '291',
+                restore: '+1.3',
+            },
+        ],
+        stats: [
+            {
+                strength: '15',
+                agility: '20',
+                intelligence: '18',
+            }
+        ],
         skills: [
             {
                 image: require("image/skills/Shadow_fiend_shadowraze1.png"),
                 name: 'Shadowraze (Близко)',
                 about: [
                     {
-                        type: '',
+                        type: 'ненаправленная',
+                        damage: 'магический',
+                        immunity: 'нет',
                     }
                 ],
                 description: 'Герой опустошает участок земли прямо перед собой, нанося урон всем врагам в зоне действия. Накладывает на жертву складывающийся эффект, увеличивающий урон от этой способности с каждым её попаданием.',
@@ -4543,7 +6464,9 @@ export default [
                 name: 'Shadowraze (Близко)',
                 about: [
                     {
-                        type: '',
+                        type: 'ненаправленная',
+                        damage: 'магический',
+                        immunity: 'нет',
                     }
                 ],
                 description: 'Герой опустошает участок земли прямо перед собой, нанося урон всем врагам в зоне действия. Накладывает на жертву складывающийся эффект, увеличивающий урон от этой способности с каждым её попаданием.',
@@ -4553,7 +6476,9 @@ export default [
                 name: 'Shadowraze (Близко)',
                 about: [
                     {
-                        type: '',
+                        type: 'ненаправленная',
+                        damage: 'магический',
+                        immunity: 'нет',
                     }
                 ],
                 description: 'Герой опустошает участок земли прямо перед собой, нанося урон всем врагам в зоне действия. Накладывает на жертву складывающийся эффект, увеличивающий урон от этой способности с каждым её попаданием.',
@@ -4563,10 +6488,10 @@ export default [
                 name: 'Necromastery',
                 about: [
                     {
-                        type: '',
+                        type: 'пассивная',
                     }
                 ],
-                description: 'Герой крадет душу каждого убитого врага, получая бонус к атаке. При убийстве героя он получает сразу 12 душ. После смерти выпускает половину из них.\n\nУлучшается с Aghanim\'s Scepter.',
+                description: 'Герой крадет душу каждого убитого врага, получая бонус к атаке. При убийстве героя он получает сразу 12 душ. После смерти выпускает половину из них.',
                 aghanim_description: 'Увеличивает максимальное число душ.',
             },
             {
@@ -4574,7 +6499,9 @@ export default [
                 name: 'Presence of the Dark Lord',
                 about: [
                     {
-                        type: '',
+                        type: 'аура',
+                        affect: 'на врагов',
+                        immunity: 'да',
                     }
                 ],
                 description: 'Присутствие героя снижает броню ближайших врагов.',
@@ -4584,10 +6511,13 @@ export default [
                 name: 'Requiem of Souls',
                 about: [
                     {
-                        type: '',
+                        type: 'ненаправленная',
+                        damage: 'магический',
+                        immunity: 'да',
+                        deflation: 'да',
                     }
                 ],
-                description: 'Герой выпускает собранные души в волнах демонической энергии. Существа возле него могут получить урон от нескольких волн. Уменьшает скорость передвижения и урон каждого существа, получившего урон от этой способности. Создаёт одну волну энергии за каждые две души, захваченные с помощью Necromastery. Если герой погибнет, то эта способность сработает автоматически вне зависимости от её готовности.\n\nУлучшается с Aghanim\'s Scepter.',
+                description: 'Герой выпускает собранные души в волнах демонической энергии. Существа возле него могут получить урон от нескольких волн. Уменьшает скорость передвижения и урон каждого существа, получившего урон от этой способности. Создаёт одну волну энергии за каждые две души, захваченные с помощью Necromastery. Если герой погибнет, то эта способность сработает автоматически вне зависимости от её готовности.',
                 aghanim_description: 'Заставляет ослабленные волные Requiem of Souls возвращаться к Shadow Fiend, излечивая его на количество нанесенного урона',
             },
         ],
@@ -4598,13 +6528,35 @@ export default [
         name: "Shadow Shaman",
         image: require("image/heroes/Shadow_Shaman_icon.png"),
         characteristic: 'Intelligence',
+        hp: [
+            {
+                health: '620',
+                restore: '+1.6',
+            },
+        ],
+        mp: [
+            {
+                mana: '327',
+                restore: '+1.3',
+            },
+        ],
+        stats: [
+            {
+                strength: '21',
+                agility: '16',
+                intelligence: '21',
+            }
+        ],
         skills: [
             {
                 image: require("image/skills/Shadow_shaman_ether_shock.png"),
                 name: 'Ether Shock',
                 about: [
                     {
-                        type: '',
+                        type: 'направленная на существо',
+                        affect: 'на вражеских существ',
+                        damage: 'магический',
+                        immunity: 'нет',
                     }
                 ],
                 description: 'Создает конус бесплотной энергии, который бьет по нескольким вражеским юнитам.',
@@ -4614,7 +6566,10 @@ export default [
                 name: 'Hex',
                 about: [
                     {
-                        type: '',
+                        type: 'направленная на существо',
+                        affect: 'на вражеских существ',
+                        immunity: 'нет',
+                        deflation: 'нет',
                     }
                 ],
                 description: 'Превращает врага в безобидную зверюшку, лишая его возможности атаковать или применять способности.',
@@ -4624,7 +6579,11 @@ export default [
                 name: 'Shackles',
                 about: [
                     {
-                        type: '',
+                        type: 'прерываемая',
+                        affect: 'на вражеских существ',
+                        damage: 'магический',
+                        immunity: 'нет',
+                        deflation: 'сильным развеиванием',
                     }
                 ],
                 description: 'ПРЕРЫВАЕМАЯ — связывает врага магическими путами, не позволяющими передвигаться или атаковать, а также наносящими периодический урон.',
@@ -4634,10 +6593,12 @@ export default [
                 name: 'Mass Serpent Ward',
                 about: [
                     {
-                        type: '',
+                        type: 'направленная на точку',
+                        damage: 'физический',
+                        immunity: 'да',
                     }
                 ],
-                description: 'Призывает 10 невосприимчивых к магии вардов, атакующих врагов и сооружения. Каждый вард уничтожается с двух ударов.\n\nУлучшается с Aghanim\'s Scepter.',
+                description: 'Призывает 10 невосприимчивых к магии вардов, атакующих врагов и сооружения. Каждый вард уничтожается с двух ударов.',
                 aghanim_description: 'Позволяет вардам атаковать две цели одновременно, нанося каждой из них полный урон. Увеличивает дальность атаки вардов.',
             },
         ],
@@ -4648,13 +6609,35 @@ export default [
         name: "Silencer",
         image: require("image/heroes/Silencer_icon.png"),
         characteristic: 'Intelligence',
+        hp: [
+            {
+                health: '540',
+                restore: '+1.6',
+            },
+        ],
+        mp: [
+            {
+                mana: '399',
+                restore: '+1.4',
+            },
+        ],
+        stats: [
+            {
+                strength: '17',
+                agility: '22',
+                intelligence: '27',
+            }
+        ],
         skills: [
             {
                 image: require("image/skills/Silencer_curse_of_the_silent.png"),
                 name: 'Arcane Curse',
                 about: [
                     {
-                        type: '',
+                        type: 'направленная на точку',
+                        damage: 'магический',
+                        immunity: 'нет',
+                        deflation: 'да',
                     }
                 ],
                 description: 'Проклинает вражеских героев в выбранной области, нанося им периодический урон и замедляя их скорость передвижения. Каждая примененная жертвой способность увеличивает длительность эффекта.',
@@ -4664,10 +6647,13 @@ export default [
                 name: 'Glaives of Wisdom',
                 about: [
                     {
-                        type: '',
+                        type: 'автоматически',
+                        affect: 'на вражеских существ',
+                        damage: 'чистый',
+                        immunity: 'нет',
                     }
                 ],
-                description: 'Герой наполняет глефы своей мудростью, отчего они наносят дополнительный урон, зависящий от интеллекта владельца.\n\nУлучшается с Aghanim\'s Scepter.',
+                description: 'Герой наполняет глефы своей мудростью, отчего они наносят дополнительный урон, зависящий от интеллекта владельца.',
                 aghanim_description: 'Урон от способности проходит сквозь невосприимчивость к магии и увеличивается на 100%, если цель обезмолвлена.',
             },
             {
@@ -4675,7 +6661,11 @@ export default [
                 name: 'Last Word',
                 about: [
                     {
-                        type: '',
+                        type: 'направленная на существо',
+                        affect: 'на вражеских существ',
+                        damage: 'магический',
+                        immunity: 'нет',
+                        deflation: 'да',
                     }
                 ],
                 description: 'Насылает на цель проклятие, которое через некоторое время наносит ей урон и накладывает на неё безмолвие. Проклятие сработает раньше, если жертва применит способность.',
@@ -4685,7 +6675,9 @@ export default [
                 name: 'Global Silence',
                 about: [
                     {
-                        type: '',
+                        type: 'ненаправленная',
+                        immunity: 'да',
+                        deflation: 'да',
                     }
                 ],
                 description: 'Герой заглушает все звуки на поле боя, не давая врагам произносить заклинания, где бы они ни были.',
@@ -4698,13 +6690,35 @@ export default [
         name: "Skywrath Mage",
         image: require("image/heroes/Skywrath_Mage_icon.png"),
         characteristic: 'Intelligence',
+        hp: [
+            {
+                health: '580',
+                restore: '+1.6',
+            },
+        ],
+        mp: [
+            {
+                mana: '399',
+                restore: '+1.4',
+            },
+        ],
+        stats: [
+            {
+                strength: '19',
+                agility: '13',
+                intelligence: '27',
+            }
+        ],
         skills: [
             {
                 image: require("image/skills/Skywrath_mage_arcane_bolt.png"),
                 name: 'Arcane Bolt',
                 about: [
                     {
-                        type: '',
+                        type: 'направленная на существо',
+                        affect: 'на вражеских существ',
+                        damage: 'магический',
+                        immunity: 'нет',
                     }
                 ],
                 description: 'Skywrath Mage выпускает во врага медленный заряд магической энергии, который наносит урон, зависящий от уровня интеллекта мага.',
@@ -4714,7 +6728,10 @@ export default [
                 name: 'Concussive Shot',
                 about: [
                     {
-                        type: '',
+                        type: 'ненаправленная',
+                        damage: 'магический',
+                        immunity: 'нет',
+                        deflation: 'да',
                     }
                 ],
                 description: 'Skywrath Mage делает выстрел на дальнюю дистанцию, который бьет по ближайшему вражескому герою. При попадании наносит урон и замедляет всех попавших в область действия врагов.',
@@ -4724,7 +6741,10 @@ export default [
                 name: 'Ancient Seal',
                 about: [
                     {
-                        type: '',
+                        type: 'направленная на существо',
+                        affect: 'на вражеских существ',
+                        immunity: 'нет',
+                        deflation: 'да',
                     }
                 ],
                 description: 'Skywrath Mage оставляет печать древней руны на выбранном существе, запрещая произносить заклинания и увеличивая магический урон от заклинаний.',
@@ -4734,10 +6754,12 @@ export default [
                 name: 'Mystic Flare',
                 about: [
                     {
-                        type: '',
+                        type: 'направленная на точку',
+                        damage: 'магический',
+                        immunity: 'нет',
                     }
                 ],
-                description: 'Skywrath Mage создает направленное поле сверхъестественной силы, чтобы сокрушить своих врагов. Поле наносит огромный урон, который равномерно распределяется между героями в области действия заклинания в течение %duration% секунды.\n\nУлучшается с Aghanim\'s Scepter.',
+                description: 'Skywrath Mage создает направленное поле сверхъестественной силы, чтобы сокрушить своих врагов. Поле наносит огромный урон, который равномерно распределяется между героями в области действия заклинания в течение %duration% секунды.',
                 aghanim_description: 'Каждый раз, когда герой применяет способность, она также сработает на случайную цель неподалеку — в первую очередь на героев.',
             },
         ],
@@ -4748,13 +6770,33 @@ export default [
         name: "Slardar",
         image: require("image/heroes/Slardar_icon.png"),
         characteristic: 'Strength',
+        hp: [
+            {
+                health: '620',
+                restore: '+1.6',
+            },
+        ],
+        mp: [
+            {
+                mana: '255',
+                restore: '+1.2',
+            },
+        ],
+        stats: [
+            {
+                strength: '21',
+                agility: '17',
+                intelligence: '15',
+            }
+        ],
         skills: [
             {
                 image: require("image/skills/Slardar_sprint.png"),
                 name: 'Guardian Sprint',
                 about: [
                     {
-                        type: '',
+                        type: 'ненаправленная',
+                        deflation: 'да',
                     }
                 ],
                 description: 'Герой стремительно скользит, передвигаясь значительно быстрее и проходя сквозь других существ, однако получает повышенный урон. На 4-м уровне эта способность позволяет герою передвигается по реке со скоростью 700.',
@@ -4764,7 +6806,10 @@ export default [
                 name: 'Slithereen Crush',
                 about: [
                     {
-                        type: '',
+                        type: 'ненаправленная',
+                        damage: 'физический',
+                        immunity: 'нет',
+                        deflation: 'сильным развеиванием',
                     }
                 ],
                 description: 'Бьет по земле, оглушая ближайших вражеских наземных юнитов и нанося им урон. После оглушения юниты замедляются.',
@@ -4774,7 +6819,10 @@ export default [
                 name: 'Bash of the Deep',
                 about: [
                     {
-                        type: '',
+                        type: 'пассивная',
+                        damage: 'физический',
+                        immunity: 'да',
+                        deflation: 'сильным развеиванием',
                     }
                 ],
                 description: 'Атаки получают шанс нанести дополнительный урон и оглушить врага. При атаке крипов длительность оглушения удваивается.',
@@ -4784,7 +6832,10 @@ export default [
                 name: 'Corrosive Haze',
                 about: [
                     {
-                        type: '',
+                        type: 'направленная на существо',
+                        affect: 'на вражеских существ',
+                        immunity: 'да',
+                        deflation: 'да',
                     }
                 ],
                 description: 'Уменьшает сопротивляемость врага физическому урону и применяет True Sight к указанному юниту, раскрывая его невидимость.',
@@ -4797,13 +6848,34 @@ export default [
         name: "Slark",
         image: require("image/heroes/Slark_icon.png"),
         characteristic: 'Agility',
+        hp: [
+            {
+                health: '600',
+                restore: '+1.6',
+            },
+        ],
+        mp: [
+            {
+                mana: '267',
+                restore: '+1.2',
+            },
+        ],
+        stats: [
+            {
+                strength: '20',
+                agility: '21',
+                intelligence: '16',
+            }
+        ],
         skills: [
             {
                 image: require("image/skills/Slark_dark_pact.png"),
                 name: 'Dark Pact',
                 about: [
                     {
-                        type: '',
+                        type: 'ненаправленная',
+                        damage: 'магический',
+                        immunity: 'нет',
                     }
                 ],
                 description: 'После небольшой задержки герой жертвует немного собственной крови, что снимает с него большинство отрицательных эффектов и наносит урон всем врагам поблизости. Сам герой получает 50%% нанесенного этой способностью урона.\n\nТИП РАЗВЕИВАНИЯ: Сильное',
@@ -4813,7 +6885,10 @@ export default [
                 name: 'Pounce',
                 about: [
                     {
-                        type: '',
+                        type: 'ненаправленная',
+                        damage: 'магический',
+                        immunity: 'нет',
+                        deflation: 'нет',
                     }
                 ],
                 description: 'Slark прыгает вперед, хватаясь за первого героя, попавшегося ему на пути. Враг получает урон и привязывается к Slark, что позволяет ему двигаться только в определенном радиусе от позиции приземления Slark.',
@@ -4823,7 +6898,9 @@ export default [
                 name: 'Essence Shift',
                 about: [
                     {
-                        type: '',
+                        type: 'пассивная',
+                        immunity: 'да',
+                        deflation: 'нет',
                     }
                 ],
                 description: 'Slark крадет жизненную сущность вражеских героев при атаках, выкачивая все их атрибуты и превращая их в дополнительную ловкость для себя.',
@@ -4833,10 +6910,11 @@ export default [
                 name: 'Shadow Dance',
                 about: [
                     {
-                        type: '',
+                        type: 'ненаправленная',
+                        deflation: 'нет',
                     }
                 ],
-                description: 'Скрывает героя в облаке теней, делая его невидимым. Эта невидимость не раскрывается ничем; атаки, использование предметов и применение способностей также не снимают невидимость. Способность также имеет пассивный эффект, который увеличивает скорость передвижения и восстановления здоровья героя, когда его не видит вражеская команда.\n\nУлучшается с Aghanim\'s Scepter.',
+                description: 'Скрывает героя в облаке теней, делая его невидимым. Эта невидимость не раскрывается ничем; атаки, использование предметов и применение способностей также не снимают невидимость. Способность также имеет пассивный эффект, который увеличивает скорость передвижения и восстановления здоровья героя, когда его не видит вражеская команда.',
                 aghanim_description: 'Уменьшает время перезарядки и превращает Shadow Dance в способность с областью действия, позволяющую прятать союзных героев.',
             },
         ],
@@ -4847,13 +6925,35 @@ export default [
         name: "Sniper",
         image: require("image/heroes/Sniper_icon.png"),
         characteristic: 'Agility',
+        hp: [
+            {
+                health: '520',
+                restore: '+1.6',
+            },
+        ],
+        mp: [
+            {
+                mana: '255',
+                restore: '+1.2',
+            },
+        ],
+        stats: [
+            {
+                strength: '16',
+                agility: '21',
+                intelligence: '15',
+            }
+        ],
         skills: [
             {
                 image: require("image/skills/Sniper_shrapnel.png"),
                 name: 'Shrapnel',
                 about: [
                     {
-                        type: '',
+                        type: 'направленная на точку',
+                        damage: 'магический',
+                        immunity: 'нет',
+                        deflation: 'нет',
                     }
                 ],
                 description: 'Использует заряд шрапнели, покрывая указанную область дождём из разрывной дроби. Противники под ней получают урон и замедляются. Раскрывает туман войны в области действия. Заряд способности восстанавливается каждые 55 секунд.',
@@ -4863,7 +6963,9 @@ export default [
                 name: 'Headshot',
                 about: [
                     {
-                        type: '',
+                        type: 'пассивная',
+                        damage: 'физический',
+                        immunity: 'нет',
                     }
                 ],
                 description: 'Sniper стреляет точнее, получая шанс нанести дополнительный урон и ненадолго остановить противника.',
@@ -4873,7 +6975,7 @@ export default [
                 name: 'Take Aim',
                 about: [
                     {
-                        type: '',
+                        type: 'пассивная',
                     }
                 ],
                 description: 'Увеличивает дальность стрельбы снайперской винтовки.',
@@ -4883,10 +6985,14 @@ export default [
                 name: 'Assassinate',
                 about: [
                     {
-                        type: '',
+                        type: 'направленная на существо',
+                        affect: 'на вражеских существ',
+                        damage: 'магический',
+                        immunity: 'да',
+                        deflation: 'нет',
                     }
                 ],
-                description: 'Герой с огромного расстояния целится во вражеское существо и через %total_cast_time_tooltip% секунды совершает сокрушительный выстрел, ненадолго оглушающий цель.\n\nУлучшается с Aghanim\'s Scepter.',
+                description: 'Герой с огромного расстояния целится во вражеское существо и через %total_cast_time_tooltip% секунды совершает сокрушительный выстрел, ненадолго оглушающий цель.',
                 aghanim_description: 'Превращает Assassinate в способность, которая после подготовки наносит всем существам в выбранной области критический урон с эффектом способности Headshot. Действует только на видимых героев.',
             },
         ],
@@ -4897,13 +7003,36 @@ export default [
         name: "Spectre",
         image: require("image/heroes/Spectre_icon.png"),
         characteristic: 'Agility',
+        hp: [
+            {
+                health: '600',
+                restore: '+1.6',
+            },
+        ],
+        mp: [
+            {
+                mana: '267',
+                restore: '+1.2',
+            },
+        ],
+        stats: [
+            {
+                strength: '20',
+                agility: '23',
+                intelligence: '16',
+            }
+        ],
         skills: [
             {
                 image: require("image/skills/Spectre_spectral_dagger.png"),
                 name: 'Spectral Dagger',
                 about: [
                     {
-                        type: '',
+                        type: 'направленная на существо',
+                        affect: 'на вражеских героев',
+                        damage: 'магический',
+                        immunity: 'да',
+                        deflation: 'нет',
                     }
                 ],
                 description: 'Spectre бросает кинжал, наносящий урон и оставляющий теневой след, который замедляет всех врагов. Враги, пораженные кинжалом, также будут оставлять за собой след. Двигаясь по нему, Spectre преодолевает любую непроходимую территорию.',
@@ -4913,7 +7042,9 @@ export default [
                 name: 'Desolate',
                 about: [
                     {
-                        type: '',
+                        type: 'пассивная',
+                        damage: 'чистый',
+                        immunity: 'да',
                     }
                 ],
                 description: 'Каждая атака наносит дополнительный урон, если рядом с жертвой никого нет. Уменьшает радиус обзора противника на 5.0 сек.',
@@ -4923,17 +7054,29 @@ export default [
                 name: 'Dispersion',
                 about: [
                     {
-                        type: '',
+                        type: 'пассивная',
+                        immunity: 'нет',
                     }
                 ],
                 description: 'Урон, причиненный Spectre, отражается на ее врагов, не нанося ей повреждений. Эффект ослабевает с расстоянием.',
+            },
+            {
+                image: require("image/skills/Spectre_reality.png"),
+                name: 'Realiti',
+                about: [
+                    {
+                        type: 'направленная на точку',
+                    }
+                ],
+                description: 'Spectre замещает собой выбранную иллюзию Haunt',
             },
             {
                 image: require("image/skills/Spectre_haunt.png"),
                 name: 'Haunt',
                 about: [
                     {
-                        type: '',
+                        type: 'ненаправленная',
+                        immunity: 'да',
                     }
                 ],
                 description: 'Создаёт рядом с каждым вражеским героем спектральную копию, которая атакует его после небольшой задержки. Во время действия владелец способности может применить способность Reality, чтобы поменяться местами с выбранной иллюзией.\n\nИллюзии не находятся под контролем игрока, имеют базовую скорость в 400 единиц, игнорируют препятствия, получают дополнительный урон и наносят меньше урона, чем сам герой.',
@@ -4946,13 +7089,35 @@ export default [
         name: "Spirit Breaker",
         image: require("image/heroes/Spirit_Breaker_icon.png"),
         characteristic: 'Strength',
+        hp: [
+            {
+                health: '780',
+                restore: '+1.2',
+            },
+        ],
+        mp: [
+            {
+                mana: '243',
+                restore: '+1.2',
+            },
+        ],
+        stats: [
+            {
+                strength: '29',
+                agility: '17',
+                intelligence: '14',
+            }
+        ],
         skills: [
             {
                 image: require("image/skills/Spirit_breaker_charge_of_darkness.png"),
                 name: 'Charge of Darkness',
                 about: [
                     {
-                        type: '',
+                        type: 'направленная на существо',
+                        affect: 'на вражеских существ',
+                        immunity: 'нет',
+                        deflation: 'нет',
                     }
                 ],
                 description: 'Spirit Breaker фокусируется на враге и кидается в атаку на него, игнорируя препятствия на своем пути. Любой враг, которого он заденет, и цель заклинания попадут под воздействие Greater Bash. Если цель умрет раньше, чем Spirit Breaker добежит до нее, фокус сменится на другую ближайшую цель.',
@@ -4962,7 +7127,10 @@ export default [
                 name: 'Empowering Haste',
                 about: [
                     {
-                        type: '',
+                        type: 'аура',
+                        affect: 'на союзников',
+                        damage: 'магический',
+                        deflation: 'нет',
                     }
                 ],
                 description: 'Могущество героя растёт вместе с его скоростью. Его присутствие увеличивает скорость передвижения ближайших союзников. Способность также можно активировать, чтобы увеличить бонус от ауры на 6 сек., но затем он станет вдвое меньше обычного, пока не кончится перезарядка.',
@@ -4972,7 +7140,10 @@ export default [
                 name: 'Greater Bash',
                 about: [
                     {
-                        type: '',
+                        type: 'пассивная',
+                        damage: 'магический',
+                        immunity: 'да',
+                        deflation: 'сильным развеиванием',
                     }
                 ],
                 description: 'Дает шанс оглушить врага и отбросить его, а также, в случае успешного оглушения, увеличивает скорость передвижения. Наносит дополнительный урон, равный некоторому проценту от скорости передвижения.',
@@ -4982,10 +7153,13 @@ export default [
                 name: 'Nether Strike',
                 about: [
                     {
-                        type: '',
+                        type: 'направленная на существо',
+                        affect: 'на вражеских существ',
+                        damage: 'магический',
+                        immunity: 'да',
                     }
                 ],
-                description: 'Герой ускользает в иной мир, по возвращении появляясь рядом с жертвой и применяя на неё способность Greater Bash текущего уровня с дополнительным уроном.\n\nУлучшается с Aghanim\'s Scepter.',
+                description: 'Герой ускользает в иной мир, по возвращении появляясь рядом с жертвой и применяя на неё способность Greater Bash текущего уровня с дополнительным уроном.',
                 aghanim_description: 'Greater Bash теперь будет воздействовать и на всех врагов рядом с целью. Также увеличивается дальность применения способности и уменьшается время перезарядки.',
             },
         ],
@@ -4996,13 +7170,34 @@ export default [
         name: "Storm Spirit",
         image: require("image/heroes/Storm_Spirit_icon.png"),
         characteristic: 'Intelligence',
+        hp: [
+            {
+                health: '580',
+                restore: '+1.6',
+            },
+        ],
+        mp: [
+            {
+                mana: '363',
+                restore: '+1.4',
+            },
+        ],
+        stats: [
+            {
+                strength: '19',
+                agility: '22',
+                intelligence: '24',
+            }
+        ],
         skills: [
             {
                 image: require("image/skills/Storm_spirit_static_remnant.png"),
                 name: 'Static Remnant',
                 about: [
                     {
-                        type: '',
+                        type: 'ненаправленная',
+                        damage: 'магический',
+                        immunity: 'нет',
                     }
                 ],
                 description: 'Создает свою энергетическую копию, которая существует 12 секунд и взрывается, если поблизости проходит враг.',
@@ -5012,10 +7207,13 @@ export default [
                 name: 'Electric Vortex',
                 about: [
                     {
-                        type: '',
+                        type: 'направленная на существо',
+                        affect: 'на вражеских существ',
+                        immunity: 'нет',
+                        deflation: 'сильным развеиванием',
                     }
                 ],
-                description: 'Создаёт вихрь, затягивающий врага в место, где находится герой, также замедляя его самого на 50%% на 3 секунды.\n\nУлучшается с Aghanim\'s Scepter.',
+                description: 'Создаёт вихрь, затягивающий врага в место, где находится герой, также замедляя его самого на 50%% на 3 секунды.',
                 aghanim_description: 'Способность Electric Vortex становится ненаправленной и срабатывает на всех врагов вокруг героя.',
             },
             {
@@ -5023,7 +7221,10 @@ export default [
                 name: 'Overload',
                 about: [
                     {
-                        type: '',
+                        type: 'пассивная',
+                        damage: 'магический',
+                        immunity: 'нет',
+                        deflation: 'да',
                     }
                 ],
                 description: 'Применение способностей создаёт заряд электричества, который наполняет следующую атаку. Она нанесёт урон всем врагам вокруг цели и замедлит их.',
@@ -5033,7 +7234,9 @@ export default [
                 name: 'Ball Lightning',
                 about: [
                     {
-                        type: '',
+                        type: 'направленная на точку',
+                        damage: 'магический',
+                        immunity: 'нет',
                     }
                 ],
                 description: 'Герой оборачивается нестабильным электричеством и несется по полю боя, пока не достигнет своей цели либо не исчерпает запас своей маны. Заклинание имеет начальную стоимость в %ball_lightning_initial_mana_base%+%ball_lightning_initial_mana_percentage%%% от общего запаса маны. Затем тратится %ball_lightning_travel_cost_base% единиц+0,75%% от общего запаса маны за каждые 100 единиц передвижения. Урон выражен в количестве урона за 100 единиц передвижения.',
@@ -5046,13 +7249,36 @@ export default [
         name: "Sven",
         image: require("image/heroes/Sven_icon.png"),
         characteristic: 'Strength',
+        hp: [
+            {
+                health: '660',
+                restore: '+1.7',
+            },
+        ],
+        mp: [
+            {
+                mana: '267',
+                restore: '+1.2',
+            },
+        ],
+        stats: [
+            {
+                strength: '23',
+                agility: '21',
+                intelligence: '16',
+            }
+        ],
         skills: [
             {
                 image: require("image/skills/Sven_storm_hammer.png"),
                 name: 'Storm Hammer',
                 about: [
                     {
-                        type: '',
+                        type: 'направленная на существо',
+                        affect: 'на вражеских существ',
+                        damage: 'магический',
+                        immunity: 'нет',
+                        deflation: 'сильным развеиванием',
                     }
                 ],
                 description: 'Герой высвобождает всю мощь своей магической рукавицы, нанося врагам урон и оглушая их.',
@@ -5062,7 +7288,8 @@ export default [
                 name: '"Great Cleave',
                 about: [
                     {
-                        type: '',
+                        type: 'пассивная',
+                        immunity: 'да',
                     }
                 ],
                 description: 'Герой наносит удары невероятной силы, поражая всех врагов вокруг своей жертвы.',
@@ -5072,7 +7299,8 @@ export default [
                 name: 'Warcry',
                 about: [
                     {
-                        type: '',
+                        type: 'ненаправленная',
+                        deflation: 'да',
                     }
                 ],
                 description: 'Боевой клич рыцаря поднимает боевой дух союзников, увеличивая их скорость передвижения и броню. Длится 8 секунд.',
@@ -5082,10 +7310,11 @@ export default [
                 name: 'God\'s Strength',
                 about: [
                     {
-                        type: '',
+                        type: 'ненаправленная',
+                        deflation: 'нет',
                     }
                 ],
-                description: 'Sven концентрирует свою неконтролируемую силу, получая бонус к урону на 25 секунд.\n\nУлучшается с Aghanim\'s Scepter.',
+                description: 'Sven концентрирует свою неконтролируемую силу, получая бонус к урону на 25 секунд.',
                 aghanim_description: 'God\'s Strength дает дополнительный урон союзникам в радиусе 900.',
             },
         ],
@@ -5096,13 +7325,34 @@ export default [
         name: "Techies",
         image: require("image/heroes/Techies_icon.png"),
         characteristic: 'Intelligence',
+        hp: [
+            {
+                health: '540',
+                restore: '+1.6',
+            },
+        ],
+        mp: [
+            {
+                mana: '339',
+                restore: '+1.3',
+            },
+        ],
+        stats: [
+            {
+                strength: '17',
+                agility: '14',
+                intelligence: '22',
+            }
+        ],
         skills: [
             {
                 image: require("image/skills/Proximity_Mines_icon.png"),
                 name: 'Proximity Mines',
                 about: [
                     {
-                        type: '',
+                        type: 'направленная на точку',
+                        damage: 'магический',
+                        immunity: 'да',
                     }
                 ],
                 description: 'Устанавливает невидимую мину. Ее невидимость невозможно развеять, но она станет видна, если противник зайдет в радиус ее действия. Мина сдетонирует, если противник будет 1.6 сек. находиться на расстоянии в 400 от нее. Взрыв наносит полный урон по всему радиусу срабатывания. Наносит постройкам 25% урона.',
@@ -5112,7 +7362,8 @@ export default [
                 name: 'Stasis Trap',
                 about: [
                     {
-                        type: '',
+                        type: 'направленная на точку',
+                        immunity: 'нет',
                     }
                 ],
                 description: 'Устанавливает невидимую ловушку, которая при срабатывании применяет на вражеских существ оцепенение.',
@@ -5122,20 +7373,34 @@ export default [
                 name: 'Blast Off!',
                 about: [
                     {
-                        type: '',
+                        type: 'направленная на точку',
+                        affect: 'на врагов',
+                        damage: 'магический',
+                        immunity: 'нет',
                     }
                 ],
                 description: 'Герои бросаются в гущу врагов и при приземлении взрывают свой боезапас, нанося задетым врагам огромный урон и запрещая им применять способности. Сами подрывники получают при взрыве урон в размере 50% от максимального запаса здоровья.',
+            },
+            {
+                image: require("image/skills/Focused_Detonate_icon.png"),
+                name: 'Focused Detonate',
+                about: [
+                    {
+                        type: 'направленная на точку',
+                        damage: 'магический',
+                    }
+                ],
+                description: 'Взорвать все мины в выбранной области',
             },
             {
                 image: require("image/skills/Minefield_Sign_icon.png"),
                 name: 'Minefield Sign',
                 about: [
                     {
-                        type: '',
+                        type: 'направленная на точку',
                     }
                 ],
-                description: 'На 180 секунд устанавливает предостерегающую табличку, советующую врагам ступать осторожно. Нельзя ставить больше одной таблички одновременно.\n\nУлучшается с Aghanim\'s Scepter.',
+                description: 'На 180 секунд устанавливает предостерегающую табличку, советующую врагам ступать осторожно. Нельзя ставить больше одной таблички одновременно.',
                 aghanim_description: 'Позволяет табличке защищать ловушки, мины и бомбы от любых эффектов, раскрывающих невидимость.',
             },
             {
@@ -5143,10 +7408,12 @@ export default [
                 name: 'Remote Mines',
                 about: [
                     {
-                        type: '',
+                        type: 'направленная на точку',
+                        damage: 'магический',
+                        immunity: 'нет',
                     }
                 ],
-                description: 'Устанавливает невидимую мину, которая взрывается только при активации вручную после небольшой задержки. Не наносит урон строениям.\n\nУлучшается с Aghanim\'s Scepter.',
+                description: 'Устанавливает невидимую мину, которая взрывается только при активации вручную после небольшой задержки. Не наносит урон строениям.',
                 aghanim_description: 'Увеличивает урон и дальность применения.',
             },
         ],
@@ -5157,13 +7424,35 @@ export default [
         name: "Templar Assassin",
         image: require("image/heroes/Templar_Assassin_icon.png"),
         characteristic: 'Agility',
+        hp: [
+            {
+                health: '560',
+                restore: '+1.6',
+            },
+        ],
+        mp: [
+            {
+                mana: '315',
+                restore: '+1.3',
+            },
+        ],
+        stats: [
+            {
+                strength: '18',
+                agility: '23',
+                intelligence: '20',
+            }
+        ],
         skills: [
             {
                 image: require("image/skills/Templar_assassin_refraction.png"),
                 name: 'Refraction',
                 about: [
                     {
-                        type: '',
+                        type: 'ненаправленная',
+                        damage: 'физический',
+                        immunity: 'да',
+                        deflation: 'нет',
                     }
                 ],
                 description: 'Templar Assassin окружает себя псионическими чарами, которые блокируют урон, наносимый ей во время действия заклинания, а также усиливают ее атаки. Эти эффекты действуют ограниченное число раз и считаются раздельно.',
@@ -5173,7 +7462,10 @@ export default [
                 name: 'Meld',
                 about: [
                     {
-                        type: '',
+                        type: 'ненаправленная',
+                        damage: 'физический',
+                        immunity: 'да',
+                        deflation: 'нет',
                     }
                 ],
                 description: 'Герой становится невидимым до тех пор, пока не сдвинется с места. Если прервать невидимость атакой по врагу, она нанесет дополнительный урон и уменьшит броню жертвы на 10 секунд.',
@@ -5183,17 +7475,33 @@ export default [
                 name: 'Psi Blades',
                 about: [
                     {
-                        type: '',
+                        type: 'пассивный',
+                        damage: 'чистый',
+                        immunity: 'да',
                     }
                 ],
                 description: 'Клинки Ланайи зачарованы псионической энергией — они способны пробивать врагов насквозь, нанося полный урон тем, кто стоит позади основной цели. Также способность увеличивает дальность атаки героя.',
+            },
+            {
+                image: require("image/skills/Templar_assassin_trap.png"),
+                name: 'Trap',
+                about: [
+                    {
+                        type: 'направленная на точку',
+                        immunity: 'нет',
+                        deflation: 'да',
+                    }
+                ],
+                description: 'Приводит в действие ближайшую ловушку, замедляя врагов в зонее ее действия',
             },
             {
                 image: require("image/skills/Templar_assassin_psionic_trap.png"),
                 name: 'Psionic Trap',
                 about: [
                     {
-                        type: '',
+                        type: 'направленная на точку',
+                        immunity: 'нет',
+                        deflation: 'да',
                     }
                 ],
                 description: 'Герой ставит невидимую ловушку, которая отслеживает передвижение врагов и постепенно накапливает энергию. По команде ловушка срабатывает, замедляя противников в зоне действия как минимум на 30%. Через 4.0 сек. ловушка наберёт максимальную мощь, и её активация замедлит жертв на 60% и нанесёт им урон.',
@@ -5206,13 +7514,34 @@ export default [
         name: "Terrorblade",
         image: require("image/heroes/Terrorblade_icon.png"),
         characteristic: 'Agility',
+        hp: [
+            {
+                health: '500',
+                restore: '+3.1',
+            },
+        ],
+        mp: [
+            {
+                mana: '303',
+                restore: '+1.3',
+            },
+        ],
+        stats: [
+            {
+                strength: '15',
+                agility: '22',
+                intelligence: '19',
+            }
+        ],
         skills: [
             {
                 image: require("image/skills/Terrorblade_reflection.png"),
                 name: 'Reflection',
                 about: [
                     {
-                        type: '',
+                        type: 'ненаправленная',
+                        immunity: 'нет',
+                        deflation: 'да',
                     }
                 ],
                 description: 'Terrorblade создает неуязвимых темных двойников всех вражеских героев, находящихся рядом. Двойник атакует цель и уменьшает ее скорость передвижения.',
@@ -5222,7 +7551,7 @@ export default [
                 name: 'Conjure Image',
                 about: [
                     {
-                        type: '',
+                        type: 'ненаправленная',
                     }
                 ],
                 description: 'Создает иллюзию Terrorblade, которая наносит урон.',
@@ -5232,7 +7561,8 @@ export default [
                 name: 'Metamorphosis',
                 about: [
                     {
-                        type: '',
+                        type: 'ненаправленная',
+                        deflation: 'нет',
                     }
                 ],
                 description: 'Terrorblade превращается в могущественного демона с дальней атакой. Все иллюзии Terrorblade в радиусе 900 также подвержены действию этой способности.',
@@ -5242,7 +7572,9 @@ export default [
                 name: 'Sunder',
                 about: [
                     {
-                        type: '',
+                        type: 'направленная на существо',
+                        affect: 'на юнитов',
+                        immunity: 'да',
                     }
                 ],
                 description: 'Вырывает душу из Terrorblade и его цели, меняя их местами вместе с частью жизненной силы. Некоторая часть здоровья остается на месте.',
@@ -5255,16 +7587,39 @@ export default [
         name: "Tidehunter",
         image: require("image/heroes/Tidehunter_icon.png"),
         characteristic: 'Strength',
+        hp: [
+            {
+                health: '640',
+                restore: '+1.7',
+            },
+        ],
+        mp: [
+            {
+                mana: '267',
+                restore: '+1.2',
+            },
+        ],
+        stats: [
+            {
+                strength: '22',
+                agility: '15',
+                intelligence: '16',
+            }
+        ],
         skills: [
             {
                 image: require("image/skills/Gush_icon.png"),
                 name: 'Gush',
                 about: [
                     {
-                        type: '',
+                        type: 'направленная на существо',
+                        affect: 'на вражеских существ',
+                        damage: 'магический',
+                        immunity: 'нет',
+                        deflation: 'да',
                     }
                 ],
-                description: 'Призывает водяной поток, наносящий противникам урон и уменьшающий их скорость передвижения и броню. Эффект длится 4 секунды.\n\nУлучшается с Aghanim\'s Scepter.',
+                description: 'Призывает водяной поток, наносящий противникам урон и уменьшающий их скорость передвижения и броню. Эффект длится 4 секунды.',
                 aghanim_description: 'Уменьшает время перезарядки, а также делает способность направляемой на точку. Она подействует на всех врагов на пути.',
             },
             {
@@ -5272,7 +7627,7 @@ export default [
                 name: 'Kraken Shell',
                 about: [
                     {
-                        type: '',
+                        type: 'пассивная',
                     }
                 ],
                 description: 'Утолщает шкуру героя, блокируя часть физического урона. Когда полученный урон достигает определенного предела, способность сбрасывает все отрицательные эффекты.\n\nЭффект не сочетается с другими предметами, блокирующими физический урон.\n\nТИП РАЗВЕИВАНИЯ: Сильное',
@@ -5282,7 +7637,10 @@ export default [
                 name: 'Anchor Smash',
                 about: [
                     {
-                        type: '',
+                        type: 'ненаправленная',
+                        damage: 'физический',
+                        immunity: 'да',
+                        deflation: 'да',
                     }
                 ],
                 description: 'Tidehunter вращает свой якорь, нанося урон окружающим его противникам и уменьшая наносимый ими урон.',
@@ -5292,7 +7650,10 @@ export default [
                 name: 'Ravage',
                 about: [
                     {
-                        type: '',
+                        type: 'ненаправленная',
+                        damage: 'магический',
+                        immunity: 'нет',
+                        deflation: 'сильным развеиванием',
                     }
                 ],
                 description: 'Сотрясает землю и выпускает во все стороны щупальца, нанося всем врагам вокруг урон и оглушая их.',
@@ -5305,13 +7666,35 @@ export default [
         name: "Timbersaw",
         image: require("image/heroes/Timbersaw_icon.png"),
         characteristic: 'Strength',
+        hp: [
+            {
+                health: '620',
+                restore: '+1.6',
+            },
+        ],
+        mp: [
+            {
+                mana: '327',
+                restore: '+1.3',
+            },
+        ],
+        stats: [
+            {
+                strength: '21',
+                agility: '16',
+                intelligence: '21',
+            }
+        ],
         skills: [
             {
                 image: require("image/skills/Timbersaw_whirling_death.png"),
                 name: 'Whirling Death',
                 about: [
                     {
-                        type: '',
+                        type: 'ненаправленная',
+                        damage: 'магический',
+                        immunity: 'нет',
+                        deflation: 'да',
                     }
                 ],
                 description: 'Timbersaw вращает смертельно острые лезвия, нанося врагам урон и разрушая деревья в области вокруг себя. Вражеские герои, получившие урон, дополнительно потеряют определенное значение своей основной характеристики. Способность нанесет чистый урон, если было срублено хоть одно дерево.',
@@ -5321,7 +7704,9 @@ export default [
                 name: 'Timber Chain',
                 about: [
                     {
-                        type: '',
+                        type: 'направленная на точку',
+                        damage: 'чистый',
+                        immunity: 'нет',
                     }
                 ],
                 description: 'Timbersaw выпускает гарпун, который цепляется за первое попавшееся дерево и притягивает героя к этому дереву. Любой враг, оказавшийся на пути, получит урон.',
@@ -5331,7 +7716,8 @@ export default [
                 name: 'Reactive Armor',
                 about: [
                     {
-                        type: '',
+                        type: 'пассивная',
+                        deflation: 'нет',
                     }
                 ],
                 description: 'Каждый раз, когда кто-то атакует Timbersaw, он получает дополнительную броню и ускоренный реген здоровья.',
@@ -5341,10 +7727,13 @@ export default [
                 name: 'Chakram',
                 about: [
                     {
-                        type: '',
+                        type: 'направленная на точку',
+                        damage: 'чистый',
+                        immunity: 'нет',
+                        deflation: 'нет',
                     }
                 ],
-                description: 'Запускает в указанное место пилу, которая вращается, наносит урон врагам и замедляет их передвижение. Замедление действует всё сильнее за каждые 5%% потерянного здоровья. Пила наносит чистый урон и срезает все деревья на своем пути. Пока способность активна, вы не можете атаковать и постепенно теряете ману.\n\nУлучшается с Aghanim\'s Scepter.',
+                description: 'Запускает в указанное место пилу, которая вращается, наносит урон врагам и замедляет их передвижение. Замедление действует всё сильнее за каждые 5%% потерянного здоровья. Пила наносит чистый урон и срезает все деревья на своем пути. Пока способность активна, вы не можете атаковать и постепенно теряете ману.',
                 aghanim_description: 'Дает вторую способность Chakram.',
             },
         ],
@@ -5355,16 +7744,39 @@ export default [
         name: "Tinker",
         image: require("image/heroes/Tinker_icon.png"),
         characteristic: 'Intelligence',
+        hp: [
+            {
+                health: '540',
+                restore: '+1.6',
+            },
+        ],
+        mp: [
+            {
+                mana: '435',
+                restore: '+1.5',
+            },
+        ],
+        stats: [
+            {
+                strength: '17',
+                agility: '13',
+                intelligence: '30',
+            }
+        ],
         skills: [
             {
                 image: require("image/skills/Tinker_laser.png"),
                 name: 'Laser',
                 about: [
                     {
-                        type: '',
+                        type: 'направленная на существо',
+                        affect: 'на вражеских существ',
+                        damage: 'чистый',
+                        immunity: 'нет',
+                        deflation: 'да',
                     }
                 ],
-                description: 'Выпускает луч сконцентрированной энергии, который наносит урон и ослепляет цель, из-за чего та промахивается всеми физическими атаками.\n\nУлучшается с Aghanim\'s Scepter.',
+                description: 'Выпускает луч сконцентрированной энергии, который наносит урон и ослепляет цель, из-за чего та промахивается всеми физическими атаками.',
                 aghanim_description: 'Позволяет лучу от Laser отскакивать между всеми видимыми вражескими героями в определенном радиусе.',
             },
             {
@@ -5372,10 +7784,12 @@ export default [
                 name: 'Heat-Seeking Missile',
                 about: [
                     {
-                        type: '',
+                        type: 'ненаправленная',
+                        damage: 'магический',
+                        immunity: 'нет',
                     }
                 ],
-                description: 'Запускает пару ракет в ближайших видимых вражеских героев в радиусе 2500 единиц.\n\nУлучшается с Aghanim\'s Scepter.',
+                description: 'Запускает пару ракет в ближайших видимых вражеских героев в радиусе 2500 единиц.',
                 aghanim_description: 'Увеличивает число целей способности.',
             },
             {
@@ -5383,7 +7797,9 @@ export default [
                 name: 'March of the Machines',
                 about: [
                     {
-                        type: '',
+                        type: 'направленная на точку',
+                        damage: 'магический',
+                        immunity: 'нет',
                     }
                 ],
                 description: 'Призывает армию механических слуг, атакующих врагов вокруг Tinker.',
@@ -5393,7 +7809,7 @@ export default [
                 name: 'Rearm',
                 about: [
                     {
-                        type: '',
+                        type: 'прерываемая',
                     }
                 ],
                 description: 'ПРЕРЫВАЕМАЯ — сбрасывает время перезарядки способностей и большинства предметов героя.',
@@ -5406,13 +7822,35 @@ export default [
         name: "Tiny",
         image: require("image/heroes/Tiny_icon.png"),
         characteristic: 'Strength',
+        hp: [
+            {
+                health: '800',
+                restore: '+2.7',
+            },
+        ],
+        mp: [
+            {
+                mana: '279',
+                restore: '+1.2',
+            },
+        ],
+        stats: [
+            {
+                strength: '30',
+                agility: '0',
+                intelligence: '17',
+            }
+        ],
         skills: [
             {
                 image: require("image/skills/Tiny_avalanche.png"),
                 name: 'Avalanche',
                 about: [
                     {
-                        type: '',
+                        type: 'направленная на точку',
+                        damage: 'магический',
+                        immunity: 'нет',
+                        deflation: 'чистым развеиванием',
                     }
                 ],
                 description: 'Заваливает зону камнями, нанося урон наземным вражеским юнитам и оглушая их.',
@@ -5422,7 +7860,9 @@ export default [
                 name: 'Toss',
                 about: [
                     {
-                        type: '',
+                        type: 'направленная на существо',
+                        damage: 'магический',
+                        immunity: 'да',
                     }
                 ],
                 description: 'Герой хватает ближайшее существо в радиусе 275, а затем бросает его в указанную цель или руну. В месте приземления наносится урон. Если брошен враг, он получит на 30%% больше урона.',
@@ -5432,7 +7872,10 @@ export default [
                 name: 'Tree Grab',
                 about: [
                     {
-                        type: '',
+                        type: 'направленная на существо',
+                        affect: 'на деревья',
+                        damage: 'физический',
+                        immunity: 'да',
                     }
                 ],
                 description: 'Герой вырывает из земли выбранное дерево, чтобы отметелить им врагов. Дерево ломается после определённого числа ударов, но увеличивает их дальность и урон (который ещё выше по постройкам). Удары также наносятся по существам рядом с основной целью. Дерево можно швырнуть во врага, чтобы нанести ему урон от атаки на расстоянии, но само дерево будет потеряно.',
@@ -5442,7 +7885,7 @@ export default [
                 name: 'Grow',
                 about: [
                     {
-                        type: '',
+                        type: 'пассивная',
                     }
                 ],
                 description: 'Герой обрастает камнями, увеличивая свою мощь и защищаясь от отрицательных эффектов.',
@@ -5455,13 +7898,33 @@ export default [
         name: "Treant Protector",
         image: require("image/heroes/Treant_Protector_icon.png"),
         characteristic: 'Strength',
+        hp: [
+            {
+                health: '700',
+                restore: '+1.7',
+            },
+        ],
+        mp: [
+            {
+                mana: '279',
+                restore: '+1.2',
+            },
+        ],
+        stats: [
+            {
+                strength: '25',
+                agility: '15',
+                intelligence: '17',
+            }
+        ],
         skills: [
             {
                 image: require("image/skills/Treant_protector_natures_guise.png"),
                 name: 'Nature\'s Guise',
                 about: [
                     {
-                        type: '',
+                        type: 'пассивная',
+                        deflation: 'нет',
                     }
                 ],
                 description: 'Делает героя невидимым, если он некоторое время находится рядом с деревом. Невидимость увеличивает скорость передвижения, а атака из неё лишит жертву возможности двигаться или атаковать.',
@@ -5471,7 +7934,11 @@ export default [
                 name: 'Leech Seed',
                 about: [
                     {
-                        type: '',
+                        type: 'направленная на существо',
+                        affect: 'на вражеских существ',
+                        damage: 'магический',
+                        immunity: 'нет',
+                        deflation: 'да',
                     }
                 ],
                 description: 'Герой сажает в тело жертвы истощающее семя, которое замедляет цель и отнимает ее здоровье. Также семя излечивает всех союзников поблизости. Пульсирует 6 раз.',
@@ -5481,7 +7948,10 @@ export default [
                 name: 'Living Armor',
                 about: [
                     {
-                        type: '',
+                        type: 'направленная на существо',
+                        affect: 'на союзных существ и постройки',
+                        immunity: 'да',
+                        deflation: 'да',
                     }
                 ],
                 description: 'Защищает выбранного героя или сооружение, увеличивая его регенерацию здоровья. Также блокирует часть любого получаемого урона. Эффект спадает при получении урона несколько раз.',
@@ -5491,7 +7961,10 @@ export default [
                 name: 'Overgrowth',
                 about: [
                     {
-                        type: '',
+                        type: 'ненаправленная',
+                        damage: 'магический',
+                        immunity: 'да',
+                        deflation: 'да',
                     }
                 ],
                 description: 'Вокруг Treant Protector разрастаются корни и лозы, опутывая врагов и не давая им перемещаться, телепортироваться, уходить в невидимость или атаковать.',
@@ -5504,13 +7977,32 @@ export default [
         name: "Troll Warlord",
         image: require("image/heroes/Troll_Warlord_icon.png"),
         characteristic: 'Agility',
+        hp: [
+            {
+                health: '600',
+                restore: '+1.6',
+            },
+        ],
+        mp: [
+            {
+                mana: '231',
+                restore: '+1.2',
+            },
+        ],
+        stats: [
+            {
+                strength: '20',
+                agility: '21',
+                intelligence: '13',
+            }
+        ],
         skills: [
             {
                 image: require("image/skills/Troll_warlord_berserkers_rage.png"),
                 name: 'Berserker\'s Rage',
                 about: [
                     {
-                        type: '',
+                        type: 'переключаемая',
                     }
                 ],
                 description: 'Когда эта способность активирована, герой использует свои метательные топоры в ближнем бою. При этом повышается скорость атаки и передвижения героя, он получает дополнительную броню и шанс оглушить цель при атаке.\n\nBerserker\'s Rage также изменяет свойства способности Whirling Axes.',
@@ -5520,7 +8012,24 @@ export default [
                 name: 'Whirling Axes (дальний бой)',
                 about: [
                     {
-                        type: '',
+                        type: 'направленная на существо',
+                        affect: 'на вражеских существ',
+                        damage: 'магический',
+                        immunity: 'нет',
+                        deflation: 'да',
+                    }
+                ],
+                description: 'Тролль бросает пять топоров веером на расстояние 900, замедляя врагов и нанося им урон.',
+            },
+            {
+                image: require("image/skills/Troll_warlord_whirling_axes_melee.png"),
+                name: 'Whirling Axes (ближний бой)',
+                about: [
+                    {
+                        type: 'ненаправленная',
+                        damage: 'магический',
+                        immunity: 'нет',
+                        deflation: 'да',
                     }
                 ],
                 description: 'Тролль бросает пять топоров веером на расстояние 900, замедляя врагов и нанося им урон.',
@@ -5530,7 +8039,8 @@ export default [
                 name: 'Fervor',
                 about: [
                     {
-                        type: '',
+                        type: 'пассивная',
+                        deflation: 'нет',
                     }
                 ],
                 description: 'Каждый последующий удар по одной и той же цели увеличивает скорость атаки тролля. Если тролль сменит цель, бонус обнулится.',
@@ -5540,7 +8050,8 @@ export default [
                 name: 'Battle Trance',
                 about: [
                     {
-                        type: '',
+                        type: 'ненаправленная',
+                        deflation: 'нет',
                     }
                 ],
                 description: 'Присутствие тролля на поле битвы повышает скорость атаки у него и всех союзников.',
@@ -5553,13 +8064,35 @@ export default [
         name: "Tusk",
         image: require("image/heroes/Tusk_icon.png"),
         characteristic: 'Strength',
+        hp: [
+            {
+                health: '660',
+                restore: '+1.7',
+            },
+        ],
+        mp: [
+            {
+                mana: '291',
+                restore: '+1.3',
+            },
+        ],
+        stats: [
+            {
+                strength: '23',
+                agility: '23',
+                intelligence: '18',
+            }
+        ],
         skills: [
             {
                 image: require("image/skills/Tusk_ice_shards.png"),
                 name: 'Ice Shards',
                 about: [
                     {
-                        type: '',
+                        type: 'направленная на точку',
+                        affect: 'на вражеских существ',
+                        damage: 'магический',
+                        immunity: 'нет',
                     }
                 ],
                 description: 'Герой сжимает осколки льда в шар холодной энергии, который наносит урон всем врагам, которых он коснется. Когда шар достигнет точки назначения, то осколки высвободятся, создавая барьер на 7.0 сек.',
@@ -5569,7 +8102,11 @@ export default [
                 name: 'Snowball',
                 about: [
                     {
-                        type: '',
+                        type: 'направленная на существо',
+                        affect: 'на вражеских существ',
+                        damage: 'магический',
+                        immunity: 'нет',
+                        deflation: 'нет',
                     }
                 ],
                 description: 'Герой заворачивается в снежный ком. Союзников в радиусе 350 также можно поместить в ком, нажав на них правой кнопкой мыши, даже если ком уже движется. После запуска все враги на пути кома будут оглушены и получат урон. Чем больше в коме союзных героев, тем больше урон от него.',
@@ -5579,7 +8116,8 @@ export default [
                 name: 'Frozen Sigil',
                 about: [
                     {
-                        type: '',
+                        type: 'ненаправленная',
+                        immunity: 'нет',
                     }
                 ],
                 description: 'Tusk призывает печать мороза, взывая к глубочайшему холоду зимы. Печать создает метель, которая замедляет всех вражеских существ в радиусе 600 единиц.',
@@ -5589,7 +8127,10 @@ export default [
                 name: 'Walrus PUNCH!',
                 about: [
                     {
-                        type: '',
+                        type: 'автоматическая',
+                        affect: 'на вражеских существ',
+                        immunity: 'да',
+                        deflation: 'да',
                     }
                 ],
                 description: 'Герой совершает свой коронный удар — настолько мощный, что подбрасывает жертву в воздух, нанося ей критический урон. После приземления жертва будет замедлена.',
@@ -5602,13 +8143,35 @@ export default [
         name: "Underlord",
         image: require("image/heroes/Underlord_icon.png"),
         characteristic: 'Strength',
+        hp: [
+            {
+                health: '700',
+                restore: '+1.7',
+            },
+        ],
+        mp: [
+            {
+                mana: '279',
+                restore: '+1.2',
+            },
+        ],
+        stats: [
+            {
+                strength: '25',
+                agility: '12',
+                intelligence: '17',
+            }
+        ],
         skills: [
             {
                 image: require("image/skills/Firestorm_icon.png"),
                 name: 'Firestorm',
                 about: [
                     {
-                        type: '',
+                        type: 'направленная на точку',
+                        damage: 'магический',
+                        immunity: 'нет',
+                        deflation: 'да',
                     }
                 ],
                 description: 'Обрушивает на указанную область волны пламени, наносящие урон врагам. Жертвы также получают периодический урон, зависящий от их максимального запаса здоровья.',
@@ -5618,7 +8181,10 @@ export default [
                 name: 'Pit of Malice',
                 about: [
                     {
-                        type: '',
+                        type: 'направленная на точку',
+                        damage: 'магический',
+                        immunity: 'нет',
+                        deflation: 'да',
                     }
                 ],
                 description: 'Создаёт разлом в выбранной области. Любое попавшее в него существо цепенеет. Срабатывает на каждое вражеское существо лишь раз в 3.6 сек.',
@@ -5628,10 +8194,12 @@ export default [
                 name: 'Atrophy Aura',
                 about: [
                     {
-                        type: '',
+                        type: 'аура',
+                        affect: 'на врагов',
+                        deflation: 'нет',
                     }
                 ],
-                description: 'Уменьшает урон всех вражеских существ неподалёку. Если жертва способности погибнет, герой временно получит дополнительный урон.\n\nУлучшается с Aghanim\'s Scepter.',
+                description: 'Уменьшает урон всех вражеских существ неподалёку. Если жертва способности погибнет, герой временно получит дополнительный урон.',
                 aghanim_description: 'Даёт половину дополнительного урона от этой способности союзникам неподалёку.',
             },
             {
@@ -5639,7 +8207,9 @@ export default [
                 name: 'Dark Rift',
                 about: [
                     {
-                        type: '',
+                        type: 'направленная на существо',
+                        affect: 'на союзных крипов',
+                        deflation: 'нет',
                     }
                 ],
                 description: 'Открывает тёмную брешь возле выбранного союзного существа. После небольшой задержки владелец способности и все союзные герои вокруг него телепортируются к этой бреши. Способность начнёт перезаряжаться, даже если отменить её или если цель телепортации умрёт.',
@@ -5652,16 +8222,38 @@ export default [
         name: "Undying",
         image: require("image/heroes/Undying_icon.png"),
         characteristic: 'Strength',
+        hp: [
+            {
+                health: '640',
+                restore: '+1.7',
+            },
+        ],
+        mp: [
+            {
+                mana: '399',
+                restore: '+1.4',
+            },
+        ],
+        stats: [
+            {
+                strength: '22',
+                agility: '10',
+                intelligence: '27',
+            }
+        ],
         skills: [
             {
                 image: require("image/skills/Undying_decay.png"),
                 name: 'Decay',
                 about: [
                     {
-                        type: '',
+                        type: 'направленная на точку',
+                        damage: 'магический',
+                        immunity: 'нет',
+                        deflation: 'нет',
                     }
                 ],
-                description: 'Undying наносит урон вражеским героям в указанной области и забирает себе часть их силы.\n\nУлучшается с Aghanim\'s Scepter.',
+                description: 'Undying наносит урон вражеским героям в указанной области и забирает себе часть их силы.',
                 aghanim_description: 'Увеличивает количество отнимаемой силы.',
             },
             {
@@ -5669,7 +8261,9 @@ export default [
                 name: 'Soul Rip',
                 about: [
                     {
-                        type: '',
+                        type: 'направленная на существо',
+                        damage: 'магический',
+                        immunity: 'нет',
                     }
                 ],
                 description: 'Undying вырывает жизненные силы из всех существ, стоящих рядом, чтобы вылечить союзника или нанести урон противнику. Также этой способностью можно лечить надгробие.',
@@ -5679,7 +8273,8 @@ export default [
                 name: 'Tombstone',
                 about: [
                     {
-                        type: '',
+                        type: 'направленная на точку',
+                        deflation: 'да',
                     }
                 ],
                 description: 'Призывает надгробный камень в указанной точке. Периодически он призывает зомби рядом с каждым врагом в определенной области вокруг себя. Зомби обладают способностью Deathlust, которая замедляет их цели при атаках, а также, если здоровье цели падает ниже определенного уровня, способность увеличивает скорость атаки и передвижения зомби.',
@@ -5689,7 +8284,9 @@ export default [
                 name: 'Flesh Golem',
                 about: [
                     {
-                        type: '',
+                        type: 'ненаправленная',
+                        immunity: 'да',
+                        deflation: 'нет',
                     }
                 ],
                 description: 'Undying превращается в ужасающего голема из плоти, излучающего чумную ауру. Эта аура замедляет всех врагов в радиусе %radius% и увеличивает урон, который они получают: чем ближе враг к Undying, тем сильнее урон и замедление. Когда зараженное чумой существо умирает, Undying исцеляется на процент от максимального здоровья жертвы.',
@@ -5702,13 +8299,35 @@ export default [
         name: "Ursa",
         image: require("image/heroes/Ursa_icon.png"),
         characteristic: 'Agility',
+        hp: [
+            {
+                health: '660',
+                restore: '+2.2',
+            },
+        ],
+        mp: [
+            {
+                mana: '267',
+                restore: '+1.2',
+            },
+        ],
+        stats: [
+            {
+                strength: '23',
+                agility: '18',
+                intelligence: '16',
+            }
+        ],
         skills: [
             {
                 image: require("image/skills/Ursa_earthshock.png"),
                 name: 'Earthshock',
                 about: [
                     {
-                        type: '',
+                        type: 'ненаправленная',
+                        damage: 'магический',
+                        immunity: 'нет',
+                        deflation: 'да',
                     }
                 ],
                 description: 'Ursa бьет о землю, нанося урон всем вражеским юнитам неподалеку и замедляя их на 4 секунды.',
@@ -5718,7 +8337,8 @@ export default [
                 name: 'Overpower',
                 about: [
                     {
-                        type: '',
+                        type: 'ненаправленная',
+                        immunity: 'да',
                     }
                 ],
                 description: 'Используя свой боевой опыт, Ursa увеличивает скорость атаки на несколько следующих атак.',
@@ -5728,7 +8348,10 @@ export default [
                 name: 'Fury Swipes',
                 about: [
                     {
-                        type: '',
+                        type: 'пассивная',
+                        damage: 'физический',
+                        immunity: 'да',
+                        deflation: 'нет',
                     }
                 ],
                 description: 'Когти Ursa с каждой атакой все глубже впиваются в плоть врага, нанося увеличенный урон с каждой последующей атакой. Дополнительный урон будет потерян, если цель не будет атакована в течение 15 секунд.',
@@ -5738,10 +8361,12 @@ export default [
                 name: 'Enrage',
                 about: [
                     {
-                        type: '',
+                        type: 'ненаправленная',
+                        immunity: 'да',
+                        deflation: 'нет',
                     }
                 ],
-                description: 'Приводит героя в бешенство, отчего он наносит больше урона способностью Fury Swipes и получает на 80% меньше урона. Снимает все негативные эффекты.\n\nУлучшается с Aghanim\'s Scepter.\n\nТИП РАЗВЕИВАНИЯ: сильное',
+                description: 'Приводит героя в бешенство, отчего он наносит больше урона способностью Fury Swipes и получает на 80% меньше урона. Снимает все негативные эффекты.\n\nТИП РАЗВЕИВАНИЯ: сильное',
                 aghanim_description: 'Уменьшает время перезарядки и позволяет применять эту способность, даже когда герой выведен из строя.',
             },
         ],
@@ -5752,13 +8377,36 @@ export default [
         name: "Vengeful Spirit",
         image: require("image/heroes/Vengeful_Spirit_icon.png"),
         characteristic: 'Agility',
+        hp: [
+            {
+                health: '560',
+                restore: '+1.6',
+            },
+        ],
+        mp: [
+            {
+                mana: '231',
+                restore: '+1.2',
+            },
+        ],
+        stats: [
+            {
+                strength: '18',
+                agility: '27',
+                intelligence: '13',
+            }
+        ],
         skills: [
             {
                 image: require("image/skills/Vengeful_spirit_magic_missile.png"),
                 name: 'Magic Missile',
                 about: [
                     {
-                        type: '',
+                        type: 'направленная на существо',
+                        affect: 'на вражеских существ',
+                        damage: 'магический',
+                        immunity: 'нет',
+                        deflation: 'сильным развеиванием',
                     }
                 ],
                 description: 'Выпускает во врага магический снаряд, который оглушает и наносит урон.',
@@ -5768,7 +8416,10 @@ export default [
                 name: 'Wave of Terror',
                 about: [
                     {
-                        type: '',
+                        type: 'направленная на точку',
+                        damage: 'магический',
+                        immunity: 'да',
+                        deflation: 'да',
                     }
                 ],
                 description: 'Герой издаёт жуткий клич, ослабляя броню врагов и раскрывая туман войны.',
@@ -5778,7 +8429,8 @@ export default [
                 name: 'Vengeance Aura',
                 about: [
                     {
-                        type: '',
+                        type: 'пассивная',
+                        affect: 'на союзников',
                     }
                 ],
                 description: 'Герой одним своим присутствием увеличивает урон ближайших союзников. Если под действием ауры погибнет союзный герой, после него останется призрак, который будет атаковать своего убийцу.',
@@ -5788,10 +8440,11 @@ export default [
                 name: 'Nether Swap',
                 about: [
                     {
-                        type: '',
+                        type: 'направленная на существо',
+                        immunity: 'да',
                     }
                 ],
-                description: 'Мгновенно меняется местами с союзным или вражеским героем. Останавливает прерываемые способности.\n\nУлучшается с Aghanim\'s Scepter.',
+                description: 'Мгновенно меняется местами с союзным или вражеским героем. Останавливает прерываемые способности.',
                 aghanim_description: 'Уменьшает время перезарядки и позволяет применять способность на крипов. После смерти герой оставляет свою иллюзию, которая существует, пока он не воскреснет, и может применять все его способности (но не предметы).',
             },
         ],
@@ -5802,13 +8455,35 @@ export default [
         name: "Venomancer",
         image: require("image/heroes/Venomancer_icon.png"),
         characteristic: 'Agility',
+        hp: [
+            {
+                health: '560',
+                restore: '+1.6',
+            },
+        ],
+        mp: [
+            {
+                mana: '279',
+                restore: '+1.2',
+            },
+        ],
+        stats: [
+            {
+                strength: '18',
+                agility: '22',
+                intelligence: '17',
+            }
+        ],
         skills: [
             {
                 image: require("image/skills/Venomancer_venomous_gale.png"),
                 name: 'Venomous Gale',
                 about: [
                     {
-                        type: '',
+                        type: 'направленная на точку',
+                        damage: 'магический',
+                        immunity: 'нет',
+                        deflation: 'да',
                     }
                 ],
                 description: 'Выплевывает в указанном направлении ядовитый шар, который наносит урон всем задетым врагам и отравляет их. Пораженные цели медленнее передвигаются, а также получают урон каждые 3 секунды действия способности.',
@@ -5818,7 +8493,10 @@ export default [
                 name: 'Poison Sting',
                 about: [
                     {
-                        type: '',
+                        type: 'пассивная',
+                        damage: 'магический',
+                        immunity: 'да',
+                        deflation: 'нет',
                     }
                 ],
                 description: 'Добавляет в обычные атаки героя яд, который наносит периодический урон и снижает скорость передвижения жертвы.',
@@ -5828,7 +8506,9 @@ export default [
                 name: 'Plague Ward',
                 about: [
                     {
-                        type: '',
+                        type: 'направленная на точку',
+                        damage: 'физический',
+                        immunity: 'да',
                     }
                 ],
                 description: 'Призывает вард, атакующий вражеских существ и сооружения. Вард невосприимчив к магии. Он имеет текущий уровень вашей способности Poison Sting, нанося 50% от её полного урона.',
@@ -5838,10 +8518,13 @@ export default [
                 name: 'Poison Nova',
                 about: [
                     {
-                        type: '',
+                        type: 'ненаправленная',
+                        damage: 'магический',
+                        immunity: 'да',
+                        deflation: 'нет',
                     }
                 ],
-                description: 'Герой распыляет яд на врагов вокруг себя. Жертвы постепенно теряют своё здоровье, но оно не может упасть ниже единицы.\n\nУлучшается с Aghanim\'s Scepter.',
+                description: 'Герой распыляет яд на врагов вокруг себя. Жертвы постепенно теряют своё здоровье, но оно не может упасть ниже единицы.',
                 aghanim_description: 'Увеличивает урон и уменьшает время перезарядки.',
             },
         ],
@@ -5852,13 +8535,36 @@ export default [
         name: "Viper",
         image: require("image/heroes/Viper_icon.png"),
         characteristic: 'Agility',
+        hp: [
+            {
+                health: '600',
+                restore: '+1.6',
+            },
+        ],
+        mp: [
+            {
+                mana: '255',
+                restore: '+1.2',
+            },
+        ],
+        stats: [
+            {
+                strength: '20',
+                agility: '21',
+                intelligence: '15',
+            }
+        ],
         skills: [
             {
                 image: require("image/skills/Viper_poison_attack.png"),
                 name: 'Poison Attack',
                 about: [
                     {
-                        type: '',
+                        type: 'автоматическая',
+                        affect: 'на вражеских существ',
+                        damage: 'магический',
+                        immunity: 'нет',
+                        deflation: 'да',
                     }
                 ],
                 description: 'Добавляет к обычной атаке героя яд, уменьшающий скорость атаки и передвижения врага и наносящий ему периодический урон в зависимости от уровня его здоровья.',
@@ -5868,7 +8574,9 @@ export default [
                 name: 'Nethertoxin',
                 about: [
                     {
-                        type: '',
+                        type: 'направленная на точку',
+                        damage: 'магический',
+                        immunity: 'нет',
                     }
                 ],
                 description: 'Герой покрывает землю особым ядом. Противники в отравленной области получают периодический урон и имеют пониженное сопротивление магии, а их пассивные способности перестают работать.',
@@ -5878,7 +8586,10 @@ export default [
                 name: 'Corrosive Skin',
                 about: [
                     {
-                        type: '',
+                        type: 'пассивная',
+                        damage: 'магический',
+                        immunity: 'нет',
+                        deflation: 'да',
                     }
                 ],
                 description: 'Viper источает клейкий яд, который замедляет врага и наносит ему урон, если тот наносит урон Viper и находится на расстоянии до 1400 единиц от него. Кроме того, Viper получает дополнительную сопротивляемость к заклинаниям.',
@@ -5888,10 +8599,14 @@ export default [
                 name: 'Viper Strike',
                 about: [
                     {
-                        type: '',
+                        type: 'направленная на существо',
+                        affect: 'на вражеских существ',
+                        damage: 'магический',
+                        immunity: 'да',
+                        deflation: 'нет',
                     }
                 ],
-                description: 'Viper замедляет скорость атаки и передвижения выбранного врага, при этом нанося ему периодический урон. Скорость врага постепенно восстанавливается в течение действия яда.\n\nУлучшается с Aghanim\'s Scepter.',
+                description: 'Viper замедляет скорость атаки и передвижения выбранного врага, при этом нанося ему периодический урон. Скорость врага постепенно восстанавливается в течение действия яда.',
                 aghanim_description: 'Уменьшает расход маны и время перезарядки. Увеличивает дальность применения.',
             },
         ],
@@ -5902,13 +8617,35 @@ export default [
         name: "Visage",
         image: require("image/heroes/Visage_icon.png"),
         characteristic: 'Intelligence',
+        hp: [
+            {
+                health: '640',
+                restore: '+1.7',
+            },
+        ],
+        mp: [
+            {
+                mana: '363',
+                restore: '+1.4',
+            },
+        ],
+        stats: [
+            {
+                strength: '22',
+                agility: '11',
+                intelligence: '24',
+            }
+        ],
         skills: [
             {
                 image: require("image/skills/Visage_grave_chill.png"),
                 name: 'Grave Chill',
                 about: [
                     {
-                        type: '',
+                        type: 'направленная на существо',
+                        affect: 'на вражеских существ',
+                        immunity: 'нет',
+                        deflation: 'да',
                     }
                 ],
                 description: 'Крадёт скорость передвижения и атаки цели, прибавляя эти показатели себе и гаргульям.',
@@ -5918,7 +8655,10 @@ export default [
                 name: 'Soul Assumption',
                 about: [
                     {
-                        type: '',
+                        type: 'направленная на существо',
+                        affect: 'на вражеских существ',
+                        damage: 'магический',
+                        immunity: 'нет',
                     }
                 ],
                 description: 'Visage получает по заряду каждый раз, когда урон, нанесенный героям неподалеку, превышает %damage_limit%. При высвобождении наносит урон выбранной цели, увеличивающийся с каждым полученным зарядом.',
@@ -5928,20 +8668,32 @@ export default [
                 name: 'Gravekeeper\'s Cloak',
                 about: [
                     {
-                        type: '',
+                        type: 'пассивная',
                     }
                 ],
                 description: 'Герой создает на себе слоистый защитный барьер. Если герой получает урон от игрока, один слой исчезает, и затем восстанавливается спустя определенное время.',
+            },
+            {
+                image: require("image/skills/Visage_summon_familiars_stone_form.png"),
+                name: 'Stone From',
+                about: [
+                    {
+                        type: 'ненаправленная',
+                        immunity: 'нет',
+                        deflation: 'да',
+                    }
+                ],
+                description: 'После небольшой задержки гаргулья обращается в камень и падает на землю, оглушая врагов в небольшой области и нанося им урон. По приземлении она становится неуязвимой и очень быстро восстанавливает здоровье. Через 6 сек. гаргулья возвращается в обычное состояние.',
             },
             {
                 image: require("image/skills/Visage_summon_familiars.png"),
                 name: 'Summon Familiars',
                 about: [
                     {
-                        type: '',
+                        type: 'ненаправленная',
                     }
                 ],
-                description: 'Призывает двух слепых гаргулий, которые будут сражаться на стороне героя. Гаргульи имеют способность Stone Form, которая позволяет им превращаться в камень, оглушая врагов при приземлении. В форме камня гаргульи неуязвимы и быстро восстанавливают здоровье. За убийство гаргулий враг получает значительную награду.\n\nУлучшается с Aghanim\'s Scepter.',
+                description: 'Призывает двух слепых гаргулий, которые будут сражаться на стороне героя. Гаргульи имеют способность Stone Form, которая позволяет им превращаться в камень, оглушая врагов при приземлении. В форме камня гаргульи неуязвимы и быстро восстанавливают здоровье. За убийство гаргулий враг получает значительную награду.',
                 aghanim_description: 'Призывает трех гаргулий.',
             },
         ],
@@ -5952,13 +8704,35 @@ export default [
         name: "Warlock",
         image: require("image/heroes/Warlock_icon.png"),
         characteristic: 'Intelligence',
+        hp: [
+            {
+                health: '640',
+                restore: '+1.7',
+            },
+        ],
+        mp: [
+            {
+                mana: '363',
+                restore: '+1.4',
+            },
+        ],
+        stats: [
+            {
+                strength: '22',
+                agility: '10',
+                intelligence: '24',
+            }
+        ],
         skills: [
             {
                 image: require("image/skills/Warlock_fatal_bonds.png"),
                 name: 'Fatal Bonds',
                 about: [
                     {
-                        type: '',
+                        type: 'направленная на существо',
+                        affect: 'на вражеских существ',
+                        immunity: 'нет',
+                        deflation: 'да',
                     }
                 ],
                 description: 'Соединяет несколько врагов магической связью, в результате чего часть урона, полученного любым из них, наносится и остальным.',
@@ -5968,7 +8742,11 @@ export default [
                 name: 'Shadow Word',
                 about: [
                     {
-                        type: '',
+                        type: 'направленная на существо',
+                        affect: 'на героев',
+                        damage: 'магический',
+                        immunity: 'нет',
+                        deflation: 'да',
                     }
                 ],
                 description: 'Warlock шепчет заклинание, излечивая дружественных юнитов или нанося урон вражеским на протяжении времени.',
@@ -5978,7 +8756,9 @@ export default [
                 name: 'Upheaval',
                 about: [
                     {
-                        type: '',
+                        type: 'прерываемая',
+                        immunity: 'нет',
+                        deflation: 'да',
                     }
                 ],
                 description: 'ПРЕРЫВАЕМАЯ — мощный замедляющий поток энергии, со временем становящийся сильнее. Действует до 16 секунд. Эффект сохраняется в течение 3 секунд после того, как враг покинул зону действия или заклинание прервалось.',
@@ -5988,10 +8768,13 @@ export default [
                 name: 'Chaotic Offering',
                 about: [
                     {
-                        type: '',
+                        type: 'направленная на точку',
+                        damage: 'магический',
+                        immunity: 'нет',
+                        deflation: 'сильным развеиванием',
                     }
                 ],
-                description: 'Вызывает из пучин Голема, оглушающего врагов на 1 секунду. Время жизни голема — 60 секунд, он получает меньше урона от заклинаний и при атаке накладывает на жертву Permanent Immolation и Flaming Fists.\n\nУлучшается с Aghanim\'s Scepter.',
+                description: 'Вызывает из пучин Голема, оглушающего врагов на 1 секунду. Время жизни голема — 60 секунд, он получает меньше урона от заклинаний и при атаке накладывает на жертву Permanent Immolation и Flaming Fists.',
                 aghanim_description: 'Призывает двух големов со сниженными параметрами и наградой за убийство.',
             },
         ],
@@ -6002,13 +8785,35 @@ export default [
         name: "Weaver",
         image: require("image/heroes/Weaver_icon.png"),
         characteristic: 'Agility',
+        hp: [
+            {
+                health: '500',
+                restore: '+1.6',
+            },
+        ],
+        mp: [
+            {
+                mana: '255',
+                restore: '+1.2',
+            },
+        ],
+        stats: [
+            {
+                strength: '15',
+                agility: '14',
+                intelligence: '15',
+            }
+        ],
         skills: [
             {
                 image: require("image/skills/Weaver_the_swarm.png"),
                 name: 'The Swarm',
                 about: [
                     {
-                        type: '',
+                        type: 'направленная на точку',
+                        damage: 'физический',
+                        immunity: 'да',
+                        deflation: 'нет',
                     }
                 ],
                 description: 'Weaver выпускает рой из 12 жуков, которые цепляются за любого врага на своем пути, атакуя и снижая его броню до тех пор, пока не будут убиты.',
@@ -6018,7 +8823,10 @@ export default [
                 name: 'Shukuchi',
                 about: [
                     {
-                        type: '',
+                        type: 'ненаправленная',
+                        damage: 'магический',
+                        immunity: 'нет',
+                        deflation: 'нет',
                     }
                 ],
                 description: 'Weaver уходит из зоны видимости, что позволяет ему проходить через юнитов на максимальной скорости. Врагам, через которых он проходит, наносится урон.',
@@ -6028,7 +8836,8 @@ export default [
                 name: 'Geminate Attack',
                 about: [
                     {
-                        type: '',
+                        type: 'пассивная',
+                        immunity: 'да',
                     }
                 ],
                 description: 'Позволяет Weaver атаковать противника дважды.',
@@ -6038,10 +8847,11 @@ export default [
                 name: 'Time Lapse',
                 about: [
                     {
-                        type: '',
+                        type: 'ненаправленная',
+                        affect: 'на союзных героев',
                     }
                 ],
-                description: 'Герой возвращается в положение, в котором он был пять секунд назад, возвращая уровень здоровья и маны на былой уровень. Не действует на перезарядку способностей и предметов, а также золото и опыт.\n\nУлучшается с Aghanim\'s Scepter.\n\nТИП РАЗВЕИВАНИЯ: Сильное',
+                description: 'Герой возвращается в положение, в котором он был пять секунд назад, возвращая уровень здоровья и маны на былой уровень. Не действует на перезарядку способностей и предметов, а также золото и опыт.\n\nТИП РАЗВЕИВАНИЯ: Сильное',
                 aghanim_description: 'Уменьшает время перезарядки и позволяет применять эту способность на союзников.',
             },
         ],
@@ -6052,13 +8862,35 @@ export default [
         name: "Windranger",
         image: require("image/heroes/Windranger_icon.png"),
         characteristic: 'Intelligence',
+        hp: [
+            {
+                health: '500',
+                restore: '+1.6',
+            },
+        ],
+        mp: [
+            {
+                mana: '339',
+                restore: '+1.3',
+            },
+        ],
+        stats: [
+            {
+                strength: '15',
+                agility: '17',
+                intelligence: '22',
+            }
+        ],
         skills: [
             {
                 image: require("image/skills/Windranger_shackleshot.png"),
                 name: 'Shackleshot',
                 about: [
                     {
-                        type: '',
+                        type: 'направленная на существо',
+                        affect: 'на вражеских существ',
+                        immunity: 'нет',
+                        deflation: 'сильным развеиванием',
                     }
                 ],
                 description: 'Связывает цель с вражеским юнитом или деревом, находящимся позади. Если сзади цели нет дерева или юнита, то время оглушения сократится до секунды.',
@@ -6068,7 +8900,9 @@ export default [
                 name: 'Powershot',
                 about: [
                     {
-                        type: '',
+                        type: 'прерываемая',
+                        damage: 'магический',
+                        immunity: 'нет',
                     }
                 ],
                 description: 'Windranger заряжает свой лук в течение одной секунды, чтобы произвести один мощный выстрел, урон которого увеличивается по мере зарядки. Стрела наносит урон вражеским юнитам и разрушает деревья на своем пути. За каждого врага, в которого попадет стрела, ее урон будет снижен на 20%.',
@@ -6078,7 +8912,9 @@ export default [
                 name: 'Windrun',
                 about: [
                     {
-                        type: '',
+                        type: 'ненаправленная',
+                        immunity: 'нет',
+                        deflation: 'да',
                     }
                 ],
                 description: 'Увеличивает скорость передвижения и позволяет увернуться от всех физических атак, замедляя скорость передвижения у врагов поблизости.',
@@ -6088,7 +8924,10 @@ export default [
                 name: 'Focus Fire',
                 about: [
                     {
-                        type: '',
+                        type: 'направленная на существо',
+                        affect: 'на вражеских существ и постройки',
+                        immunity: 'да',
+                        deflation: 'нет',
                     }
                 ],
                 description: 'Windranger направляет ветер, повышая свою скорость атаки по одному вражескому юниту или сооружению на 350, но теряя часть урона от атак. Дополнительный урон от эффектов предметов не уменьшается. Длится 20 секунд.',
@@ -6101,13 +8940,34 @@ export default [
         name: "Winter Wyvern",
         image: require("image/heroes/Winter_Wyvern_icon.png"),
         characteristic: 'Intelligence',
+        hp: [
+            {
+                health: '680',
+                restore: '+1.7',
+            },
+        ],
+        mp: [
+            {
+                mana: '375',
+                restore: '+1.4',
+            },
+        ],
+        stats: [
+            {
+                strength: '24',
+                agility: '16',
+                intelligence: '25',
+            }
+        ],
         skills: [
             {
                 image: require("image/skills/Arctic_Burn_icon.png"),
                 name: 'Arctic Burn',
                 about: [
                     {
-                        type: '',
+                        type: 'ненаправленная',
+                        damage: 'магический',
+                        immunity: 'нет',
                     }
                 ],
                 description: 'Виверна взмывает в небо на арктическом ветре, получая беспрепятственное передвижение и вдыхая жгучий мороз в каждую свою атаку. В полете можно атаковать дальше и быстрее. Цель морозных атак замедляется и каждую секунду получает урон в размере 6%/7%/8%/9% от текущего запаса здоровья. Также эта способность защищает глаза от ночной прохлады, увеличивая радиус ночного обзора в полете на 400.',
@@ -6118,7 +8978,10 @@ export default [
                 name: 'Splinter Blast',
                 about: [
                     {
-                        type: '',
+                        type: 'направленная на существо',
+                        affect: 'на вражеских существ',
+                        damage: 'магический',
+                        immunity: 'нет',
                     }
                 ],
                 description: 'Запускает во врага ледяной шар, который после удара раскалывается на осколки, летящие в противников в радиусе 500 вокруг цели, не причиняя ей ущерб. Задетые осколками противники будут замедлены на 25%.',
@@ -6128,7 +8991,10 @@ export default [
                 name: 'Cold Embrace',
                 about: [
                     {
-                        type: '',
+                        type: 'направленная на существо',
+                        affect: 'на союзных существ',
+                        immunity: 'да',
+                        deflation: 'нет',
                     }
                 ],
                 description: 'Заковывает союзника в ледяной кокон, замораживая его и ежесекундно восстанавливая определенное число здоровья плюс процент от максимального уровня здоровья. Кокон полностью блокирует весь физический урон.',
@@ -6138,7 +9004,10 @@ export default [
                 name: 'Winter\'s Curse',
                 about: [
                     {
-                        type: '',
+                        type: 'направленная на существо',
+                        affect: 'на вражеских существ',
+                        damage: 'магический',
+                        immunity: 'да',
                     }
                 ],
                 description: 'Примораживает противника к земле, повергая окружающих его союзников в безумие и заставляя их атаковать цель способности с повышенной скоростью. Все противники, находящиеся под действием проклятия, не получают урон от своих врагов.',
@@ -6151,13 +9020,36 @@ export default [
         name: "Witch Doctor",
         image: require("image/heroes/Witch_Doctor_icon.png"),
         characteristic: 'Intelligence',
+        hp: [
+            {
+                health: '520',
+                restore: '+1.6',
+            },
+        ],
+        mp: [
+            {
+                mana: '363',
+                restore: '+1.4',
+            },
+        ],
+        stats: [
+            {
+                strength: '16',
+                agility: '13',
+                intelligence: '24',
+            }
+        ],
         skills: [
             {
                 image: require("image/skills/Witch_doctor_paralyzing_cask.png"),
                 name: 'Paralyzing Cask',
                 about: [
                     {
-                        type: '',
+                        type: 'направленная на существо',
+                        affect: 'на вражеских существ',
+                        damage: 'магический',
+                        immunity: 'нет',
+                        deflation: 'сильным развеиванием',
                     }
                 ],
                 description: 'Бросает бочонок с парализующим порошком, который отскакивает от противников, оглушая их и нанося им урон.',
@@ -6167,7 +9059,8 @@ export default [
                 name: 'Voodoo Restoration',
                 about: [
                     {
-                        type: '',
+                        type: 'переключаемая',
+                        deflation: 'нет',
                     }
                 ],
                 description: 'Герой направляет свои чары на лечение ближайших союзников.',
@@ -6177,7 +9070,10 @@ export default [
                 name: 'Maledict',
                 about: [
                     {
-                        type: '',
+                        type: 'направленная на точку',
+                        damage: 'магический',
+                        immunity: 'нет',
+                        deflation: 'нет',
                     }
                 ],
                 description: 'Проклинает всех вражеских героев в небольшой области, после чего они получают урон каждую секунду. Помимо этого, каждые 4 секунды им наносится периодический урон, зависящий от количества здоровья, потерянного с наложения проклятия.',
@@ -6187,10 +9083,12 @@ export default [
                 name: 'Death Ward',
                 about: [
                     {
-                        type: '',
+                        type: 'прерываемая',
+                        damage: 'физический',
+                        immunity: 'да',
                     }
                 ],
-                description: 'ПРЕРЫВАЕМАЯ — призывает смертоносный тотем, атакующий вражеских героев в радиусе 700. Действует 8 секунд.\n\nУлучшается с Aghanim\'s Scepter.',
+                description: 'ПРЕРЫВАЕМАЯ — призывает смертоносный тотем, атакующий вражеских героев в радиусе 700. Действует 8 секунд.',
                 aghanim_description: 'Атаки тотема отскакивают между вражескими героями и не могут промахнуться.',
             },
         ],
@@ -6201,13 +9099,36 @@ export default [
         name: "Wraith King",
         image: require("image/heroes/Wraith_King_icon.png"),
         characteristic: 'Strength',
+        hp: [
+            {
+                health: '640',
+                restore: '+1.7',
+            },
+        ],
+        mp: [
+            {
+                mana: '291',
+                restore: '+1.3',
+            },
+        ],
+        stats: [
+            {
+                strength: '22',
+                agility: '18',
+                intelligence: '18',
+            }
+        ],
         skills: [
             {
                 image: require("image/skills/Wraith_king_wraithfire_blast.png"),
                 name: 'Wraithfire Blast',
                 about: [
                     {
-                        type: '',
+                        type: 'направленная на существо',
+                        affect: 'на вражеских существ',
+                        damage: 'магический',
+                        immunity: 'нет',
+                        deflation: 'сильным развеиванием',
                     }
                 ],
                 description: 'Герой опаляет цель призрачным огнём, оглушая её и нанося ей урон. После оглушения цель будет получать периодический урон и замедлится.',
@@ -6217,7 +9138,8 @@ export default [
                 name: 'Vampiric Aura',
                 about: [
                     {
-                        type: '',
+                        type: 'аура',
+                        affect: 'на союзников',
                     }
                 ],
                 description: 'Каждая атака союзников неподалёку восстанавливает им здоровье в зависимости от нанесённого ей урона.',
@@ -6227,7 +9149,8 @@ export default [
                 name: 'Mortal Strike',
                 about: [
                     {
-                        type: '',
+                        type: 'ненаправденная',
+                        affect: 'на вражеских героев',
                     }
                 ],
                 description: 'Позволяет нанести атакой дополнительный урон. Если сработает на существо, не принадлежащее игроку, то оно мгновенно погибнет, а после его можно будет обратить в скелета-воина.',
@@ -6237,10 +9160,13 @@ export default [
                 name: 'Reincarnation',
                 about: [
                     {
-                        type: '',
+                        type: 'пассивная',
+                        affect: 'на союзных героев',
+                        immunity: 'нет',
+                        deflation: 'да',
                     }
                 ],
-                description: 'После смерти тело героя вновь собирается воедино, воскрешая его на поле боя. При этом все враги в радиусе %slow_radius% замедляются.\n\nУлучшается с Aghanim\'s Scepter.',
+                description: 'После смерти тело героя вновь собирается воедино, воскрешая его на поле боя. При этом все враги в радиусе %slow_radius% замедляются.',
                 aghanim_description: 'Если вблизи умрет союзный герой, то он превратится в призрака, отложив свою смерть на 7 секунд.',
             },
         ],
@@ -6251,13 +9177,35 @@ export default [
         name: "Zeus",
         image: require("image/heroes/Zeus_icon.png"),
         characteristic: 'Intelligence',
+        hp: [
+            {
+                health: '580',
+                restore: '+1.6',
+            },
+        ],
+        mp: [
+            {
+                mana: '339',
+                restore: '+1.3',
+            },
+        ],
+        stats: [
+            {
+                strength: '19',
+                agility: '11',
+                intelligence: '22',
+            }
+        ],
         skills: [
             {
                 image: require("image/skills/Zeus_arc_lightning.png"),
                 name: 'Arc Lightning',
                 about: [
                     {
-                        type: '',
+                        type: 'направленная на существо',
+                        affect: 'на вражеских существ',
+                        damage: 'магический',
+                        immunity: 'нет',
                     }
                 ],
                 description: 'Выпускает молнию, которая перескакивает с одного врага на другого.',
@@ -6267,7 +9215,10 @@ export default [
                 name: 'Lightning Bolt',
                 about: [
                     {
-                        type: '',
+                        type: 'направленная на существо',
+                        affect: 'на вражеских существ',
+                        damage: 'магический',
+                        immunity: 'нет',
                     }
                 ],
                 description: 'Ударяет врага молнией, нанося ему урон и кратковременно оглушая. В радиусе 750 вокруг цели ненадолго раскрываются туман войны и невидимость. Способность можно применить на землю — тогда она подействует на ближайшего вражеского героя в радиусе 325.',
@@ -6277,7 +9228,9 @@ export default [
                 name: 'Static Field',
                 about: [
                     {
-                        type: '',
+                        type: 'пассивная',
+                        damage: 'магический',
+                        immunity: 'нет',
                     }
                 ],
                 description: 'Герой поражает током врагов поблизости каждый раз, когда произносит заклинание. Урон пропорционален уровню текущего здоровья жертв.',
@@ -6287,7 +9240,9 @@ export default [
                 name: 'Thundergod\'s Wrath',
                 about: [
                     {
-                        type: '',
+                        type: 'ненаправленная',
+                        damage: 'магический',
+                        immunity: 'нет',
                     }
                 ],
                 description: 'Поражает всех вражеских героев молнией вне зависимости от их местоположения. Способность также раскрывает невидимость вражеских существ вокруг каждого ударенного противника. Если герой врага невидим, то он не получит урона, но невидимость всё равно раскроется.',

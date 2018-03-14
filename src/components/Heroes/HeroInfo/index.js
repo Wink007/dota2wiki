@@ -18,7 +18,7 @@ export default class HeroInfo extends Component {
                 </div>    
             );            
         }
-        const { image, name, about, skills } = currentHero;
+        const { image, hp, mp, stats, name, about, skills } = currentHero;
 
         return (
             <div className={currentHero ? "hero-info show-hero-info" : "hero-info"}>
@@ -48,21 +48,41 @@ export default class HeroInfo extends Component {
                     </div>
                     <div className="info">
                         <p className="name">{name || ''}</p>
-                        <p className="hp">500</p>
-                        <p className="mp">400</p>
+                        {
+                            hp.map((health, index) => (
+                                <p key={index} className="hp">
+                                    <span className="health">{health.health}</span>
+                                    <span className="health-restore">{health.restore}</span>
+                                </p>
+                            ))
+                        }
+                        {
+                            mp.map((mana, index) => (
+                                <p key={index} className="mp">
+                                    <span className="mana">{mana.mana}</span>
+                                    <span className="mana-restore">{mana.restore}</span>
+                                </p>
+                            ))
+                        }
                         <div className="characteristics">
-                            <div className="srt">
-                                <img src={imgStr} alt=""/>
-                                <p>30</p>
-                            </div>
-                            <div className="agility">
-                                <img src={imgAgil} alt=""/>
-                                <p>17</p>
-                            </div>
-                            <div className="int">
-                                <img src={imgInt} alt=""/>
-                                <p>21</p>
-                            </div>
+                            {
+                                stats.map((stat, idx) => (
+                                    <div key={idx} className="characteristics-wrapper">
+                                        <div className="srt">
+                                            <img src={imgStr} alt=""/>
+                                            <p>{stat.strength}</p>
+                                        </div>
+                                        <div className="agility">
+                                            <img src={imgAgil} alt=""/>
+                                            <p>{stat.agility}</p>
+                                        </div>
+                                        <div className="int">
+                                            <img src={imgInt} alt=""/>
+                                            <p>{stat.intelligence}</p>
+                                        </div>
+                                    </div>
+                                ))
+                            }
                         </div>
                     </div>
                 </div>

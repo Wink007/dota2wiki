@@ -67,22 +67,49 @@
             width: 54%;
 
             .hp, .mp {
+                position: relative;
+                display: flex;
+                justify-content: center;
                 width: 95%;
                 margin-top: 15px;
                 border: 1px solid #000;
                 border-radius: 4px;
                 box-shadow: inset 0 10px 5px -5px rgba(#000, .4);
+                color: rgba(#fff, .8);
                 line-height: 20px;
-                text-align: center;
+                text-shadow: 1px 1px 1px #000;
+
+                .health, .mana {
+                    text-align: center;
+                }
+                
+                .health-restore, .mana-restore {
+                    position: absolute;
+                    top: 0;
+                    right: 10px;
+                    font-size: 12px;
+                    font-family: monospace;
+                    font-weight: bold;
+                }
             }
 
             .hp {
                 background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(13,184,13,1) 34%, rgba(32,150,14,1) 51%, rgba(30,107,0,1) 99%, rgba(71,230,39,1) 100%);
+
+                .health-restore, {
+                    color: #47e627;
+                    text-shadow: 1px 1px 1px #000;
+                }
             }
 
             .mp {
                 margin-top: 10px;
                 background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(70,76,204,1) 34%, rgba(39,34,171,1) 51%, rgba(5,17,148,1) 99%, rgba(71,230,39,1) 100%);
+                
+                .mana-restore, {
+                    color: #6d74ff;
+                    text-shadow: 1px 1px 1px #000;
+                }
             }
 
             .name {
@@ -98,23 +125,27 @@
             }
 
             .characteristics {
-                display: flex;
-                justify-content: space-between;
+                
                 width: 95%;
                 margin-top: 11px;
                 padding: 5px 10px;
                 box-shadow: 0 0 4px 1px #000;
                 background-color: rgba(#282a2c, .4);
 
-                img {
-                    width: 35px;
-                    height: 35px;
-                }
+                .characteristics-wrapper {
+                    display: flex;
+                    justify-content: space-between;
 
-                p {
-                    margin-top: 2px;
-                    color: #fff;
-                    text-align: center;
+                    img {
+                        width: 35px;
+                        height: 35px;
+                    }
+    
+                    p {
+                        margin-top: 2px;
+                        color: #fff;
+                        text-align: center;
+                    }
                 }
             }
         }

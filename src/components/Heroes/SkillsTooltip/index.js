@@ -13,7 +13,7 @@ export default class SkillsTooltip extends Component {
                 null    
             );            
         }
-        const { image, name, description, about } = currentSkill;
+        const { image, name, description, aghanim_description, about } = currentSkill;
                   
         return (
             <div className="skill-tooltip">
@@ -64,6 +64,7 @@ export default class SkillsTooltip extends Component {
                     </div>
                 <div className="description">
                     {description}
+                    {aghanim_description && <p className="improvement">Улучшается с Aghanim's Scepter</p>}
                 </div>
             </div>
         )
