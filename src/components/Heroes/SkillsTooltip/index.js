@@ -25,11 +25,42 @@ export default class SkillsTooltip extends Component {
                     </div>
                 </div>
                 <div className="about">
-                        <p className="type">ТИП: {about.type}</p>
-                        <p className="affect">ДЕЙСТВУЕТ: {about.affect}</p>
-                        <p className="damage">УРОН: {about.damage}</p>
-                        <p className="immunity">СКВОЗЬ НЕВОСПРИИМЧИВОСТЬ К МАГИИ: {about.immunity}</p>
-                        <p className="deflation">МОЖНО РАЗВЕЯТЬ: {about.deflation}</p>
+                        {
+                            about.map((items, index) => (
+                                <div key={index}>
+                                    {
+                                        items.type && 
+                                        <p className="type">
+                                            ТИП: <span>{items.type || '123'}</span>
+                                        </p>
+                                    }
+                                    {
+                                        items.affect && 
+                                        <p className="affect">
+                                            ДЕЙСТВУЕТ: <span>{items.affect}</span>
+                                        </p>
+                                    }
+                                    {
+                                        items.damage && 
+                                        <p className="damage">
+                                            УРОН: <span>{items.damage}</span>
+                                        </p>
+                                    }
+                                    {
+                                        items.immunity && 
+                                        <p className="immunity">
+                                            СКВОЗЬ НЕВОСПРИИМЧИВОСТЬ К МАГИИ: <span className={items.immunity === 'да' ? 'green' : 'red'}>{items.immunity}</span>
+                                        </p>
+                                    }
+                                    {
+                                        items.deflation && 
+                                        <p className="deflation">
+                                            МОЖНО РАЗВЕЯТЬ: <span className={items.deflation === 'да' ? 'green' : 'red'}>{items.deflation}</span>
+                                        </p> 
+                                    }
+                                </div>     
+                            ))
+                        }
                     </div>
                 <div className="description">
                     {description}
