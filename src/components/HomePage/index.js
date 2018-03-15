@@ -17,21 +17,21 @@ export default class HomePage extends Component {
 
     return (
         <Tabs className="container">
-        <TabList
-          className="list"
-          selectedindex={this.state.tabIndex}
-          onSelect={tabIndex => this.setState({ tabIndex })}
-        >
-          <Tab className="link heroes">
-            <span>Герои</span>
-          </Tab>
-          <Tab className="link items">
-            <span>Предметы</span>
-          </Tab>
-          <Tab className="link creeps">
-            <span>Крипы</span>
-          </Tab>
-        </TabList>
+          <TabList
+            className="list"
+            selectedindex={this.state.tabIndex}
+            onSelect={tabIndex => this.setState({ tabIndex })}
+          >
+            <Tab className="link heroes">
+              <span>Герои</span>
+            </Tab>
+            <Tab className="link items">
+              <span>Предметы</span>
+            </Tab>
+            <Tab className="link creeps">
+              <span>Крипы</span>
+            </Tab>
+          </TabList>
         <TabPanel className="preview">
           <Preview tab={heroes} />
         </TabPanel>

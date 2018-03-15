@@ -18,6 +18,13 @@ export default class Heroes extends Component {
         this.setState({
             currentHero
         });
+        const scrollStep = -window.scrollY / (500 / 15),
+        scrollInterval = setInterval(function(){
+        if ( window.scrollY !== 0 ) {
+            window.scrollBy( 0, scrollStep );
+        }
+        else clearInterval(scrollInterval); 
+    },15);
     };
 
     showSkill = (currentSkill) => (e) => {
