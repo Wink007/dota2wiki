@@ -1,0 +1,149 @@
+.about {
+    .info-block {
+        display: flex;
+        height: 176px;
+        //overflow: hidden;
+
+        .img-block {
+            width: 45%;
+    
+            .heroes-logo {
+                position: relative;
+    
+                .hero-logo-info {
+                    width: 180px;
+                    height: 115px;
+                    padding: 5px;
+                    box-shadow: 0 0 4px 1px #000;
+                }
+    
+                .aghanim {
+                    position: absolute;
+                    top: -10px;
+                    right: 4px;
+                    width: 40px;
+                    height: 40px;
+                    border-radius: 50%;
+                    background: url('../../../image/aghanim.png') no-repeat;
+                    background-size: contain;
+                    transition: animation 3s ease;
+                    animation-name: aganim-anim;
+                    animation-duration: 4s;
+                    animation-iteration-count: infinite;
+                    opacity: .9;
+    
+                    @keyframes aganim-anim {
+                        0% {
+                            filter: drop-shadow(0 0 4px rgba(0, 50, 255, .8));
+                        }
+    
+                        50% {
+                            filter: drop-shadow(0 0 4px rgba(255, 50, 255, .8));
+                        }
+    
+                        75% {
+                            filter: drop-shadow(0 0 4px rgba(255, 255, 0, .8));
+                        }
+    
+                        100% {
+                            filter: drop-shadow(0 0 4px rgba(0, 50, 255, .8));
+                        }
+                    }
+                }
+            }
+    
+            .hp, .mp {
+                position: relative;
+                display: flex;
+                justify-content: center;
+                width: 180px;
+                margin-top: 10px;
+                border: 1px solid #000;
+                border-radius: 4px;
+                box-shadow: inset 0 10px 5px -5px rgba(#000, .4);
+                color: rgba(#fff, .8);
+                line-height: 20px;
+                text-shadow: 1px 1px 1px #000;
+    
+                .health, .mana {
+                    text-align: center;
+                }
+                
+                .health-restore, .mana-restore {
+                    position: absolute;
+                    top: 0;
+                    right: 10px;
+                    font-size: 12px;
+                    font-family: monospace;
+                    font-weight: bold;
+                }
+            }
+    
+            .hp {
+                background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(13,184,13,1) 34%, rgba(32,150,14,1) 51%, rgba(30,107,0,1) 99%, rgba(71,230,39,1) 100%);
+    
+                .health-restore, {
+                    color: #47e627;
+                    text-shadow: 1px 1px 1px #000;
+                }
+            }
+    
+            .mp {
+                margin-top: 5px;
+                background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(70,76,204,1) 34%, rgba(39,34,171,1) 51%, rgba(5,17,148,1) 99%, rgba(71,230,39,1) 100%);
+                
+                .mana-restore, {
+                    color: #6d74ff;
+                    text-shadow: 1px 1px 1px #000;
+                }
+            }
+            
+            
+        }
+
+        .info {
+            width: 55%;
+            position: relative;
+            overflow: hidden;       
+            
+            .name {
+                color: rgba(#fff, .8);
+                font-size: 18px;
+                text-shadow:
+                    0 0 1vw #FA1C16,
+                    0 0 1vw #FA1C16,
+                    0 0 1vw #FA1C16,
+                    0 0 1vw #FA1C16,
+                    0 0 .4vw #FED128;
+                text-transform: uppercase;
+            }
+
+            .description {
+                padding: 5px 5px 5px 0;
+                color: rgba(#fff, .7);
+                font-size: 12px;
+                text-align: justify;
+            }
+        }
+    }
+    
+    .skills-wrapper {
+        margin-top: 15px;
+
+        .skills {
+            display: inline-block;
+            margin-right: 5px;
+            //background-color: rgba(#000, .15);
+    
+            .skill-logo {
+                width: 40px;
+                height: 40px;
+                box-shadow: 0 0 4px 1px #000;
+            }
+
+            &:last-child {
+                margin: 0;
+            }
+        }
+    }
+}

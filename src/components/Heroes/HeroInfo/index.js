@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 
-import SkillsTooltip from '../SkillsTooltip';
+import AboutHero from '../AboutHero';
 
 import './index.scss';
 import imgStr from '../../../../src/image/str.png';
@@ -20,9 +20,7 @@ export default class HeroInfo extends Component {
             );            
         }
         const { image, hp, mp, stats, name, about, skills, biography } = currentHero;
-        const { aghanim_description } = skills;
-        console.log(aghanim_description);
-
+        
         return (
             <div className={currentHero ? "hero-info show-hero-info" : "hero-info"}>
                 <a onClick={closeHeroInfo(currentHero)} href="" className="close">X</a>
@@ -33,57 +31,18 @@ export default class HeroInfo extends Component {
                         <Tab>Древо талантов</Tab>
                     </TabList>
                     <TabPanel className="tab-panel">
-                        <div className="about">
-                            <div className="img-block">
-                                <div className="heroes-logo">
-                                <img className="hero-logo-info" src={image || ''} alt="" />
-                                    {
-                                        skills.map((icon, idx) => (
-                                            icon.aghanim_description && <div key={idx} className="aghanim"></div>
-                                        ))
-                                    }
-                                </div>
-                                <div className="skills-wrapper">
-                                    {
-                                        skills.map((skill, index) => (
-                                            <div
-                                                key={index}
-                                                className="skills"
-                                                onMouseEnter={showSkill(skill)}
-                                                onMouseLeave={hideSkill(skill)}
-                                            >
-                                                <img
-                                                    className="skill-logo"
-                                                    src={skill.image}
-                                                    alt={skill.name}
-                                                />
-                                            </div>
-                                        ))
-                                    }
-                                    <SkillsTooltip heroName={name} currentSkill={currentSkill} />
-                                </div>
-                                {
-                                    hp.map((health, index) => (
-                                        <p key={index} className="hp">
-                                            <span className="health">{health.health}</span>
-                                            <span className="health-restore">{health.restore}</span>
-                                        </p>
-                                    ))
-                                }
-                                {
-                                    mp.map((mana, index) => (
-                                        <p key={index} className="mp">
-                                            <span className="mana">{mana.mana}</span>
-                                            <span className="mana-restore">{mana.restore}</span>
-                                        </p>
-                                    ))
-                                }
-                            </div>
-                            <div className="info">
-                                <p className="name">{name || ''}</p>
-                                <div className="bio">{about || ''}</div>
-                            </div>
-                        </div>
+                        <AboutHero
+                            about={about}
+                            currentSkill={currentSkill}
+                            image={image}
+                            heroName={name}
+                            hideSkill={hideSkill}
+                            hp={hp}
+                            mp={mp}
+                            name={name}
+                            showSkill={showSkill}
+                            skills={skills}
+                        />
                     </TabPanel>
                     <TabPanel className="tab-panel">
                         <div className="stats">
@@ -144,6 +103,4 @@ HeroInfo.propTypes = {
     currentHero: PropTypes.object,
     currentSkill: PropTypes.object,
     closeHeroInfo: PropTypes.func.isRequired,
-    showSkill: PropTypes.func.isRequired,
-    hideSkill: PropTypes.func.isRequired,
 };

@@ -1,7 +1,7 @@
 .skill-tooltip {
     position: absolute;
-    top: 22%;
-    right: 0;
+    top: 0;
+    left: -58%;
     width: 260px;
     border: 2px solid #1C242D;
     box-shadow: 0 0 10px 1px #000;
@@ -76,6 +76,7 @@
         box-shadow: inset 0 0 3px 1px #000;
         background-color: #1C242D;
         font-size: 13px;
+        overflow: hidden;
 
         .improvement {
             margin-top: 10px;
