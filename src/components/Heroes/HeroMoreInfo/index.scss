@@ -1,0 +1,95 @@
+.more-info {
+
+    .stats {
+        display: flex;
+        justify-content: space-around;
+        
+        .block {
+            width: 33%;
+            padding: 5px;
+            background-image: linear-gradient(to top, rgba(#fff, .1) 0%, rgba(#fff, .1) 15%, transparent 100%);
+            font-size: 13px;
+            color: #fff;
+            text-align: justify;
+
+            > p {
+                display: flex;
+                justify-content: space-between;
+
+                span {
+
+                    &:first-child {
+                        color: #fff;
+                            opacity: .7;
+                    }
+                }
+            }
+
+            h3 {
+                margin-bottom: 10px;
+                color: rgba(#fff, .8);
+                text-align: center;
+            }
+
+            &.def {
+                margin: 0 5px;
+            }
+        }
+
+    }
+
+    .characteristics {                    
+        margin-top: 10px;
+
+        .characteristics-wrapper {
+            display: flex;
+            justify-content: space-around;
+
+            .char {
+                width: 33%;
+                padding: 5px 0;
+                text-align: center;
+
+                &.str {
+                    background-image: linear-gradient(to right, rgba(red, .2) 0%, rgba(red, .2) 15%, transparent 100%);
+                }
+
+                &.agility {
+                    background-image: linear-gradient(to right, rgba(green, .2) 0%, rgba(green, .2) 15%, transparent 100%);
+                }
+
+                &.int {
+                    background-image: linear-gradient(to right, rgba(#4169E0, .4) 0%, rgba(#4169E0, .4) 15%, transparent 100%);
+                }
+
+                img {
+                    width: 35px;
+                    height: 35px;
+                }
+    
+                p {
+                    margin-top: 2px;
+                    color: #fff;
+                    text-align: center;
+                }
+
+                &:nth-child(2) {
+                    margin: 0 5px;
+                }
+            }
+        }
+    }
+
+    .bio {
+        margin-top: 5px;
+        padding: 5px;
+        //box-shadow: 0 0 4px 1px #000;
+        color: rgba(#fff, .7);
+        font-size: 13px;
+        text-align: justify;
+
+        h2 {
+            text-decoration: underline;
+        }
+    }
+}

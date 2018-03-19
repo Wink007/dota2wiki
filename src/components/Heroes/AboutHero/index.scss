@@ -8,47 +8,13 @@
             width: 45%;
     
             .heroes-logo {
-                position: relative;
+                //position: relative;
     
                 .hero-logo-info {
                     width: 180px;
                     height: 115px;
                     padding: 5px;
                     box-shadow: 0 0 4px 1px #000;
-                }
-    
-                .aghanim {
-                    position: absolute;
-                    top: -10px;
-                    right: 4px;
-                    width: 40px;
-                    height: 40px;
-                    border-radius: 50%;
-                    background: url('../../../image/aghanim.png') no-repeat;
-                    background-size: contain;
-                    transition: animation 3s ease;
-                    animation-name: aganim-anim;
-                    animation-duration: 4s;
-                    animation-iteration-count: infinite;
-                    opacity: .9;
-    
-                    @keyframes aganim-anim {
-                        0% {
-                            filter: drop-shadow(0 0 4px rgba(0, 50, 255, .8));
-                        }
-    
-                        50% {
-                            filter: drop-shadow(0 0 4px rgba(255, 50, 255, .8));
-                        }
-    
-                        75% {
-                            filter: drop-shadow(0 0 4px rgba(255, 255, 0, .8));
-                        }
-    
-                        100% {
-                            filter: drop-shadow(0 0 4px rgba(0, 50, 255, .8));
-                        }
-                    }
                 }
             }
     
@@ -107,6 +73,9 @@
             overflow: hidden;       
             
             .name {
+                display: flex;
+                // justify-content: space-between;
+                //padding-right: 5px;
                 color: rgba(#fff, .8);
                 font-size: 18px;
                 text-shadow:
@@ -116,6 +85,21 @@
                     0 0 1vw #FA1C16,
                     0 0 .4vw #FED128;
                 text-transform: uppercase;
+
+                img {
+                    width: 20px;
+                    height: 20px;
+                    margin-left: 10px;
+                }
+
+                .aghanim {
+                    width: 20px;
+                    height: 20px;
+                    margin-left: 5px;
+                    border-radius: 50%;
+                    background: url('../../../image/aghanim_skill.png') no-repeat;
+                    background-size: contain;
+                }
             }
 
             .description {
@@ -128,12 +112,12 @@
     }
     
     .skills-wrapper {
+        display: flex;
         margin-top: 15px;
 
         .skills {
             display: inline-block;
             margin-right: 5px;
-            //background-color: rgba(#000, .15);
     
             .skill-logo {
                 width: 40px;

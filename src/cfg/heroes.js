@@ -3,6 +3,26 @@ export default [
         name: 'Abbadon',
         image: require("image/heroes/Abaddon_icon.png"),
         characteristic: 'Strength',
+        attack: [
+            {
+                damage: '',
+                a_speed: '',
+                a_range: '',
+            },
+        ],
+        deffence: [
+            {
+                armor: '',
+                m_resist: '',
+            },
+        ],
+        mobility: [
+            {
+                speed: '',
+                vision_day: '',
+                vision_night: '',
+            },
+        ],
         hp: [
             {
                 health: '660',
@@ -81,6 +101,26 @@ export default [
         name: 'Alchemist',
         image: require("image/heroes/Alchemist_icon.png"),
         characteristic: 'Strength',
+        attack: [
+            {
+                damage: '',
+                a_speed: '',
+                a_range: '',
+            },
+        ],
+        deffence: [
+            {
+                armor: '',
+                m_resist: '',
+            },
+        ],
+        mobility: [
+            {
+                speed: '',
+                vision_day: '',
+                vision_night: '',
+            },
+        ],
         hp: [
             {
                 health: '700',
@@ -157,6 +197,26 @@ export default [
         name: 'Ancient Apparition',
         image: require("image/heroes/Ancient_Apparition_icon.png"),
         characteristic: 'Intelligence',
+        attack: [
+            {
+                damage: '',
+                a_speed: '',
+                a_range: '',
+            },
+        ],
+        deffence: [
+            {
+                armor: '',
+                m_resist: '',
+            },
+        ],
+        mobility: [
+            {
+                speed: '',
+                vision_day: '',
+                vision_night: '',
+            },
+        ],
         hp: [
             {
                 health: '560',
@@ -240,6 +300,26 @@ export default [
         name: 'Anti-Mage',
         image: require("image/heroes/Anti-Mage_icon.png"),
         characteristic: 'Agility',
+        attack: [
+            {
+                damage: '',
+                a_speed: '',
+                a_range: '',
+            },
+        ],
+        deffence: [
+            {
+                armor: '',
+                m_resist: '',
+            },
+        ],
+        mobility: [
+            {
+                speed: '',
+                vision_day: '',
+                vision_night: '',
+            },
+        ],
         hp: [
             {
                 health: '640',
@@ -314,6 +394,26 @@ export default [
         name: 'Arc Warden',
         image: require("image/heroes/Arc_Warden_icon.png"),
         characteristic: 'Agility',
+        attack: [
+            {
+                damage: '',
+                a_speed: '',
+                a_range: '',
+            },
+        ],
+        deffence: [
+            {
+                armor: '',
+                m_resist: '',
+            },
+        ],
+        mobility: [
+            {
+                speed: '',
+                vision_day: '',
+                vision_night: '',
+            },
+        ],
         hp: [
             {
                 health: '680',
@@ -389,6 +489,26 @@ export default [
         name: 'Axe',
         image: require("image/heroes/Axe_icon.png"),
         characteristic: 'Strength',
+        attack: [
+            {
+                damage: '',
+                a_speed: '',
+                a_range: '',
+            },
+        ],
+        deffence: [
+            {
+                armor: '',
+                m_resist: '',
+            },
+        ],
+        mobility: [
+            {
+                speed: '',
+                vision_day: '',
+                vision_night: '',
+            },
+        ],
         hp: [
             {
                 health: '700',
@@ -469,6 +589,26 @@ export default [
         name: 'Bane',
         image: require("image/heroes/Bane_icon.png"),
         characteristic: 'Intelligence',
+        attack: [
+            {
+                damage: '',
+                a_speed: '',
+                a_range: '',
+            },
+        ],
+        deffence: [
+            {
+                armor: '',
+                m_resist: '',
+            },
+        ],
+        mobility: [
+            {
+                speed: '',
+                vision_day: '',
+                vision_night: '',
+            },
+        ],
         hp: [
             {
                 health: '660',
@@ -552,6 +692,26 @@ export default [
         name: 'Batrider',
         image: require("image/heroes/Batrider_icon.png"),
         characteristic: 'Intelligence',
+        attack: [
+            {
+                damage: '',
+                a_speed: '',
+                a_range: '',
+            },
+        ],
+        deffence: [
+            {
+                armor: '',
+                m_resist: '',
+            },
+        ],
+        mobility: [
+            {
+                speed: '',
+                vision_day: '',
+                vision_night: '',
+            },
+        ],
         hp: [
             {
                 health: '660',
@@ -632,6 +792,26 @@ export default [
         name: 'Beastmaster',
         image: require("image/heroes/Beastmaster_icon.png"),
         characteristic: 'Strength',
+        attack: [
+            {
+                damage: '',
+                a_speed: '',
+                a_range: '',
+            },
+        ],
+        deffence: [
+            {
+                armor: '',
+                m_resist: '',
+            },
+        ],
+        mobility: [
+            {
+                speed: '',
+                vision_day: '',
+                vision_night: '',
+            },
+        ],
         hp: [
             {
                 health: '660',
@@ -709,6 +889,26 @@ export default [
         name: 'Bloodseeker',
         image: require("image/heroes/Bloodseeker_icon.png"),
         characteristic: 'Agility',
+        attack: [
+            {
+                damage: '',
+                a_speed: '',
+                a_range: '',
+            },
+        ],
+        deffence: [
+            {
+                armor: '',
+                m_resist: '',
+            },
+        ],
+        mobility: [
+            {
+                speed: '',
+                vision_day: '',
+                vision_night: '',
+            },
+        ],
         hp: [
             {
                 health: '660',
@@ -789,6 +989,26 @@ export default [
         name: 'Bounty Hunter',
         image: require("image/heroes/Bounty_Hunter_icon.png"),
         characteristic: 'Agility',
+        attack: [
+            {
+                damage: '',
+                a_speed: '',
+                a_range: '',
+            },
+        ],
+        deffence: [
+            {
+                armor: '',
+                m_resist: '',
+            },
+        ],
+        mobility: [
+            {
+                speed: '',
+                vision_day: '',
+                vision_night: '',
+            },
+        ],
         hp: [
             {
                 health: '540',
@@ -868,6 +1088,26 @@ export default [
         name: 'Brewmaster',
         image: require("image/heroes/Brewmaster_icon.png"),
         characteristic: 'Strength',
+        attack: [
+            {
+                damage: '',
+                a_speed: '',
+                a_range: '',
+            },
+        ],
+        deffence: [
+            {
+                armor: '',
+                m_resist: '',
+            },
+        ],
+        mobility: [
+            {
+                speed: '',
+                vision_day: '',
+                vision_night: '',
+            },
+        ],
         hp: [
             {
                 health: '660',
@@ -944,6 +1184,26 @@ export default [
         name: 'Bristleback',
         image: require("image/heroes/Bristleback_icon.png"),
         characteristic: 'Strength',
+        attack: [
+            {
+                damage: '',
+                a_speed: '',
+                a_range: '',
+            },
+        ],
+        deffence: [
+            {
+                armor: '',
+                m_resist: '',
+            },
+        ],
+        mobility: [
+            {
+                speed: '',
+                vision_day: '',
+                vision_night: '',
+            },
+        ],
         hp: [
             {
                 health: '640',
@@ -1020,6 +1280,26 @@ export default [
         name: 'Broodmother',
         image: require("image/heroes/Broodmother_icon.png"),
         characteristic: 'Agility',
+        attack: [
+            {
+                damage: '',
+                a_speed: '',
+                a_range: '',
+            },
+        ],
+        deffence: [
+            {
+                armor: '',
+                m_resist: '',
+            },
+        ],
+        mobility: [
+            {
+                speed: '',
+                vision_day: '',
+                vision_night: '',
+            },
+        ],
         hp: [
             {
                 health: '540',
@@ -1095,6 +1375,26 @@ export default [
         name: 'Centaur Warrunner',
         image: require("image/heroes/Centaur_Warrunner_icon.png"),
         characteristic: 'Strength',
+        attack: [
+            {
+                damage: '',
+                a_speed: '',
+                a_range: '',
+            },
+        ],
+        deffence: [
+            {
+                armor: '',
+                m_resist: '',
+            },
+        ],
+        mobility: [
+            {
+                speed: '',
+                vision_day: '',
+                vision_night: '',
+            },
+        ],
         hp: [
             {
                 health: '660',
@@ -1174,6 +1474,26 @@ export default [
         name: 'Chaos Knight',
         image: require("image/heroes/Chaos_Knight_icon.png"),
         characteristic: 'Strength',
+        attack: [
+            {
+                damage: '',
+                a_speed: '',
+                a_range: '',
+            },
+        ],
+        deffence: [
+            {
+                armor: '',
+                m_resist: '',
+            },
+        ],
+        mobility: [
+            {
+                speed: '',
+                vision_day: '',
+                vision_night: '',
+            },
+        ],
         hp: [
             {
                 health: '640',
@@ -1252,6 +1572,26 @@ export default [
         name: 'Chen',
         image: require("image/heroes/Chen_icon.png"),
         characteristic: 'Intelligence',
+        attack: [
+            {
+                damage: '',
+                a_speed: '',
+                a_range: '',
+            },
+        ],
+        deffence: [
+            {
+                armor: '',
+                m_resist: '',
+            },
+        ],
+        mobility: [
+            {
+                speed: '',
+                vision_day: '',
+                vision_night: '',
+            },
+        ],
         hp: [
             {
                 health: '660',
@@ -1330,6 +1670,26 @@ export default [
         name: 'Clinkz',
         image: require("image/heroes/Clinkz_icon.png"),
         characteristic: 'Agility',
+        attack: [
+            {
+                damage: '',
+                a_speed: '',
+                a_range: '',
+            },
+        ],
+        deffence: [
+            {
+                armor: '',
+                m_resist: '',
+            },
+        ],
+        mobility: [
+            {
+                speed: '',
+                vision_day: '',
+                vision_night: '',
+            },
+        ],
         hp: [
             {
                 health: '500',
@@ -1405,6 +1765,26 @@ export default [
         name: 'Clockwerk',
         image: require("image/heroes/Clockwerk_icon.png"),
         characteristic: 'Strength',
+        attack: [
+            {
+                damage: '',
+                a_speed: '',
+                a_range: '',
+            },
+        ],
+        deffence: [
+            {
+                armor: '',
+                m_resist: '',
+            },
+        ],
+        mobility: [
+            {
+                speed: '',
+                vision_day: '',
+                vision_night: '',
+            },
+        ],
         hp: [
             {
                 health: '720',
@@ -1484,6 +1864,26 @@ export default [
         name: 'Crystal Maiden',
         image: require("image/heroes/Crystal_Maiden_icon.png"),
         characteristic: 'Intelligence',
+        attack: [
+            {
+                damage: '',
+                a_speed: '',
+                a_range: '',
+            },
+        ],
+        deffence: [
+            {
+                armor: '',
+                m_resist: '',
+            },
+        ],
+        mobility: [
+            {
+                speed: '',
+                vision_day: '',
+                vision_night: '',
+            },
+        ],
         hp: [
             {
                 health: '520',
@@ -1563,6 +1963,26 @@ export default [
         name: 'Dark Seer',
         image: require("image/heroes/Dark_Seer_icon.png"),
         characteristic: 'Intelligence',
+        attack: [
+            {
+                damage: '',
+                a_speed: '',
+                a_range: '',
+            },
+        ],
+        deffence: [
+            {
+                armor: '',
+                m_resist: '',
+            },
+        ],
+        mobility: [
+            {
+                speed: '',
+                vision_day: '',
+                vision_night: '',
+            },
+        ],
         hp: [
             {
                 health: '640',
@@ -1644,6 +2064,26 @@ export default [
         name: 'Dark Willow',
         image: require("image/heroes/Dark_Willow_icon.png"),
         characteristic: 'Intelligence',
+        attack: [
+            {
+                damage: '',
+                a_speed: '',
+                a_range: '',
+            },
+        ],
+        deffence: [
+            {
+                armor: '',
+                m_resist: '',
+            },
+        ],
+        mobility: [
+            {
+                speed: '',
+                vision_day: '',
+                vision_night: '',
+            },
+        ],
         hp: [
             {
                 health: '560',
@@ -1736,6 +2176,26 @@ export default [
         name: 'Dazzle',
         image: require("image/heroes/Dazzle_icon.png"),
         characteristic: 'Intelligence',
+        attack: [
+            {
+                damage: '',
+                a_speed: '',
+                a_range: '',
+            },
+        ],
+        deffence: [
+            {
+                armor: '',
+                m_resist: '',
+            },
+        ],
+        mobility: [
+            {
+                speed: '',
+                vision_day: '',
+                vision_night: '',
+            },
+        ],
         hp: [
             {
                 health: '520',
@@ -1817,6 +2277,26 @@ export default [
         name: 'Death Prophet',
         image: require("image/heroes/Death_Prophet_icon.png"),
         characteristic: 'Intelligence',
+        attack: [
+            {
+                damage: '',
+                a_speed: '',
+                a_range: '',
+            },
+        ],
+        deffence: [
+            {
+                armor: '',
+                m_resist: '',
+            },
+        ],
+        mobility: [
+            {
+                speed: '',
+                vision_day: '',
+                vision_night: '',
+            },
+        ],
         hp: [
             {
                 health: '540',
@@ -1897,6 +2377,26 @@ export default [
         name: 'Disruptor',
         image: require("image/heroes/Disruptor_icon.png"),
         characteristic: 'Intelligence',
+        attack: [
+            {
+                damage: '',
+                a_speed: '',
+                a_range: '',
+            },
+        ],
+        deffence: [
+            {
+                armor: '',
+                m_resist: '',
+            },
+        ],
+        mobility: [
+            {
+                speed: '',
+                vision_day: '',
+                vision_night: '',
+            },
+        ],
         hp: [
             {
                 health: '580',
@@ -1977,6 +2477,26 @@ export default [
         name: 'Doom',
         image: require("image/heroes/Doom_icon.png"),
         characteristic: 'Strength',
+        attack: [
+            {
+                damage: '',
+                a_speed: '',
+                a_range: '',
+            },
+        ],
+        deffence: [
+            {
+                armor: '',
+                m_resist: '',
+            },
+        ],
+        mobility: [
+            {
+                speed: '',
+                vision_day: '',
+                vision_night: '',
+            },
+        ],
         hp: [
             {
                 health: '720',
@@ -2058,6 +2578,26 @@ export default [
         name: 'Dragon Knight',
         image: require("image/heroes/Dragon_Knight_icon.png"),
         characteristic: 'Strength',
+        attack: [
+            {
+                damage: '',
+                a_speed: '',
+                a_range: '',
+            },
+        ],
+        deffence: [
+            {
+                armor: '',
+                m_resist: '',
+            },
+        ],
+        mobility: [
+            {
+                speed: '',
+                vision_day: '',
+                vision_night: '',
+            },
+        ],
         hp: [
             {
                 health: '580',
@@ -2136,6 +2676,26 @@ export default [
         name: 'Drow Ranger',
         image: require("image/heroes/Drow_Ranger_icon.png"),
         characteristic: 'Agility',
+        attack: [
+            {
+                damage: '',
+                a_speed: '',
+                a_range: '',
+            },
+        ],
+        deffence: [
+            {
+                armor: '',
+                m_resist: '',
+            },
+        ],
+        mobility: [
+            {
+                speed: '',
+                vision_day: '',
+                vision_night: '',
+            },
+        ],
         hp: [
             {
                 health: '540',
@@ -2211,6 +2771,26 @@ export default [
         name: 'Earth Spirit',
         image: require("image/heroes/Earth_Spirit_icon.png"),
         characteristic: 'Strength',
+        attack: [
+            {
+                damage: '',
+                a_speed: '',
+                a_range: '',
+            },
+        ],
+        deffence: [
+            {
+                armor: '',
+                m_resist: '',
+            },
+        ],
+        mobility: [
+            {
+                speed: '',
+                vision_day: '',
+                vision_night: '',
+            },
+        ],
         hp: [
             {
                 health: '620',
@@ -2302,6 +2882,26 @@ export default [
         name: 'Earthshaker',
         image: require("image/heroes/Earthshaker_icon.png"),
         characteristic: 'Strength',
+        attack: [
+            {
+                damage: '',
+                a_speed: '',
+                a_range: '',
+            },
+        ],
+        deffence: [
+            {
+                armor: '',
+                m_resist: '',
+            },
+        ],
+        mobility: [
+            {
+                speed: '',
+                vision_day: '',
+                vision_night: '',
+            },
+        ],
         hp: [
             {
                 health: '640',
@@ -2381,6 +2981,26 @@ export default [
         name: 'Elder Titan',
         image: require("image/heroes/Elder_Titan_icon.png"),
         characteristic: 'Strength',
+        attack: [
+            {
+                damage: '',
+                a_speed: '',
+                a_range: '',
+            },
+        ],
+        deffence: [
+            {
+                armor: '',
+                m_resist: '',
+            },
+        ],
+        mobility: [
+            {
+                speed: '',
+                vision_day: '',
+                vision_night: '',
+            },
+        ],
         hp: [
             {
                 health: '680',
@@ -2462,6 +3082,26 @@ export default [
         name: 'Ember Spirit',
         image: require("image/heroes/Ember_Spirit_icon.png"),
         characteristic: 'Agility',
+        attack: [
+            {
+                damage: '',
+                a_speed: '',
+                a_range: '',
+            },
+        ],
+        deffence: [
+            {
+                armor: '',
+                m_resist: '',
+            },
+        ],
+        mobility: [
+            {
+                speed: '',
+                vision_day: '',
+                vision_night: '',
+            },
+        ],
         hp: [
             {
                 health: '580',
@@ -2552,6 +3192,26 @@ export default [
         name: 'Enchantress',
         image: require("image/heroes/Enchantress_icon.png"),
         characteristic: 'Intelligence',
+        attack: [
+            {
+                damage: '',
+                a_speed: '',
+                a_range: '',
+            },
+        ],
+        deffence: [
+            {
+                armor: '',
+                m_resist: '',
+            },
+        ],
+        mobility: [
+            {
+                speed: '',
+                vision_day: '',
+                vision_night: '',
+            },
+        ],
         hp: [
             {
                 health: '520',
@@ -2629,6 +3289,26 @@ export default [
         name: 'Enigma',
         image: require("image/heroes/Enigma_icon.png"),
         characteristic: 'Intelligence',
+        attack: [
+            {
+                damage: '',
+                a_speed: '',
+                a_range: '',
+            },
+        ],
+        deffence: [
+            {
+                armor: '',
+                m_resist: '',
+            },
+        ],
+        mobility: [
+            {
+                speed: '',
+                vision_day: '',
+                vision_night: '',
+            },
+        ],
         hp: [
             {
                 health: '580',
@@ -2705,6 +3385,26 @@ export default [
         name: 'Faceless Void',
         image: require("image/heroes/Faceless_Void_icon.png"),
         characteristic: 'Agility',
+        attack: [
+            {
+                damage: '',
+                a_speed: '',
+                a_range: '',
+            },
+        ],
+        deffence: [
+            {
+                armor: '',
+                m_resist: '',
+            },
+        ],
+        mobility: [
+            {
+                speed: '',
+                vision_day: '',
+                vision_night: '',
+            },
+        ],
         hp: [
             {
                 health: '660',
@@ -2781,6 +3481,26 @@ export default [
         name: 'Gyrocopter',
         image: require("image/heroes/Gyrocopter_icon.png"),
         characteristic: 'Agility',
+        attack: [
+            {
+                damage: '',
+                a_speed: '',
+                a_range: '',
+            },
+        ],
+        deffence: [
+            {
+                armor: '',
+                m_resist: '',
+            },
+        ],
+        mobility: [
+            {
+                speed: '',
+                vision_day: '',
+                vision_night: '',
+            },
+        ],
         hp: [
             {
                 health: '560',
@@ -2863,6 +3583,26 @@ export default [
         name: 'Huskar',
         image: require("image/heroes/Huskar_icon.png"),
         characteristic: 'Strength',
+        attack: [
+            {
+                damage: '',
+                a_speed: '',
+                a_range: '',
+            },
+        ],
+        deffence: [
+            {
+                armor: '',
+                m_resist: '',
+            },
+        ],
+        mobility: [
+            {
+                speed: '',
+                vision_day: '',
+                vision_night: '',
+            },
+        ],
         hp: [
             {
                 health: '620',
@@ -2942,6 +3682,26 @@ export default [
         name: 'Invoker',
         image: require("image/heroes/Invoker_icon.png"),
         characteristic: 'Intelligence',
+        attack: [
+            {
+                damage: '',
+                a_speed: '',
+                a_range: '',
+            },
+        ],
+        deffence: [
+            {
+                armor: '',
+                m_resist: '',
+            },
+        ],
+        mobility: [
+            {
+                speed: '',
+                vision_day: '',
+                vision_night: '',
+            },
+        ],
         hp: [
             {
                 health: '520',
@@ -3014,6 +3774,26 @@ export default [
         name: 'Io',
         image: require("image/heroes/Io_icon.png"),
         characteristic: 'Strength',
+        attack: [
+            {
+                damage: '',
+                a_speed: '',
+                a_range: '',
+            },
+        ],
+        deffence: [
+            {
+                armor: '',
+                m_resist: '',
+            },
+        ],
+        mobility: [
+            {
+                speed: '',
+                vision_day: '',
+                vision_night: '',
+            },
+        ],
         hp: [
             {
                 health: '540',
@@ -3110,6 +3890,26 @@ export default [
         name: 'Jakiro',
         image: require("image/heroes/Jakiro_icon.png"),
         characteristic: 'Intelligence',
+        attack: [
+            {
+                damage: '',
+                a_speed: '',
+                a_range: '',
+            },
+        ],
+        deffence: [
+            {
+                armor: '',
+                m_resist: '',
+            },
+        ],
+        mobility: [
+            {
+                speed: '',
+                vision_day: '',
+                vision_night: '',
+            },
+        ],
         hp: [
             {
                 health: '700',
@@ -3194,6 +3994,26 @@ export default [
         name: 'Juggernaut',
         image: require("image/heroes/Juggernaut_icon.png"),
         characteristic: 'Agility',
+        attack: [
+            {
+                damage: '',
+                a_speed: '',
+                a_range: '',
+            },
+        ],
+        deffence: [
+            {
+                armor: '',
+                m_resist: '',
+            },
+        ],
+        mobility: [
+            {
+                speed: '',
+                vision_day: '',
+                vision_night: '',
+            },
+        ],
         hp: [
             {
                 health: '600',
@@ -3269,6 +4089,26 @@ export default [
         name: 'Keeper of the Light',
         image: require("image/heroes/Keeper_of_the_Light_icon.png"),
         characteristic: 'Intelligence',
+        attack: [
+            {
+                damage: '',
+                a_speed: '',
+                a_range: '',
+            },
+        ],
+        deffence: [
+            {
+                armor: '',
+                m_resist: '',
+            },
+        ],
+        mobility: [
+            {
+                speed: '',
+                vision_day: '',
+                vision_night: '',
+            },
+        ],
         hp: [
             {
                 health: '480',
@@ -3373,6 +4213,26 @@ export default [
         name: 'Kunkka',
         image: require("image/heroes/Kunkka_icon.png"),
         characteristic: 'Strength',
+        attack: [
+            {
+                damage: '',
+                a_speed: '',
+                a_range: '',
+            },
+        ],
+        deffence: [
+            {
+                armor: '',
+                m_resist: '',
+            },
+        ],
+        mobility: [
+            {
+                speed: '',
+                vision_day: '',
+                vision_night: '',
+            },
+        ],
         hp: [
             {
                 health: '680',
@@ -3453,6 +4313,26 @@ export default [
         name: 'Legion Commander',
         image: require("image/heroes/Legion_Commander_icon.png"),
         characteristic: 'Strength',
+        attack: [
+            {
+                damage: '',
+                a_speed: '',
+                a_range: '',
+            },
+        ],
+        deffence: [
+            {
+                armor: '',
+                m_resist: '',
+            },
+        ],
+        mobility: [
+            {
+                speed: '',
+                vision_day: '',
+                vision_night: '',
+            },
+        ],
         hp: [
             {
                 health: '720',
@@ -3531,6 +4411,26 @@ export default [
         name: 'Leshrac',
         image: require("image/heroes/Leshrac_icon.png"),
         characteristic: 'Intelligence',
+        attack: [
+            {
+                damage: '',
+                a_speed: '',
+                a_range: '',
+            },
+        ],
+        deffence: [
+            {
+                armor: '',
+                m_resist: '',
+            },
+        ],
+        mobility: [
+            {
+                speed: '',
+                vision_day: '',
+                vision_night: '',
+            },
+        ],
         hp: [
             {
                 health: '520',
@@ -3616,6 +4516,26 @@ export default [
         name: 'Lich',
         image: require("image/heroes/Lich_icon.png"),
         characteristic: 'Intelligence',
+        attack: [
+            {
+                damage: '',
+                a_speed: '',
+                a_range: '',
+            },
+        ],
+        deffence: [
+            {
+                armor: '',
+                m_resist: '',
+            },
+        ],
+        mobility: [
+            {
+                speed: '',
+                vision_day: '',
+                vision_night: '',
+            },
+        ],
         hp: [
             {
                 health: '560',
@@ -3697,6 +4617,26 @@ export default [
         name: 'Lifestealer',
         image: require("image/heroes/Lifestealer_icon.png"),
         characteristic: 'Strength',
+        attack: [
+            {
+                damage: '',
+                a_speed: '',
+                a_range: '',
+            },
+        ],
+        deffence: [
+            {
+                armor: '',
+                m_resist: '',
+            },
+        ],
+        mobility: [
+            {
+                speed: '',
+                vision_day: '',
+                vision_night: '',
+            },
+        ],
         hp: [
             {
                 health: '700',
@@ -3773,6 +4713,26 @@ export default [
         name: 'Lina',
         image: require("image/heroes/Lina_icon.png"),
         characteristic: 'Intelligence',
+        attack: [
+            {
+                damage: '',
+                a_speed: '',
+                a_range: '',
+            },
+        ],
+        deffence: [
+            {
+                armor: '',
+                m_resist: '',
+            },
+        ],
+        mobility: [
+            {
+                speed: '',
+                vision_day: '',
+                vision_night: '',
+            },
+        ],
         hp: [
             {
                 health: '560',
@@ -3851,6 +4811,26 @@ export default [
         name: 'Lion',
         image: require("image/heroes/Lion_icon.png"),
         characteristic: 'Intelligence',
+        attack: [
+            {
+                damage: '',
+                a_speed: '',
+                a_range: '',
+            },
+        ],
+        deffence: [
+            {
+                armor: '',
+                m_resist: '',
+            },
+        ],
+        mobility: [
+            {
+                speed: '',
+                vision_day: '',
+                vision_night: '',
+            },
+        ],
         hp: [
             {
                 health: '520',
@@ -3933,6 +4913,26 @@ export default [
         name: 'Lone Druid',
         image: require("image/heroes/Lone_Druid_icon.png"),
         characteristic: 'Agility',
+        attack: [
+            {
+                damage: '',
+                a_speed: '',
+                a_range: '',
+            },
+        ],
+        deffence: [
+            {
+                armor: '',
+                m_resist: '',
+            },
+        ],
+        mobility: [
+            {
+                speed: '',
+                vision_day: '',
+                vision_night: '',
+            },
+        ],
         hp: [
             {
                 health: '540',
@@ -4006,6 +5006,26 @@ export default [
         name: 'Luna',
         image: require("image/heroes/Luna_icon.png"),
         characteristic: 'Agility',
+        attack: [
+            {
+                damage: '',
+                a_speed: '',
+                a_range: '',
+            },
+        ],
+        deffence: [
+            {
+                armor: '',
+                m_resist: '',
+            },
+        ],
+        mobility: [
+            {
+                speed: '',
+                vision_day: '',
+                vision_night: '',
+            },
+        ],
         hp: [
             {
                 health: '500',
@@ -4084,6 +5104,26 @@ export default [
         name: 'Lycan',
         image: require("image/heroes/Lycan_icon.png"),
         characteristic: 'Strength',
+        attack: [
+            {
+                damage: '',
+                a_speed: '',
+                a_range: '',
+            },
+        ],
+        deffence: [
+            {
+                armor: '',
+                m_resist: '',
+            },
+        ],
+        mobility: [
+            {
+                speed: '',
+                vision_day: '',
+                vision_night: '',
+            },
+        ],
         hp: [
             {
                 health: '700',
@@ -4153,6 +5193,26 @@ export default [
         name: 'Magnus',
         image: require("image/heroes/Magnus_icon.png"),
         characteristic: 'Strength',
+        attack: [
+            {
+                damage: '',
+                a_speed: '',
+                a_range: '',
+            },
+        ],
+        deffence: [
+            {
+                armor: '',
+                m_resist: '',
+            },
+        ],
+        mobility: [
+            {
+                speed: '',
+                vision_day: '',
+                vision_night: '',
+            },
+        ],
         hp: [
             {
                 health: '640',
@@ -4234,6 +5294,26 @@ export default [
         name: 'Medusa',
         image: require("image/heroes/Medusa_icon.png"),
         characteristic: 'Agility',
+        attack: [
+            {
+                damage: '',
+                a_speed: '',
+                a_range: '',
+            },
+        ],
+        deffence: [
+            {
+                armor: '',
+                m_resist: '',
+            },
+        ],
+        mobility: [
+            {
+                speed: '',
+                vision_day: '',
+                vision_night: '',
+            },
+        ],
         hp: [
             {
                 health: '480',
@@ -4312,6 +5392,26 @@ export default [
         name: 'Meepo',
         image: require("image/heroes/Meepo_icon.png"),
         characteristic: 'Agility',
+        attack: [
+            {
+                damage: '',
+                a_speed: '',
+                a_range: '',
+            },
+        ],
+        deffence: [
+            {
+                armor: '',
+                m_resist: '',
+            },
+        ],
+        mobility: [
+            {
+                speed: '',
+                vision_day: '',
+                vision_night: '',
+            },
+        ],
         hp: [
             {
                 health: '660',
@@ -4388,6 +5488,26 @@ export default [
         name: 'Mirana',
         image: require("image/heroes/Mirana_icon.png"),
         characteristic: 'Agility',
+        attack: [
+            {
+                damage: '',
+                a_speed: '',
+                a_range: '',
+            },
+        ],
+        deffence: [
+            {
+                armor: '',
+                m_resist: '',
+            },
+        ],
+        mobility: [
+            {
+                speed: '',
+                vision_day: '',
+                vision_night: '',
+            },
+        ],
         hp: [
             {
                 health: '540',
@@ -4464,6 +5584,26 @@ export default [
         name: 'Monkey King',
         image: require("image/heroes/Monkey_King_icon.png"),
         characteristic: 'Agility',
+        attack: [
+            {
+                damage: '',
+                a_speed: '',
+                a_range: '',
+            },
+        ],
+        deffence: [
+            {
+                armor: '',
+                m_resist: '',
+            },
+        ],
+        mobility: [
+            {
+                speed: '',
+                vision_day: '',
+                vision_night: '',
+            },
+        ],
         hp: [
             {
                 health: '560',
@@ -4559,6 +5699,26 @@ export default [
         name: 'Morphling',
         image: require("image/heroes/Morphling_icon.png"),
         characteristic: 'Agility',
+        attack: [
+            {
+                damage: '',
+                a_speed: '',
+                a_range: '',
+            },
+        ],
+        deffence: [
+            {
+                armor: '',
+                m_resist: '',
+            },
+        ],
+        mobility: [
+            {
+                speed: '',
+                vision_day: '',
+                vision_night: '',
+            },
+        ],
         hp: [
             {
                 health: '580',
@@ -4658,6 +5818,26 @@ export default [
         name: 'Naga Siren',
         image: require("image/heroes/Naga_Siren_icon.png"),
         characteristic: 'Agility',
+        attack: [
+            {
+                damage: '',
+                a_speed: '',
+                a_range: '',
+            },
+        ],
+        deffence: [
+            {
+                armor: '',
+                m_resist: '',
+            },
+        ],
+        mobility: [
+            {
+                speed: '',
+                vision_day: '',
+                vision_night: '',
+            },
+        ],
         hp: [
             {
                 health: '620',
@@ -4735,6 +5915,26 @@ export default [
         name: "Nature's Prophet",
         image: require("image/heroes/Nature's_Prophet_icon.png"),
         characteristic: 'Intelligence',
+        attack: [
+            {
+                damage: '',
+                a_speed: '',
+                a_range: '',
+            },
+        ],
+        deffence: [
+            {
+                armor: '',
+                m_resist: '',
+            },
+        ],
+        mobility: [
+            {
+                speed: '',
+                vision_day: '',
+                vision_night: '',
+            },
+        ],
         hp: [
             {
                 health: '580',
@@ -4809,6 +6009,26 @@ export default [
         name: "Necrophos",
         image: require("image/heroes/Necrophos_icon.png"),
         characteristic: 'Intelligence',
+        attack: [
+            {
+                damage: '',
+                a_speed: '',
+                a_range: '',
+            },
+        ],
+        deffence: [
+            {
+                armor: '',
+                m_resist: '',
+            },
+        ],
+        mobility: [
+            {
+                speed: '',
+                vision_day: '',
+                vision_night: '',
+            },
+        ],
         hp: [
             {
                 health: '520',
@@ -4886,6 +6106,26 @@ export default [
         name: "Night Stalker",
         image: require("image/heroes/Night_Stalker_icon.png"),
         characteristic: 'Strength',
+        attack: [
+            {
+                damage: '',
+                a_speed: '',
+                a_range: '',
+            },
+        ],
+        deffence: [
+            {
+                armor: '',
+                m_resist: '',
+            },
+        ],
+        mobility: [
+            {
+                speed: '',
+                vision_day: '',
+                vision_night: '',
+            },
+        ],
         hp: [
             {
                 health: '660',
@@ -4963,6 +6203,26 @@ export default [
         name: "Nyx Assassin",
         image: require("image/heroes/Nyx_Assassin_icon.png"),
         characteristic: 'Agility',
+        attack: [
+            {
+                damage: '',
+                a_speed: '',
+                a_range: '',
+            },
+        ],
+        deffence: [
+            {
+                armor: '',
+                m_resist: '',
+            },
+        ],
+        mobility: [
+            {
+                speed: '',
+                vision_day: '',
+                vision_night: '',
+            },
+        ],
         hp: [
             {
                 health: '560',
@@ -5044,6 +6304,26 @@ export default [
         name: "Ogre Magi",
         image: require("image/heroes/Ogre_Magi_icon.png"),
         characteristic: 'Intelligence',
+        attack: [
+            {
+                damage: '',
+                a_speed: '',
+                a_range: '',
+            },
+        ],
+        deffence: [
+            {
+                armor: '',
+                m_resist: '',
+            },
+        ],
+        mobility: [
+            {
+                speed: '',
+                vision_day: '',
+                vision_night: '',
+            },
+        ],
         hp: [
             {
                 health: '660',
@@ -5138,6 +6418,26 @@ export default [
         name: "Omniknight",
         image: require("image/heroes/Omniknight_icon.png"),
         characteristic: 'Strength',
+        attack: [
+            {
+                damage: '',
+                a_speed: '',
+                a_range: '',
+            },
+        ],
+        deffence: [
+            {
+                armor: '',
+                m_resist: '',
+            },
+        ],
+        mobility: [
+            {
+                speed: '',
+                vision_day: '',
+                vision_night: '',
+            },
+        ],
         hp: [
             {
                 health: '640',
@@ -5217,6 +6517,26 @@ export default [
         name: "Oracle",
         image: require("image/heroes/Oracle_icon.png"),
         characteristic: 'Intelligence',
+        attack: [
+            {
+                damage: '',
+                a_speed: '',
+                a_range: '',
+            },
+        ],
+        deffence: [
+            {
+                armor: '',
+                m_resist: '',
+            },
+        ],
+        mobility: [
+            {
+                speed: '',
+                vision_day: '',
+                vision_night: '',
+            },
+        ],
         hp: [
             {
                 health: '560',
@@ -5299,6 +6619,26 @@ export default [
         name: "Outworld Devourer",
         image: require("image/heroes/Outworld_Devourer_icon.png"),
         characteristic: 'Intelligence',
+        attack: [
+            {
+                damage: '',
+                a_speed: '',
+                a_range: '',
+            },
+        ],
+        deffence: [
+            {
+                armor: '',
+                m_resist: '',
+            },
+        ],
+        mobility: [
+            {
+                speed: '',
+                vision_day: '',
+                vision_night: '',
+            },
+        ],
         hp: [
             {
                 health: '580',
@@ -5379,6 +6719,26 @@ export default [
         name: "Pangolier",
         image: require("image/heroes/Pangolier_icon.png"),
         characteristic: 'Agility',
+        attack: [
+            {
+                damage: '',
+                a_speed: '',
+                a_range: '',
+            },
+        ],
+        deffence: [
+            {
+                armor: '',
+                m_resist: '',
+            },
+        ],
+        mobility: [
+            {
+                speed: '',
+                vision_day: '',
+                vision_night: '',
+            },
+        ],
         hp: [
             {
                 health: '520',
@@ -5458,6 +6818,26 @@ export default [
         name: "Phantom Assassin",
         image: require("image/heroes/Phantom_Assassin_icon.png"),
         characteristic: 'Agility',
+        attack: [
+            {
+                damage: '',
+                a_speed: '',
+                a_range: '',
+            },
+        ],
+        deffence: [
+            {
+                armor: '',
+                m_resist: '',
+            },
+        ],
+        mobility: [
+            {
+                speed: '',
+                vision_day: '',
+                vision_night: '',
+            },
+        ],
         hp: [
             {
                 health: '600',
@@ -5533,6 +6913,26 @@ export default [
         name: "Phantom Lancer",
         image: require("image/heroes/Phantom_Lancer_icon.png"),
         characteristic: 'Agility',
+        attack: [
+            {
+                damage: '',
+                a_speed: '',
+                a_range: '',
+            },
+        ],
+        deffence: [
+            {
+                armor: '',
+                m_resist: '',
+            },
+        ],
+        mobility: [
+            {
+                speed: '',
+                vision_day: '',
+                vision_night: '',
+            },
+        ],
         hp: [
             {
                 health: '620',
@@ -5606,6 +7006,26 @@ export default [
         name: "Phoenix",
         image: require("image/heroes/Phoenix_icon.png"),
         characteristic: 'Strength',
+        attack: [
+            {
+                damage: '',
+                a_speed: '',
+                a_range: '',
+            },
+        ],
+        deffence: [
+            {
+                armor: '',
+                m_resist: '',
+            },
+        ],
+        mobility: [
+            {
+                speed: '',
+                vision_day: '',
+                vision_night: '',
+            },
+        ],
         hp: [
             {
                 health: '580',
@@ -5698,6 +7118,26 @@ export default [
         name: "Puck",
         image: require("image/heroes/Puck_icon.png"),
         characteristic: 'Intelligence',
+        attack: [
+            {
+                damage: '',
+                a_speed: '',
+                a_range: '',
+            },
+        ],
+        deffence: [
+            {
+                armor: '',
+                m_resist: '',
+            },
+        ],
+        mobility: [
+            {
+                speed: '',
+                vision_day: '',
+                vision_night: '',
+            },
+        ],
         hp: [
             {
                 health: '500',
@@ -5785,6 +7225,26 @@ export default [
         name: "Pudge",
         image: require("image/heroes/Pudge_icon.png"),
         characteristic: 'Strength',
+        attack: [
+            {
+                damage: '',
+                a_speed: '',
+                a_range: '',
+            },
+        ],
+        deffence: [
+            {
+                armor: '',
+                m_resist: '',
+            },
+        ],
+        mobility: [
+            {
+                speed: '',
+                vision_day: '',
+                vision_night: '',
+            },
+        ],
         hp: [
             {
                 health: '700',
@@ -5862,6 +7322,26 @@ export default [
         name: "Pugna",
         image: require("image/heroes/Pugna_icon.png"),
         characteristic: 'Intelligence',
+        attack: [
+            {
+                damage: '',
+                a_speed: '',
+                a_range: '',
+            },
+        ],
+        deffence: [
+            {
+                armor: '',
+                m_resist: '',
+            },
+        ],
+        mobility: [
+            {
+                speed: '',
+                vision_day: '',
+                vision_night: '',
+            },
+        ],
         hp: [
             {
                 health: '540',
@@ -5941,6 +7421,26 @@ export default [
         name: "Queen of Pain",
         image: require("image/heroes/Queen_of_Pain_icon.png"),
         characteristic: 'Intelligence',
+        attack: [
+            {
+                damage: '',
+                a_speed: '',
+                a_range: '',
+            },
+        ],
+        deffence: [
+            {
+                armor: '',
+                m_resist: '',
+            },
+        ],
+        mobility: [
+            {
+                speed: '',
+                vision_day: '',
+                vision_night: '',
+            },
+        ],
         hp: [
             {
                 health: '520',
@@ -6018,6 +7518,26 @@ export default [
         name: "Razor",
         image: require("image/heroes/Razor_icon.png"),
         characteristic: 'Agility',
+        attack: [
+            {
+                damage: '',
+                a_speed: '',
+                a_range: '',
+            },
+        ],
+        deffence: [
+            {
+                armor: '',
+                m_resist: '',
+            },
+        ],
+        mobility: [
+            {
+                speed: '',
+                vision_day: '',
+                vision_night: '',
+            },
+        ],
         hp: [
             {
                 health: '620',
@@ -6098,6 +7618,26 @@ export default [
         name: "Riki",
         image: require("image/heroes/Riki_icon.png"),
         characteristic: 'Agility',
+        attack: [
+            {
+                damage: '',
+                a_speed: '',
+                a_range: '',
+            },
+        ],
+        deffence: [
+            {
+                armor: '',
+                m_resist: '',
+            },
+        ],
+        mobility: [
+            {
+                speed: '',
+                vision_day: '',
+                vision_night: '',
+            },
+        ],
         hp: [
             {
                 health: '540',
@@ -6174,6 +7714,26 @@ export default [
         name: "Rubick",
         image: require("image/heroes/Rubick_icon.png"),
         characteristic: 'Intelligence',
+        attack: [
+            {
+                damage: '',
+                a_speed: '',
+                a_range: '',
+            },
+        ],
+        deffence: [
+            {
+                armor: '',
+                m_resist: '',
+            },
+        ],
+        mobility: [
+            {
+                speed: '',
+                vision_day: '',
+                vision_night: '',
+            },
+        ],
         hp: [
             {
                 health: '580',
@@ -6253,6 +7813,26 @@ export default [
         name: "Sand King",
         image: require("image/heroes/Sand_King_icon.png"),
         characteristic: 'Strength',
+        attack: [
+            {
+                damage: '',
+                a_speed: '',
+                a_range: '',
+            },
+        ],
+        deffence: [
+            {
+                armor: '',
+                m_resist: '',
+            },
+        ],
+        mobility: [
+            {
+                speed: '',
+                vision_day: '',
+                vision_night: '',
+            },
+        ],
         hp: [
             {
                 health: '640',
@@ -6335,6 +7915,26 @@ export default [
         name: "Shadow Demon",
         image: require("image/heroes/Shadow_Demon_icon.png"),
         characteristic: 'Intelligence',
+        attack: [
+            {
+                damage: '',
+                a_speed: '',
+                a_range: '',
+            },
+        ],
+        deffence: [
+            {
+                armor: '',
+                m_resist: '',
+            },
+        ],
+        mobility: [
+            {
+                speed: '',
+                vision_day: '',
+                vision_night: '',
+            },
+        ],
         hp: [
             {
                 health: '620',
@@ -6427,6 +8027,26 @@ export default [
         name: "Shadow Fiend",
         image: require("image/heroes/Shadow_Fiend_icon.png"),
         characteristic: 'Agility',
+        attack: [
+            {
+                damage: '',
+                a_speed: '',
+                a_range: '',
+            },
+        ],
+        deffence: [
+            {
+                armor: '',
+                m_resist: '',
+            },
+        ],
+        mobility: [
+            {
+                speed: '',
+                vision_day: '',
+                vision_night: '',
+            },
+        ],
         hp: [
             {
                 health: '500',
@@ -6528,6 +8148,26 @@ export default [
         name: "Shadow Shaman",
         image: require("image/heroes/Shadow_Shaman_icon.png"),
         characteristic: 'Intelligence',
+        attack: [
+            {
+                damage: '',
+                a_speed: '',
+                a_range: '',
+            },
+        ],
+        deffence: [
+            {
+                armor: '',
+                m_resist: '',
+            },
+        ],
+        mobility: [
+            {
+                speed: '',
+                vision_day: '',
+                vision_night: '',
+            },
+        ],
         hp: [
             {
                 health: '620',
@@ -6609,6 +8249,26 @@ export default [
         name: "Silencer",
         image: require("image/heroes/Silencer_icon.png"),
         characteristic: 'Intelligence',
+        attack: [
+            {
+                damage: '',
+                a_speed: '',
+                a_range: '',
+            },
+        ],
+        deffence: [
+            {
+                armor: '',
+                m_resist: '',
+            },
+        ],
+        mobility: [
+            {
+                speed: '',
+                vision_day: '',
+                vision_night: '',
+            },
+        ],
         hp: [
             {
                 health: '540',
@@ -6690,6 +8350,26 @@ export default [
         name: "Skywrath Mage",
         image: require("image/heroes/Skywrath_Mage_icon.png"),
         characteristic: 'Intelligence',
+        attack: [
+            {
+                damage: '',
+                a_speed: '',
+                a_range: '',
+            },
+        ],
+        deffence: [
+            {
+                armor: '',
+                m_resist: '',
+            },
+        ],
+        mobility: [
+            {
+                speed: '',
+                vision_day: '',
+                vision_night: '',
+            },
+        ],
         hp: [
             {
                 health: '580',
@@ -6770,6 +8450,26 @@ export default [
         name: "Slardar",
         image: require("image/heroes/Slardar_icon.png"),
         characteristic: 'Strength',
+        attack: [
+            {
+                damage: '',
+                a_speed: '',
+                a_range: '',
+            },
+        ],
+        deffence: [
+            {
+                armor: '',
+                m_resist: '',
+            },
+        ],
+        mobility: [
+            {
+                speed: '',
+                vision_day: '',
+                vision_night: '',
+            },
+        ],
         hp: [
             {
                 health: '620',
@@ -6848,6 +8548,26 @@ export default [
         name: "Slark",
         image: require("image/heroes/Slark_icon.png"),
         characteristic: 'Agility',
+        attack: [
+            {
+                damage: '',
+                a_speed: '',
+                a_range: '',
+            },
+        ],
+        deffence: [
+            {
+                armor: '',
+                m_resist: '',
+            },
+        ],
+        mobility: [
+            {
+                speed: '',
+                vision_day: '',
+                vision_night: '',
+            },
+        ],
         hp: [
             {
                 health: '600',
@@ -6925,6 +8645,26 @@ export default [
         name: "Sniper",
         image: require("image/heroes/Sniper_icon.png"),
         characteristic: 'Agility',
+        attack: [
+            {
+                damage: '',
+                a_speed: '',
+                a_range: '',
+            },
+        ],
+        deffence: [
+            {
+                armor: '',
+                m_resist: '',
+            },
+        ],
+        mobility: [
+            {
+                speed: '',
+                vision_day: '',
+                vision_night: '',
+            },
+        ],
         hp: [
             {
                 health: '520',
@@ -7003,6 +8743,26 @@ export default [
         name: "Spectre",
         image: require("image/heroes/Spectre_icon.png"),
         characteristic: 'Agility',
+        attack: [
+            {
+                damage: '',
+                a_speed: '',
+                a_range: '',
+            },
+        ],
+        deffence: [
+            {
+                armor: '',
+                m_resist: '',
+            },
+        ],
+        mobility: [
+            {
+                speed: '',
+                vision_day: '',
+                vision_night: '',
+            },
+        ],
         hp: [
             {
                 health: '600',
@@ -7089,6 +8849,26 @@ export default [
         name: "Spirit Breaker",
         image: require("image/heroes/Spirit_Breaker_icon.png"),
         characteristic: 'Strength',
+        attack: [
+            {
+                damage: '',
+                a_speed: '',
+                a_range: '',
+            },
+        ],
+        deffence: [
+            {
+                armor: '',
+                m_resist: '',
+            },
+        ],
+        mobility: [
+            {
+                speed: '',
+                vision_day: '',
+                vision_night: '',
+            },
+        ],
         hp: [
             {
                 health: '780',
@@ -7170,6 +8950,26 @@ export default [
         name: "Storm Spirit",
         image: require("image/heroes/Storm_Spirit_icon.png"),
         characteristic: 'Intelligence',
+        attack: [
+            {
+                damage: '',
+                a_speed: '',
+                a_range: '',
+            },
+        ],
+        deffence: [
+            {
+                armor: '',
+                m_resist: '',
+            },
+        ],
+        mobility: [
+            {
+                speed: '',
+                vision_day: '',
+                vision_night: '',
+            },
+        ],
         hp: [
             {
                 health: '580',
@@ -7249,6 +9049,26 @@ export default [
         name: "Sven",
         image: require("image/heroes/Sven_icon.png"),
         characteristic: 'Strength',
+        attack: [
+            {
+                damage: '',
+                a_speed: '',
+                a_range: '',
+            },
+        ],
+        deffence: [
+            {
+                armor: '',
+                m_resist: '',
+            },
+        ],
+        mobility: [
+            {
+                speed: '',
+                vision_day: '',
+                vision_night: '',
+            },
+        ],
         hp: [
             {
                 health: '660',
@@ -7325,6 +9145,26 @@ export default [
         name: "Techies",
         image: require("image/heroes/Techies_icon.png"),
         characteristic: 'Intelligence',
+        attack: [
+            {
+                damage: '',
+                a_speed: '',
+                a_range: '',
+            },
+        ],
+        deffence: [
+            {
+                armor: '',
+                m_resist: '',
+            },
+        ],
+        mobility: [
+            {
+                speed: '',
+                vision_day: '',
+                vision_night: '',
+            },
+        ],
         hp: [
             {
                 health: '540',
@@ -7424,6 +9264,26 @@ export default [
         name: "Templar Assassin",
         image: require("image/heroes/Templar_Assassin_icon.png"),
         characteristic: 'Agility',
+        attack: [
+            {
+                damage: '',
+                a_speed: '',
+                a_range: '',
+            },
+        ],
+        deffence: [
+            {
+                armor: '',
+                m_resist: '',
+            },
+        ],
+        mobility: [
+            {
+                speed: '',
+                vision_day: '',
+                vision_night: '',
+            },
+        ],
         hp: [
             {
                 health: '560',
@@ -7514,6 +9374,26 @@ export default [
         name: "Terrorblade",
         image: require("image/heroes/Terrorblade_icon.png"),
         characteristic: 'Agility',
+        attack: [
+            {
+                damage: '',
+                a_speed: '',
+                a_range: '',
+            },
+        ],
+        deffence: [
+            {
+                armor: '',
+                m_resist: '',
+            },
+        ],
+        mobility: [
+            {
+                speed: '',
+                vision_day: '',
+                vision_night: '',
+            },
+        ],
         hp: [
             {
                 health: '500',
@@ -7587,6 +9467,26 @@ export default [
         name: "Tidehunter",
         image: require("image/heroes/Tidehunter_icon.png"),
         characteristic: 'Strength',
+        attack: [
+            {
+                damage: '',
+                a_speed: '',
+                a_range: '',
+            },
+        ],
+        deffence: [
+            {
+                armor: '',
+                m_resist: '',
+            },
+        ],
+        mobility: [
+            {
+                speed: '',
+                vision_day: '',
+                vision_night: '',
+            },
+        ],
         hp: [
             {
                 health: '640',
@@ -7666,6 +9566,26 @@ export default [
         name: "Timbersaw",
         image: require("image/heroes/Timbersaw_icon.png"),
         characteristic: 'Strength',
+        attack: [
+            {
+                damage: '',
+                a_speed: '',
+                a_range: '',
+            },
+        ],
+        deffence: [
+            {
+                armor: '',
+                m_resist: '',
+            },
+        ],
+        mobility: [
+            {
+                speed: '',
+                vision_day: '',
+                vision_night: '',
+            },
+        ],
         hp: [
             {
                 health: '620',
@@ -7744,6 +9664,26 @@ export default [
         name: "Tinker",
         image: require("image/heroes/Tinker_icon.png"),
         characteristic: 'Intelligence',
+        attack: [
+            {
+                damage: '',
+                a_speed: '',
+                a_range: '',
+            },
+        ],
+        deffence: [
+            {
+                armor: '',
+                m_resist: '',
+            },
+        ],
+        mobility: [
+            {
+                speed: '',
+                vision_day: '',
+                vision_night: '',
+            },
+        ],
         hp: [
             {
                 health: '540',
@@ -7822,6 +9762,26 @@ export default [
         name: "Tiny",
         image: require("image/heroes/Tiny_icon.png"),
         characteristic: 'Strength',
+        attack: [
+            {
+                damage: '',
+                a_speed: '',
+                a_range: '',
+            },
+        ],
+        deffence: [
+            {
+                armor: '',
+                m_resist: '',
+            },
+        ],
+        mobility: [
+            {
+                speed: '',
+                vision_day: '',
+                vision_night: '',
+            },
+        ],
         hp: [
             {
                 health: '800',
@@ -7898,6 +9858,26 @@ export default [
         name: "Treant Protector",
         image: require("image/heroes/Treant_Protector_icon.png"),
         characteristic: 'Strength',
+        attack: [
+            {
+                damage: '',
+                a_speed: '',
+                a_range: '',
+            },
+        ],
+        deffence: [
+            {
+                armor: '',
+                m_resist: '',
+            },
+        ],
+        mobility: [
+            {
+                speed: '',
+                vision_day: '',
+                vision_night: '',
+            },
+        ],
         hp: [
             {
                 health: '700',
@@ -7968,6 +9948,8 @@ export default [
                     }
                 ],
                 description: 'Вокруг Treant Protector разрастаются корни и лозы, опутывая врагов и не давая им перемещаться, телепортироваться, уходить в невидимость или атаковать.',
+                aghanim_description_name: 'ДАРУЕТ: EYES IN THE FOREST. ',
+                aghanim_description: 'Попав под действие Overgrowth рядом с деревьями, заколдованными способностью Eyes of the Forest, враги получат урон. Попав под действие Overgrowth рядом с Treant Protector, враги не получат урона.',
             },
         ],
         about : "Доброжелательный союзник Treant Protector защищает своих соратников и союзные постройки восстанавливающей броней. Незаметно перемещаясь рядом с деревьями, он связывает врагов корнями и передает их жизненные силы товарищам.",
@@ -7977,6 +9959,26 @@ export default [
         name: "Troll Warlord",
         image: require("image/heroes/Troll_Warlord_icon.png"),
         characteristic: 'Agility',
+        attack: [
+            {
+                damage: '',
+                a_speed: '',
+                a_range: '',
+            },
+        ],
+        deffence: [
+            {
+                armor: '',
+                m_resist: '',
+            },
+        ],
+        mobility: [
+            {
+                speed: '',
+                vision_day: '',
+                vision_night: '',
+            },
+        ],
         hp: [
             {
                 health: '600',
@@ -8064,6 +10066,26 @@ export default [
         name: "Tusk",
         image: require("image/heroes/Tusk_icon.png"),
         characteristic: 'Strength',
+        attack: [
+            {
+                damage: '',
+                a_speed: '',
+                a_range: '',
+            },
+        ],
+        deffence: [
+            {
+                armor: '',
+                m_resist: '',
+            },
+        ],
+        mobility: [
+            {
+                speed: '',
+                vision_day: '',
+                vision_night: '',
+            },
+        ],
         hp: [
             {
                 health: '660',
@@ -8143,6 +10165,26 @@ export default [
         name: "Underlord",
         image: require("image/heroes/Underlord_icon.png"),
         characteristic: 'Strength',
+        attack: [
+            {
+                damage: '',
+                a_speed: '',
+                a_range: '',
+            },
+        ],
+        deffence: [
+            {
+                armor: '',
+                m_resist: '',
+            },
+        ],
+        mobility: [
+            {
+                speed: '',
+                vision_day: '',
+                vision_night: '',
+            },
+        ],
         hp: [
             {
                 health: '700',
@@ -8222,6 +10264,26 @@ export default [
         name: "Undying",
         image: require("image/heroes/Undying_icon.png"),
         characteristic: 'Strength',
+        attack: [
+            {
+                damage: '',
+                a_speed: '',
+                a_range: '',
+            },
+        ],
+        deffence: [
+            {
+                armor: '',
+                m_resist: '',
+            },
+        ],
+        mobility: [
+            {
+                speed: '',
+                vision_day: '',
+                vision_night: '',
+            },
+        ],
         hp: [
             {
                 health: '640',
@@ -8299,6 +10361,26 @@ export default [
         name: "Ursa",
         image: require("image/heroes/Ursa_icon.png"),
         characteristic: 'Agility',
+        attack: [
+            {
+                damage: '',
+                a_speed: '',
+                a_range: '',
+            },
+        ],
+        deffence: [
+            {
+                armor: '',
+                m_resist: '',
+            },
+        ],
+        mobility: [
+            {
+                speed: '',
+                vision_day: '',
+                vision_night: '',
+            },
+        ],
         hp: [
             {
                 health: '660',
@@ -8377,6 +10459,26 @@ export default [
         name: "Vengeful Spirit",
         image: require("image/heroes/Vengeful_Spirit_icon.png"),
         characteristic: 'Agility',
+        attack: [
+            {
+                damage: '',
+                a_speed: '',
+                a_range: '',
+            },
+        ],
+        deffence: [
+            {
+                armor: '',
+                m_resist: '',
+            },
+        ],
+        mobility: [
+            {
+                speed: '',
+                vision_day: '',
+                vision_night: '',
+            },
+        ],
         hp: [
             {
                 health: '560',
@@ -8455,6 +10557,26 @@ export default [
         name: "Venomancer",
         image: require("image/heroes/Venomancer_icon.png"),
         characteristic: 'Agility',
+        attack: [
+            {
+                damage: '',
+                a_speed: '',
+                a_range: '',
+            },
+        ],
+        deffence: [
+            {
+                armor: '',
+                m_resist: '',
+            },
+        ],
+        mobility: [
+            {
+                speed: '',
+                vision_day: '',
+                vision_night: '',
+            },
+        ],
         hp: [
             {
                 health: '560',
@@ -8535,6 +10657,26 @@ export default [
         name: "Viper",
         image: require("image/heroes/Viper_icon.png"),
         characteristic: 'Agility',
+        attack: [
+            {
+                damage: '',
+                a_speed: '',
+                a_range: '',
+            },
+        ],
+        deffence: [
+            {
+                armor: '',
+                m_resist: '',
+            },
+        ],
+        mobility: [
+            {
+                speed: '',
+                vision_day: '',
+                vision_night: '',
+            },
+        ],
         hp: [
             {
                 health: '600',
@@ -8617,6 +10759,26 @@ export default [
         name: "Visage",
         image: require("image/heroes/Visage_icon.png"),
         characteristic: 'Intelligence',
+        attack: [
+            {
+                damage: '',
+                a_speed: '',
+                a_range: '',
+            },
+        ],
+        deffence: [
+            {
+                armor: '',
+                m_resist: '',
+            },
+        ],
+        mobility: [
+            {
+                speed: '',
+                vision_day: '',
+                vision_night: '',
+            },
+        ],
         hp: [
             {
                 health: '640',
@@ -8704,6 +10866,26 @@ export default [
         name: "Warlock",
         image: require("image/heroes/Warlock_icon.png"),
         characteristic: 'Intelligence',
+        attack: [
+            {
+                damage: '',
+                a_speed: '',
+                a_range: '',
+            },
+        ],
+        deffence: [
+            {
+                armor: '',
+                m_resist: '',
+            },
+        ],
+        mobility: [
+            {
+                speed: '',
+                vision_day: '',
+                vision_night: '',
+            },
+        ],
         hp: [
             {
                 health: '640',
@@ -8785,6 +10967,26 @@ export default [
         name: "Weaver",
         image: require("image/heroes/Weaver_icon.png"),
         characteristic: 'Agility',
+        attack: [
+            {
+                damage: '',
+                a_speed: '',
+                a_range: '',
+            },
+        ],
+        deffence: [
+            {
+                armor: '',
+                m_resist: '',
+            },
+        ],
+        mobility: [
+            {
+                speed: '',
+                vision_day: '',
+                vision_night: '',
+            },
+        ],
         hp: [
             {
                 health: '500',
@@ -8862,6 +11064,26 @@ export default [
         name: "Windranger",
         image: require("image/heroes/Windranger_icon.png"),
         characteristic: 'Intelligence',
+        attack: [
+            {
+                damage: '',
+                a_speed: '',
+                a_range: '',
+            },
+        ],
+        deffence: [
+            {
+                armor: '',
+                m_resist: '',
+            },
+        ],
+        mobility: [
+            {
+                speed: '',
+                vision_day: '',
+                vision_night: '',
+            },
+        ],
         hp: [
             {
                 health: '500',
@@ -8940,6 +11162,26 @@ export default [
         name: "Winter Wyvern",
         image: require("image/heroes/Winter_Wyvern_icon.png"),
         characteristic: 'Intelligence',
+        attack: [
+            {
+                damage: '',
+                a_speed: '',
+                a_range: '',
+            },
+        ],
+        deffence: [
+            {
+                armor: '',
+                m_resist: '',
+            },
+        ],
+        mobility: [
+            {
+                speed: '',
+                vision_day: '',
+                vision_night: '',
+            },
+        ],
         hp: [
             {
                 health: '680',
@@ -9020,6 +11262,26 @@ export default [
         name: "Witch Doctor",
         image: require("image/heroes/Witch_Doctor_icon.png"),
         characteristic: 'Intelligence',
+        attack: [
+            {
+                damage: '',
+                a_speed: '',
+                a_range: '',
+            },
+        ],
+        deffence: [
+            {
+                armor: '',
+                m_resist: '',
+            },
+        ],
+        mobility: [
+            {
+                speed: '',
+                vision_day: '',
+                vision_night: '',
+            },
+        ],
         hp: [
             {
                 health: '520',
@@ -9099,6 +11361,26 @@ export default [
         name: "Wraith King",
         image: require("image/heroes/Wraith_King_icon.png"),
         characteristic: 'Strength',
+        attack: [
+            {
+                damage: '',
+                a_speed: '',
+                a_range: '',
+            },
+        ],
+        deffence: [
+            {
+                armor: '',
+                m_resist: '',
+            },
+        ],
+        mobility: [
+            {
+                speed: '',
+                vision_day: '',
+                vision_night: '',
+            },
+        ],
         hp: [
             {
                 health: '640',
@@ -9177,6 +11459,26 @@ export default [
         name: "Zeus",
         image: require("image/heroes/Zeus_icon.png"),
         characteristic: 'Intelligence',
+        attack: [
+            {
+                damage: '',
+                a_speed: '',
+                a_range: '',
+            },
+        ],
+        deffence: [
+            {
+                armor: '',
+                m_resist: '',
+            },
+        ],
+        mobility: [
+            {
+                speed: '',
+                vision_day: '',
+                vision_night: '',
+            },
+        ],
         hp: [
             {
                 health: '580',

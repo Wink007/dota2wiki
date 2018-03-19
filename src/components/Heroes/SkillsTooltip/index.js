@@ -13,7 +13,7 @@ export default class SkillsTooltip extends Component {
                 null    
             );            
         }
-        const { image, name, description, aghanim_description, about } = currentSkill;
+        const { image, name, description, aghanim_description_name, aghanim_description, about } = currentSkill;
                   
         return (
             <div className="skill-tooltip">
@@ -25,47 +25,56 @@ export default class SkillsTooltip extends Component {
                     </div>
                 </div>
                 <div className="about">
-                        {
-                            about.map((items, index) => (
-                                <div key={index}>
-                                    {
-                                        items.type && 
-                                        <p className="type">
-                                            ТИП: <span>{items.type || '123'}</span>
-                                        </p>
-                                    }
-                                    {
-                                        items.affect && 
-                                        <p className="affect">
-                                            ДЕЙСТВУЕТ: <span>{items.affect}</span>
-                                        </p>
-                                    }
-                                    {
-                                        items.damage && 
-                                        <p className="damage">
-                                            УРОН: <span>{items.damage}</span>
-                                        </p>
-                                    }
-                                    {
-                                        items.immunity && 
-                                        <p className="immunity">
-                                            СКВОЗЬ НЕВОСПРИИМЧИВОСТЬ К МАГИИ: <span className={items.immunity === 'да' ? 'green' : 'red'}>{items.immunity}</span>
-                                        </p>
-                                    }
-                                    {
-                                        items.deflation && 
-                                        <p className="deflation">
-                                            МОЖНО РАЗВЕЯТЬ: <span className={items.deflation === 'да' ? 'green' : 'red'}>{items.deflation}</span>
-                                        </p> 
-                                    }
-                                </div>     
-                            ))
-                        }
-                    </div>
+                    {
+                        about.map((items, index) => (
+                            <div key={index}>
+                                {
+                                    items.type && 
+                                    <p className="type">
+                                        ТИП: <span>{items.type || '123'}</span>
+                                    </p>
+                                }
+                                {
+                                    items.affect && 
+                                    <p className="affect">
+                                        ДЕЙСТВУЕТ: <span>{items.affect}</span>
+                                    </p>
+                                }
+                                {
+                                    items.damage && 
+                                    <p className="damage">
+                                        УРОН: <span>{items.damage}</span>
+                                    </p>
+                                }
+                                {
+                                    items.immunity && 
+                                    <p className="immunity">
+                                        СКВОЗЬ НЕВОСПРИИМЧИВОСТЬ К МАГИИ: <span className={items.immunity === 'да' ? 'green' : 'red'}>{items.immunity}</span>
+                                    </p>
+                                }
+                                {
+                                    items.deflation && 
+                                    <p className="deflation">
+                                        МОЖНО РАЗВЕЯТЬ: <span className={items.deflation === 'да' ? 'green' : 'red'}>{items.deflation}</span>
+                                    </p> 
+                                }
+                            </div>     
+                        ))
+                    }
+                </div>
                 <div className="description">
                     {description}
-                    {aghanim_description && <p className="improvement">Улучшается с Aghanim's Scepter</p>}
                 </div>
+                {
+                    aghanim_description && 
+                    <div className="about-aghanim">
+                        <p className="improvement">Улучшается с Aghanim's Scepter</p>
+                        <p className="about-text">
+                            <p>{aghanim_description_name || ''}</p>
+                            <p>{aghanim_description}</p>
+                        </p>
+                    </div>
+                }
             </div>
         )
     }

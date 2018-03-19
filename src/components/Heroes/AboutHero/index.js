@@ -4,9 +4,6 @@ import PropTypes from 'prop-types';
 import SkillsTooltip from '../SkillsTooltip';
 
 import './index.scss';
-// import imgStr from '../../../../src/image/str.png';
-// import imgAgil from '../../../../src/image/agility.png';
-// import imgInt from '../../../../src/image/int.png';
 
 
 export default class AboutHero extends Component {
@@ -21,7 +18,11 @@ export default class AboutHero extends Component {
                 name, 
                 showSkill,
                 skills,
-                hideSkill 
+                hideSkill,
+                characteristic,
+                imgStr, 
+                imgAgil, 
+                imgInt,
             } = this.props;
 
         return (
@@ -30,11 +31,6 @@ export default class AboutHero extends Component {
                     <div className="img-block">
                         <div className="heroes-logo">
                             <img className="hero-logo-info" src={image || ''} alt="" />
-                            {
-                                skills.map((icon, idx) => (
-                                    icon.aghanim_description && <div key={idx} className="aghanim"></div>
-                                ))
-                            }
                         </div>
                         {
                             hp.map((health, index) => (
@@ -54,7 +50,17 @@ export default class AboutHero extends Component {
                         }
                     </div>
                     <div className="info">
-                        <p className="name">{name || ''}</p>
+                        <p className="name">
+                            {name || ''}
+                            {characteristic === 'Strength' && <img src={imgStr} alt="" tooltip='Сила' />}
+                            {characteristic === 'Agility' && <img src={imgAgil} alt="" tooltip='Ловкость' />}
+                            {characteristic === 'Intelligence' && <img src={imgInt} alt="" tooltip='Интеллект' />}
+                            {
+                                skills.map((icon, idx) => (
+                                    icon.aghanim_description && <span key={idx} className="aghanim"></span>
+                                ))
+                            }
+                        </p>
                         <p className="description">{about || ''}</p>
                     </div>
                 </div>
@@ -75,13 +81,6 @@ export default class AboutHero extends Component {
                             </div>
                         ))
                     }
-                    {
-                        skills.map((aghanim) => (
-                            <div className="aghanim-skill">
-                                {aghanim.aghanim_description}
-                            </div>
-                        ))
-                    }
                     <SkillsTooltip heroName={name} currentSkill={currentSkill} />
                 </div>
             </div>
@@ -98,5 +97,9 @@ AboutHero.propTypes = {
     mp: PropTypes.array.isRequired,
     image: PropTypes.string.isRequired, 
     name: PropTypes.string.isRequired,
+    characteristic: PropTypes.string.isRequired,
     skills: PropTypes.array.isRequired,
+    imgStr: PropTypes.string.isRequired,
+    imgAgil: PropTypes.string.isRequired,
+    imgInt: PropTypes.string.isRequired,
 };
