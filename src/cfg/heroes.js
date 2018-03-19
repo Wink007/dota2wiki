@@ -5,22 +5,22 @@ export default [
         characteristic: 'Strength',
         attack: [
             {
-                damage: '',
-                a_speed: '',
-                a_range: '',
+                damage: '55-65',
+                a_speed: '1.7',
+                a_range: '150',
             },
         ],
         deffence: [
             {
-                armor: '',
-                m_resist: '',
+                armor: '1.8',
+                m_resist: '25%',
             },
         ],
         mobility: [
             {
-                speed: '',
-                vision_day: '',
-                vision_night: '',
+                speed: '310',
+                vision_day: '1800',
+                vision_night: '800',
             },
         ],
         hp: [
@@ -103,22 +103,22 @@ export default [
         characteristic: 'Strength',
         attack: [
             {
-                damage: '',
-                a_speed: '',
-                a_range: '',
+                damage: '49-58',
+                a_speed: '1.7',
+                a_range: '150',
             },
         ],
         deffence: [
             {
-                armor: '',
-                m_resist: '',
+                armor: '2.7',
+                m_resist: '25%',
             },
         ],
         mobility: [
             {
-                speed: '',
-                vision_day: '',
-                vision_night: '',
+                speed: '295',
+                vision_day: '1800',
+                vision_night: '800',
             },
         ],
         hp: [
@@ -199,22 +199,22 @@ export default [
         characteristic: 'Intelligence',
         attack: [
             {
-                damage: '',
-                a_speed: '',
-                a_range: '',
+                damage: '44-54',
+                a_speed: '1.7',
+                a_range: '675',
             },
         ],
         deffence: [
             {
-                armor: '',
-                m_resist: '',
+                armor: '2.3',
+                m_resist: '25%',
             },
         ],
         mobility: [
             {
-                speed: '',
-                vision_day: '',
-                vision_night: '',
+                speed: '295',
+                vision_day: '1800',
+                vision_night: '800',
             },
         ],
         hp: [
@@ -302,22 +302,22 @@ export default [
         characteristic: 'Agility',
         attack: [
             {
-                damage: '',
-                a_speed: '',
-                a_range: '',
+                damage: '49-33',
+                a_speed: '1.5',
+                a_range: '150',
             },
         ],
         deffence: [
             {
-                armor: '',
-                m_resist: '',
+                armor: '2.7',
+                m_resist: '25%',
             },
         ],
         mobility: [
             {
-                speed: '',
-                vision_day: '',
-                vision_night: '',
+                speed: '310',
+                vision_day: '1800',
+                vision_night: '800',
             },
         ],
         hp: [
@@ -396,22 +396,22 @@ export default [
         characteristic: 'Agility',
         attack: [
             {
-                damage: '',
-                a_speed: '',
-                a_range: '',
+                damage: '44-54',
+                a_speed: '1.7',
+                a_range: '625',
             },
         ],
         deffence: [
             {
-                armor: '',
-                m_resist: '',
+                armor: '0.5',
+                m_resist: '25%',
             },
         ],
         mobility: [
             {
-                speed: '',
-                vision_day: '',
-                vision_night: '',
+                speed: '280',
+                vision_day: '1800',
+                vision_night: '800',
             },
         ],
         hp: [
@@ -491,22 +491,22 @@ export default [
         characteristic: 'Strength',
         attack: [
             {
-                damage: '',
-                a_speed: '',
-                a_range: '',
+                damage: '49-53',
+                a_speed: '1.7',
+                a_range: '150',
             },
         ],
         deffence: [
             {
-                armor: '',
-                m_resist: '',
+                armor: '2.3',
+                m_resist: '25%',
             },
         ],
         mobility: [
             {
-                speed: '',
-                vision_day: '',
-                vision_night: '',
+                speed: '290',
+                vision_day: '1800',
+                vision_night: '800',
             },
         ],
         hp: [
@@ -591,22 +591,22 @@ export default [
         characteristic: 'Intelligence',
         attack: [
             {
-                damage: '',
-                a_speed: '',
-                a_range: '',
+                damage: '60-66',
+                a_speed: '1.7',
+                a_range: '400',
             },
         ],
         deffence: [
             {
-                armor: '',
-                m_resist: '',
+                armor: '4.8',
+                m_resist: '25%',
             },
         ],
         mobility: [
             {
-                speed: '',
-                vision_day: '',
-                vision_night: '',
+                speed: '310',
+                vision_day: '1800',
+                vision_night: '800',
             },
         ],
         hp: [
@@ -694,22 +694,22 @@ export default [
         characteristic: 'Intelligence',
         attack: [
             {
-                damage: '',
-                a_speed: '',
-                a_range: '',
+                damage: '38-42',
+                a_speed: '1.7',
+                a_range: '375',
             },
         ],
         deffence: [
             {
-                armor: '',
-                m_resist: '',
+                armor: '2.5',
+                m_resist: '25%',
             },
         ],
         mobility: [
             {
-                speed: '',
-                vision_day: '',
-                vision_night: '',
+                speed: '290',
+                vision_day: '1200',
+                vision_night: '800',
             },
         ],
         hp: [
@@ -794,22 +794,22 @@ export default [
         characteristic: 'Strength',
         attack: [
             {
-                damage: '',
-                a_speed: '',
-                a_range: '',
+                damage: '64-68',
+                a_speed: '1.7',
+                a_range: '150',
             },
         ],
         deffence: [
             {
-                armor: '',
-                m_resist: '',
+                armor: '5.0',
+                m_resist: '25%',
             },
         ],
         mobility: [
             {
-                speed: '',
-                vision_day: '',
-                vision_night: '',
+                speed: '310',
+                vision_day: '1800',
+                vision_night: '800',
             },
         ],
         hp: [
@@ -891,22 +891,22 @@ export default [
         characteristic: 'Agility',
         attack: [
             {
-                damage: '',
-                a_speed: '',
-                a_range: '',
+                damage: '57-63',
+                a_speed: '1.7',
+                a_range: '150',
             },
         ],
         deffence: [
             {
-                armor: '',
-                m_resist: '',
+                armor: '4.0',
+                m_resist: '25%',
             },
         ],
         mobility: [
             {
-                speed: '',
-                vision_day: '',
-                vision_night: '',
+                speed: '285',
+                vision_day: '1800',
+                vision_night: '800',
             },
         ],
         hp: [
@@ -991,22 +991,22 @@ export default [
         characteristic: 'Agility',
         attack: [
             {
-                damage: '',
-                a_speed: '',
-                a_range: '',
+                damage: '45-59',
+                a_speed: '1.7',
+                a_range: '150',
             },
         ],
         deffence: [
             {
-                armor: '',
-                m_resist: '',
+                armor: '6.5',
+                m_resist: '25%',
             },
         ],
         mobility: [
             {
-                speed: '',
-                vision_day: '',
-                vision_night: '',
+                speed: '315',
+                vision_day: '1800',
+                vision_night: '800',
             },
         ],
         hp: [
@@ -1090,22 +1090,22 @@ export default [
         characteristic: 'Strength',
         attack: [
             {
-                damage: '',
-                a_speed: '',
-                a_range: '',
+                damage: '52-59',
+                a_speed: '1.7',
+                a_range: '150',
             },
         ],
         deffence: [
             {
-                armor: '',
-                m_resist: '',
+                armor: '2.7',
+                m_resist: '25%',
             },
         ],
         mobility: [
             {
-                speed: '',
-                vision_day: '',
-                vision_night: '',
+                speed: '300',
+                vision_day: '1800',
+                vision_night: '800',
             },
         ],
         hp: [
@@ -1186,22 +1186,22 @@ export default [
         characteristic: 'Strength',
         attack: [
             {
-                damage: '',
-                a_speed: '',
-                a_range: '',
+                damage: '44-54',
+                a_speed: '1.8',
+                a_range: '150',
             },
         ],
         deffence: [
             {
-                armor: '',
-                m_resist: '',
+                armor: '3.8',
+                m_resist: '25%',
             },
         ],
         mobility: [
             {
-                speed: '',
-                vision_day: '',
-                vision_night: '',
+                speed: '290',
+                vision_day: '1800',
+                vision_night: '800',
             },
         ],
         hp: [
@@ -1282,22 +1282,22 @@ export default [
         characteristic: 'Agility',
         attack: [
             {
-                damage: '',
-                a_speed: '',
-                a_range: '',
+                damage: '44-50',
+                a_speed: '1.7',
+                a_range: '150',
             },
         ],
         deffence: [
             {
-                armor: '',
-                m_resist: '',
+                armor: '3.0',
+                m_resist: '25%',
             },
         ],
         mobility: [
             {
-                speed: '',
-                vision_day: '',
-                vision_night: '',
+                speed: '270',
+                vision_day: '1800',
+                vision_night: '800',
             },
         ],
         hp: [
@@ -1377,22 +1377,22 @@ export default [
         characteristic: 'Strength',
         attack: [
             {
-                damage: '',
-                a_speed: '',
-                a_range: '',
+                damage: '55-57',
+                a_speed: '1.7',
+                a_range: '150',
             },
         ],
         deffence: [
             {
-                armor: '',
-                m_resist: '',
+                armor: '2.5',
+                m_resist: '25%',
             },
         ],
         mobility: [
             {
-                speed: '',
-                vision_day: '',
-                vision_night: '',
+                speed: '300 ',
+                vision_day: '1800',
+                vision_night: '800',
             },
         ],
         hp: [
@@ -1476,22 +1476,22 @@ export default [
         characteristic: 'Strength',
         attack: [
             {
-                damage: '',
-                a_speed: '',
-                a_range: '',
+                damage: '51-81',
+                a_speed: '1.7',
+                a_range: '150',
             },
         ],
         deffence: [
             {
-                armor: '',
-                m_resist: '',
+                armor: '4.3',
+                m_resist: '25%',
             },
         ],
         mobility: [
             {
-                speed: '',
-                vision_day: '',
-                vision_night: '',
+                speed: '325',
+                vision_day: '1800',
+                vision_night: '800',
             },
         ],
         hp: [
@@ -1574,22 +1574,22 @@ export default [
         characteristic: 'Intelligence',
         attack: [
             {
-                damage: '',
-                a_speed: '',
-                a_range: '',
+                damage: '48-58',
+                a_speed: '1.7',
+                a_range: '650',
             },
         ],
         deffence: [
             {
-                armor: '',
-                m_resist: '',
+                armor: '1.5',
+                m_resist: '25%',
             },
         ],
         mobility: [
             {
-                speed: '',
-                vision_day: '',
-                vision_night: '',
+                speed: '310',
+                vision_day: '1800',
+                vision_night: '800',
             },
         ],
         hp: [
@@ -1672,22 +1672,22 @@ export default [
         characteristic: 'Agility',
         attack: [
             {
-                damage: '',
-                a_speed: '',
-                a_range: '',
+                damage: '37-43',
+                a_speed: '1.7',
+                a_range: '640',
             },
         ],
         deffence: [
             {
-                armor: '',
-                m_resist: '',
+                armor: '2.7',
+                m_resist: '25%',
             },
         ],
         mobility: [
             {
-                speed: '',
-                vision_day: '',
-                vision_night: '',
+                speed: '295',
+                vision_day: '1800',
+                vision_night: '800',
             },
         ],
         hp: [
@@ -1767,22 +1767,22 @@ export default [
         characteristic: 'Strength',
         attack: [
             {
-                damage: '',
-                a_speed: '',
-                a_range: '',
+                damage: '54-56',
+                a_speed: '1.7',
+                a_range: '150',
             },
         ],
         deffence: [
             {
-                armor: '',
-                m_resist: '',
+                armor: '2.2',
+                m_resist: '25%',
             },
         ],
         mobility: [
             {
-                speed: '',
-                vision_day: '',
-                vision_night: '',
+                speed: '315',
+                vision_day: '1800',
+                vision_night: '800',
             },
         ],
         hp: [
@@ -1866,22 +1866,22 @@ export default [
         characteristic: 'Intelligence',
         attack: [
             {
-                damage: '',
-                a_speed: '',
-                a_range: '',
+                damage: '35-41',
+                a_speed: '1.7',
+                a_range: '600',
             },
         ],
         deffence: [
             {
-                armor: '',
-                m_resist: '',
+                armor: '1.7',
+                m_resist: '25%',
             },
         ],
         mobility: [
             {
-                speed: '',
-                vision_day: '',
-                vision_night: '',
+                speed: '275',
+                vision_day: '1800',
+                vision_night: '800',
             },
         ],
         hp: [
@@ -1965,22 +1965,22 @@ export default [
         characteristic: 'Intelligence',
         attack: [
             {
-                damage: '',
-                a_speed: '',
-                a_range: '',
+                damage: '54-60',
+                a_speed: '1.7',
+                a_range: '150',
             },
         ],
         deffence: [
             {
-                armor: '',
-                m_resist: '',
+                armor: '7.0',
+                m_resist: '25%',
             },
         ],
         mobility: [
             {
-                speed: '',
-                vision_day: '',
-                vision_night: '',
+                speed: '295',
+                vision_day: '1800',
+                vision_night: '800',
             },
         ],
         hp: [
@@ -2066,22 +2066,22 @@ export default [
         characteristic: 'Intelligence',
         attack: [
             {
-                damage: '',
-                a_speed: '',
-                a_range: '',
+                damage: '45-53',
+                a_speed: '1.3',
+                a_range: '475',
             },
         ],
         deffence: [
             {
-                armor: '',
-                m_resist: '',
+                armor: '2.0',
+                m_resist: '25%',
             },
         ],
         mobility: [
             {
-                speed: '',
-                vision_day: '',
-                vision_night: '',
+                speed: '295',
+                vision_day: '1800',
+                vision_night: '800',
             },
         ],
         hp: [
@@ -2178,22 +2178,22 @@ export default [
         characteristic: 'Intelligence',
         attack: [
             {
-                damage: '',
-                a_speed: '',
-                a_range: '',
+                damage: '41-59',
+                a_speed: '1.7',
+                a_range: '550',
             },
         ],
         deffence: [
             {
-                armor: '',
-                m_resist: '',
+                armor: '2.5',
+                m_resist: '25%',
             },
         ],
         mobility: [
             {
-                speed: '',
-                vision_day: '',
-                vision_night: '',
+                speed: '310',
+                vision_day: '1800',
+                vision_night: '800',
             },
         ],
         hp: [
@@ -2279,22 +2279,22 @@ export default [
         characteristic: 'Intelligence',
         attack: [
             {
-                damage: '',
-                a_speed: '',
-                a_range: '',
+                damage: '47-59',
+                a_speed: '1.7',
+                a_range: '600',
             },
         ],
         deffence: [
             {
-                armor: '',
-                m_resist: '',
+                armor: '3.3',
+                m_resist: '25%',
             },
         ],
         mobility: [
             {
-                speed: '',
-                vision_day: '',
-                vision_night: '',
+                speed: '310',
+                vision_day: '1800',
+                vision_night: '800',
             },
         ],
         hp: [
@@ -2379,22 +2379,22 @@ export default [
         characteristic: 'Intelligence',
         attack: [
             {
-                damage: '',
-                a_speed: '',
-                a_range: '',
+                damage: '49-53',
+                a_speed: '1.7',
+                a_range: '600',
             },
         ],
         deffence: [
             {
-                armor: '',
-                m_resist: '',
+                armor: '1.5',
+                m_resist: '25%',
             },
         ],
         mobility: [
             {
-                speed: '',
-                vision_day: '',
-                vision_night: '',
+                speed: '300',
+                vision_day: '1800',
+                vision_night: '800',
             },
         ],
         hp: [
@@ -2479,22 +2479,22 @@ export default [
         characteristic: 'Strength',
         attack: [
             {
-                damage: '',
-                a_speed: '',
-                a_range: '',
+                damage: '53-69',
+                a_speed: '2.0',
+                a_range: '150',
             },
         ],
         deffence: [
             {
-                armor: '',
-                m_resist: '',
+                armor: '0.8',
+                m_resist: '25%',
             },
         ],
         mobility: [
             {
-                speed: '',
-                vision_day: '',
-                vision_night: '',
+                speed: '298',
+                vision_day: '1800',
+                vision_night: '800',
             },
         ],
         hp: [
@@ -2580,22 +2580,22 @@ export default [
         characteristic: 'Strength',
         attack: [
             {
-                damage: '',
-                a_speed: '',
-                a_range: '',
+                damage: '50-56',
+                a_speed: '1.7',
+                a_range: '150',
             },
         ],
         deffence: [
             {
-                armor: '',
-                m_resist: '',
+                armor: '4.2',
+                m_resist: '25%',
             },
         ],
         mobility: [
             {
-                speed: '',
-                vision_day: '',
-                vision_night: '',
+                speed: '290',
+                vision_day: '1800',
+                vision_night: '800',
             },
         ],
         hp: [
@@ -2678,22 +2678,22 @@ export default [
         characteristic: 'Agility',
         attack: [
             {
-                damage: '',
-                a_speed: '',
-                a_range: '',
+                damage: '40-51',
+                a_speed: '1.7',
+                a_range: '625',
             },
         ],
         deffence: [
             {
-                armor: '',
-                m_resist: '',
+                armor: '1.3',
+                m_resist: '25%',
             },
         ],
         mobility: [
             {
-                speed: '',
-                vision_day: '',
-                vision_night: '',
+                speed: '285',
+                vision_day: '1800',
+                vision_night: '800',
             },
         ],
         hp: [
@@ -2773,22 +2773,22 @@ export default [
         characteristic: 'Strength',
         attack: [
             {
-                damage: '',
-                a_speed: '',
-                a_range: '',
+                damage: '46-56',
+                a_speed: '1.7',
+                a_range: '150',
             },
         ],
         deffence: [
             {
-                armor: '',
-                m_resist: '',
+                armor: '3.8',
+                m_resist: '25%',
             },
         ],
         mobility: [
             {
-                speed: '',
-                vision_day: '',
-                vision_night: '',
+                speed: '290',
+                vision_day: '1800',
+                vision_night: '800',
             },
         ],
         hp: [
@@ -2884,22 +2884,22 @@ export default [
         characteristic: 'Strength',
         attack: [
             {
-                damage: '',
-                a_speed: '',
-                a_range: '',
+                damage: '46-56',
+                a_speed: '1.7',
+                a_range: '150',
             },
         ],
         deffence: [
             {
-                armor: '',
-                m_resist: '',
+                armor: '3.0',
+                m_resist: '25%',
             },
         ],
         mobility: [
             {
-                speed: '',
-                vision_day: '',
-                vision_night: '',
+                speed: '310',
+                vision_day: '1800',
+                vision_night: '800',
             },
         ],
         hp: [
@@ -2983,22 +2983,22 @@ export default [
         characteristic: 'Strength',
         attack: [
             {
-                damage: '',
-                a_speed: '',
-                a_range: '',
+                damage: '47-57',
+                a_speed: '1.7',
+                a_range: '150',
             },
         ],
         deffence: [
             {
-                armor: '',
-                m_resist: '',
+                armor: '3.3',
+                m_resist: '25%',
             },
         ],
         mobility: [
             {
-                speed: '',
-                vision_day: '',
-                vision_night: '',
+                speed: '315',
+                vision_day: '1800',
+                vision_night: '800',
             },
         ],
         hp: [
@@ -3084,22 +3084,22 @@ export default [
         characteristic: 'Agility',
         attack: [
             {
-                damage: '',
-                a_speed: '',
-                a_range: '',
+                damage: '52-56',
+                a_speed: '1.7',
+                a_range: '150',
             },
         ],
         deffence: [
             {
-                armor: '',
-                m_resist: '',
+                armor: '1.7',
+                m_resist: '25%',
             },
         ],
         mobility: [
             {
-                speed: '',
-                vision_day: '',
-                vision_night: '',
+                speed: '305',
+                vision_day: '1800',
+                vision_night: '800',
             },
         ],
         hp: [
@@ -3194,22 +3194,22 @@ export default [
         characteristic: 'Intelligence',
         attack: [
             {
-                damage: '',
-                a_speed: '',
-                a_range: '',
+                damage: '49-59',
+                a_speed: '1.7',
+                a_range: '550',
             },
         ],
         deffence: [
             {
-                armor: '',
-                m_resist: '',
+                armor: '1.2',
+                m_resist: '25%',
             },
         ],
         mobility: [
             {
-                speed: '',
-                vision_day: '',
-                vision_night: '',
+                speed: '340',
+                vision_day: '1800',
+                vision_night: '800',
             },
         ],
         hp: [
@@ -3291,22 +3291,22 @@ export default [
         characteristic: 'Intelligence',
         attack: [
             {
-                damage: '',
-                a_speed: '',
-                a_range: '',
+                damage: '42-48',
+                a_speed: '1.7',
+                a_range: '500',
             },
         ],
         deffence: [
             {
-                armor: '',
-                m_resist: '',
+                armor: '4.3',
+                m_resist: '25%',
             },
         ],
         mobility: [
             {
-                speed: '',
-                vision_day: '',
-                vision_night: '',
+                speed: '300',
+                vision_day: '1800',
+                vision_night: '800',
             },
         ],
         hp: [
@@ -3387,22 +3387,22 @@ export default [
         characteristic: 'Agility',
         attack: [
             {
-                damage: '',
-                a_speed: '',
-                a_range: '',
+                damage: '56-62',
+                a_speed: '1.7',
+                a_range: '150',
             },
         ],
         deffence: [
             {
-                armor: '',
-                m_resist: '',
+                armor: '3.8',
+                m_resist: '25%',
             },
         ],
         mobility: [
             {
-                speed: '',
-                vision_day: '',
-                vision_night: '',
+                speed: '295',
+                vision_day: '1800',
+                vision_night: '800',
             },
         ],
         hp: [
@@ -3483,22 +3483,22 @@ export default [
         characteristic: 'Agility',
         attack: [
             {
-                damage: '',
-                a_speed: '',
-                a_range: '',
+                damage: '37-47',
+                a_speed: '1.7',
+                a_range: '365',
             },
         ],
         deffence: [
             {
-                armor: '',
-                m_resist: '',
+                armor: '5.0',
+                m_resist: '25%',
             },
         ],
         mobility: [
             {
-                speed: '',
-                vision_day: '',
-                vision_night: '',
+                speed: '320',
+                vision_day: '1800',
+                vision_night: '800',
             },
         ],
         hp: [
@@ -3585,22 +3585,22 @@ export default [
         characteristic: 'Strength',
         attack: [
             {
-                damage: '',
-                a_speed: '',
-                a_range: '',
+                damage: '42-51',
+                a_speed: '1.6',
+                a_range: '400',
             },
         ],
         deffence: [
             {
-                armor: '',
-                m_resist: '',
+                armor: '1.5',
+                m_resist: '25%',
             },
         ],
         mobility: [
             {
-                speed: '',
-                vision_day: '',
-                vision_night: '',
+                speed: '295',
+                vision_day: '1800',
+                vision_night: '800',
             },
         ],
         hp: [
@@ -3684,22 +3684,22 @@ export default [
         characteristic: 'Intelligence',
         attack: [
             {
-                damage: '',
-                a_speed: '',
-                a_range: '',
+                damage: '35-41',
+                a_speed: '1.7',
+                a_range: '600',
             },
         ],
         deffence: [
             {
-                armor: '',
-                m_resist: '',
+                armor: '1.3',
+                m_resist: '25%',
             },
         ],
         mobility: [
             {
                 speed: '',
-                vision_day: '',
-                vision_night: '',
+                vision_day: '1800',
+                vision_night: '800',
             },
         ],
         hp: [
@@ -3776,22 +3776,22 @@ export default [
         characteristic: 'Strength',
         attack: [
             {
-                damage: '',
-                a_speed: '',
-                a_range: '',
+                damage: '43-52',
+                a_speed: '1.7',
+                a_range: '575',
             },
         ],
         deffence: [
             {
-                armor: '',
-                m_resist: '',
+                armor: '0.3',
+                m_resist: '25%',
             },
         ],
         mobility: [
             {
-                speed: '',
-                vision_day: '',
-                vision_night: '',
+                speed: '295',
+                vision_day: '1800',
+                vision_night: '800',
             },
         ],
         hp: [
@@ -3892,22 +3892,22 @@ export default [
         characteristic: 'Intelligence',
         attack: [
             {
-                damage: '',
-                a_speed: '',
-                a_range: '',
+                damage: '53-61',
+                a_speed: '1.7',
+                a_range: '400',
             },
         ],
         deffence: [
             {
-                armor: '',
-                m_resist: '',
+                armor: '2.7',
+                m_resist: '25%',
             },
         ],
         mobility: [
             {
-                speed: '',
-                vision_day: '',
-                vision_night: '',
+                speed: '290',
+                vision_day: '1800',
+                vision_night: '800',
             },
         ],
         hp: [
@@ -3996,22 +3996,22 @@ export default [
         characteristic: 'Agility',
         attack: [
             {
-                damage: '',
-                a_speed: '',
-                a_range: '',
+                damage: '48-52',
+                a_speed: '1.4',
+                a_range: '150',
             },
         ],
         deffence: [
             {
-                armor: '',
-                m_resist: '',
+                armor: '4.3',
+                m_resist: '25%',
             },
         ],
         mobility: [
             {
-                speed: '',
-                vision_day: '',
-                vision_night: '',
+                speed: '295',
+                vision_day: '1800',
+                vision_night: '800',
             },
         ],
         hp: [
@@ -4091,22 +4091,22 @@ export default [
         characteristic: 'Intelligence',
         attack: [
             {
-                damage: '',
-                a_speed: '',
-                a_range: '',
+                damage: '43-50',
+                a_speed: '1.7',
+                a_range: '600',
             },
         ],
         deffence: [
             {
-                armor: '',
-                m_resist: '',
+                armor: '1.5',
+                m_resist: '25%',
             },
         ],
         mobility: [
             {
-                speed: '',
-                vision_day: '',
-                vision_night: '',
+                speed: '335',
+                vision_day: '1800',
+                vision_night: '800',
             },
         ],
         hp: [
@@ -4215,22 +4215,22 @@ export default [
         characteristic: 'Strength',
         attack: [
             {
-                damage: '',
-                a_speed: '',
-                a_range: '',
+                damage: '50-60',
+                a_speed: '1.7',
+                a_range: '150',
             },
         ],
         deffence: [
             {
-                armor: '',
-                m_resist: '',
+                armor: '4.3',
+                m_resist: '25%',
             },
         ],
         mobility: [
             {
-                speed: '',
-                vision_day: '',
-                vision_night: '',
+                speed: '300',
+                vision_day: '1800',
+                vision_night: '800',
             },
         ],
         hp: [
@@ -4315,22 +4315,22 @@ export default [
         characteristic: 'Strength',
         attack: [
             {
-                damage: '',
-                a_speed: '',
-                a_range: '',
+                damage: '61-65',
+                a_speed: '1.7',
+                a_range: '150',
             },
         ],
         deffence: [
             {
-                armor: '',
-                m_resist: '',
+                armor: '3.0',
+                m_resist: '25%',
             },
         ],
         mobility: [
             {
-                speed: '',
-                vision_day: '',
-                vision_night: '',
+                speed: '320',
+                vision_day: '1800',
+                vision_night: '800',
             },
         ],
         hp: [
@@ -4413,22 +4413,22 @@ export default [
         characteristic: 'Intelligence',
         attack: [
             {
-                damage: '',
-                a_speed: '',
-                a_range: '',
+                damage: '41-45',
+                a_speed: '1.7',
+                a_range: '600',
             },
         ],
         deffence: [
             {
-                armor: '',
-                m_resist: '',
+                armor: '3.8',
+                m_resist: '25%',
             },
         ],
         mobility: [
             {
-                speed: '',
-                vision_day: '',
-                vision_night: '',
+                speed: '325',
+                vision_day: '1800',
+                vision_night: '800',
             },
         ],
         hp: [
@@ -4518,22 +4518,22 @@ export default [
         characteristic: 'Intelligence',
         attack: [
             {
-                damage: '',
-                a_speed: '',
-                a_range: '',
+                damage: '42-51',
+                a_speed: '1.7',
+                a_range: '550',
             },
         ],
         deffence: [
             {
-                armor: '',
-                m_resist: '',
+                armor: '1.5',
+                m_resist: '25%',
             },
         ],
         mobility: [
             {
-                speed: '',
-                vision_day: '',
-                vision_night: '',
+                speed: '315',
+                vision_day: '1800',
+                vision_night: '800',
             },
         ],
         hp: [
@@ -4619,22 +4619,22 @@ export default [
         characteristic: 'Strength',
         attack: [
             {
-                damage: '',
-                a_speed: '',
-                a_range: '',
+                damage: '52-62',
+                a_speed: '1.9',
+                a_range: '150',
             },
         ],
         deffence: [
             {
-                armor: '',
-                m_resist: '',
+                armor: '2.0',
+                m_resist: '25%',
             },
         ],
         mobility: [
             {
-                speed: '',
-                vision_day: '',
-                vision_night: '',
+                speed: '315',
+                vision_day: '1800',
+                vision_night: '800',
             },
         ],
         hp: [
@@ -4715,22 +4715,22 @@ export default [
         characteristic: 'Intelligence',
         attack: [
             {
-                damage: '',
-                a_speed: '',
-                a_range: '',
+                damage: '46-58',
+                a_speed: '1.6',
+                a_range: '670',
             },
         ],
         deffence: [
             {
-                armor: '',
-                m_resist: '',
+                armor: '1.7',
+                m_resist: '25%',
             },
         ],
         mobility: [
             {
-                speed: '',
-                vision_day: '',
-                vision_night: '',
+                speed: '295',
+                vision_day: '1800',
+                vision_night: '800',
             },
         ],
         hp: [
@@ -4813,22 +4813,22 @@ export default [
         characteristic: 'Intelligence',
         attack: [
             {
-                damage: '',
-                a_speed: '',
-                a_range: '',
+                damage: '47-53',
+                a_speed: '1.7',
+                a_range: '600',
             },
         ],
         deffence: [
             {
-                armor: '',
-                m_resist: '',
+                armor: '1.5',
+                m_resist: '25%',
             },
         ],
         mobility: [
             {
-                speed: '',
-                vision_day: '',
-                vision_night: '',
+                speed: '290',
+                vision_day: '1800',
+                vision_night: '800',
             },
         ],
         hp: [
@@ -4915,22 +4915,22 @@ export default [
         characteristic: 'Agility',
         attack: [
             {
-                damage: '',
-                a_speed: '',
-                a_range: '',
+                damage: '42-46',
+                a_speed: '1.7',
+                a_range: '550',
             },
         ],
         deffence: [
             {
-                armor: '',
-                m_resist: '',
+                armor: '4.0',
+                m_resist: '25%',
             },
         ],
         mobility: [
             {
-                speed: '',
-                vision_day: '',
-                vision_night: '',
+                speed: '320',
+                vision_day: '1800',
+                vision_night: '800',
             },
         ],
         hp: [
@@ -5008,22 +5008,22 @@ export default [
         characteristic: 'Agility',
         attack: [
             {
-                damage: '',
-                a_speed: '',
-                a_range: '',
+                damage: '38-44',
+                a_speed: '1.7',
+                a_range: '330',
             },
         ],
         deffence: [
             {
-                armor: '',
-                m_resist: '',
+                armor: '3.0',
+                m_resist: '25%',
             },
         ],
         mobility: [
             {
-                speed: '',
-                vision_day: '',
-                vision_night: '',
+                speed: '330',
+                vision_day: '1800',
+                vision_night: '800',
             },
         ],
         hp: [
@@ -5106,22 +5106,22 @@ export default [
         characteristic: 'Strength',
         attack: [
             {
-                damage: '',
-                a_speed: '',
-                a_range: '',
+                damage: '58-63',
+                a_speed: '1.7',
+                a_range: '150',
             },
         ],
         deffence: [
             {
-                armor: '',
-                m_resist: '',
+                armor: '2.7',
+                m_resist: '25%',
             },
         ],
         mobility: [
             {
-                speed: '',
-                vision_day: '',
-                vision_night: '',
+                speed: '305',
+                vision_day: '1800',
+                vision_night: '800',
             },
         ],
         hp: [
@@ -5195,22 +5195,22 @@ export default [
         characteristic: 'Strength',
         attack: [
             {
-                damage: '',
-                a_speed: '',
-                a_range: '',
+                damage: '54-66',
+                a_speed: '1.8',
+                a_range: '150',
             },
         ],
         deffence: [
             {
-                armor: '',
-                m_resist: '',
+                armor: '4.5',
+                m_resist: '25%',
             },
         ],
         mobility: [
             {
-                speed: '',
-                vision_day: '',
-                vision_night: '',
+                speed: '310',
+                vision_day: '1800',
+                vision_night: '800',
             },
         ],
         hp: [
@@ -5296,22 +5296,22 @@ export default [
         characteristic: 'Agility',
         attack: [
             {
-                damage: '',
-                a_speed: '',
-                a_range: '',
+                damage: '44-50',
+                a_speed: '1.7',
+                a_range: '600',
             },
         ],
         deffence: [
             {
-                armor: '',
-                m_resist: '',
+                armor: '2.3',
+                m_resist: '25%',
             },
         ],
         mobility: [
             {
-                speed: '',
-                vision_day: '',
-                vision_night: '',
+                speed: '275',
+                vision_day: '1800',
+                vision_night: '800',
             },
         ],
         hp: [
@@ -5394,22 +5394,22 @@ export default [
         characteristic: 'Agility',
         attack: [
             {
-                damage: '',
-                a_speed: '',
-                a_range: '',
+                damage: '43-49',
+                a_speed: '1.7',
+                a_range: '150',
             },
         ],
         deffence: [
             {
-                armor: '',
-                m_resist: '',
+                armor: '2.8',
+                m_resist: '25%',
             },
         ],
         mobility: [
             {
-                speed: '',
-                vision_day: '',
-                vision_night: '',
+                speed: '310',
+                vision_day: '1800',
+                vision_night: '800',
             },
         ],
         hp: [
@@ -5490,22 +5490,22 @@ export default [
         characteristic: 'Agility',
         attack: [
             {
-                damage: '',
-                a_speed: '',
-                a_range: '',
+                damage: '39-50',
+                a_speed: '1.7',
+                a_range: '630',
             },
         ],
         deffence: [
             {
-                armor: '',
-                m_resist: '',
+                armor: '2.0',
+                m_resist: '25%',
             },
         ],
         mobility: [
             {
-                speed: '',
-                vision_day: '',
-                vision_night: '',
+                speed: '295',
+                vision_day: '1800',
+                vision_night: '800',
             },
         ],
         hp: [
@@ -5586,22 +5586,22 @@ export default [
         characteristic: 'Agility',
         attack: [
             {
-                damage: '',
-                a_speed: '',
-                a_range: '',
+                damage: '51-57',
+                a_speed: '1.7',
+                a_range: '300',
             },
         ],
         deffence: [
             {
-                armor: '',
-                m_resist: '',
+                armor: '0.7',
+                m_resist: '25%',
             },
         ],
         mobility: [
             {
-                speed: '',
-                vision_day: '',
-                vision_night: '',
+                speed: '300',
+                vision_day: '1800',
+                vision_night: '800',
             },
         ],
         hp: [
@@ -5701,22 +5701,22 @@ export default [
         characteristic: 'Agility',
         attack: [
             {
-                damage: '',
-                a_speed: '',
-                a_range: '',
+                damage: '33-42',
+                a_speed: '1.5',
+                a_range: '350',
             },
         ],
         deffence: [
             {
-                armor: '',
-                m_resist: '',
+                armor: '2.0',
+                m_resist: '25%',
             },
         ],
         mobility: [
             {
-                speed: '',
-                vision_day: '',
-                vision_night: '',
+                speed: '280',
+                vision_day: '1800',
+                vision_night: '800',
             },
         ],
         hp: [
@@ -5820,22 +5820,22 @@ export default [
         characteristic: 'Agility',
         attack: [
             {
-                damage: '',
-                a_speed: '',
-                a_range: '',
+                damage: '44-46',
+                a_speed: '1.7',
+                a_range: '150',
             },
         ],
         deffence: [
             {
-                armor: '',
-                m_resist: '',
+                armor: '6.5',
+                m_resist: '25%',
             },
         ],
         mobility: [
             {
-                speed: '',
-                vision_day: '',
-                vision_night: '',
+                speed: '315',
+                vision_day: '1800',
+                vision_night: '800',
             },
         ],
         hp: [
@@ -5917,22 +5917,22 @@ export default [
         characteristic: 'Intelligence',
         attack: [
             {
-                damage: '',
-                a_speed: '',
-                a_range: '',
+                damage: '55-69',
+                a_speed: '1.7',
+                a_range: '600',
             },
         ],
         deffence: [
             {
-                armor: '',
-                m_resist: '',
+                armor: '4.0',
+                m_resist: '25%',
             },
         ],
         mobility: [
             {
-                speed: '',
-                vision_day: '',
-                vision_night: '',
+                speed: '290',
+                vision_day: '1800',
+                vision_night: '800',
             },
         ],
         hp: [
@@ -6011,22 +6011,22 @@ export default [
         characteristic: 'Intelligence',
         attack: [
             {
-                damage: '',
-                a_speed: '',
-                a_range: '',
+                damage: '44-48',
+                a_speed: '1.7',
+                a_range: '550',
             },
         ],
         deffence: [
             {
-                armor: '',
-                m_resist: '',
+                armor: '2.5',
+                m_resist: '25%',
             },
         ],
         mobility: [
             {
-                speed: '',
-                vision_day: '',
-                vision_night: '',
+                speed: '285',
+                vision_day: '1800',
+                vision_night: '800',
             },
         ],
         hp: [
@@ -6108,22 +6108,22 @@ export default [
         characteristic: 'Strength',
         attack: [
             {
-                damage: '',
-                a_speed: '',
-                a_range: '',
+                damage: '61-65',
+                a_speed: '1.7',
+                a_range: '150',
             },
         ],
         deffence: [
             {
-                armor: '',
-                m_resist: '',
+                armor: '6.0',
+                m_resist: '25%',
             },
         ],
         mobility: [
             {
-                speed: '',
-                vision_day: '',
-                vision_night: '',
+                speed: '295',
+                vision_day: '800',
+                vision_night: '1800',
             },
         ],
         hp: [
@@ -6205,22 +6205,22 @@ export default [
         characteristic: 'Agility',
         attack: [
             {
-                damage: '',
-                a_speed: '',
-                a_range: '',
+                damage: '46-50',
+                a_speed: '1.7',
+                a_range: '150',
             },
         ],
         deffence: [
             {
-                armor: '',
-                m_resist: '',
+                armor: '4.2',
+                m_resist: '25%',
             },
         ],
         mobility: [
             {
-                speed: '',
-                vision_day: '',
-                vision_night: '',
+                speed: '295',
+                vision_day: '1800',
+                vision_night: '800',
             },
         ],
         hp: [
@@ -6306,22 +6306,22 @@ export default [
         characteristic: 'Intelligence',
         attack: [
             {
-                damage: '',
-                a_speed: '',
-                a_range: '',
+                damage: '58-64',
+                a_speed: '1.7',
+                a_range: '150',
             },
         ],
         deffence: [
             {
-                armor: '',
-                m_resist: '',
+                armor: '8.3',
+                m_resist: '25%',
             },
         ],
         mobility: [
             {
-                speed: '',
-                vision_day: '',
-                vision_night: '',
+                speed: '285',
+                vision_day: '1800',
+                vision_night: '800',
             },
         ],
         hp: [
@@ -6420,22 +6420,22 @@ export default [
         characteristic: 'Strength',
         attack: [
             {
-                damage: '',
-                a_speed: '',
-                a_range: '',
+                damage: '53-63',
+                a_speed: '1.7',
+                a_range: '150',
             },
         ],
         deffence: [
             {
-                armor: '',
-                m_resist: '',
+                armor: '5.5',
+                m_resist: '25%',
             },
         ],
         mobility: [
             {
-                speed: '',
-                vision_day: '',
-                vision_night: '',
+                speed: '305',
+                vision_day: '1800',
+                vision_night: '800',
             },
         ],
         hp: [
@@ -6519,22 +6519,22 @@ export default [
         characteristic: 'Intelligence',
         attack: [
             {
-                damage: '',
-                a_speed: '',
-                a_range: '',
+                damage: '39-45',
+                a_speed: '1.4',
+                a_range: '620',
             },
         ],
         deffence: [
             {
-                armor: '',
-                m_resist: '',
+                armor: '2.5',
+                m_resist: '25%',
             },
         ],
         mobility: [
             {
-                speed: '',
-                vision_day: '',
-                vision_night: '',
+                speed: '305',
+                vision_day: '1800',
+                vision_night: '800',
             },
         ],
         hp: [
@@ -6621,22 +6621,22 @@ export default [
         characteristic: 'Intelligence',
         attack: [
             {
-                damage: '',
-                a_speed: '',
-                a_range: '',
+                damage: '40-55',
+                a_speed: '1.7',
+                a_range: '450',
             },
         ],
         deffence: [
             {
-                armor: '',
-                m_resist: '',
+                armor: '4.0',
+                m_resist: '25%',
             },
         ],
         mobility: [
             {
-                speed: '',
-                vision_day: '',
-                vision_night: '',
+                speed: '315',
+                vision_day: '1800',
+                vision_night: '800',
             },
         ],
         hp: [
@@ -6721,22 +6721,22 @@ export default [
         characteristic: 'Agility',
         attack: [
             {
-                damage: '',
-                a_speed: '',
-                a_range: '',
+                damage: '47-53',
+                a_speed: '1.7',
+                a_range: '150',
             },
         ],
         deffence: [
             {
-                armor: '',
-                m_resist: '',
+                armor: '4.0',
+                m_resist: '25%',
             },
         ],
         mobility: [
             {
-                speed: '',
-                vision_day: '',
-                vision_night: '',
+                speed: '305',
+                vision_day: '1800',
+                vision_night: '800',
             },
         ],
         hp: [
@@ -6820,22 +6820,22 @@ export default [
         characteristic: 'Agility',
         attack: [
             {
-                damage: '',
-                a_speed: '',
-                a_range: '',
+                damage: '46-48',
+                a_speed: '1.7',
+                a_range: '150',
             },
         ],
         deffence: [
             {
-                armor: '',
-                m_resist: '',
+                armor: '4.8',
+                m_resist: '25%',
             },
         ],
         mobility: [
             {
-                speed: '',
-                vision_day: '',
-                vision_night: '',
+                speed: '305',
+                vision_day: '1800',
+                vision_night: '800',
             },
         ],
         hp: [
@@ -6915,22 +6915,22 @@ export default [
         characteristic: 'Agility',
         attack: [
             {
-                damage: '',
-                a_speed: '',
-                a_range: '',
+                damage: '51-73',
+                a_speed: '1.7',
+                a_range: '150',
             },
         ],
         deffence: [
             {
-                armor: '',
-                m_resist: '',
+                armor: '4.8',
+                m_resist: '25%',
             },
         ],
         mobility: [
             {
-                speed: '',
-                vision_day: '',
-                vision_night: '',
+                speed: '285',
+                vision_day: '1800',
+                vision_night: '800',
             },
         ],
         hp: [
@@ -7008,22 +7008,22 @@ export default [
         characteristic: 'Strength',
         attack: [
             {
-                damage: '',
-                a_speed: '',
-                a_range: '',
+                damage: '45-55',
+                a_speed: '1.7',
+                a_range: '50',
             },
         ],
         deffence: [
             {
-                armor: '',
-                m_resist: '',
+                armor: '0.0',
+                m_resist: '25%',
             },
         ],
         mobility: [
             {
-                speed: '',
-                vision_day: '',
-                vision_night: '',
+                speed: '285',
+                vision_day: '1800',
+                vision_night: '800',
             },
         ],
         hp: [
@@ -7120,22 +7120,22 @@ export default [
         characteristic: 'Intelligence',
         attack: [
             {
-                damage: '',
-                a_speed: '',
-                a_range: '',
+                damage: '53-64',
+                a_speed: '1.7',
+                a_range: '550',
             },
         ],
         deffence: [
             {
-                armor: '',
-                m_resist: '',
+                armor: '1.7',
+                m_resist: '25%',
             },
         ],
         mobility: [
             {
-                speed: '',
-                vision_day: '',
-                vision_night: '',
+                speed: '295',
+                vision_day: '1800',
+                vision_night: '800',
             },
         ],
         hp: [
@@ -7227,22 +7227,22 @@ export default [
         characteristic: 'Strength',
         attack: [
             {
-                damage: '',
-                a_speed: '',
-                a_range: '',
+                damage: '52-58',
+                a_speed: '1.7',
+                a_range: '150',
             },
         ],
         deffence: [
             {
-                armor: '',
-                m_resist: '',
+                armor: '1.3',
+                m_resist: '25%',
             },
         ],
         mobility: [
             {
-                speed: '',
-                vision_day: '',
-                vision_night: '',
+                speed: '280',
+                vision_day: '1800',
+                vision_night: '800',
             },
         ],
         hp: [
@@ -7324,22 +7324,22 @@ export default [
         characteristic: 'Intelligence',
         attack: [
             {
-                damage: '',
-                a_speed: '',
-                a_range: '',
+                damage: '45-53',
+                a_speed: '1.7',
+                a_range: '630',
             },
         ],
         deffence: [
             {
-                armor: '',
-                m_resist: '',
+                armor: '1.7',
+                m_resist: '25%',
             },
         ],
         mobility: [
             {
-                speed: '',
-                vision_day: '',
-                vision_night: '',
+                speed: '335',
+                vision_day: '1800',
+                vision_night: '800',
             },
         ],
         hp: [
@@ -7423,22 +7423,22 @@ export default [
         characteristic: 'Intelligence',
         attack: [
             {
-                damage: '',
-                a_speed: '',
-                a_range: '',
+                damage: '45-53',
+                a_speed: '1.7',
+                a_range: '550',
             },
         ],
         deffence: [
             {
-                armor: '',
-                m_resist: '',
+                armor: '2.0',
+                m_resist: '25%',
             },
         ],
         mobility: [
             {
-                speed: '',
-                vision_day: '',
-                vision_night: '',
+                speed: '295',
+                vision_day: '1800',
+                vision_night: '800',
             },
         ],
         hp: [
@@ -7520,22 +7520,22 @@ export default [
         characteristic: 'Agility',
         attack: [
             {
-                damage: '',
-                a_speed: '',
-                a_range: '',
+                damage: '45-47',
+                a_speed: '1.7',
+                a_range: '475',
             },
         ],
         deffence: [
             {
-                armor: '',
-                m_resist: '',
+                armor: '2.7',
+                m_resist: '25%',
             },
         ],
         mobility: [
             {
-                speed: '',
-                vision_day: '',
-                vision_night: '',
+                speed: '285',
+                vision_day: '1800',
+                vision_night: '800',
             },
         ],
         hp: [
@@ -7620,22 +7620,22 @@ export default [
         characteristic: 'Agility',
         attack: [
             {
-                damage: '',
-                a_speed: '',
-                a_range: '',
+                damage: '34-38',
+                a_speed: '1.7',
+                a_range: '150',
             },
         ],
         deffence: [
             {
-                armor: '',
-                m_resist: '',
+                armor: '4.0',
+                m_resist: '25%',
             },
         ],
         mobility: [
             {
-                speed: '',
-                vision_day: '',
-                vision_night: '',
+                speed: '275',
+                vision_day: '1800',
+                vision_night: '800',
             },
         ],
         hp: [
@@ -7716,22 +7716,22 @@ export default [
         characteristic: 'Intelligence',
         attack: [
             {
-                damage: '',
-                a_speed: '',
-                a_range: '',
+                damage: '44-54',
+                a_speed: '1.7',
+                a_range: '550',
             },
         ],
         deffence: [
             {
-                armor: '',
-                m_resist: '',
+                armor: '1.3',
+                m_resist: '25%',
             },
         ],
         mobility: [
             {
-                speed: '',
-                vision_day: '',
-                vision_night: '',
+                speed: '290',
+                vision_day: '1800',
+                vision_night: '800',
             },
         ],
         hp: [
@@ -7815,22 +7815,22 @@ export default [
         characteristic: 'Strength',
         attack: [
             {
-                damage: '',
-                a_speed: '',
-                a_range: '',
+                damage: '47-63',
+                a_speed: '1.7',
+                a_range: '150',
             },
         ],
         deffence: [
             {
-                armor: '',
-                m_resist: '',
+                armor: '3.2',
+                m_resist: '25%',
             },
         ],
         mobility: [
             {
-                speed: '',
-                vision_day: '',
-                vision_night: '',
+                speed: '295',
+                vision_day: '1800',
+                vision_night: '800',
             },
         ],
         hp: [
@@ -7917,22 +7917,22 @@ export default [
         characteristic: 'Intelligence',
         attack: [
             {
-                damage: '',
-                a_speed: '',
-                a_range: '',
+                damage: '50-54',
+                a_speed: '1.7',
+                a_range: '500',
             },
         ],
         deffence: [
             {
-                armor: '',
-                m_resist: '',
+                armor: '3.0',
+                m_resist: '25%',
             },
         ],
         mobility: [
             {
-                speed: '',
-                vision_day: '',
-                vision_night: '',
+                speed: '295',
+                vision_day: '1800',
+                vision_night: '800',
             },
         ],
         hp: [
@@ -8029,22 +8029,22 @@ export default [
         characteristic: 'Agility',
         attack: [
             {
-                damage: '',
-                a_speed: '',
-                a_range: '',
+                damage: '35-41',
+                a_speed: '1.7',
+                a_range: '500',
             },
         ],
         deffence: [
             {
-                armor: '',
-                m_resist: '',
+                armor: '1.3',
+                m_resist: '25%',
             },
         ],
         mobility: [
             {
-                speed: '',
-                vision_day: '',
-                vision_night: '',
+                speed: '310',
+                vision_day: '1800',
+                vision_night: '800',
             },
         ],
         hp: [
@@ -8150,22 +8150,22 @@ export default [
         characteristic: 'Intelligence',
         attack: [
             {
-                damage: '',
-                a_speed: '',
-                a_range: '',
+                damage: '71-78',
+                a_speed: '1.7',
+                a_range: '400',
             },
         ],
         deffence: [
             {
-                armor: '',
-                m_resist: '',
+                armor: '2.7',
+                m_resist: '25%',
             },
         ],
         mobility: [
             {
-                speed: '',
-                vision_day: '',
-                vision_night: '',
+                speed: '285',
+                vision_day: '1800',
+                vision_night: '800',
             },
         ],
         hp: [
@@ -8251,22 +8251,22 @@ export default [
         characteristic: 'Intelligence',
         attack: [
             {
-                damage: '',
-                a_speed: '',
-                a_range: '',
+                damage: '43-57',
+                a_speed: '1.7',
+                a_range: '600',
             },
         ],
         deffence: [
             {
-                armor: '',
-                m_resist: '',
+                armor: '2.7',
+                m_resist: '25%',
             },
         ],
         mobility: [
             {
-                speed: '',
-                vision_day: '',
-                vision_night: '',
+                speed: '295',
+                vision_day: '1800',
+                vision_night: '800',
             },
         ],
         hp: [
@@ -8352,22 +8352,22 @@ export default [
         characteristic: 'Intelligence',
         attack: [
             {
-                damage: '',
-                a_speed: '',
-                a_range: '',
+                damage: '39-49',
+                a_speed: '1.7',
+                a_range: '600',
             },
         ],
         deffence: [
             {
-                armor: '',
-                m_resist: '',
+                armor: '0.2',
+                m_resist: '25%',
             },
         ],
         mobility: [
             {
-                speed: '',
-                vision_day: '',
-                vision_night: '',
+                speed: '330',
+                vision_day: '1800',
+                vision_night: '800',
             },
         ],
         hp: [
@@ -8452,22 +8452,22 @@ export default [
         characteristic: 'Strength',
         attack: [
             {
-                damage: '',
-                a_speed: '',
-                a_range: '',
+                damage: '51-59',
+                a_speed: '1.7',
+                a_range: '150',
             },
         ],
         deffence: [
             {
-                armor: '',
-                m_resist: '',
+                armor: '5.8',
+                m_resist: '25%',
             },
         ],
         mobility: [
             {
-                speed: '',
-                vision_day: '',
-                vision_night: '',
+                speed: '290',
+                vision_day: '1800',
+                vision_night: '800',
             },
         ],
         hp: [
@@ -8550,22 +8550,22 @@ export default [
         characteristic: 'Agility',
         attack: [
             {
-                damage: '',
-                a_speed: '',
-                a_range: '',
+                damage: '54-62',
+                a_speed: '1.7',
+                a_range: '150',
             },
         ],
         deffence: [
             {
-                armor: '',
-                m_resist: '',
+                armor: '2.5',
+                m_resist: '25%',
             },
         ],
         mobility: [
             {
-                speed: '',
-                vision_day: '',
-                vision_night: '',
+                speed: '295',
+                vision_day: '1800',
+                vision_night: '800',
             },
         ],
         hp: [
@@ -8647,22 +8647,22 @@ export default [
         characteristic: 'Agility',
         attack: [
             {
-                damage: '',
-                a_speed: '',
-                a_range: '',
+                damage: '36-42',
+                a_speed: '1.7',
+                a_range: '550',
             },
         ],
         deffence: [
             {
-                armor: '',
-                m_resist: '',
+                armor: '2.5',
+                m_resist: '25%',
             },
         ],
         mobility: [
             {
-                speed: '',
-                vision_day: '',
-                vision_night: '',
+                speed: '285',
+                vision_day: '1800',
+                vision_night: '800',
             },
         ],
         hp: [
@@ -8745,22 +8745,22 @@ export default [
         characteristic: 'Agility',
         attack: [
             {
-                damage: '',
-                a_speed: '',
-                a_range: '',
+                damage: '46-50',
+                a_speed: '1.7',
+                a_range: '150',
             },
         ],
         deffence: [
             {
-                armor: '',
-                m_resist: '',
+                armor: '3.8',
+                m_resist: '25%',
             },
         ],
         mobility: [
             {
-                speed: '',
-                vision_day: '',
-                vision_night: '',
+                speed: '285',
+                vision_day: '1800',
+                vision_night: '800',
             },
         ],
         hp: [
@@ -8851,22 +8851,22 @@ export default [
         characteristic: 'Strength',
         attack: [
             {
-                damage: '',
-                a_speed: '',
-                a_range: '',
+                damage: '60-70',
+                a_speed: '1.9',
+                a_range: '150',
             },
         ],
         deffence: [
             {
-                armor: '',
-                m_resist: '',
+                armor: '5.8',
+                m_resist: '25%',
             },
         ],
         mobility: [
             {
-                speed: '',
-                vision_day: '',
-                vision_night: '',
+                speed: '285',
+                vision_day: '1800',
+                vision_night: '800',
             },
         ],
         hp: [
@@ -8952,22 +8952,22 @@ export default [
         characteristic: 'Intelligence',
         attack: [
             {
-                damage: '',
-                a_speed: '',
-                a_range: '',
+                damage: '46-67',
+                a_speed: '1.7',
+                a_range: '480',
             },
         ],
         deffence: [
             {
-                armor: '',
-                m_resist: '',
+                armor: '5.7',
+                m_resist: '25%',
             },
         ],
         mobility: [
             {
-                speed: '',
-                vision_day: '',
-                vision_night: '',
+                speed: '285',
+                vision_day: '1800',
+                vision_night: '800',
             },
         ],
         hp: [
@@ -9051,22 +9051,22 @@ export default [
         characteristic: 'Strength',
         attack: [
             {
-                damage: '',
-                a_speed: '',
-                a_range: '',
+                damage: '64-66',
+                a_speed: '1.8',
+                a_range: '150',
             },
         ],
         deffence: [
             {
-                armor: '',
-                m_resist: '',
+                armor: '5.5',
+                m_resist: '25%',
             },
         ],
         mobility: [
             {
-                speed: '',
-                vision_day: '',
-                vision_night: '',
+                speed: '290',
+                vision_day: '1800',
+                vision_night: '800',
             },
         ],
         hp: [
@@ -9147,22 +9147,22 @@ export default [
         characteristic: 'Intelligence',
         attack: [
             {
-                damage: '',
-                a_speed: '',
-                a_range: '',
+                damage: '29-31',
+                a_speed: '1.7',
+                a_range: '700',
             },
         ],
         deffence: [
             {
-                armor: '',
-                m_resist: '',
+                armor: '7.3',
+                m_resist: '25%',
             },
         ],
         mobility: [
             {
-                speed: '',
-                vision_day: '',
-                vision_night: '',
+                speed: '290',
+                vision_day: '1800',
+                vision_night: '800',
             },
         ],
         hp: [
@@ -9266,22 +9266,22 @@ export default [
         characteristic: 'Agility',
         attack: [
             {
-                damage: '',
-                a_speed: '',
-                a_range: '',
+                damage: '53-59',
+                a_speed: '1.7',
+                a_range: '140',
             },
         ],
         deffence: [
             {
-                armor: '',
-                m_resist: '',
+                armor: '4.8',
+                m_resist: '25%',
             },
         ],
         mobility: [
             {
-                speed: '',
-                vision_day: '',
-                vision_night: '',
+                speed: '300',
+                vision_day: '1800',
+                vision_night: '800',
             },
         ],
         hp: [
@@ -9376,22 +9376,22 @@ export default [
         characteristic: 'Agility',
         attack: [
             {
-                damage: '',
-                a_speed: '',
-                a_range: '',
+                damage: '48-54',
+                a_speed: '1.5',
+                a_range: '150',
             },
         ],
         deffence: [
             {
-                armor: '',
-                m_resist: '',
+                armor: '10.7',
+                m_resist: '25%',
             },
         ],
         mobility: [
             {
-                speed: '',
-                vision_day: '',
-                vision_night: '',
+                speed: '310',
+                vision_day: '1800',
+                vision_night: '800',
             },
         ],
         hp: [
@@ -9469,22 +9469,22 @@ export default [
         characteristic: 'Strength',
         attack: [
             {
-                damage: '',
-                a_speed: '',
-                a_range: '',
+                damage: '47-53',
+                a_speed: '1.7',
+                a_range: '150',
             },
         ],
         deffence: [
             {
-                armor: '',
-                m_resist: '',
+                armor: '3.5',
+                m_resist: '25%',
             },
         ],
         mobility: [
             {
-                speed: '',
-                vision_day: '',
-                vision_night: '',
+                speed: '305',
+                vision_day: '1800',
+                vision_night: '800',
             },
         ],
         hp: [
@@ -9568,22 +9568,22 @@ export default [
         characteristic: 'Strength',
         attack: [
             {
-                damage: '',
-                a_speed: '',
-                a_range: '',
+                damage: '47-51',
+                a_speed: '1.7',
+                a_range: '150',
             },
         ],
         deffence: [
             {
-                armor: '',
-                m_resist: '',
+                armor: '0.7',
+                m_resist: '25%',
             },
         ],
         mobility: [
             {
-                speed: '',
-                vision_day: '',
-                vision_night: '',
+                speed: '290',
+                vision_day: '1800',
+                vision_night: '800',
             },
         ],
         hp: [
@@ -9666,22 +9666,22 @@ export default [
         characteristic: 'Intelligence',
         attack: [
             {
-                damage: '',
-                a_speed: '',
-                a_range: '',
+                damage: '52-58',
+                a_speed: '1.7',
+                a_range: '500',
             },
         ],
         deffence: [
             {
-                armor: '',
-                m_resist: '',
+                armor: '4.2',
+                m_resist: '25%',
             },
         ],
         mobility: [
             {
-                speed: '',
-                vision_day: '',
-                vision_night: '',
+                speed: '290',
+                vision_day: '1800',
+                vision_night: '800',
             },
         ],
         hp: [
@@ -9764,22 +9764,22 @@ export default [
         characteristic: 'Strength',
         attack: [
             {
-                damage: '',
-                a_speed: '',
-                a_range: '',
+                damage: '74-80',
+                a_speed: '1.7',
+                a_range: '150',
             },
         ],
         deffence: [
             {
-                armor: '',
-                m_resist: '',
+                armor: '0.0',
+                m_resist: '25%',
             },
         ],
         mobility: [
             {
-                speed: '',
-                vision_day: '',
-                vision_night: '',
+                speed: '285',
+                vision_day: '1800',
+                vision_night: '800',
             },
         ],
         hp: [
@@ -9860,22 +9860,22 @@ export default [
         characteristic: 'Strength',
         attack: [
             {
-                damage: '',
-                a_speed: '',
-                a_range: '',
+                damage: '87-85',
+                a_speed: '1.9',
+                a_range: '150',
             },
         ],
         deffence: [
             {
-                armor: '',
-                m_resist: '',
+                armor: '1.5',
+                m_resist: '25%',
             },
         ],
         mobility: [
             {
-                speed: '',
-                vision_day: '',
-                vision_night: '',
+                speed: '270',
+                vision_day: '1800',
+                vision_night: '800',
             },
         ],
         hp: [
@@ -9961,22 +9961,22 @@ export default [
         characteristic: 'Agility',
         attack: [
             {
-                damage: '',
-                a_speed: '',
-                a_range: '',
+                damage: '38-56',
+                a_speed: '1.7',
+                a_range: '500',
             },
         ],
         deffence: [
             {
-                armor: '',
-                m_resist: '',
+                armor: '2.5',
+                m_resist: '25%',
             },
         ],
         mobility: [
             {
-                speed: '',
-                vision_day: '',
-                vision_night: '',
+                speed: '295',
+                vision_day: '1800',
+                vision_night: '800',
             },
         ],
         hp: [
@@ -10068,22 +10068,22 @@ export default [
         characteristic: 'Strength',
         attack: [
             {
-                damage: '',
-                a_speed: '',
-                a_range: '',
+                damage: '50-54',
+                a_speed: '1.7',
+                a_range: '150',
             },
         ],
         deffence: [
             {
-                armor: '',
-                m_resist: '',
+                armor: '3.8',
+                m_resist: '25%',
             },
         ],
         mobility: [
             {
-                speed: '',
-                vision_day: '',
-                vision_night: '',
+                speed: '300',
+                vision_day: '1800',
+                vision_night: '800',
             },
         ],
         hp: [
@@ -10167,22 +10167,22 @@ export default [
         characteristic: 'Strength',
         attack: [
             {
-                damage: '',
-                a_speed: '',
-                a_range: '',
+                damage: '62-68',
+                a_speed: '1.7',
+                a_range: '150',
             },
         ],
         deffence: [
             {
-                armor: '',
-                m_resist: '',
+                armor: '4.0',
+                m_resist: '25%',
             },
         ],
         mobility: [
             {
-                speed: '',
-                vision_day: '',
-                vision_night: '',
+                speed: '290',
+                vision_day: '1800',
+                vision_night: '800',
             },
         ],
         hp: [
@@ -10266,22 +10266,22 @@ export default [
         characteristic: 'Strength',
         attack: [
             {
-                damage: '',
-                a_speed: '',
-                a_range: '',
+                damage: '57-65',
+                a_speed: '1.7',
+                a_range: '150',
             },
         ],
         deffence: [
             {
-                armor: '',
-                m_resist: '',
+                armor: '4.7',
+                m_resist: '25%',
             },
         ],
         mobility: [
             {
-                speed: '',
-                vision_day: '',
-                vision_night: '',
+                speed: '310',
+                vision_day: '1800',
+                vision_night: '800',
             },
         ],
         hp: [
@@ -10363,22 +10363,22 @@ export default [
         characteristic: 'Agility',
         attack: [
             {
-                damage: '',
-                a_speed: '',
-                a_range: '',
+                damage: '42-46',
+                a_speed: '1.7',
+                a_range: '150',
             },
         ],
         deffence: [
             {
-                armor: '',
-                m_resist: '',
+                armor: '6.0',
+                m_resist: '25%',
             },
         ],
         mobility: [
             {
-                speed: '',
-                vision_day: '',
-                vision_night: '',
+                speed: '305',
+                vision_day: '1800',
+                vision_night: '800',
             },
         ],
         hp: [
@@ -10461,22 +10461,22 @@ export default [
         characteristic: 'Agility',
         attack: [
             {
-                damage: '',
-                a_speed: '',
-                a_range: '',
+                damage: '39-47',
+                a_speed: '1.7',
+                a_range: '400',
             },
         ],
         deffence: [
             {
-                armor: '',
-                m_resist: '',
+                armor: '4.5',
+                m_resist: '25%',
             },
         ],
         mobility: [
             {
-                speed: '',
-                vision_day: '',
-                vision_night: '',
+                speed: '295',
+                vision_day: '1800',
+                vision_night: '800',
             },
         ],
         hp: [
@@ -10559,22 +10559,22 @@ export default [
         characteristic: 'Agility',
         attack: [
             {
-                damage: '',
-                a_speed: '',
-                a_range: '',
+                damage: '38-40',
+                a_speed: '1.7',
+                a_range: '450',
             },
         ],
         deffence: [
             {
-                armor: '',
-                m_resist: '',
+                armor: '3.7',
+                m_resist: '25%',
             },
         ],
         mobility: [
             {
-                speed: '',
-                vision_day: '',
-                vision_night: '',
+                speed: '275',
+                vision_day: '1800',
+                vision_night: '800',
             },
         ],
         hp: [
@@ -10659,22 +10659,22 @@ export default [
         characteristic: 'Agility',
         attack: [
             {
-                damage: '',
-                a_speed: '',
-                a_range: '',
+                damage: '44-46',
+                a_speed: '1.7',
+                a_range: '570',
             },
         ],
         deffence: [
             {
-                armor: '',
-                m_resist: '',
+                armor: '1.5',
+                m_resist: '25%',
             },
         ],
         mobility: [
             {
-                speed: '',
-                vision_day: '',
-                vision_night: '',
+                speed: '275',
+                vision_day: '1800',
+                vision_night: '800',
             },
         ],
         hp: [
@@ -10761,22 +10761,22 @@ export default [
         characteristic: 'Intelligence',
         attack: [
             {
-                damage: '',
-                a_speed: '',
-                a_range: '',
+                damage: '45-55',
+                a_speed: '1.7',
+                a_range: '600',
             },
         ],
         deffence: [
             {
-                armor: '',
-                m_resist: '',
+                armor: '-0.2',
+                m_resist: '10%',
             },
         ],
         mobility: [
             {
-                speed: '',
-                vision_day: '',
-                vision_night: '',
+                speed: '285',
+                vision_day: '1800',
+                vision_night: '800',
             },
         ],
         hp: [
@@ -10868,22 +10868,22 @@ export default [
         characteristic: 'Intelligence',
         attack: [
             {
-                damage: '',
-                a_speed: '',
-                a_range: '',
+                damage: '46-56',
+                a_speed: '1.7',
+                a_range: '600',
             },
         ],
         deffence: [
             {
-                armor: '',
-                m_resist: '',
+                armor: '2.7',
+                m_resist: '25%',
             },
         ],
         mobility: [
             {
-                speed: '',
-                vision_day: '',
-                vision_night: '',
+                speed: '295',
+                vision_day: '1800',
+                vision_night: '800',
             },
         ],
         hp: [
@@ -10969,22 +10969,22 @@ export default [
         characteristic: 'Agility',
         attack: [
             {
-                damage: '',
-                a_speed: '',
-                a_range: '',
+                damage: '50-60',
+                a_speed: '1.8',
+                a_range: '425',
             },
         ],
         deffence: [
             {
-                armor: '',
-                m_resist: '',
+                armor: '1.3',
+                m_resist: '25%',
             },
         ],
         mobility: [
             {
-                speed: '',
-                vision_day: '',
-                vision_night: '',
+                speed: '280',
+                vision_day: '1800',
+                vision_night: '800',
             },
         ],
         hp: [
@@ -11066,22 +11066,22 @@ export default [
         characteristic: 'Intelligence',
         attack: [
             {
-                damage: '',
-                a_speed: '',
-                a_range: '',
+                damage: '44-56',
+                a_speed: '1.7',
+                a_range: '600',
             },
         ],
         deffence: [
             {
-                armor: '',
-                m_resist: '',
+                armor: '1.8',
+                m_resist: '25%',
             },
         ],
         mobility: [
             {
-                speed: '',
-                vision_day: '',
-                vision_night: '',
+                speed: '295',
+                vision_day: '1800',
+                vision_night: '800',
             },
         ],
         hp: [
@@ -11164,22 +11164,22 @@ export default [
         characteristic: 'Intelligence',
         attack: [
             {
-                damage: '',
-                a_speed: '',
-                a_range: '',
+                damage: '35-42',
+                a_speed: '1.7',
+                a_range: '425',
             },
         ],
         deffence: [
             {
-                armor: '',
-                m_resist: '',
+                armor: '1.7',
+                m_resist: '25%',
             },
         ],
         mobility: [
             {
-                speed: '',
-                vision_day: '',
-                vision_night: '',
+                speed: '285',
+                vision_day: '1800',
+                vision_night: '800',
             },
         ],
         hp: [
@@ -11264,22 +11264,22 @@ export default [
         characteristic: 'Intelligence',
         attack: [
             {
-                damage: '',
-                a_speed: '',
-                a_range: '',
+                damage: '51-61',
+                a_speed: '1.7',
+                a_range: '600',
             },
         ],
         deffence: [
             {
-                armor: '',
-                m_resist: '',
+                armor: '1.2',
+                m_resist: '25%',
             },
         ],
         mobility: [
             {
-                speed: '',
-                vision_day: '',
-                vision_night: '',
+                speed: '305',
+                vision_day: '1800',
+                vision_night: '800',
             },
         ],
         hp: [
@@ -11363,22 +11363,22 @@ export default [
         characteristic: 'Strength',
         attack: [
             {
-                damage: '',
-                a_speed: '',
-                a_range: '',
+                damage: '61-63',
+                a_speed: '1.7',
+                a_range: '150',
             },
         ],
         deffence: [
             {
-                armor: '',
-                m_resist: '',
+                armor: '3.0',
+                m_resist: '25%',
             },
         ],
         mobility: [
             {
-                speed: '',
-                vision_day: '',
-                vision_night: '',
+                speed: '300',
+                vision_day: '1800',
+                vision_night: '800',
             },
         ],
         hp: [
@@ -11461,22 +11461,22 @@ export default [
         characteristic: 'Intelligence',
         attack: [
             {
-                damage: '',
-                a_speed: '',
-                a_range: '',
+                damage: '43-51',
+                a_speed: '1.7',
+                a_range: '350',
             },
         ],
         deffence: [
             {
-                armor: '',
-                m_resist: '',
+                armor: '1.8',
+                m_resist: '25%',
             },
         ],
         mobility: [
             {
-                speed: '',
-                vision_day: '',
-                vision_night: '',
+                speed: '300',
+                vision_day: '1800',
+                vision_night: '800',
             },
         ],
         hp: [
