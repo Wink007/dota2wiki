@@ -6,51 +6,69 @@ import './index.scss';
 
 export default class HeroMoreInfo extends Component {
     render () {
-        const { biography, characteristic, stats, imgStr, imgAgil, imgInt} = this.props;
+        const { attack, deffence, biography, characteristic, mobility, stats, imgStr, imgAgil, imgInt} = this.props;
 
         return (
             <div className="more-info">
                 <div className="stats">
                     <div className="attack block">
                         <h3>Атака</h3>
-                        <p>
-                            <span>Урон: </span>
-                            <span>55-65</span>
-                        </p>
-                        <p>
-                            <span>Скор.атаки: </span>
-                            <span>1.7</span>
-                        </p>
-                        <p>
-                            <span>Дальн.атаки: </span>
-                            <span>150</span>
-                        </p>
+                        {
+                            attack.map((attack, index) => (
+                                <div key={index}>
+                                    <p>
+                                        <span>Урон: </span>
+                                        <span>{attack.damage || ''}</span>
+                                    </p>
+                                    <p>
+                                        <span>Скор.атаки: </span>
+                                        <span>{attack.a_speed || ''}</span>
+                                    </p>
+                                    <p>
+                                        <span>Дальн.атаки: </span>
+                                        <span>{attack.a_range || ''}</span>
+                                    </p>
+                                </div>
+                            ))
+                        }
                     </div>
                     <div className="def block">
                         <h3>Защита</h3>
-                        <p>
-                            <span>Броня: </span>
-                            <span>1.8</span>
-                        </p>
-                        <p>
-                            <span>Сопрот.магии: </span>
-                            <span>25%</span>
-                        </p>
+                        {
+                            deffence.map((deffence, index) => (
+                                <div key={index}>
+                                    <p>
+                                        <span>Броня: </span>
+                                        <span>{deffence.armor || ''}</span>
+                                    </p>
+                                    <p>
+                                        <span>Сопрот.магии: </span>
+                                        <span>{deffence.m_resist || ''}</span>
+                                    </p>
+                                </div>
+                            ))
+                        }
                     </div>
                     <div className="mobility block">
                         <h3>Мобильность</h3>
-                        <p>
-                            <span>Скор.передв.: </span>
-                            <span>310</span>
-                        </p>
-                        <p>
-                            <span>Обзор (день): </span>
-                            <span>1,800</span>
-                        </p>
-                        <p>
-                            <span>Обзор (ночь): </span>
-                            <span>800</span>
-                        </p>
+                        {
+                            mobility.map((mobility, index) => (
+                                <div key={index}>
+                                    <p>
+                                        <span>Скор.передв.: </span>
+                                        <span>{mobility.speed || ''}</span>
+                                    </p>
+                                    <p>
+                                        <span>Обзор (день): </span>
+                                        <span>{mobility.vision_day || ''}</span>
+                                    </p>
+                                    <p>
+                                        <span>Обзор (ночь): </span>
+                                        <span>{mobility.vision_night || ''}</span>
+                                    </p>
+                                </div>
+                            ))
+                        }
                     </div>
                 </div>
                 <div className="characteristics">
@@ -60,14 +78,17 @@ export default class HeroMoreInfo extends Component {
                                 <div className={characteristic === 'Strength' ? 'char str' : 'char'}>
                                     <img src={imgStr} alt=""/>
                                     <p>{stat.strength}</p>
+                                    <p>за уровень</p>
                                 </div>
                                 <div className={characteristic === 'Agility' ? 'char agility' : 'char'}>
                                     <img src={imgAgil} alt=""/>
                                     <p>{stat.agility}</p>
+                                    <p>за уровень</p>
                                 </div>
                                 <div className={characteristic === 'Intelligence' ? 'char int' : 'char'}>
                                     <img src={imgInt} alt=""/>
                                     <p>{stat.intelligence}</p>
+                                    <p>за уровень</p>
                                 </div>
                             </div>
                         ))

@@ -37,9 +37,9 @@ export default [
         ],
         stats: [
             {
-                strength: '23',
-                agility: '17',
-                intelligence: '21',
+                strength: '23+2.3',
+                agility: '17+1.5',
+                intelligence: '21+2.0',
             }
         ],
         skills: [
@@ -135,9 +135,9 @@ export default [
         ],
         stats: [
             {
-                strength: '25',
-                agility: '16',
-                intelligence: '25',
+                strength: '25+2.1',
+                agility: '16+1.2',
+                intelligence: '25 +1.8',
             }
         ],
         skills: [
@@ -190,8 +190,8 @@ export default [
                 description: 'Особая химическая смесь разъяряет героя, отчего задержка перед его атакой уменьшается, а скорость его передвижения и регенерации увеличивается.',
             },
         ],
-        about : 'Abaddon, способный лечиться за счет вражеских атак, может пережить почти любое нападение. Он всегда готов нестись в гущу битвы, закрывая щитом союзников и запуская свою обоюдоострую спираль во врага или товарища.',
-        biography: 'Род Аверно питает купель — разлом в земной тверди, который испускает загадочную энергию на протяжении поколений. Каждого новорожденного семьи окунают в этот темный туман, даруя тем самым связь с их землей и ее загадочной силой. Дети растут с непреклонной верой в защиту семейных ценностей и традиций земли, но на самом деле они охраняют саму купель, истинные намерения которой неизвестны.        Когда новорожденный Abaddon проходил обряд крещения, что-то пошло не так. В глазах малыша сверкнула искра разума, испугавшая всех присутствовавших и заставившая жрецов шептаться. Его растили, дабы он пошел по пути всех отпрысков рода: война и защита родины во главе армии. Но сам Abaddon уделял этому не так много внимания. Пока другие тренировались в обращении с оружием, он медитировал у купели. Он глубоко вдыхал темный туман, учась быть единым с той силой, что протекала глубоко под землей его дома. В конечном счете он стал порождением черного тумана. Род Аверно неодобрительно отнесся к такому решению, обвиняя его в пренебрежении обязанностями. Но все эти обвинения прекратились, когда Abaddon вступил в свою первую битву и показал ту обретенную власть над жизнью и смертью, о которой другие члены рода не могли и мечтать.',
+        about : 'Alchemist, синтезирующий дополнительные средства за каждое убийство, с легкостью получит необходимое вооружение. Он сражается во имя своей жадности, используя едкую кислоту и запас нестабильных химикатов.',
+        biography: 'Преданность священной алхимии была традицией рода Темноваров, но никто еще никогда не показывал столько изобретательности, амбиций и безрассудства, сколько проявил юный Раззил. Повзрослев, он оставил семейное дело и решил попробовать себя в производстве золота. В присущей ему манере он объявил, что обратит в золото целую гору. Спустя два десятилетия исследований, вложений и подготовок он с треском провалился, попав за решетку за множественные разрушения, причиненные экспериментом. Однако Раззил был не из робкого десятка и тщательно обдумывал варианты побега, чтобы продолжить свои исследования. Когда его новым сокамерником оказался свирепый великан-людоед, алхимик увидел в нем столь желанную возможность для побега. Уговорив гиганта не съедать его, Раззил начал тщательно составлять настойку из плесени и мха, найденных во время исправительных работ. Через неделю она созрела. Когда великан выпил зелье, он впал в ослепительную ярость, разорвал железные прутья, разнес стены и перебил всю стражу. Скоро они затерялись где-то в лесу, окружавшем город, оставив за собой следы разрушений и никаких признаков погони. Когда действие тоника отошло, людоед чувствовал себя вполне хорошо и выглядел счастливым и вполне энергичным. Решив работать вместе, с тех пор парочка собирает материалы, необходимые Раззилу, чтобы в очередной раз попытать удачу.',
     },
     {
         name: 'Ancient Apparition',
@@ -231,9 +231,9 @@ export default [
         ],
         stats: [
             {
-                strength: '18',
-                agility: '20',
-                intelligence: '25',
+                strength: '18+1.7',
+                agility: '20+2.2',
+                intelligence: '25+2.6',
             }
         ],
         skills: [
@@ -334,9 +334,9 @@ export default [
         ],
         stats: [
             {
-                strength: '22',
-                agility: '22',
-                intelligence: '12',
+                strength: '22+1.3',
+                agility: '22+2.8',
+                intelligence: '12+1.8',
             }
         ],
         skills: [
@@ -428,9 +428,9 @@ export default [
         ],
         stats: [
             {
-                strength: '24',
-                agility: '15',
-                intelligence: '24',
+                strength: '24+3.0',
+                agility: '15+1.8',
+                intelligence: '24+2.6',
             }
         ],
         skills: [
@@ -523,9 +523,9 @@ export default [
         ],
         stats: [
             {
-                strength: '25',
-                agility: '20',
-                intelligence: '1.8',
+                strength: '25+2.8',
+                agility: '20+2.2',
+                intelligence: '1.8+1.6',
             }
         ],
         skills: [
@@ -623,9 +623,9 @@ export default [
         ],
         stats: [
             {
-                strength: '23',
-                agility: '23',
-                intelligence: '23',
+                strength: '23+2.4',
+                agility: '23+2.4',
+                intelligence: '23+2.4',
             }
         ],
         skills: [
@@ -726,9 +726,9 @@ export default [
         ],
         stats: [
             {
-                strength: '23',
-                agility: '15',
-                intelligence: '24',
+                strength: '23 2.7',
+                agility: '15+1.5',
+                intelligence: '24+2.5',
             }
         ],
         skills: [
@@ -826,9 +826,9 @@ export default [
         ],
         stats: [
             {
-                strength: '23',
-                agility: '18',
-                intelligence: '16',
+                strength: '23+2.5',
+                agility: '18 +1.6',
+                intelligence: '16+1.9',
             }
         ],
         skills: [
@@ -923,9 +923,9 @@ export default [
         ],
         stats: [
             {
-                strength: '23',
-                agility: '24',
-                intelligence: '18',
+                strength: '23+2.3',
+                agility: '24+3.0',
+                intelligence: '18+1.7',
             }
         ],
         skills: [
@@ -1023,9 +1023,9 @@ export default [
         ],
         stats: [
             {
-                strength: '17',
-                agility: '21',
-                intelligence: '19',
+                strength: '17+2.1',
+                agility: '21+2.0',
+                intelligence: '19+3.0',
             }
         ],
         skills: [
@@ -1122,9 +1122,9 @@ export default [
         ],
         stats: [
             {
-                strength: '23',
-                agility: '22',
-                intelligence: '14',
+                strength: '23+3.2',
+                agility: '22 +2.0',
+                intelligence: '14+1.2',
             }
         ],
         skills: [
@@ -1218,9 +1218,9 @@ export default [
         ],
         stats: [
             {
-                strength: '22',
-                agility: '17',
-                intelligence: '14',
+                strength: '22+2.2',
+                agility: '17+1.8',
+                intelligence: '14+2.8',
             }
         ],
         skills: [
@@ -1314,9 +1314,9 @@ export default [
         ],
         stats: [
             {
-                strength: '17',
-                agility: '18',
-                intelligence: '18',
+                strength: '17+2.8',
+                agility: '18+2.2',
+                intelligence: '18+2.0',
             }
         ],
         skills: [
@@ -1409,9 +1409,9 @@ export default [
         ],
         stats: [
             {
-                strength: '23',
-                agility: '15',
-                intelligence: '15',
+                strength: '23+4.3',
+                agility: '15+1.0',
+                intelligence: '15+1.6',
             }
         ],
         skills: [
@@ -1508,9 +1508,9 @@ export default [
         ],
         stats: [
             {
-                strength: '22',
-                agility: '14',
-                intelligence: '16',
+                strength: '22+3.2',
+                agility: '14+2.1',
+                intelligence: '16+1.2',
             }
         ],
         skills: [
@@ -1606,9 +1606,9 @@ export default [
         ],
         stats: [
             {
-                strength: '23',
-                agility: '15',
-                intelligence: '21',
+                strength: '23+1.8',
+                agility: '15+2.1',
+                intelligence: '21+2.8',
             }
         ],
         skills: [
@@ -1704,9 +1704,9 @@ export default [
         ],
         stats: [
             {
-                strength: '15',
-                agility: '22',
-                intelligence: '16',
+                strength: '15+1.9',
+                agility: '22+2.6',
+                intelligence: '16+1.5',
             }
         ],
         skills: [
@@ -1799,9 +1799,9 @@ export default [
         ],
         stats: [
             {
-                strength: '26',
-                agility: '13',
-                intelligence: '17',
+                strength: '26+3.2',
+                agility: '13+2.3',
+                intelligence: '17+1.3',
             }
         ],
         skills: [
@@ -1898,9 +1898,9 @@ export default [
         ],
         stats: [
             {
-                strength: '16',
-                agility: '16',
-                intelligence: '16',
+                strength: '16+2.0',
+                agility: '16+1.6',
+                intelligence: '16+2.9',
             }
         ],
         skills: [
@@ -1997,9 +1997,9 @@ export default [
         ],
         stats: [
             {
-                strength: '22',
-                agility: '12',
-                intelligence: '23',
+                strength: '22+2.6',
+                agility: '12+1.2',
+                intelligence: '23+2.7',
             }
         ],
         skills: [
@@ -2098,9 +2098,9 @@ export default [
         ],
         stats: [
             {
-                strength: '18',
-                agility: '18',
-                intelligence: '20',
+                strength: '18+1.8',
+                agility: '18+1.6',
+                intelligence: '20+3.0',
             }
         ],
         skills: [
@@ -2210,9 +2210,9 @@ export default [
         ],
         stats: [
             {
-                strength: '16',
-                agility: '21',
-                intelligence: '27',
+                strength: '16+2.2',
+                agility: '21+1.7',
+                intelligence: '27+3.4',
             }
         ],
         skills: [
@@ -2311,9 +2311,9 @@ export default [
         ],
         stats: [
             {
-                strength: '17',
-                agility: '14',
-                intelligence: '23',
+                strength: '17+2.6',
+                agility: '14+1.4',
+                intelligence: '23+3.0',
             }
         ],
         skills: [
@@ -2354,7 +2354,7 @@ export default [
                         deflation: 'нет',
                     }
                 ],
-                description: 'Создает мистическую связь между героями и вражеским существом, каждую секунду нанося жертве 14.0 + [1.0, 2.5, 4.0, 5.5]% урона от ее максимального запаса здоровья и замедляя ее передвижение на [5, 10, 15, 20]%',
+                description: 'Создает мистическую связь между героями и вражеским существом, каждую секунду нанося жертве 14.0+[1.0, 2.5, 4.0, 5.5]% урона от ее максимального запаса здоровья и замедляя ее передвижение на [5, 10, 15, 20]%',
             },
             {
                 image: require("image/skills/Death_prophet_exorcism.png"),
@@ -2411,9 +2411,9 @@ export default [
         ],
         stats: [
             {
-                strength: '19',
-                agility: '15',
-                intelligence: '22',
+                strength: '19+2.2',
+                agility: '15+1.4',
+                intelligence: '22+2.5',
             }
         ],
         skills: [
@@ -2511,9 +2511,9 @@ export default [
         ],
         stats: [
             {
-                strength: '26',
-                agility: '11',
-                intelligence: '15',
+                strength: '26+3.5',
+                agility: '11+0.9',
+                intelligence: '15+2.1',
             }
         ],
         skills: [
@@ -2553,7 +2553,7 @@ export default [
                         deflation: 'да',
                     }
                 ],
-                description: 'Поджигает жертву своим пламенным мечом, поджигая ее и оглушая на 0.6 сек. Цель горит 4.0 сек и каждую секунду получает урон, раынй [25, 30, 35, 40] + [1.25, 2.5, 3.75, 5.0]% от максимального запаса здоровья',
+                description: 'Поджигает жертву своим пламенным мечом, поджигая ее и оглушая на 0.6 сек. Цель горит 4.0 сек и каждую секунду получает урон, раынй [25, 30, 35, 40]+[1.25, 2.5, 3.75, 5.0]% от максимального запаса здоровья',
             },
             {
                 image: require("image/skills/Doom_bringer_doom.png"),
@@ -2612,9 +2612,9 @@ export default [
         ],
         stats: [
             {
-                strength: '19',
-                agility: '19',
-                intelligence: '15',
+                strength: '19+3.1',
+                agility: '19+2.0',
+                intelligence: '15+1.7',
             }
         ],
         skills: [
@@ -2710,9 +2710,9 @@ export default [
         ],
         stats: [
             {
-                strength: '17',
-                agility: '26',
-                intelligence: '15',
+                strength: '17+1.9',
+                agility: '26+1.9',
+                intelligence: '15+1.4',
             }
         ],
         skills: [
@@ -2805,9 +2805,9 @@ export default [
         ],
         stats: [
             {
-                strength: '21',
-                agility: '17',
-                intelligence: '18',
+                strength: '21+3.2',
+                agility: '17+1.5',
+                intelligence: '18+2.1',
             }
         ],
         skills: [
@@ -2916,9 +2916,9 @@ export default [
         ],
         stats: [
             {
-                strength: '22',
-                agility: '12',
-                intelligence: '16',
+                strength: '22+3.2',
+                agility: '12+1.4',
+                intelligence: '16+1.8',
             }
         ],
         skills: [
@@ -3015,9 +3015,9 @@ export default [
         ],
         stats: [
             {
-                strength: '24',
-                agility: '14',
-                intelligence: '23',
+                strength: '24+2.6',
+                agility: '14+1.8',
+                intelligence: '23+1.6',
             }
         ],
         skills: [
@@ -3116,9 +3116,9 @@ export default [
         ],
         stats: [
             {
-                strength: '19',
-                agility: '22',
-                intelligence: '20',
+                strength: '19+2.1',
+                agility: '22+1.8',
+                intelligence: '20+1.8',
             }
         ],
         skills: [
@@ -3226,9 +3226,9 @@ export default [
         ],
         stats: [
             {
-                strength: '16',
-                agility: '19',
-                intelligence: '21',
+                strength: '16+1.3',
+                agility: '19+1.8',
+                intelligence: '21+3.1',
             }
         ],
         skills: [
@@ -3323,9 +3323,9 @@ export default [
         ],
         stats: [
             {
-                strength: '19',
-                agility: '14',
-                intelligence: '20',
+                strength: '19+2.4',
+                agility: '14+1.0',
+                intelligence: '20+3.4',
             }
         ],
         skills: [
@@ -3419,9 +3419,9 @@ export default [
         ],
         stats: [
             {
-                strength: '23',
-                agility: '23',
-                intelligence: '15',
+                strength: '23+2.1',
+                agility: '23+2.8',
+                intelligence: '15+1.5',
             }
         ],
         skills: [
@@ -3515,9 +3515,9 @@ export default [
         ],
         stats: [
             {
-                strength: '18',
-                agility: '24',
-                intelligence: '19',
+                strength: '18+2.1',
+                agility: '24+2.8',
+                intelligence: '19+2.1',
             }
         ],
         skills: [
@@ -3617,9 +3617,9 @@ export default [
         ],
         stats: [
             {
-                strength: '21',
-                agility: '15',
-                intelligence: '18',
+                strength: '21+2.7',
+                agility: '15+1.4',
+                intelligence: '18+1.5',
             }
         ],
         skills: [
@@ -3716,9 +3716,9 @@ export default [
         ],
         stats: [
             {
-                strength: '16',
-                agility: '14',
-                intelligence: '16',
+                strength: '16+2.2',
+                agility: '14+1.9',
+                intelligence: '16+4.0',
             }
         ],
         skills: [
@@ -3808,9 +3808,9 @@ export default [
         ],
         stats: [
             {
-                strength: '17',
-                agility: '14',
-                intelligence: '23',
+                strength: '17+2.2',
+                agility: '14+1.6',
+                intelligence: '23+1.7',
             }
         ],
         skills: [
@@ -3924,9 +3924,9 @@ export default [
         ],
         stats: [
             {
-                strength: '25',
-                agility: '10',
-                intelligence: '28',
+                strength: '25+2.6',
+                agility: '10+1.2',
+                intelligence: '28+2.8',
             }
         ],
         skills: [
@@ -4028,9 +4028,9 @@ export default [
         ],
         stats: [
             {
-                strength: '20',
-                agility: '26',
-                intelligence: '14',
+                strength: '20+2.2',
+                agility: '26+2.4',
+                intelligence: '14+1.4',
             }
         ],
         skills: [
@@ -4123,9 +4123,9 @@ export default [
         ],
         stats: [
             {
-                strength: '14',
-                agility: '15',
-                intelligence: '25',
+                strength: '14+2.1',
+                agility: '15+1.6',
+                intelligence: '25+2.8',
             }
         ],
         skills: [
@@ -4247,9 +4247,9 @@ export default [
         ],
         stats: [
             {
-                strength: '24',
-                agility: '14',
-                intelligence: '18',
+                strength: '24+3.3',
+                agility: '14+1.3',
+                intelligence: '18+1.5',
             }
         ],
         skills: [
@@ -4347,9 +4347,9 @@ export default [
         ],
         stats: [
             {
-                strength: '26',
-                agility: '18',
-                intelligence: '20',
+                strength: '26+2.9',
+                agility: '18+1.7',
+                intelligence: '20+2.2',
             }
         ],
         skills: [
@@ -4445,9 +4445,9 @@ export default [
         ],
         stats: [
             {
-                strength: '16',
-                agility: '23',
-                intelligence: '26',
+                strength: '16+1.8',
+                agility: '23+1.7',
+                intelligence: '26+3.0',
             }
         ],
         skills: [
@@ -4550,9 +4550,9 @@ export default [
         ],
         stats: [
             {
-                strength: '18',
-                agility: '15',
-                intelligence: '18',
+                strength: '18+1.9',
+                agility: '15+2.0',
+                intelligence: '18+3.2',
             }
         ],
         skills: [
@@ -4651,9 +4651,9 @@ export default [
         ],
         stats: [
             {
-                strength: '25',
-                agility: '18',
-                intelligence: '15',
+                strength: '25+3.1',
+                agility: '18+1.9',
+                intelligence: '15+1.8',
             }
         ],
         skills: [
@@ -4747,9 +4747,9 @@ export default [
         ],
         stats: [
             {
-                strength: '18',
-                agility: '16',
-                intelligence: '30',
+                strength: '18+1.8',
+                agility: '16+1.5',
+                intelligence: '30+3.2',
             }
         ],
         skills: [
@@ -4845,9 +4845,9 @@ export default [
         ],
         stats: [
             {
-                strength: '16',
-                agility: '15',
-                intelligence: '20',
+                strength: '16+2.0',
+                agility: '15+1.5',
+                intelligence: '20+3.0',
             }
         ],
         skills: [
@@ -4947,9 +4947,9 @@ export default [
         ],
         stats: [
             {
-                strength: '17',
-                agility: '24',
-                intelligence: '13',
+                strength: '17+2.4',
+                agility: '24+2.7',
+                intelligence: '13+1.4',
             }
         ],
         skills: [
@@ -5040,9 +5040,9 @@ export default [
         ],
         stats: [
             {
-                strength: '15',
-                agility: '18',
-                intelligence: '16',
+                strength: '15+2.2',
+                agility: '18+3.3',
+                intelligence: '16+1.9',
             }
         ],
         skills: [
@@ -5138,9 +5138,9 @@ export default [
         ],
         stats: [
             {
-                strength: '25',
-                agility: '16',
-                intelligence: '17',
+                strength: '25+3.3',
+                agility: '16+1.0',
+                intelligence: '17+1.5',
             }
         ],
         skills: [
@@ -5227,9 +5227,9 @@ export default [
         ],
         stats: [
             {
-                strength: '22',
-                agility: '15',
-                intelligence: '19',
+                strength: '22+3.2',
+                agility: '15+2.5',
+                intelligence: '19+1.6',
             }
         ],
         skills: [
@@ -5328,9 +5328,9 @@ export default [
         ],
         stats: [
             {
-                strength: '14',
-                agility: '20',
-                intelligence: '19',
+                strength: '14+1.3',
+                agility: '20+2.5',
+                intelligence: '19+2.1',
             }
         ],
         skills: [
@@ -5426,9 +5426,9 @@ export default [
         ],
         stats: [
             {
-                strength: '23',
-                agility: '23',
-                intelligence: '20',
+                strength: '23+1.6',
+                agility: '23+2.2',
+                intelligence: '20+1.6',
             }
         ],
         skills: [
@@ -5522,9 +5522,9 @@ export default [
         ],
         stats: [
             {
-                strength: '17',
-                agility: '18',
-                intelligence: '17',
+                strength: '17+2.2',
+                agility: '18+3.2',
+                intelligence: '17+1.6',
             }
         ],
         skills: [
@@ -5618,9 +5618,9 @@ export default [
         ],
         stats: [
             {
-                strength: '18',
-                agility: '22',
-                intelligence: '20',
+                strength: '18+2.8',
+                agility: '22+3.2',
+                intelligence: '20+1.8',
             }
         ],
         skills: [
@@ -5733,9 +5733,9 @@ export default [
         ],
         stats: [
             {
-                strength: '19',
-                agility: '24',
-                intelligence: '13',
+                strength: '19+2.3',
+                agility: '24+3.7',
+                intelligence: '13+1.1',
             }
         ],
         skills: [
@@ -5852,9 +5852,9 @@ export default [
         ],
         stats: [
             {
-                strength: '21',
-                agility: '21',
-                intelligence: '21',
+                strength: '21+2.8',
+                agility: '21+3.2',
+                intelligence: '21+2.0',
             }
         ],
         skills: [
@@ -5949,9 +5949,9 @@ export default [
         ],
         stats: [
             {
-                strength: '19',
-                agility: '18',
-                intelligence: '25',
+                strength: '19+2.1',
+                agility: '18+1.9',
+                intelligence: '25+2.9',
             }
         ],
         skills: [
@@ -6043,9 +6043,9 @@ export default [
         ],
         stats: [
             {
-                strength: '16',
-                agility: '15',
-                intelligence: '22',
+                strength: '16+2.3',
+                agility: '15+1.2',
+                intelligence: '22+2.5',
             }
         ],
         skills: [
@@ -6140,9 +6140,9 @@ export default [
         ],
         stats: [
             {
-                strength: '23',
-                agility: '18',
-                intelligence: '13',
+                strength: '23+3.1',
+                agility: '18+2.2',
+                intelligence: '13+1.6',
             }
         ],
         skills: [
@@ -6237,9 +6237,9 @@ export default [
         ],
         stats: [
             {
-                strength: '18',
-                agility: '19',
-                intelligence: '18',
+                strength: '18+2.3',
+                agility: '19+2.2',
+                intelligence: '18+2.1',
             }
         ],
         skills: [
@@ -6338,9 +6338,9 @@ export default [
         ],
         stats: [
             {
-                strength: '23',
-                agility: '14',
-                intelligence: '17',
+                strength: '23+3.5',
+                agility: '14+1.3',
+                intelligence: '17+2.0',
             }
         ],
         skills: [
@@ -6452,9 +6452,9 @@ export default [
         ],
         stats: [
             {
-                strength: '22',
-                agility: '15',
-                intelligence: '15',
+                strength: '22+3.1',
+                agility: '15+1.8',
+                intelligence: '15+1.8',
             }
         ],
         skills: [
@@ -6551,9 +6551,9 @@ export default [
         ],
         stats: [
             {
-                strength: '18',
-                agility: '15',
-                intelligence: '23',
+                strength: '18+2.2',
+                agility: '15+1.7',
+                intelligence: '23+3.2',
             }
         ],
         skills: [
@@ -6653,9 +6653,9 @@ export default [
         ],
         stats: [
             {
-                strength: '19',
-                agility: '24',
-                intelligence: '26',
+                strength: '19+2.6',
+                agility: '24+2.0',
+                intelligence: '26+2.7',
             }
         ],
         skills: [
@@ -6753,9 +6753,9 @@ export default [
         ],
         stats: [
             {
-                strength: '16',
-                agility: '18',
-                intelligence: '16',
+                strength: '16+2.5',
+                agility: '18+2.8',
+                intelligence: '16+1.9',
             }
         ],
         skills: [
@@ -6852,9 +6852,9 @@ export default [
         ],
         stats: [
             {
-                strength: '20',
-                agility: '23',
-                intelligence: '15',
+                strength: '20+2.2',
+                agility: '23+3.2',
+                intelligence: '15+1.4',
             }
         ],
         skills: [
@@ -6870,7 +6870,7 @@ export default [
                         deflation: 'да',
                     }
                 ],
-                description: 'Бросает кинжал, который замедляет скорость передвижения врага, наносит ему физический урон в размере 65 + [25, 40, 55, 77]% от атаки героя, а также накладывает эффекты предметов и способностей.',
+                description: 'Бросает кинжал, который замедляет скорость передвижения врага, наносит ему физический урон в размере 65+[25, 40, 55, 77]% от атаки героя, а также накладывает эффекты предметов и способностей.',
             },
             {
                 image: require("image/skills/Phantom_assassin_phantom_strike.png"),
@@ -6947,9 +6947,9 @@ export default [
         ],
         stats: [
             {
-                strength: '21',
-                agility: '29',
-                intelligence: '21',
+                strength: '21+2.0',
+                agility: '29+2.8',
+                intelligence: '21+2.0',
             }
         ],
         skills: [
@@ -7040,9 +7040,9 @@ export default [
         ],
         stats: [
             {
-                strength: '19',
-                agility: '12',
-                intelligence: '18',
+                strength: '19+3.2',
+                agility: '12+1.3',
+                intelligence: '18+1.8',
             }
         ],
         skills: [
@@ -7152,9 +7152,9 @@ export default [
         ],
         stats: [
             {
-                strength: '15',
-                agility: '22',
-                intelligence: '25',
+                strength: '15+2.0',
+                agility: '22+1.7',
+                intelligence: '25+2.4',
             }
         ],
         skills: [
@@ -7259,9 +7259,9 @@ export default [
         ],
         stats: [
             {
-                strength: '25',
-                agility: '14',
-                intelligence: '14',
+                strength: '25+3.5',
+                agility: '14+1.5',
+                intelligence: '14+1.5',
             }
         ],
         skills: [
@@ -7356,9 +7356,9 @@ export default [
         ],
         stats: [
             {
-                strength: '17',
-                agility: '16',
-                intelligence: '26',
+                strength: '17+1.5',
+                agility: '16+1.0',
+                intelligence: '26+4.5',
             }
         ],
         skills: [
@@ -7455,9 +7455,9 @@ export default [
         ],
         stats: [
             {
-                strength: '16',
-                agility: '18',
-                intelligence: '24',
+                strength: '16+2.0',
+                agility: '18+2.0',
+                intelligence: '24+2.5',
             }
         ],
         skills: [
@@ -7552,9 +7552,9 @@ export default [
         ],
         stats: [
             {
-                strength: '21',
-                agility: '22',
-                intelligence: '21',
+                strength: '21+2.6',
+                agility: '22+1.8',
+                intelligence: '21+1.8',
             }
         ],
         skills: [
@@ -7652,9 +7652,9 @@ export default [
         ],
         stats: [
             {
-                strength: '17',
-                agility: '30',
-                intelligence: '14',
+                strength: '17+1.9',
+                agility: '30+2.2',
+                intelligence: '14+1.3',
             }
         ],
         skills: [
@@ -7748,9 +7748,9 @@ export default [
         ],
         stats: [
             {
-                strength: '19',
-                agility: '14',
-                intelligence: '27',
+                strength: '19+1.8',
+                agility: '14+1.6',
+                intelligence: '27+2.4',
             }
         ],
         skills: [
@@ -7847,9 +7847,9 @@ export default [
         ],
         stats: [
             {
-                strength: '22',
-                agility: '19',
-                intelligence: '16',
+                strength: '22+2.9',
+                agility: '19+2.1',
+                intelligence: '16+1.8',
             }
         ],
         skills: [
@@ -7949,9 +7949,9 @@ export default [
         ],
         stats: [
             {
-                strength: '21',
-                agility: '18',
-                intelligence: '23',
+                strength: '21+2.2',
+                agility: '18+2.2',
+                intelligence: '23+2.7',
             }
         ],
         skills: [
@@ -8061,9 +8061,9 @@ export default [
         ],
         stats: [
             {
-                strength: '15',
-                agility: '20',
-                intelligence: '18',
+                strength: '15+2.3',
+                agility: '20+2.9',
+                intelligence: '18+2.0',
             }
         ],
         skills: [
@@ -8182,9 +8182,9 @@ export default [
         ],
         stats: [
             {
-                strength: '21',
-                agility: '16',
-                intelligence: '21',
+                strength: '21+2.1',
+                agility: '16+1.8',
+                intelligence: '21+3.0',
             }
         ],
         skills: [
@@ -8283,9 +8283,9 @@ export default [
         ],
         stats: [
             {
-                strength: '17',
-                agility: '22',
-                intelligence: '27',
+                strength: '17+2.5',
+                agility: '22+3.0',
+                intelligence: '27+2.5',
             }
         ],
         skills: [
@@ -8384,9 +8384,9 @@ export default [
         ],
         stats: [
             {
-                strength: '19',
-                agility: '13',
-                intelligence: '27',
+                strength: '19+1.8',
+                agility: '13+0.8',
+                intelligence: '27+3.6',
             }
         ],
         skills: [
@@ -8484,9 +8484,9 @@ export default [
         ],
         stats: [
             {
-                strength: '21',
-                agility: '17',
-                intelligence: '15',
+                strength: '21+3.1',
+                agility: '17+2.4',
+                intelligence: '15+1.5',
             }
         ],
         skills: [
@@ -8582,9 +8582,9 @@ export default [
         ],
         stats: [
             {
-                strength: '20',
-                agility: '21',
-                intelligence: '16',
+                strength: '20+1.9',
+                agility: '21+1.5',
+                intelligence: '16+1.7',
             }
         ],
         skills: [
@@ -8679,9 +8679,9 @@ export default [
         ],
         stats: [
             {
-                strength: '16',
-                agility: '21',
-                intelligence: '15',
+                strength: '16+1.7',
+                agility: '21+2.7',
+                intelligence: '15+2.6',
             }
         ],
         skills: [
@@ -8777,9 +8777,9 @@ export default [
         ],
         stats: [
             {
-                strength: '20',
-                agility: '23',
-                intelligence: '16',
+                strength: '20+2.3',
+                agility: '23+1.8',
+                intelligence: '16+1.9',
             }
         ],
         skills: [
@@ -8883,9 +8883,9 @@ export default [
         ],
         stats: [
             {
-                strength: '29',
-                agility: '17',
-                intelligence: '14',
+                strength: '29+2.7',
+                agility: '17+1.7',
+                intelligence: '14+1.8',
             }
         ],
         skills: [
@@ -8984,9 +8984,9 @@ export default [
         ],
         stats: [
             {
-                strength: '19',
-                agility: '22',
-                intelligence: '24',
+                strength: '19+1.8',
+                agility: '22+1.5',
+                intelligence: '24+3.0',
             }
         ],
         skills: [
@@ -9039,7 +9039,7 @@ export default [
                         immunity: 'нет',
                     }
                 ],
-                description: 'Герой оборачивается нестабильным электричеством и несется по полю боя, пока не достигнет своей цели либо не исчерпает запас своей маны. Заклинание имеет начальную стоимость в 30+8% от общего запаса маны. Затем тратится 12 единиц + 0,75% от общего запаса маны за каждые 100 единиц передвижения. Урон выражен в количестве урона за 100 единиц передвижения.',
+                description: 'Герой оборачивается нестабильным электричеством и несется по полю боя, пока не достигнет своей цели либо не исчерпает запас своей маны. Заклинание имеет начальную стоимость в 30+8% от общего запаса маны. Затем тратится 12 единиц+0,75% от общего запаса маны за каждые 100 единиц передвижения. Урон выражен в количестве урона за 100 единиц передвижения.',
             },
         ],
         about : "Storm Spirit не пропускает ни одного сражения. Он молнией проносится по карте, бьет врага со всех сторон взрывными копиями и заряженными ударами, и исчезает с поля битвы, оставляя шокированного противника в недоумении.",
@@ -9083,9 +9083,9 @@ export default [
         ],
         stats: [
             {
-                strength: '23',
-                agility: '21',
-                intelligence: '16',
+                strength: '23+3.0',
+                agility: '21+2.0',
+                intelligence: '16+1.3',
             }
         ],
         skills: [
@@ -9179,9 +9179,9 @@ export default [
         ],
         stats: [
             {
-                strength: '17',
-                agility: '14',
-                intelligence: '22',
+                strength: '17+2.3',
+                agility: '14+1.3',
+                intelligence: '22+2.9',
             }
         ],
         skills: [
@@ -9298,9 +9298,9 @@ export default [
         ],
         stats: [
             {
-                strength: '18',
-                agility: '23',
-                intelligence: '20',
+                strength: '18+2.4',
+                agility: '23+2.3',
+                intelligence: '20+2.0',
             }
         ],
         skills: [
@@ -9408,9 +9408,9 @@ export default [
         ],
         stats: [
             {
-                strength: '15',
-                agility: '22',
-                intelligence: '19',
+                strength: '15+1.7',
+                agility: '22+3.2',
+                intelligence: '19+1.6',
             }
         ],
         skills: [
@@ -9501,9 +9501,9 @@ export default [
         ],
         stats: [
             {
-                strength: '22',
-                agility: '15',
-                intelligence: '16',
+                strength: '22+3.3',
+                agility: '15+1.5',
+                intelligence: '16+1.7',
             }
         ],
         skills: [
@@ -9600,9 +9600,9 @@ export default [
         ],
         stats: [
             {
-                strength: '21',
-                agility: '16',
-                intelligence: '21',
+                strength: '21+2.1',
+                agility: '16+1.3',
+                intelligence: '21+2.4',
             }
         ],
         skills: [
@@ -9698,9 +9698,9 @@ export default [
         ],
         stats: [
             {
-                strength: '17',
-                agility: '13',
-                intelligence: '30',
+                strength: '17+2.3',
+                agility: '13+1.2',
+                intelligence: '30+2.2',
             }
         ],
         skills: [
@@ -9796,9 +9796,9 @@ export default [
         ],
         stats: [
             {
-                strength: '30',
-                agility: '0',
-                intelligence: '17',
+                strength: '30+3.3',
+                agility: '0+0.0',
+                intelligence: '17+1.6',
             }
         ],
         skills: [
@@ -9892,9 +9892,9 @@ export default [
         ],
         stats: [
             {
-                strength: '25',
-                agility: '15',
-                intelligence: '17',
+                strength: '25+3.6',
+                agility: '15+2.0',
+                intelligence: '17+1.8',
             }
         ],
         skills: [
@@ -9993,9 +9993,9 @@ export default [
         ],
         stats: [
             {
-                strength: '20',
-                agility: '21',
-                intelligence: '13',
+                strength: '20+2.5',
+                agility: '21+2.5',
+                intelligence: '13+1.0',
             }
         ],
         skills: [
@@ -10100,9 +10100,9 @@ export default [
         ],
         stats: [
             {
-                strength: '23',
-                agility: '23',
-                intelligence: '18',
+                strength: '23+3.0',
+                agility: '23+2.1',
+                intelligence: '18+1.7',
             }
         ],
         skills: [
@@ -10199,9 +10199,9 @@ export default [
         ],
         stats: [
             {
-                strength: '25',
-                agility: '12',
-                intelligence: '17',
+                strength: '25+2.9',
+                agility: '12+1.3',
+                intelligence: '17+2.6',
             }
         ],
         skills: [
@@ -10298,9 +10298,9 @@ export default [
         ],
         stats: [
             {
-                strength: '22',
-                agility: '10',
-                intelligence: '27',
+                strength: '22+2.4',
+                agility: '10+0.8',
+                intelligence: '27+2.8',
             }
         ],
         skills: [
@@ -10395,9 +10395,9 @@ export default [
         ],
         stats: [
             {
-                strength: '23',
-                agility: '18',
-                intelligence: '16',
+                strength: '23+3.0',
+                agility: '18+2.1',
+                intelligence: '16+1.5',
             }
         ],
         skills: [
@@ -10493,9 +10493,9 @@ export default [
         ],
         stats: [
             {
-                strength: '18',
-                agility: '27',
-                intelligence: '13',
+                strength: '18+2.9',
+                agility: '27+3.3',
+                intelligence: '13+1.5',
             }
         ],
         skills: [
@@ -10591,9 +10591,9 @@ export default [
         ],
         stats: [
             {
-                strength: '18',
-                agility: '22',
-                intelligence: '17',
+                strength: '18+1.9',
+                agility: '22+2.8',
+                intelligence: '17+1.8',
             }
         ],
         skills: [
@@ -10691,9 +10691,9 @@ export default [
         ],
         stats: [
             {
-                strength: '20',
-                agility: '21',
-                intelligence: '15',
+                strength: '20+2.4',
+                agility: '21+2.9',
+                intelligence: '15+1.8',
             }
         ],
         skills: [
@@ -10793,9 +10793,9 @@ export default [
         ],
         stats: [
             {
-                strength: '22',
-                agility: '11',
-                intelligence: '24',
+                strength: '22+2.7',
+                agility: '11+1.3',
+                intelligence: '24+2.5',
             }
         ],
         skills: [
@@ -10900,9 +10900,9 @@ export default [
         ],
         stats: [
             {
-                strength: '22',
-                agility: '10',
-                intelligence: '24',
+                strength: '22+2.8',
+                agility: '10+1.0',
+                intelligence: '24+2.7',
             }
         ],
         skills: [
@@ -11001,9 +11001,9 @@ export default [
         ],
         stats: [
             {
-                strength: '15',
-                agility: '14',
-                intelligence: '15',
+                strength: '15+1.8',
+                agility: '14+2.8',
+                intelligence: '15+1.8',
             }
         ],
         skills: [
@@ -11098,9 +11098,9 @@ export default [
         ],
         stats: [
             {
-                strength: '15',
-                agility: '17',
-                intelligence: '22',
+                strength: '15+2.8',
+                agility: '17+1.4',
+                intelligence: '22+2.6',
             }
         ],
         skills: [
@@ -11196,9 +11196,9 @@ export default [
         ],
         stats: [
             {
-                strength: '24',
-                agility: '16',
-                intelligence: '25',
+                strength: '24+2.4',
+                agility: '16+1.9',
+                intelligence: '25+3.1',
             }
         ],
         skills: [
@@ -11296,9 +11296,9 @@ export default [
         ],
         stats: [
             {
-                strength: '16',
-                agility: '13',
-                intelligence: '24',
+                strength: '16+2.1',
+                agility: '13+1.4',
+                intelligence: '24+2.9',
             }
         ],
         skills: [
@@ -11395,9 +11395,9 @@ export default [
         ],
         stats: [
             {
-                strength: '22',
-                agility: '18',
-                intelligence: '18',
+                strength: '22+2.8',
+                agility: '18+1.7',
+                intelligence: '18+1.6',
             }
         ],
         skills: [
@@ -11493,9 +11493,9 @@ export default [
         ],
         stats: [
             {
-                strength: '19',
-                agility: '11',
-                intelligence: '22',
+                strength: '19+2.6',
+                agility: '11+1.2',
+                intelligence: '22+2.7',
             }
         ],
         skills: [

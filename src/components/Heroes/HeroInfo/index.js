@@ -20,7 +20,7 @@ export default class HeroInfo extends Component {
                 </div>    
             );            
         }
-        const { image, hp, mp, stats, name, about, skills, biography, characteristic } = currentHero;
+        const { attack, biography, characteristic, deffence, image, hp, mobility, mp, stats, name, about, skills } = currentHero;
         
         return (
             <div className={currentHero ? "hero-info show-hero-info" : "hero-info"}>
@@ -51,11 +51,14 @@ export default class HeroInfo extends Component {
                     </TabPanel>
                     <TabPanel className="tab-panel">
                         <HeroMoreInfo
+                            attack={attack}
                             biography={biography}
                             characteristic={characteristic}
+                            deffence={deffence}
                             imgAgil={imgAgil}
                             imgInt={imgInt}
                             imgStr={imgStr}
+                            mobility={mobility}
                             stats={stats}
                         />
                     </TabPanel>

@@ -12,7 +12,7 @@
             color: #fff;
             text-align: justify;
 
-            > p {
+            p {
                 display: flex;
                 justify-content: space-between;
 
@@ -67,10 +67,15 @@
                     height: 35px;
                 }
     
-                p {
+                > p {
                     margin-top: 2px;
                     color: #fff;
+                    font-size: 14px;
                     text-align: center;
+
+                    &:last-child {
+                        font-size: 12px;
+                    }
                 }
 
                 &:nth-child(2) {
