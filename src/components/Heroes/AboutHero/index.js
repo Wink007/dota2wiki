@@ -56,9 +56,7 @@ export default class AboutHero extends Component {
                             {characteristic === 'Agility' && <img src={imgAgil} alt="" tooltip='Ловкость' />}
                             {characteristic === 'Intelligence' && <img src={imgInt} alt="" tooltip='Интеллект' />}
                             {
-                                skills.map((icon, idx) => (
-                                    icon.aghanim_description && <span key={idx} className="aghanim"></span>
-                                ))
+                                skills.some(elem => elem.aghanim_description) && <span className="aghanim"></span>
                             }
                         </p>
                         <p className="description">{about || ''}</p>

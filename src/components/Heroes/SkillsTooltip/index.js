@@ -69,10 +69,10 @@ export default class SkillsTooltip extends Component {
                     aghanim_description && 
                     <div className="about-aghanim">
                         <p className="improvement">Улучшается с Aghanim's Scepter</p>
-                        <p className="about-text">
+                        <div className="about-text">
                             <p>{aghanim_description_name || ''}</p>
                             <p>{aghanim_description}</p>
-                        </p>
+                        </div>
                     </div>
                 }
             </div>
