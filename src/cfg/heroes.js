@@ -10597,13 +10597,13 @@ export default [
                                 action: '4/6/8/10',
                             },
                         ],
-                        effect_3: [
+                        effect_4: [
                             {
                                 name: 'доп. здоровье героям:',
                                 action: '50/100/150/200',
                             },
                         ],
-                        effect_4: [
+                        effect_5: [
                             {
                                 name: 'доп. здоровье прочим существам:',
                                 action: '25/50/75/100',
@@ -13527,7 +13527,7 @@ export default [
                                 action: '9',
                             },
                         ],
-                        effect_4: [
+                        effect_5: [
                             {
                                 name: 'перезарядка со скипетром:',
                                 action: '1',
@@ -15585,14 +15585,20 @@ export default [
                     {
                         effect_1: [
                             {
-                                name: ':',
-                                action: '',
+                                name: 'мин. урон:',
+                                action: '30/50/70/90',
                             },
                         ],
                         effect_2: [
                             {
-                                name: ':',
-                                action: '',
+                                name: 'макс. урон:',
+                                action: '160/230/300/370',
+                            },
+                        ],
+                        effect_3: [
+                            {
+                                name: 'радиус:',
+                                action: '700',
                             },
                         ],
                     },
@@ -15614,14 +15620,20 @@ export default [
                     {
                         effect_1: [
                             {
-                                name: ':',
-                                action: '',
+                                name: 'длительность связи:',
+                                action: '8',
                             },
                         ],
                         effect_2: [
                             {
-                                name: ':',
-                                action: '',
+                                name: 'время восстановления урона:',
+                                action: '18',
+                            },
+                        ],
+                        effect_3: [
+                            {
+                                name: 'скорость изменения урона:',
+                                action: '7/14/21/28',
                             },
                         ],
                     },
@@ -15643,14 +15655,38 @@ export default [
                     {
                         effect_1: [
                             {
-                                name: ':',
-                                action: '',
+                                name: 'доп. скорость:',
+                                action: '4%/8%/12%/16%',
                             },
                         ],
                         effect_2: [
                             {
-                                name: ':',
-                                action: '',
+                                name: 'интервал разрядов:',
+                                action: '5',
+                            },
+                        ],
+                        effect_3: [
+                            {
+                                name: 'длительность замедления:',
+                                action: '0.5/1/1.5/2',
+                            },
+                        ],
+                        effect_4: [
+                            {
+                                name: 'замедление:',
+                                action: '40',
+                            },
+                        ],
+                        effect_5: [
+                            {
+                                name: 'урон:',
+                                action: '100/130/160/190',
+                            },
+                        ],
+                        effect_6: [
+                            {
+                                name: 'радиус:',
+                                action: '350',
                             },
                         ],
                     },
@@ -15672,14 +15708,38 @@ export default [
                     {
                         effect_1: [
                             {
-                                name: ':',
-                                action: '',
+                                name: 'радиус:',
+                                action: '500',
                             },
                         ],
                         effect_2: [
                             {
-                                name: ':',
-                                action: '',
+                                name: 'дилтельность:',
+                                action: '30',
+                            },
+                        ],
+                        effect_3: [
+                            {
+                                name: 'интервал разрядов:',
+                                action: '0.7/0.6/0.5',
+                            },
+                        ],
+                        effect_4: [
+                            {
+                                name: 'снижение брони:',
+                                action: '1',
+                            },
+                        ],
+                        effect_5: [
+                            {
+                                name: 'урон:',
+                                action: '40/55/70',
+                            },
+                        ],
+                        effect_6: [
+                            {
+                                name: 'интервал разрядов со скиптером:',
+                                action: '0.6/0.5/0.4',
                             },
                         ],
                     },
@@ -15749,14 +15809,26 @@ export default [
                     {
                         effect_1: [
                             {
-                                name: ':',
-                                action: '',
+                                name: 'радиус:',
+                                action: '250/275/300/325',
                             },
                         ],
                         effect_2: [
                             {
-                                name: ':',
-                                action: '',
+                                name: 'шанс промаха:',
+                                action: '40%/50%/60%/70%',
+                            },
+                        ],
+                        effect_3: [
+                            {
+                                name: 'замедление передвижения:',
+                                action: '10%/15%/20%/25%',
+                            },
+                        ],
+                        effect_4: [
+                            {
+                                name: 'длительность:',
+                                action: '6',
                             },
                         ],
                     },
@@ -15777,14 +15849,14 @@ export default [
                     {
                         effect_1: [
                             {
-                                name: ':',
-                                action: '',
+                                name: 'дальность:',
+                                action: '700',
                             },
                         ],
                         effect_2: [
                             {
-                                name: ':',
-                                action: '',
+                                name: 'доп. урон:',
+                                action: '55/70/85/100',
                             },
                         ],
                     },
@@ -15806,14 +15878,14 @@ export default [
                     {
                         effect_1: [
                             {
-                                name: ':',
-                                action: '',
+                                name: 'урон за ед. ловкости:',
+                                action: '0.4/0.6/0.8/1',
                             },
                         ],
                         effect_2: [
                             {
-                                name: ':',
-                                action: '',
+                                name: 'задержка до невидимости:',
+                                action: '6/5/4/3',
                             },
                         ],
                     },
@@ -15833,18 +15905,25 @@ export default [
                     {
                         effect_1: [
                             {
-                                name: ':',
-                                action: '',
+                                name: 'радиус:',
+                                action: '500',
                             },
                         ],
                         effect_2: [
                             {
-                                name: ':',
-                                action: '',
+                                name: 'макс. атак по существу:',
+                                action: '4/5/6',
+                            },
+                        ],
+                        effect_3: [
+                            {
+                                name: 'доп. длительность со скиптером:',
+                                action: '4',
                             },
                         ],
                     },
                 ],
+                aghanim_description: 'Увеличивает длительность и позволяет спрятаться на время действия в союзного героя',
             },
         ],
         about : "Riki крадется по полю боя, скрываясь от глаз противника. Он тщательно выжидает момент и бросается в бой сквозь свой заглушающий дым, нанося удар в спину еще до того, как кто-либо заметит его.",
@@ -15910,14 +15989,32 @@ export default [
                     {
                         effect_1: [
                             {
-                                name: ':',
-                                action: '',
+                                name: 'длительность подъема:',
+                                action: '1.5/1.75/2/2.25',
                             },
                         ],
                         effect_2: [
                             {
-                                name: ':',
-                                action: '',
+                                name: 'длительность оглушения:',
+                                action: '1/1.25/1.5/1.75',
+                            },
+                        ],
+                        effect_3: [
+                            {
+                                name: 'радиус удара:',
+                                action: '325',
+                            },
+                        ],
+                        effect_4: [
+                            {
+                                name: 'макс. дальность броска:',
+                                action: '375',
+                            },
+                        ],
+                        effect_5: [
+                            {
+                                name: 'дальность приминения:',
+                                action: '/550/575/600/625',
                             },
                         ],
                     },
@@ -15940,14 +16037,32 @@ export default [
                     {
                         effect_1: [
                             {
-                                name: ':',
-                                action: '',
+                                name: 'урон:',
+                                action: '80/160/240/320',
                             },
                         ],
                         effect_2: [
                             {
-                                name: ':',
-                                action: '',
+                                name: 'снижение урона за скачок:',
+                                action: '8%',
+                            },
+                        ],
+                        effect_3: [
+                            {
+                                name: 'уменьшение урона героев:',
+                                action: '20/25/30/35',
+                            },
+                        ],
+                        effect_4: [
+                            {
+                                name: 'уменьшение урона крипов:',
+                                action: '10/13/15/17',
+                            },
+                        ],
+                        effect_5: [
+                            {
+                                name: 'длительность эффекта:',
+                                action: '10',
                             },
                         ],
                     },
@@ -15966,14 +16081,14 @@ export default [
                     {
                         effect_1: [
                             {
-                                name: ':',
-                                action: '',
+                                name: 'сопротивление магии:',
+                                action: '10%/14%/18%/22%',
                             },
                         ],
                         effect_2: [
                             {
-                                name: ':',
-                                action: '',
+                                name: 'радиус:',
+                                action: '1200',
                             },
                         ],
                     },
@@ -15995,14 +16110,14 @@ export default [
                     {
                         effect_1: [
                             {
-                                name: ':',
-                                action: '',
+                                name: 'длительность:',
+                                action: '180/240/300',
                             },
                         ],
                         effect_2: [
                             {
-                                name: ':',
-                                action: '',
+                                name: 'перезарядка со скипетром:',
+                                action: '2',
                             },
                         ],
                     },
@@ -16074,14 +16189,26 @@ export default [
                     {
                         effect_1: [
                             {
-                                name: ':',
-                                action: '',
+                                name: 'длительность оглушения:',
+                                action: '2.17',
                             },
                         ],
                         effect_2: [
                             {
-                                name: ':',
-                                action: '',
+                                name: 'дальность приминения:',
+                                action: '350/450/550/650',
+                            },
+                        ],
+                        effect_3: [
+                            {
+                                name: 'дальность со скипетром:',
+                                action: '700/900/1100/1300',
+                            },
+                        ],
+                        effect_4: [
+                            {
+                                name: 'урон:',
+                                action: '85/150/215/280',
                             },
                         ],
                     },
@@ -16104,14 +16231,26 @@ export default [
                     {
                         effect_1: [
                             {
-                                name: ':',
-                                action: '',
+                                name: 'задержка невидимости:',
+                                action: '0.9/1.1/1.3/1.5',
                             },
                         ],
                         effect_2: [
                             {
-                                name: ':',
-                                action: '',
+                                name: 'радиус:',
+                                action: '525',
+                            },
+                        ],
+                        effect_3: [
+                            {
+                                name: 'длительность:',
+                                action: '50',
+                            },
+                        ],
+                        effect_4: [
+                            {
+                                name: 'периодический урон:',
+                                action: '40/60/80/100',
                             },
                         ],
                     },
@@ -16133,14 +16272,38 @@ export default [
                     {
                         effect_1: [
                             {
-                                name: ':',
-                                action: '',
+                                name: 'радиус взрыва:',
+                                action: '400',
                             },
                         ],
                         effect_2: [
                             {
-                                name: ':',
-                                action: '',
+                                name: 'урон при смерти цели:',
+                                action: '90/130/170/220',
+                            },
+                        ],
+                        effect_3: [
+                            {
+                                name: 'урон при окончании времени:',
+                                action: '20/50/80/110',
+                            },
+                        ],
+                        effect_4: [
+                            {
+                                name: 'время до взрыва:',
+                                action: '6',
+                            },
+                        ],
+                        effect_5: [
+                            {
+                                name: 'замедление передвижения:',
+                                action: '30%',
+                            },
+                        ],
+                        effect_6: [
+                            {
+                                name: 'длительность замедления:',
+                                action: '3',
                             },
                         ],
                     },
@@ -16162,14 +16325,32 @@ export default [
                     {
                         effect_1: [
                             {
-                                name: ':',
-                                action: '',
+                                name: 'толчков:',
+                                action: '6/8/10',
                             },
                         ],
                         effect_2: [
                             {
-                                name: ':',
-                                action: '',
+                                name: 'урон за толчок:',
+                                action: '110',
+                            },
+                        ],
+                        effect_3: [
+                            {
+                                name: 'замедление передвижения:',
+                                action: '30%',
+                            },
+                        ],
+                        effect_4: [
+                            {
+                                name: 'замедление атаки:',
+                                action: '30',
+                            },
+                        ],
+                        effect_5: [
+                            {
+                                name: 'длительность атаки:',
+                                action: '3',
                             },
                         ],
                     },
@@ -16239,14 +16420,26 @@ export default [
                     {
                         effect_1: [
                             {
-                                name: ':',
-                                action: '',
+                                name: 'длительность изгнания:',
+                                action: '2.5',
                             },
                         ],
                         effect_2: [
                             {
-                                name: ':',
-                                action: '',
+                                name: 'время жизни иллюзий:',
+                                action: '8/10/12/14',
+                            },
+                        ],
+                        effect_3: [
+                            {
+                                name: 'урон иллюзий:',
+                                action: '30%/45%/60%/75%',
+                            },
+                        ],
+                        effect_4: [
+                            {
+                                name: 'урон по иллюзиям:',
+                                action: '300%',
                             },
                         ],
                     },
@@ -16268,14 +16461,32 @@ export default [
                     {
                         effect_1: [
                             {
-                                name: ':',
-                                action: '',
+                                name: 'усиление урона:',
+                                action: '20%/30%/40%/50%',
                             },
                         ],
                         effect_2: [
                             {
-                                name: ':',
-                                action: '',
+                                name: 'радиус:',
+                                action: '450',
+                            },
+                        ],
+                        effect_3: [
+                            {
+                                name: 'длительность:',
+                                action: '12',
+                            },
+                        ],
+                        effect_4: [
+                            {
+                                name: 'урон иллюзии:',
+                                action: '30%/45%/60%/75%',
+                            },
+                        ],
+                        effect_5: [
+                            {
+                                name: 'урон по иллюзиям:',
+                                action: '200%',
                             },
                         ],
                     },
@@ -16297,14 +16508,32 @@ export default [
                     {
                         effect_1: [
                             {
-                                name: ':',
-                                action: '',
+                                name: 'базовый урон от яда:',
+                                action: '20/35/50/65',
                             },
                         ],
                         effect_2: [
                             {
-                                name: ':',
-                                action: '',
+                                name: 'макс. эффектов-множителей:',
+                                action: '5',
+                            },
+                        ],
+                        effect_3: [
+                            {
+                                name: 'радиус:',
+                                action: '200',
+                            },
+                        ],
+                        effect_4: [
+                            {
+                                name: 'длительность:',
+                                action: '10',
+                            },
+                        ],
+                        effect_5: [
+                            {
+                                name: 'урон:',
+                                action: '26/34/42/50',
                             },
                         ],
                     },
@@ -16353,14 +16582,20 @@ export default [
                     {
                         effect_1: [
                             {
-                                name: ':',
-                                action: '',
+                                name: 'урон:',
+                                action: '200/300/400',
                             },
                         ],
                         effect_2: [
                             {
-                                name: ':',
-                                action: '',
+                                name: 'длительность:',
+                                action: '5',
+                            },
+                        ],
+                        effect_3: [
+                            {
+                                name: 'время восстановления заряда со скипетром:',
+                                action: '40',
                             },
                         ],
                     },
@@ -16417,7 +16652,7 @@ export default [
         skills: [
             {
                 image: require("image/skills/Shadow_fiend_shadowraze1.png"),
-                name: 'Shadowraze (Близко)',
+                name: 'Shadowraze',
                 about: [
                     {
                         type: 'ненаправленная',
@@ -16430,14 +16665,26 @@ export default [
                     {
                         effect_1: [
                             {
-                                name: ':',
-                                action: '',
+                                name: 'базовый урон:',
+                                action: '90/160/230/300',
                             },
                         ],
                         effect_2: [
                             {
-                                name: ':',
-                                action: '',
+                                name: 'далтность приминения:',
+                                action: '200',
+                            },
+                        ],
+                        effect_3: [
+                            {
+                                name: 'доп. урон за попадание:',
+                                action: '50/60/70/80',
+                            },
+                        ],
+                        effect_4: [
+                            {
+                                name: 'длительность эффекта:',
+                                action: '8',
                             },
                         ],
                     },
@@ -16445,7 +16692,7 @@ export default [
             },
             {
                 image: require("image/skills/Shadow_fiend_shadowraze2.png"),
-                name: 'Shadowraze (Близко)',
+                name: 'Shadowraze',
                 about: [
                     {
                         type: 'ненаправленная',
@@ -16458,14 +16705,26 @@ export default [
                     {
                         effect_1: [
                             {
-                                name: ':',
-                                action: '',
+                                name: 'базовый урон:',
+                                action: '90/160/230/300',
                             },
                         ],
                         effect_2: [
                             {
-                                name: ':',
-                                action: '',
+                                name: 'далтность приминения:',
+                                action: '450',
+                            },
+                        ],
+                        effect_3: [
+                            {
+                                name: 'доп. урон за попадание:',
+                                action: '50/60/70/80',
+                            },
+                        ],
+                        effect_4: [
+                            {
+                                name: 'длительность эффекта:',
+                                action: '8',
                             },
                         ],
                     },
@@ -16473,7 +16732,7 @@ export default [
             },
             {
                 image: require("image/skills/Shadow_fiend_shadowraze3.png"),
-                name: 'Shadowraze (Близко)',
+                name: 'Shadowraze',
                 about: [
                     {
                         type: 'ненаправленная',
@@ -16486,14 +16745,26 @@ export default [
                     {
                         effect_1: [
                             {
-                                name: ':',
-                                action: '',
+                                name: 'базовый урон:',
+                                action: '90/160/230/300',
                             },
                         ],
                         effect_2: [
                             {
-                                name: ':',
-                                action: '',
+                                name: 'далтность приминения:',
+                                action: '700',
+                            },
+                        ],
+                        effect_3: [
+                            {
+                                name: 'доп. урон за попадание:',
+                                action: '50/60/70/80',
+                            },
+                        ],
+                        effect_4: [
+                            {
+                                name: 'длительность эффекта:',
+                                action: '8',
                             },
                         ],
                     },
@@ -16512,14 +16783,20 @@ export default [
                     {
                         effect_1: [
                             {
-                                name: ':',
-                                action: '',
+                                name: 'урона за душу:',
+                                action: '2',
                             },
                         ],
                         effect_2: [
                             {
-                                name: ':',
-                                action: '',
+                                name: 'макс. душ:',
+                                action: '12/20/28/36',
+                            },
+                        ],
+                        effect_3: [
+                            {
+                                name: 'макс. душ со скиптером:',
+                                action: '22/30/38/46',
                             },
                         ],
                     },
@@ -16541,14 +16818,14 @@ export default [
                     {
                         effect_1: [
                             {
-                                name: ':',
-                                action: '',
+                                name: 'снижение:',
+                                action: '3/4/5/6',
                             },
                         ],
                         effect_2: [
                             {
-                                name: ':',
-                                action: '',
+                                name: 'радиус:',
+                                action: '900',
                             },
                         ],
                     },
@@ -16570,14 +16847,44 @@ export default [
                     {
                         effect_1: [
                             {
-                                name: ':',
-                                action: '',
+                                name: 'задержка приминения:',
+                                action: '1.67',
                             },
                         ],
                         effect_2: [
                             {
-                                name: ':',
-                                action: '',
+                                name: 'замедление передвижения:',
+                                action: '25%',
+                            },
+                        ],
+                        effect_3: [
+                            {
+                                name: 'снижение урона:',
+                                action: '50%',
+                            },
+                        ],
+                        effect_4: [
+                            {
+                                name: 'длительность замделения:',
+                                action: '5',
+                            },
+                        ],
+                        effect_5: [
+                            {
+                                name: 'лечение со скипетром:',
+                                action: '100%',
+                            },
+                        ],
+                        effect_6: [
+                            {
+                                name: 'урон при возвращении:',
+                                action: '40%',
+                            },
+                        ],
+                        effect_7: [
+                            {
+                                name: 'урон:',
+                                action: '80/120/160',
                             },
                         ],
                     },
@@ -16648,14 +16955,14 @@ export default [
                     {
                         effect_1: [
                             {
-                                name: ':',
-                                action: '',
+                                name: 'целей:',
+                                action: '1/3/5/7',
                             },
                         ],
                         effect_2: [
                             {
-                                name: ':',
-                                action: '',
+                                name: 'урон:',
+                                action: '140/200/260/320',
                             },
                         ],
                     },
@@ -16677,8 +16984,8 @@ export default [
                     {
                         effect_1: [
                             {
-                                name: ':',
-                                action: '',
+                                name: 'длительность:',
+                                action: '1.25/2/2.75/3.5',
                             },
                         ],
                         effect_2: [
@@ -16707,14 +17014,14 @@ export default [
                     {
                         effect_1: [
                             {
-                                name: ':',
-                                action: '',
+                                name: 'всего урона:',
+                                action: '60/160/260/360',
                             },
                         ],
                         effect_2: [
                             {
-                                name: ':',
-                                action: '',
+                                name: 'макс. длительность:',
+                                action: '2.75/3.5/4.25/5',
                             },
                         ],
                     },
@@ -16735,14 +17042,20 @@ export default [
                     {
                         effect_1: [
                             {
-                                name: ':',
-                                action: '',
+                                name: 'урон:',
+                                action: '40/70/100',
                             },
                         ],
                         effect_2: [
                             {
-                                name: ':',
-                                action: '',
+                                name: 'длительность:',
+                                action: '45',
+                            },
+                        ],
+                        effect_3: [
+                            {
+                                name: 'доп. дальность атаки со скиптером:',
+                                action: '225',
                             },
                         ],
                     },
@@ -16813,14 +17126,32 @@ export default [
                     {
                         effect_1: [
                             {
-                                name: ':',
-                                action: '',
+                                name: 'урон:',
+                                action: '14/22/30/38',
                             },
                         ],
                         effect_2: [
                             {
-                                name: ':',
-                                action: '',
+                                name: 'радиус:',
+                                action: '425',
+                            },
+                        ],
+                        effect_3: [
+                            {
+                                name: 'начальная длительность:',
+                                action: '6',
+                            },
+                        ],
+                        effect_4: [
+                            {
+                                name: 'добавочная длительность:',
+                                action: '4',
+                            },
+                        ],
+                        effect_5: [
+                            {
+                                name: 'замедление передвижения:',
+                                action: '9%/12%/15%/18%',
                             },
                         ],
                     },
@@ -16842,8 +17173,8 @@ export default [
                     {
                         effect_1: [
                             {
-                                name: ':',
-                                action: '',
+                                name: 'интеллекта в урон:',
+                                action: '15%/30%/45%/60%',
                             },
                         ],
                         effect_2: [
@@ -16873,14 +17204,20 @@ export default [
                     {
                         effect_1: [
                             {
-                                name: ':',
-                                action: '',
+                                name: 'урон:',
+                                action: '150/200/250',
                             },
                         ],
                         effect_2: [
                             {
-                                name: ':',
-                                action: '',
+                                name: 'время до срабатывания:',
+                                action: '4',
+                            },
+                        ],
+                        effect_3: [
+                            {
+                                name: 'длительность безмолвия:',
+                                action: '3/4/5/6',
                             },
                         ],
                     },
@@ -16901,8 +17238,8 @@ export default [
                     {
                         effect_1: [
                             {
-                                name: ':',
-                                action: '',
+                                name: 'длитнльность:',
+                                action: '4/5/6',
                             },
                         ],
                         effect_2: [
@@ -16978,14 +17315,14 @@ export default [
                     {
                         effect_1: [
                             {
-                                name: ':',
-                                action: '',
+                                name: 'базовый урон:',
+                                action: '60/80/100/120',
                             },
                         ],
                         effect_2: [
                             {
-                                name: ':',
-                                action: '',
+                                name: 'множитель интеллекта:',
+                                action: '1.6',
                             },
                         ],
                     },
@@ -17007,14 +17344,32 @@ export default [
                     {
                         effect_1: [
                             {
-                                name: ':',
-                                action: '',
+                                name: 'дальность выстрела:',
+                                action: '1600',
                             },
                         ],
                         effect_2: [
                             {
-                                name: ':',
-                                action: '',
+                                name: 'радиус урона:',
+                                action: '250',
+                            },
+                        ],
+                        effect_3: [
+                            {
+                                name: 'урон:',
+                                action: '70/140/210/280',
+                            },
+                        ],
+                        effect_4: [
+                            {
+                                name: 'длительность замделения:',
+                                action: '4',
+                            },
+                        ],
+                        effect_5: [
+                            {
+                                name: 'замедление:',
+                                action: '30%/35%/40%/45%',
                             },
                         ],
                     },
@@ -17036,14 +17391,14 @@ export default [
                     {
                         effect_1: [
                             {
-                                name: ':',
-                                action: '',
+                                name: 'доп. магический урон:',
+                                action: '30%/35%/40%/45%',
                             },
                         ],
                         effect_2: [
                             {
-                                name: ':',
-                                action: '',
+                                name: 'длительность:',
+                                action: '3/4/5/6',
                             },
                         ],
                     },
@@ -17064,14 +17419,20 @@ export default [
                     {
                         effect_1: [
                             {
-                                name: ':',
-                                action: '',
+                                name: 'радиус:',
+                                action: '170',
                             },
                         ],
                         effect_2: [
                             {
-                                name: ':',
-                                action: '',
+                                name: 'длительность:',
+                                action: '2.4',
+                            },
+                        ],
+                        effect_3: [
+                            {
+                                name: 'урон:',
+                                action: '600/1000/1400',
                             },
                         ],
                     },
@@ -17140,14 +17501,20 @@ export default [
                     {
                         effect_1: [
                             {
-                                name: ':',
-                                action: '',
+                                name: 'доп. скорость передвижения:',
+                                action: '20%/28%/36%/44%',
                             },
                         ],
                         effect_2: [
                             {
-                                name: ':',
-                                action: '',
+                                name: 'доп. урон по себе:',
+                                action: '15%',
+                            },
+                        ],
+                        effect_3: [
+                            {
+                                name: 'длительность:',
+                                action: '12',
                             },
                         ],
                     },
@@ -17169,14 +17536,38 @@ export default [
                     {
                         effect_1: [
                             {
-                                name: ':',
-                                action: '',
+                                name: 'радиус:',
+                                action: '350',
                             },
                         ],
                         effect_2: [
                             {
-                                name: ':',
-                                action: '',
+                                name: 'замедление передвижения:',
+                                action: '20%',
+                            },
+                        ],
+                        effect_3: [
+                            {
+                                name: 'замедление атаки:',
+                                action: '20',
+                            },
+                        ],
+                        effect_4: [
+                            {
+                                name: 'длительность замедления:',
+                                action: '2',
+                            },
+                        ],
+                        effect_5: [
+                            {
+                                name: 'длительность оглушения:',
+                                action: '1.25/1.5/1.75/2',
+                            },
+                        ],
+                        effect_6: [
+                            {
+                                name: 'урон:',
+                                action: '75/125/175/225',
                             },
                         ],
                     },
@@ -17198,14 +17589,20 @@ export default [
                     {
                         effect_1: [
                             {
-                                name: ':',
-                                action: '',
+                                name: 'шанс:',
+                                action: '10%/15%/20%/25%',
                             },
                         ],
                         effect_2: [
                             {
-                                name: ':',
-                                action: '',
+                                name: 'дополнительный урон:',
+                                action: '60/80/100/120',
+                            },
+                        ],
+                        effect_3: [
+                            {
+                                name: 'длительность:',
+                                action: '1',
                             },
                         ],
                     },
@@ -17227,14 +17624,14 @@ export default [
                     {
                         effect_1: [
                             {
-                                name: ':',
-                                action: '',
+                                name: 'снижение брони:',
+                                action: '10/15/20',
                             },
                         ],
                         effect_2: [
                             {
-                                name: ':',
-                                action: '',
+                                name: 'длительность:',
+                                action: '18',
                             },
                         ],
                     },
