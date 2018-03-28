@@ -35,9 +35,10 @@
 
             > li {
                 padding: 0 10px;
-                text-transform: uppercase;
                 color: rgba(#fff, .6);
+                cursor: pointer;
                 font-style: italic;
+                text-transform: uppercase;
                 transition: text-shadow .35s ease;
 
                 &:focus {

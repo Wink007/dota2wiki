@@ -13,7 +13,15 @@ export default class SkillsTooltip extends Component {
                 null    
             );            
         }
-        const { image, name, description, aghanim_description_name, aghanim_description, about } = currentSkill;
+        const { 
+                about,
+                aghanim_description,
+                aghanim_description_name,
+                description,
+                image,
+                effects,
+                name,
+            } = currentSkill;
                   
         return (
             <div className="skill-tooltip">
@@ -74,6 +82,23 @@ export default class SkillsTooltip extends Component {
                             <p>{aghanim_description}</p>
                         </div>
                     </div>
+                }
+                {
+                    effects.map((effect, idx) => (
+                        <div key={idx} className="effects">
+                            {
+                                Object.keys(effect).map((objectKey, index) => {
+                                    let value = effect[objectKey];
+                                    return value.map((item, index) => (
+                                        <p key={index} className="effect">
+                                            {item.name || ''}
+                                            {item.action && <span className="action">{item.action}</span>}
+                                        </p>
+                                    ))
+                                })
+                            }
+                        </div>
+                    ))
                 }
             </div>
         )

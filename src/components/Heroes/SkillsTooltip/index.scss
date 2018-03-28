@@ -97,4 +97,23 @@
             }
         }
     }
+
+    .effects {
+        padding: 4px 7px;
+        font-size: 12px;
+
+        .effect {
+            color: #C4C4C4;
+            line-height: 1.4;
+            text-transform: uppercase;
+            
+            .action {
+                margin-left: 5px;
+                color: #fff;
+                letter-spacing: 1.1px;
+                text-shadow: 0 0 1px #fff;
+                opacity: .9;
+            }
+        }
+    }
 }

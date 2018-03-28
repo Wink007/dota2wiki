@@ -6517,7 +6517,7 @@ export default [
                     {
                         effect_1: [
                             {
-                                name: ':',
+                                name: '',
                                 action: '',
                             },
                         ],
@@ -7862,13 +7862,13 @@ export default [
                     {
                         effect_1: [
                             {
-                                name: ':',
+                                name: '',
                                 action: '',
                             },
                         ],
                         effect_2: [
                             {
-                                name: ':',
+                                name: '',
                                 action: '',
                             },
                         ],
@@ -7888,13 +7888,13 @@ export default [
                     {
                         effect_1: [
                             {
-                                name: ':',
+                                name: '',
                                 action: '',
                             },
                         ],
                         effect_2: [
                             {
-                                name: ':',
+                                name: '',
                                 action: '',
                             },
                         ],
@@ -8276,7 +8276,7 @@ export default [
                         ],
                         effect_2: [
                             {
-                                name: ':',
+                                name: '',
                                 action: '',
                             },
                         ],
@@ -8544,7 +8544,7 @@ export default [
                         ],
                         effect_2: [
                             {
-                                name: ':',
+                                name: '',
                                 action: '',
                             },
                         ],
@@ -8611,7 +8611,7 @@ export default [
                         ],
                         effect_2: [
                             {
-                                name: ':',
+                                name: '',
                                 action: '',
                             },
                         ],
@@ -9445,7 +9445,7 @@ export default [
                         ],
                         effect_2: [
                             {
-                                name: ':',
+                                name: '',
                                 action: '',
                             },
                         ],
@@ -9608,7 +9608,7 @@ export default [
                         ],
                         effect_2: [
                             {
-                                name: ':',
+                                name: '',
                                 action: '',
                             },
                         ],
@@ -9755,7 +9755,7 @@ export default [
                         ],
                         effect_2: [
                             {
-                                name: ':',
+                                name: '',
                                 action: '',
                             },
                         ],
@@ -9863,7 +9863,7 @@ export default [
                         ],
                         effect_2: [
                             {
-                                name: ':',
+                                name: '',
                                 action: '',
                             },
                         ],
@@ -9971,7 +9971,7 @@ export default [
                         ],
                         effect_2: [
                             {
-                                name: ':',
+                                name: '',
                                 action: '',
                             },
                         ],
@@ -11052,7 +11052,7 @@ export default [
                         ],
                         effect_2: [
                             {
-                                name: ':',
+                                name: '',
                                 action: '',
                             },
                         ],
@@ -11270,7 +11270,7 @@ export default [
                         ],
                         effect_2: [
                             {
-                                name: ':',
+                                name: '',
                                 action: '',
                             },
                         ],
@@ -11705,7 +11705,7 @@ export default [
                         ],
                         effect_2: [
                             {
-                                name: ':',
+                                name: '',
                                 action: '',
                             },
                         ],
@@ -11814,7 +11814,7 @@ export default [
                         ],
                         effect_2: [
                             {
-                                name: ':',
+                                name: '',
                                 action: '',
                             },
                         ],
@@ -11983,7 +11983,7 @@ export default [
                         ],
                         effect_2: [
                             {
-                                name: ':',
+                                name: '',
                                 action: '',
                             },
                         ],
@@ -12098,7 +12098,7 @@ export default [
                         ],
                         effect_2: [
                             {
-                                name: ':',
+                                name: '',
                                 action: '',
                             },
                         ],
@@ -12264,13 +12264,13 @@ export default [
                     {
                         effect_1: [
                             {
-                                name: ':',
+                                name: '',
                                 action: '',
                             },
                         ],
                         effect_2: [
                             {
-                                name: ':',
+                                name: '',
                                 action: '',
                             },
                         ],
@@ -12869,7 +12869,7 @@ export default [
                         ],
                         effect_2: [
                             {
-                                name: ':',
+                                name: '',
                                 action: '',
                             },
                         ],
@@ -13293,7 +13293,7 @@ export default [
                         ],
                         effect_2: [
                             {
-                                name: ':',
+                                name: '',
                                 action: '',
                             },
                         ],
@@ -13558,7 +13558,7 @@ export default [
                         ],
                         effect_2: [
                             {
-                                name: ':',
+                                name: '',
                                 action: '',
                             },
                         ],
@@ -14644,13 +14644,13 @@ export default [
                     {
                         effect_1: [
                             {
-                                name: ':',
+                                name: '',
                                 action: '',
                             },
                         ],
                         effect_2: [
                             {
-                                name: ':',
+                                name: '',
                                 action: '',
                             },
                         ],
@@ -14848,7 +14848,7 @@ export default [
                         ],
                         effect_2: [
                             {
-                                name: ':',
+                                name: '',
                                 action: '',
                             },
                         ],
@@ -14868,13 +14868,13 @@ export default [
                     {
                         effect_1: [
                             {
-                                name: ':',
+                                name: '',
                                 action: '',
                             },
                         ],
                         effect_2: [
                             {
-                                name: ':',
+                                name: '',
                                 action: '',
                             },
                         ],
@@ -14915,7 +14915,7 @@ export default [
                         ],
                         effect_4: [
                             {
-                                name: 'длительность спирали со скиптером:',
+                                name: 'длительность спирали со скипетром:',
                                 action: '8',
                             },
                         ],
@@ -15010,7 +15010,7 @@ export default [
                         ],
                         effect_2: [
                             {
-                                name: 'перезарядка со скиптером:',
+                                name: 'перезарядка со скипетром:',
                                 action: '4',
                             },
                         ],
@@ -15446,7 +15446,7 @@ export default [
                         ],
                         effect_2: [
                             {
-                                name: ':',
+                                name: '',
                                 action: '',
                             },
                         ],
@@ -15514,7 +15514,7 @@ export default [
                         ],
                         effect_4: [
                             {
-                                name: 'урон со скиптером:',
+                                name: 'урон со скипетром:',
                                 action: '325/440/555',
                             },
                         ],
@@ -15738,7 +15738,7 @@ export default [
                         ],
                         effect_6: [
                             {
-                                name: 'интервал разрядов со скиптером:',
+                                name: 'интервал разрядов со скипетром:',
                                 action: '0.6/0.5/0.4',
                             },
                         ],
@@ -15917,7 +15917,7 @@ export default [
                         ],
                         effect_3: [
                             {
-                                name: 'доп. длительность со скиптером:',
+                                name: 'доп. длительность со скипетром:',
                                 action: '4',
                             },
                         ],
@@ -16552,13 +16552,13 @@ export default [
                     {
                         effect_1: [
                             {
-                                name: ':',
+                                name: '',
                                 action: '',
                             },
                         ],
                         effect_2: [
                             {
-                                name: ':',
+                                name: '',
                                 action: '',
                             },
                         ],
@@ -16795,7 +16795,7 @@ export default [
                         ],
                         effect_3: [
                             {
-                                name: 'макс. душ со скиптером:',
+                                name: 'макс. душ со скипетром:',
                                 action: '22/30/38/46',
                             },
                         ],
@@ -16990,7 +16990,7 @@ export default [
                         ],
                         effect_2: [
                             {
-                                name: ':',
+                                name: '',
                                 action: '',
                             },
                         ],
@@ -17054,7 +17054,7 @@ export default [
                         ],
                         effect_3: [
                             {
-                                name: 'доп. дальность атаки со скиптером:',
+                                name: 'доп. дальность атаки со скипетром:',
                                 action: '225',
                             },
                         ],
@@ -17179,7 +17179,7 @@ export default [
                         ],
                         effect_2: [
                             {
-                                name: ':',
+                                name: '',
                                 action: '',
                             },
                         ],
@@ -17244,7 +17244,7 @@ export default [
                         ],
                         effect_2: [
                             {
-                                name: ':',
+                                name: '',
                                 action: '',
                             },
                         ],
@@ -17964,7 +17964,7 @@ export default [
                         ],
                         effect_2: [
                             {
-                                name: ':',
+                                name: '',
                                 action: '',
                             },
                         ],
@@ -18184,13 +18184,13 @@ export default [
                     {
                         effect_1: [
                             {
-                                name: ':',
+                                name: '',
                                 action: '',
                             },
                         ],
                         effect_2: [
                             {
-                                name: ':',
+                                name: '',
                                 action: '',
                             },
                         ],
@@ -18764,7 +18764,7 @@ export default [
                         ],
                         effect_2: [
                             {
-                                name: ':',
+                                name: '',
                                 action: '',
                             },
                         ],
@@ -19038,7 +19038,7 @@ export default [
                         ],
                         effect_2: [
                             {
-                                name: ':',
+                                name: '',
                                 action: '',
                             },
                         ],
@@ -19064,7 +19064,7 @@ export default [
                         ],
                         effect_2: [
                             {
-                                name: ':',
+                                name: '',
                                 action: '',
                             },
                         ],
@@ -19292,13 +19292,13 @@ export default [
                     {
                         effect_1: [
                             {
-                                name: ':',
+                                name: '',
                                 action: '',
                             },
                         ],
                         effect_2: [
                             {
-                                name: ':',
+                                name: '',
                                 action: '',
                             },
                         ],
@@ -19549,7 +19549,7 @@ export default [
                         ],
                         effect_2: [
                             {
-                                name: ':',
+                                name: '',
                                 action: '',
                             },
                         ],
@@ -19651,7 +19651,7 @@ export default [
                         ],
                         effect_6: [
                             {
-                                name: 'дальность со скиптером:',
+                                name: 'дальность со скипетром:',
                                 action: '1800',
                             },
                         ],
@@ -20174,7 +20174,7 @@ export default [
                         ],
                         effect_2: [
                             {
-                                name: ':',
+                                name: '',
                                 action: '',
                             },
                         ],
@@ -20314,7 +20314,7 @@ export default [
                     {
                         effect_1: [
                             {
-                                name: 'чилсо атак:',
+                                name: 'число атак:',
                                 action: '5',
                             },
                         ],
@@ -20532,7 +20532,7 @@ export default [
                                 action: '20/40/60/80',
                             },
                         ],
-                        effect_3: [
+                        effect_4: [
                             {
                                 name: 'длительность:',
                                 action: '15',
@@ -21209,7 +21209,7 @@ export default [
                                 action: '30/35/40/45',
                             },
                         ],
-                        effect_4: [
+                        effect_5: [
                             {
                                 name: 'длительность:',
                                 action: '30/40/50/60',
@@ -22261,7 +22261,7 @@ export default [
                                 action: '8/16/24/32',
                             },
                         ],
-                        effect_4: [
+                        effect_5: [
                             {
                                 name: 'макс. дальность действия:',
                                 action: '1400',
@@ -22317,7 +22317,7 @@ export default [
                         ],
                         effect_6: [
                             {
-                                name: 'перезарядка со скиптером:',
+                                name: 'перезарядка со скипетром:',
                                 action: '10',
                             },
                         ],
@@ -22965,7 +22965,7 @@ export default [
                         ],
                         effect_2: [
                             {
-                                name: ':',
+                                name: '',
                                 action: '',
                             },
                         ],
@@ -23070,7 +23070,7 @@ export default [
                         ],
                         effect_2: [
                             {
-                                name: ':',
+                                name: '',
                                 action: '',
                             },
                         ],
@@ -23737,7 +23737,7 @@ export default [
                         ],
                         effect_2: [
                             {
-                                name: ':',
+                                name: '',
                                 action: '',
                             },
                         ],

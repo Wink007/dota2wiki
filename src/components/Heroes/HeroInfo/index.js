@@ -20,7 +20,21 @@ export default class HeroInfo extends Component {
                 </div>    
             );            
         }
-        const { attack, biography, characteristic, deffence, image, hp, mobility, mp, stats, name, about, skills } = currentHero;
+        const 
+            { 
+                attack,
+                biography,
+                characteristic,
+                deffence,
+                image,
+                hp,
+                mobility,
+                mp,
+                stats,
+                name,
+                about, 
+                skills
+            } = currentHero;
         
         return (
             <div className={currentHero ? "hero-info show-hero-info" : "hero-info"}>
