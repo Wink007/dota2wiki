@@ -4,6 +4,7 @@ import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 
 import AboutHero from '../AboutHero';
 import HeroMoreInfo from '../HeroMoreInfo';
+import HeroTalents from '../HeroTalents';
 
 import imgStr from '../../../../src/image/str.png';
 import imgAgil from '../../../../src/image/agility.png';
@@ -33,7 +34,8 @@ export default class HeroInfo extends Component {
                 stats,
                 name,
                 about, 
-                skills
+                skills,
+                talants
             } = currentHero;
         
         return (
@@ -77,7 +79,9 @@ export default class HeroInfo extends Component {
                         />
                     </TabPanel>
                     <TabPanel className="tab-panel">
-                        Таланты
+                        <HeroTalents
+                            talants={talants}
+                        />
                     </TabPanel>
                 </Tabs>
             </div>

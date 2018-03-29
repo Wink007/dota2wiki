@@ -212,24 +212,28 @@ export default [
             {
                 lvl10: [
                     {
+                        level: '10',
                         lside: '+20% к получаемому опыту',
                         rside: '+25 к скорости передвижения',
                     },
                 ],
                 lvl15: [
                     {
+                        level: '15',
                         lside: '+60 к урону/лечению Mist Coil',
                         rside: '+6 к броне',
                     },
                 ],
                 lvl20: [
                     {
+                        level: '20',
                         lside: '+90 к урону',
                         rside: '-20% перезарядки способностей',
                     },
                 ],
                 lvl25: [
                     {
+                        level: '25',
                         lside: '+25% к замедлению передвижения и +25 к замедлению скорости атаки от Curse of Avernus',
                         rside: '+225 к здоровью Aphotic Shield',
                     },
@@ -454,24 +458,28 @@ export default [
             {
                 lvl10: [
                     {
+                        level: '10',
                         lside: '-8 сек. перезарядки Unstable Concoction',
                         rside: '+25 к скорости атаки',
                     },
                 ],
                 lvl15: [
                     {
+                        level: '15',
                         lside: '+50 к урону',
                         rside: '+400 к здоровью',
                     },
                 ],
                 lvl20: [
                     {
+                        level: '20',
                         lside: '+400 к урону от Unstable Concoction',
                         rside: '+30% к прорубанию',
                     },
                 ],
                 lvl25: [
                     {
+                        level: '25',
                         lside: '+30 к регенерации от Chemical Rage',
                         rside: '-0,2 к задержке перед атакой под Chemical Rage',
                     },
@@ -715,24 +723,28 @@ export default [
             {
                 lvl10: [
                     {
+                        level: '10',
                         lside: '+10% к урону от способностей',
                         rside: '+60 золота в минуту',
                     },
                 ],
                 lvl15: [
                     {
+                        level: '15',
                         lside: '+20 здоровья в секунду',
                         rside: '-2,5 сек. к перезарядке Ice Vortex',
                     },
                 ],
                 lvl20: [
                     {
+                        level: '20',
                         lside: '+80 к урону от Chilling Touch',
                         rside: '+8% к замедлению/маг. урону от Ice Vortex',
                     },
                 ],
                 lvl25: [
                     {
+                        level: '25',
                         lside: '+4% к проценту для убийства от Ice Blast',
                         rside: 'Cold Feet с радиусом в 900',
                     },
@@ -889,24 +901,28 @@ export default [
             {
                 lvl10: [
                     {
+                        level: '10',
                         lside: '+20 к скорости атаки',
                         rside: '+10 к силе',
                     },
                 ],
                 lvl15: [
                     {
+                        level: '15',
                         lside: '+15 к ловкости',
                         rside: '+400 к дальности Blink',
                     },
                 ],
                 lvl20: [
                     {
+                        level: '20',
                         lside: '-2,5 сек. перезарядки у Blink',
                         rside: 'Blink создает неконтролируемую иллюзию',
                     },
                 ],
                 lvl25: [
                     {
+                        level: '25',
                         lside: '-50 сек. перезарядки Mana Void',
                         rside: '+25% к сопротивлению от Spell Shield',
                     },
@@ -1124,24 +1140,28 @@ export default [
             {
                 lvl10: [
                     {
+                        level: '10',
                         lside: '+25 к скорости атаки',
                         rside: '-8% перезарядки способностей',
                     },
                 ],
                 lvl15: [
                     {
+                        level: '15',
                         lside: '+3 сек. к длительности Flux',
                         rside: '+350 к здоровью',
                     },
                 ],
                 lvl20: [
                     {
+                        level: '20',
                         lside: '+125 к дальности атаки',
                         rside: '-1,5 сек. перезарядки Spark Wraith',
                     },
                 ],
                 lvl25: [
                     {
+                        level: '25',
                         lside: '+350 к урону от Spark Wraith',
                         rside: '30% вампиризма',
                     },
@@ -1370,24 +1390,28 @@ export default [
             {
                 lvl10: [
                     {
+                        level: '10',
                         lside: '+40 к скорости атаки',
                         rside: '+8 к силе',
                     },
                 ],
                 lvl15: [
                     {
+                        level: '15',
                         lside: '+40 к скорости передвижения',
                         rside: '+3 маны в секунду',
                     },
                 ],
                 lvl20: [
                     {
+                        level: '20',
                         lside: 'Counter Helix срабатывает от своих атак',
                         rside: '+20 здоровья в секунду',
                     },
                 ],
                 lvl25: [
                     {
+                        level: '25',
                         lside: '+120 к урону в секунду от Battle Hunger',
                         rside: '+100 к радиусу Berserker\'s Call',
                     },
@@ -1577,24 +1601,28 @@ export default [
             {
                 lvl10: [
                     {
+                        level: '10',
                         lside: '+100 к дальности способностей',
                         rside: '+6 к броне',
                     },
                 ],
                 lvl15: [
                     {
+                        level: '15',
                         lside: '+40% к получаемому опыту',
                         rside: 'Enfeeble крадет урон',
                     },
                 ],
                 lvl20: [
                     {
+                        level: '20',
                         lside: '+75 к скорости передвижения',
                         rside: '+100 к уменьшению урона от Enfeeble',
                     },
                 ],
                 lvl25: [
                     {
+                        level: '25',
                         lside: '+7 сек. к длительности Fiend\'s',
                         rside: '+250 к урону/лечению от Brain Sap',
                     },
@@ -1811,24 +1839,28 @@ export default [
             {
                 lvl10: [
                     {
+                        level: '10',
                         lside: '+5 к броне',
                         rside: '+6% к урону от способностей',
                     },
                 ],
                 lvl15: [
                     {
+                        level: '15',
                         lside: '+300 к здоровью',
                         rside: '+2 сек. к длительности горения от Flamebreak',
                     },
                 ],
                 lvl20: [
                     {
+                        level: '20',
                         lside: '+50 к скорости передвижения',
                         rside: '-15% перезарядки способностей',
                     },
                 ],
                 lvl25: [
                     {
+                        level: '25',
                         lside: '-13 сек. к перезарядке Flamebreak',
                         rside: '+8 сек. к длительности Firefly',
                     },
@@ -2054,24 +2086,28 @@ export default [
             {
                 lvl10: [
                     {
+                        level: '10',
                         lside: '+30 к скорости передвижения',
                         rside: '+25% к получаемому опыту',
                     },
                 ],
                 lvl15: [
                     {
+                        level: '15',
                         lside: '+40 к урону от Кабана',
                         rside: '+7 к броне',
                     },
                 ],
                 lvl20: [
                     {
+                        level: '20',
                         lside: '+500 к здоровью',
                         rside: '+120 к урону от Wild Axes',
                     },
                 ],
                 lvl25: [
                     {
+                        level: '25',
                         lside: '+2 призываемых Ястреба',
                         rside: '+40 к скорости атаки от Inner Beast',
                     },
@@ -2288,24 +2324,28 @@ export default [
             {
                 lvl10: [
                     {
+                        level: '10',
                         lside: '+4 к броне',
                         rside: '+25 к скорости атаки',
                     },
                 ],
                 lvl15: [
                     {
+                        level: '15',
                         lside: '+75 к урону от Blood Rite',
                         rside: '+300 к здоровью',
                     },
                 ],
                 lvl20: [
                     {
+                        level: '20',
                         lside: '25% вампиризма',
                         rside: '+14% к урону от Rupture',
                     },
                 ],
                 lvl25: [
                     {
+                        level: '25',
                         lside: '+20 к макс. урону/скорости от Thirst',
                         rside: '-6 сек. перезарядки Blood Rite',
                     },
@@ -2521,24 +2561,28 @@ export default [
             {
                 lvl10: [
                     {
+                        level: '10',
                         lside: '+25% к получаемому опыту',
                         rside: '+30 к скорости передвижения',
                     },
                 ],
                 lvl15: [
                     {
+                        level: '15',
                         lside: '+350 к здоровью',
                         rside: '+50 к скорости атаки',
                     },
                 ],
                 lvl20: [
                     {
+                        level: '20',
                         lside: '125% к критическому урону от Jinada',
                         rside: '+75 к урону от Shuriken Toss',
                     },
                 ],
                 lvl25: [
                     {
+                        level: '25',
                         lside: '+300 золота от Track',
                         rside: '+50% к уклонению',
                     },
@@ -2745,24 +2789,28 @@ export default [
             {
                 lvl10: [
                     {
+                        level: '10',
                         lside: '+200 к здоровью',
                         rside: '+30 к урону',
                     },
                 ],
                 lvl15: [
                     {
+                        level: '15',
                         lside: '+20% к сопротивлению магии',
                         rside: '+3 сек. к замедлению от Thunder Clap',
                     },
                 ],
                 lvl20: [
                     {
+                        level: '20',
                         lside: '+100 к скорости атаки',
                         rside: '+1500 к здоровью воинов от Primal Split',
                     },
                 ],
                 lvl25: [
                     {
+                        level: '25',
                         lside: '+15% к шансу уклонения/крита у Drunken Brawler',
                         rside: '-65 сек. перезарядки Primal Split',
                     },
@@ -2993,24 +3041,28 @@ export default [
             {
                 lvl10: [
                     {
+                        level: '10',
                         lside: '+2 маны в секунду',
                         rside: '+20 к скорости передвижения',
                     },
                 ],
                 lvl15: [
                     {
+                        level: '15',
                         lside: '+6 к максимуму эффектов Viscous Nasal Goo',
                         rside: '+250 к здоровью',
                     },
                 ],
                 lvl20: [
                     {
+                        level: '20',
                         lside: '+25 к дополнительному урону за Quill Spray',
                         rside: '+20 здоровья в секунду',
                     },
                 ],
                 lvl25: [
                     {
+                        level: '25',
                         lside: '+20 к урону за эффект Warpath',
                         rside: '+15% к вампиризму способностями',
                     },
@@ -3216,24 +3268,28 @@ export default [
             {
                 lvl10: [
                     {
+                        level: '10',
                         lside: '+200 к здоровью',
                         rside: '+75 к урону Spawn Spiderlings',
                     },
                 ],
                 lvl15: [
                     {
+                        level: '15',
                         lside: '+35% к получаемому опыту',
                         rside: '-20% перезарядки способностей',
                     },
                 ],
                 lvl20: [
                     {
+                        level: '20',
                         lside: '+50 к скорости атаки',
                         rside: '+20 к урону паучков',
                     },
                 ],
                 lvl25: [
                     {
+                        level: '25',
                         lside: '+350 к здоровью паучков',
                         rside: '+60 к макс. урону/лечению от Insatiable Hunger',
                     },
@@ -3425,24 +3481,28 @@ export default [
             {
                 lvl10: [
                     {
+                        level: '10',
                         lside: '+10% к сопротивлению магии',
                         rside: '+10% к уклонению',
                     },
                 ],
                 lvl15: [
                     {
+                        level: '15',
                         lside: '+15% к урону от силы у Return',
                         rside: '+75 к урону',
                     },
                 ],
                 lvl20: [
                     {
+                        level: '20',
                         lside: '+20 к силе',
                         rside: '+300 к урону от Double Edge',
                     },
                 ],
                 lvl25: [
                     {
+                        level: '25',
                         lside: '+1,5 сек. оглушения Hoof Stomp',
                         rside: 'Return становится аурой',
                     },
@@ -3663,24 +3723,28 @@ export default [
             {
                 lvl10: [
                     {
+                        level: '10',
                         lside: '+20 к скорости передвижения',
                         rside: '+5 ко всем атрибутам',
                     },
                 ],
                 lvl15: [
                     {
+                        level: '15',
                         lside: '-12% перезарядки способностей',
                         rside: '+15 к силе',
                     },
                 ],
                 lvl20: [
                     {
+                        level: '20',
                         lside: 'Reality Rift проходит сквозь иммунитет к магии',
                         rside: '+150 золота в минуту',
                     },
                 ],
                 lvl25: [
                     {
+                        level: '25',
                         lside: '+2 сек. к макс. длительности Chaos Bolt',
                         rside: '+7 к снижению брони от Reality Rift',
                     },
@@ -3877,24 +3941,28 @@ export default [
             {
                 lvl10: [
                     {
+                        level: '10',
                         lside: '+125 к дальности способностей',
                         rside: '+20% к получаемому опыту',
                     },
                 ],
                 lvl15: [
                     {
+                        level: '15',
                         lside: '-10s сек. перезарядки Test of Faith',
                         rside: '+7 к броне',
                     },
                 ],
                 lvl20: [
                     {
+                        level: '20',
                         lside: '+1000 к мин. здоровью крипов',
                         rside: '+180 золота в минуту',
                     },
                 ],
                 lvl25: [
                     {
+                        level: '25',
                         lside: '+400 лечения от Hand of God',
                         rside: '+4 макс. существ у Holy Persuasion',
                     },
@@ -4070,24 +4138,28 @@ export default [
             {
                 lvl10: [
                     {
+                        level: '10',
                         lside: '+5 к броне',
                         rside: '+12% к сопротивлению магии',
                     },
                 ],
                 lvl15: [
                     {
+                        level: '15',
                         lside: '+30 к урону от Searing Arrows',
                         rside: '+20% к уклонению',
                     },
                 ],
                 lvl20: [
                     {
+                        level: '20',
                         lside: '+20 здоровья в секунду',
                         rside: '+100 к дальности атаки',
                     },
                 ],
                 lvl25: [
                     {
+                        level: '25',
                         lside: 'Несколько целей у Searing Arrows',
                         rside: '+4 сек. к зарядам/длительности Strafe',
                     },
@@ -4291,24 +4363,28 @@ export default [
             {
                 lvl10: [
                     {
+                        level: '10',
                         lside: '+25 к скорости передвижения',
                         rside: '+5 к броне',
                     },
                 ],
                 lvl15: [
                     {
+                        level: '15',
                         lside: '+30 к урону от Battery Assault',
                         rside: '+15 к силе',
                     },
                 ],
                 lvl20: [
                     {
+                        level: '20',
                         lside: '+125 к урону от Rocket Flare',
                         rside: '+20% к сопротивлению магии',
                     },
                 ],
                 lvl25: [
                     {
+                        level: '25',
                         lside: '-0,3 сек. от интервала у Battery Assault',
                         rside: 'Rocket Flare раскрывает невидимость',
                     },
@@ -4536,24 +4612,28 @@ export default [
             {
                 lvl10: [
                     {
+                        level: '10',
                         lside: '+100 к дальности способностей',
                         rside: '+250 к здоровью',
                     },
                 ],
                 lvl15: [
                     {
+                        level: '15',
                         lside: '+120 золота в минуту',
                         rside: 'Аура уменьшает расход и сжигание маны на 14%',
                     },
                 ],
                 lvl20: [
                     {
+                        level: '20',
                         lside: '+60 к урону от Freezing Field',
                         rside: '+250 к скорости атаки',
                     },
                 ],
                 lvl25: [
                     {
+                        level: '25',
                         lside: '+300 к урону от Crystal Nova',
                         rside: '+1,5 сек. действия Frostbite',
                     },
@@ -4759,24 +4839,28 @@ export default [
             {
                 lvl10: [
                     {
+                        level: '10',
                         lside: '+90 к урону',
                         rside: '+12% к уклонению',
                     },
                 ],
                 lvl15: [
                     {
+                        level: '15',
                         lside: '+75 к радиусу Vacuum',
                         rside: '+12 здоровья в секунду',
                     },
                 ],
                 lvl20: [
                     {
+                        level: '20',
                         lside: 'Surge применяется в радиусе 400',
                         rside: '-15% перезарядки способностей',
                     },
                 ],
                 lvl25: [
                     {
+                        level: '25',
                         lside: '+150 к урону от Ion Shell',
                         rside: 'Параллельная Wall of Replica',
                     },
@@ -5039,24 +5123,28 @@ export default [
             {
                 lvl10: [
                     {
+                        level: '10',
                         lside: '+125 к дальности способностей',
                         rside: '+20 к урону',
                     },
                 ],
                 lvl15: [
                     {
+                        level: '15',
                         lside: '+40 к скорости передвижения',
                         rside: '+90 золота в минуту',
                     },
                 ],
                 lvl20: [
                     {
+                        level: '20',
                         lside: '+300 к максимальному урону Shadow Realm',
                         rside: '+10% к вампиризму способностями',
                     },
                 ],
                 lvl25: [
                     {
+                        level: '25',
                         lside: '+1 сек. к длительности Terrorize',
                         rside: '+200 к скорости атаки',
                     },
@@ -5274,24 +5362,28 @@ export default [
             {
                 lvl10: [
                     {
+                        level: '10',
                         lside: '+200 к здоровью',
                         rside: '+200 к здоровью',
                     },
                 ],
                 lvl15: [
                     {
+                        level: '15',
                         lside: '+20 к лечению/урону от Shadow Wave',
                         rside: '+125 к дальности способностей',
                     },
                 ],
                 lvl20: [
                     {
+                        level: '20',
                         lside: '+45 к урону в секунду от Poison Touch',
                         rside: '+50 к скорости передвижения',
                     },
                 ],
                 lvl25: [
                     {
+                        level: '25',
                         lside: '+0,5 к приросту брони от Weave',
                         rside: '-4 сек. к перезарядке Shadow Wave',
                     },
@@ -5502,24 +5594,28 @@ export default [
             {
                 lvl10: [
                     {
+                        level: '10',
                         lside: '+12% к сопротивлению магии',
                         rside: '+50 к урону',
                     },
                 ],
                 lvl15: [
                     {
+                        level: '15',
                         lside: '+150 к дальности способностей',
                         rside: '+1% к макс. здоровью от Spirit Siphon',
                     },
                 ],
                 lvl20: [
                     {
+                        level: '20',
                         lside: '-2 сек. к перезарядке Crypt Swarm',
                         rside: '+500 к здоровью',
                     },
                 ],
                 lvl25: [
                     {
+                        level: '25',
                         lside: '+8 духов для Exorcism',
                         rside: 'Exorcism дает ускорение',
                     },
@@ -5730,24 +5826,28 @@ export default [
             {
                 lvl10: [
                     {
+                        level: '10',
                         lside: '+40 к урону от Thunder Strike',
                         rside: '+200 к здоровью',
                     },
                 ],
                 lvl15: [
                     {
+                        level: '15',
                         lside: '-3 сек. перезарядки Kinetic Field',
                         rside: '+150 к дальности способностей',
                     },
                 ],
                 lvl20: [
                     {
+                        level: '20',
                         lside: '+4 удара у Thunder Strike',
                         rside: '+180 золота в минуту',
                     },
                 ],
                 lvl25: [
                     {
+                        level: '25',
                         lside: '+4 сек. к продолжительности Kinetic Field',
                         rside: '-10 сек. перезарядки Glimpse',
                     },
@@ -5953,24 +6053,28 @@ export default [
             {
                 lvl10: [
                     {
+                        level: '10',
                         lside: '+16% к скорости передвижения от Scorched Earth',
                         rside: '+10 к урону/лечению от Scorched Earth',
                     },
                 ],
                 lvl15: [
                     {
+                        level: '15',
                         lside: '+150 золота от Devour',
                         rside: '+20% к уклонению',
                     },
                 ],
                 lvl20: [
                     {
+                        level: '20',
                         lside: 'Devour можно применять на древних крипов',
                         rside: '+40 к урону в секунду от Doom',
                     },
                 ],
                 lvl25: [
                     {
+                        level: '25',
                         lside: '+100% к урона по соседним целям',
                         rside: '+3% к урону горения от Infernal Blade',
                     },
@@ -6155,24 +6259,28 @@ export default [
             {
                 lvl10: [
                     {
+                        level: '10',
                         lside: '+20% к снижению урона Breathe Fire',
                         rside: '+2 маны в секунду',
                     },
                 ],
                 lvl15: [
                     {
+                        level: '15',
                         lside: '+300 к здоровью',
                         rside: '+35 к урону',
                     },
                 ],
                 lvl20: [
                     {
+                        level: '20',
                         lside: '+100% к броне и регенерации от Dragon Blood',
                         rside: '+150 золота в минуту',
                     },
                 ],
                 lvl25: [
                     {
+                        level: '25',
                         lside: '+1,75 сек. оглушения от Dragon Tail',
                         rside: '+40 к силе',
                     },
@@ -6372,24 +6480,28 @@ export default [
             {
                 lvl10: [
                     {
+                        level: '10',
                         lside: '+5 ко всем атрибутам',
                         rside: '+20 к скорости передвижения',
                     },
                 ],
                 lvl15: [
                     {
+                        level: '15',
                         lside: '+550 к дальности действия/отбрасывания Gust',
                         rside: '+25 к скорости атаки',
                     },
                 ],
                 lvl20: [
                     {
+                        level: '20',
                         lside: '+3 сек. действия Gust',
                         rside: '+20 к ловкости от Marksmanship',
                     },
                 ],
                 lvl25: [
                     {
+                        level: '25',
                         lside: '-50% перезарядки способностей',
                         rside: '+20% к урону от Precision Aura',
                     },
@@ -6675,24 +6787,28 @@ export default [
             {
                 lvl10: [
                     {
+                        level: '10',
                         lside: '+40 к урону',
                         rside: '+10 к интеллекту',
                     },
                 ],
                 lvl15: [
                     {
+                        level: '15',
                         lside: '+200 к урону от Rolling Boulder',
                         rside: '+7 к броне',
                     },
                 ],
                 lvl20: [
                     {
+                        level: '20',
                         lside: '+150 золота в минуту',
                         rside: '+15% к урону от способностей',
                     },
                 ],
                 lvl25: [
                     {
+                        level: '25',
                         lside: '+1 сек. оглушения от Boulder Smash',
                         rside: 'Geomagnetic Grip действует на союзников',
                     },
@@ -6890,24 +7006,28 @@ export default [
             {
                 lvl10: [
                     {
+                        level: '10',
                         lside: '+250 к мане',
                         rside: '+30 к урону',
                     },
                 ],
                 lvl15: [
                     {
+                        level: '15',
                         lside: '+7 к броне',
                         rside: '+30 к скорости передвижения',
                     },
                 ],
                 lvl20: [
                     {
+                        level: '20',
                         lside: '+400 к дальности Fissure',
                         rside: '+50 к урону от эха у Echo Slam',
                     },
                 ],
                 lvl25: [
                     {
+                        level: '25',
                         lside: '-2 сек. перезарядки у Enchant Totem',
                         rside: '+50% к сопротивлению магии',
                     },
@@ -7173,24 +7293,28 @@ export default [
             {
                 lvl10: [
                     {
+                        level: '10',
                         lside: '+200 к здоровью',
                         rside: '+25 к скорости передвижения',
                     },
                 ],
                 lvl15: [
                     {
+                        level: '15',
                         lside: '+30 к урону за героя от Astral Spirit',
                         rside: '+15% к сопротивлению магии',
                     },
                 ],
                 lvl20: [
                     {
+                        level: '20',
                         lside: '+100 к урону от Echo Stomp',
                         rside: '+70 к скорости атаки',
                     },
                 ],
                 lvl25: [
                     {
+                        level: '25',
                         lside: '100% вампиризма',
                         rside: '-75 сек. перезарядки Earth Splitter',
                     },
@@ -7445,24 +7569,28 @@ export default [
             {
                 lvl10: [
                     {
+                        level: '10',
                         lside: '+200 к поглощению урона от Flame Guard',
                         rside: '+25 к урону',
                     },
                 ],
                 lvl15: [
                     {
+                        level: '15',
                         lside: '+1 сек. действия Searing Chains',
                         rside: '+50 к урону в секунду от Flame Guard',
                     },
                 ],
                 lvl20: [
                     {
+                        level: '20',
                         lside: 'Атаки без промахов',
                         rside: '+10% к урону от способностей',
                     },
                 ],
                 lvl25: [
                     {
+                        level: '25',
                         lside: '25 сек. восстановления заряда Fire Remnant',
                         rside: '2 заряда Sleight of Fist',
                     },
@@ -7640,24 +7768,28 @@ export default [
             {
                 lvl10: [
                     {
+                        level: '10',
                         lside: '+25 к скорости передвижения',
                         rside: '+15% к сопротивлению магии',
                     },
                 ],
                 lvl15: [
                     {
+                        level: '15',
                         lside: '+8 светлячков от Nature\'s Attendants',
                         rside: '+50 к урону',
                     },
                 ],
                 lvl20: [
                     {
+                        level: '20',
                         lside: 'Enchant действует на древних крипов',
                         rside: '+100 к замедлению от Untouchable',
                     },
                 ],
                 lvl25: [
                     {
+                        level: '25',
                         lside: '+25 к лечению от Nature\'s Attendants',
                         rside: '+8% к урону от Impetus',
                     },
@@ -7864,24 +7996,28 @@ export default [
             {
                 lvl10: [
                     {
+                        level: '10',
                         lside: '+15% к сопротивлению магии',
                         rside: '+25 к скорости передвижения',
                     },
                 ],
                 lvl15: [
                     {
+                        level: '15',
                         lside: '+120 золота в минуту',
                         rside: '-15% перезарядки способностей',
                     },
                 ],
                 lvl20: [
                     {
+                        level: '20',
                         lside: '+70 к урону эйдолонов',
                         rside: '+400 к здоровью',
                     },
                 ],
                 lvl25: [
                     {
+                        level: '25',
                         lside: '+8 эйдолонов от Demonic Conversion icon.png Demonic Conversion',
                         rside: '+4 срабатывания у Malefice',
                     },
@@ -8070,24 +8206,28 @@ export default [
             {
                 lvl10: [
                     {
+                        level: '10',
                         lside: '+8 к силе',
                         rside: '+20 к урону',
                     },
                 ],
                 lvl15: [
                     {
+                        level: '15',
                         lside: '+300 к здоровью',
                         rside: '+100 к урону от Time Lock',
                     },
                 ],
                 lvl20: [
                     {
+                        level: '20',
                         lside: '+500 к дальности Time Walk',
                         rside: '+40 к скорости атаки',
                     },
                 ],
                 lvl25: [
                     {
+                        level: '25',
                         lside: '+175 к радиусу Chronosphere',
                         rside: '25% Talent Right',
                     },
@@ -8306,24 +8446,28 @@ export default [
             {
                 lvl10: [
                     {
+                        level: '10',
                         lside: '+200 к здоровью',
                         rside: '+25 к урону',
                     },
                 ],
                 lvl15: [
                     {
+                        level: '15',
                         lside: '+11 к урону за ракету от Rocket Barrage',
                         rside: '+3 атаки от Flak Cannon',
                     },
                 ],
                 lvl20: [
                     {
+                        level: '20',
                         lside: '-25 сек. перезарядки Call Down',
                         rside: '+50 к скорости передвижения',
                     },
                 ],
                 lvl25: [
                     {
+                        level: '25',
                         lside: 'Неограниченная дальность применения Call Down',
                         rside: '3 заряда Homing Missile',
                     },
@@ -8533,24 +8677,28 @@ export default [
             {
                 lvl10: [
                     {
+                        level: '10',
                         lside: '+20 к урону',
                         rside: '+175 к здоровью',
                     },
                 ],
                 lvl15: [
                     {
+                        level: '15',
                         lside: '15% вампиризма',
                         rside: '+10 к урону в секунду от Burning Spear',
                     },
                 ],
                 lvl20: [
                     {
+                        level: '20',
                         lside: '+400 к дальности применения Life Break',
                         rside: '+15 к силе',
                     },
                 ],
                 lvl25: [
                     {
+                        level: '25',
                         lside: 'Inner Vitality без перезарядки',
                         rside: '+125 к дальности атаки',
                     },
@@ -8711,24 +8859,28 @@ export default [
             {
                 lvl10: [
                     {
+                        level: '10',
                         lside: '+30 к урону от касания Chaos Meteor',
                         rside: '+0,5 сек. действия Tornado',
                     },
                 ],
                 lvl15: [
                     {
+                        level: '15',
                         lside: '+1,5 сек. действия Cold Snap',
                         rside: '+1 дух от Forge Spirit',
                     },
                 ],
                 lvl20: [
                     {
+                        level: '20',
                         lside: '+35 к урону и скорости атаки от Alacrity',
                         rside: 'Катаклизм',
                     },
                 ],
                 lvl25: [
                     {
+                        level: '25',
                         lside: '-16 сек. перезарядки Tornado icon.png Tornado',
                         rside: 'Deafening Blast вокруг героя',
                     },
@@ -8999,24 +9151,28 @@ export default [
             {
                 lvl10: [
                     {
+                        level: '10',
                         lside: '+60 к урону',
                         rside: '+400 к макс. дальности Spirits',
                     },
                 ],
                 lvl15: [
                     {
+                        level: '15',
                         lside: 'Tether даёт цели бонусы от Aghanim\'s Scepter',
                         rside: '+90 к урону героям от Spirits',
                     },
                 ],
                 lvl20: [
                     {
+                        level: '20',
                         lside: 'Атака вместе с целью Tether',
                         rside: '+150 золота в минуту',
                     },
                 ],
                 lvl25: [
                     {
+                        level: '25',
                         lside: '+50 здоровья в секунду',
                         rside: 'Связка от Tether оглушает',
                     },
@@ -9273,24 +9429,28 @@ export default [
             {
                 lvl10: [
                     {
+                        level: '10',
                         lside: '+8% к урону от способностей',
                         rside: '+30% к получаемому опыту',
                     },
                 ],
                 lvl15: [
                     {
+                        level: '15',
                         lside: '+40 к урону в секунду от Dual Breath',
                         rside: '+300 к дальности атаки',
                     },
                 ],
                 lvl20: [
                     {
+                        level: '20',
                         lside: '+150 золота в минуту',
                         rside: '-60 к скорости атаки от Liquid Fire',
                     },
                 ],
                 lvl25: [
                     {
+                        level: '25',
                         lside: '+1,25 сек. действия Ice Path',
                         rside: 'Macropyre наносит чистый урон сквозь иммунитет к заклинаниям',
                     },
@@ -9478,24 +9638,28 @@ export default [
             {
                 lvl10: [
                     {
+                        level: '10',
                         lside: '+20 к скорости передвижения',
                         rside: '+5 ко всем атрибутам',
                     },
                 ],
                 lvl15: [
                     {
+                        level: '15',
                         lside: '+25 к скорости атаки',
                         rside: '+1 сек. длительности Blade Fury',
                     },
                 ],
                 lvl20: [
                     {
+                        level: '20',
                         lside: '+100 к урону в сек. от Blade Fury',
                         rside: '+10 к броне',
                     },
                 ],
                 lvl25: [
                     {
+                        level: '25',
                         lside: '+5 ударов у Omnislash',
                         rside: '+600 к здоровью',
                     },
@@ -9774,24 +9938,28 @@ export default [
             {
                 lvl10: [
                     {
+                        level: '10',
                         lside: '+25 к скорости передвижения',
                         rside: '+8% к вампиризму способностями',
                     },
                 ],
                 lvl15: [
                     {
+                        level: '15',
                         lside: '+350 к дальности способностей',
                         rside: '+40% к получаемому опыту',
                     },
                 ],
                 lvl20: [
                     {
+                        level: '20',
                         lside: '+300 к мане от Chakra Magic',
                         rside: '+40% к сопротивлению магии',
                     },
                 ],
                 lvl25: [
                     {
+                        level: '25',
                         lside: '+200 к урону/лечению от Illuminate',
                         rside: '+2 сек. к оглушению от Mana Leak',
                     },
@@ -10032,24 +10200,28 @@ export default [
             {
                 lvl10: [
                     {
+                        level: '10',
                         lside: '+6 к броне',
                         rside: '+40 к урону',
                     },
                 ],
                 lvl15: [
                     {
+                        level: '15',
                         lside: '+120 к урону от Torrent',
                         rside: '+10 здоровья в секунду',
                     },
                 ],
                 lvl20: [
                     {
+                        level: '20',
                         lside: '+25 к силе',
                         rside: '+100 к радиусу Torrent',
                     },
                 ],
                 lvl25: [
                     {
+                        level: '25',
                         lside: '+50% к прорубанию Tidebringer',
                         rside: 'Флот призрачных кораблей от Ghostship',
                     },
@@ -10270,24 +10442,28 @@ export default [
             {
                 lvl10: [
                     {
+                        level: '10',
                         lside: '+20% к получаемому опыту',
                         rside: '+8 к силе',
                     },
                 ],
                 lvl15: [
                     {
+                        level: '15',
                         lside: '+20 к скорости передвижения',
                         rside: '+30 к скорости атаки',
                     },
                 ],
                 lvl20: [
                     {
+                        level: '20',
                         lside: '+10% к шансу срабатывания Moment of Courage',
                         rside: '+7 к броне',
                     },
                 ],
                 lvl25: [
                     {
+                        level: '25',
                         lside: '-8 сек. перезарядки Press the Attack',
                         rside: '+40 к урону за победу в дуэли',
                     },
@@ -10521,24 +10697,28 @@ export default [
             {
                 lvl10: [
                     {
+                        level: '10',
                         lside: '+250 к мане',
                         rside: '+5 к броне',
                     },
                 ],
                 lvl15: [
                     {
+                        level: '15',
                         lside: '+40 к скорости передвижения',
                         rside: '+15 к силе',
                     },
                 ],
                 lvl20: [
                     {
+                        level: '20',
                         lside: '+50 урона от Pulse Nova',
                         rside: '+25% к уклонению',
                     },
                 ],
                 lvl25: [
                     {
+                        level: '25',
                         lside: '+3 сек. к замедлению от Lightning Storm',
                         rside: '+50 взрывов Diabolic Edict',
                     },
@@ -10780,24 +10960,28 @@ export default [
             {
                 lvl10: [
                     {
+                        level: '10',
                         lside: '+25 к скорости передвижения',
                         rside: '+175 к здоровью',
                     },
                 ],
                 lvl15: [
                     {
+                        level: '15',
                         lside: '-4 сек. к перезарядке Frost Blast',
                         rside: '+120 к урону',
                     },
                 ],
                 lvl20: [
                     {
+                        level: '20',
                         lside: '+120 золота в минуту',
                         rside: '+175 к дальности способностей',
                     },
                 ],
                 lvl25: [
                     {
+                        level: '25',
                         lside: 'Атаки замедляют цель на 40% и её скорость атаки на 40 единиц',
                         rside: 'Ice Armor дает +30 к регенерации здоровья',
                     },
@@ -10980,24 +11164,28 @@ export default [
             {
                 lvl10: [
                     {
+                        level: '10',
                         lside: '+20 к скорости атаки',
                         rside: '+200 к здоровью',
                     },
                 ],
                 lvl15: [
                     {
+                        level: '15',
                         lside: '+35 к скорости передвижения',
                         rside: '+30 к урону',
                     },
                 ],
                 lvl20: [
                     {
+                        level: '20',
                         lside: '+50% к вампиризму от Open Wounds',
                         rside: '+20% к уклонению',
                     },
                 ],
                 lvl25: [
                     {
+                        level: '25',
                         lside: '+2 сек. действия Rage',
                         rside: '+2% к урону/вампиризму от Feast',
                     },
@@ -11194,24 +11382,28 @@ export default [
             {
                 lvl10: [
                     {
+                        level: '10',
                         lside: '+125 к дальности способностей',
                         rside: '+30 к урону',
                     },
                 ],
                 lvl15: [
                     {
+                        level: '15',
                         lside: '+140 к урону от Light Strike Array',
                         rside: '+350 к здоровью',
                     },
                 ],
                 lvl20: [
                     {
+                        level: '20',
                         lside: '+25/2% ускорения за эффект Fiery',
                         rside: '+12% к урону от способностей',
                     },
                 ],
                 lvl25: [
                     {
+                        level: '25',
                         lside: '+175 к дальности атаки',
                         rside: '-6 сек. к перезарядке Dragon Slave',
                     },
@@ -11418,24 +11610,28 @@ export default [
             {
                 lvl10: [
                     {
+                        level: '10',
                         lside: '+90 к урону',
                         rside: '+75 к дальности способностей',
                     },
                 ],
                 lvl15: [
                     {
+                        level: '15',
                         lside: '+120 золота в минуту',
                         rside: '+200 к урону от Finger of Death',
                     },
                 ],
                 lvl20: [
                     {
+                        level: '20',
                         lside: '+2 цели к Mana Drain',
                         rside: '+500 к здоровью',
                     },
                 ],
                 lvl25: [
                     {
+                        level: '25',
                         lside: 'Hex применяется в радиусе 325',
                         rside: '+1000 к дальности Earth Spike',
                     },
@@ -11651,24 +11847,28 @@ export default [
             {
                 lvl10: [
                     {
+                        level: '10',
                         lside: '+175 к дальности атаки',
                         rside: '+250 к здоровью',
                     },
                 ],
                 lvl15: [
                     {
+                        level: '15',
                         lside: '+10 к броне медведя от Lone Druid Spirit Bear',
                         rside: '-12 сек. перезарядки Savage Roar',
                     },
                 ],
                 lvl20: [
                     {
+                        level: '20',
                         lside: '+40 к скорости атаки от Rabid ',
                         rside: '-25 сек. перезарядки Battle Cry',
                     },
                 ],
                 lvl25: [
                     {
+                        level: '25',
                         lside: 'Battle Cry даёт невосприимчивость к магии',
                         rside: 'Entangle без перезарядки',
                     },
@@ -11883,24 +12083,28 @@ export default [
             {
                 lvl10: [
                     {
+                        level: '10',
                         lside: '+200 к дальности способностей',
                         rside: '+20 к скорости атаки',
                     },
                 ],
                 lvl15: [
                     {
+                        level: '15',
                         lside: '+24 к урону от Lunar Blessing',
                         rside: '-4 сек. перезарядки Lucent Beam',
                     },
                 ],
                 lvl20: [
                     {
+                        level: '20',
                         lside: '+100 к урону от Lucent Beam',
                         rside: '+10 ко всем атрибутам',
                     },
                 ],
                 lvl25: [
                     {
+                        level: '25',
                         lside: 'Лучи от Eclipse оглушают на 0,25 сек.',
                         rside: '25% вампиризма',
                     },
@@ -12130,24 +12334,28 @@ export default [
             {
                 lvl10: [
                     {
+                        level: '10',
                         lside: '+20 к урону',
                         rside: '+5 к броне',
                     },
                 ],
                 lvl15: [
                     {
+                        level: '15',
                         lside: '-12% перезарядки способностей',
                         rside: '+8 к регенерации здоровья от Feral Impulse',
                     },
                 ],
                 lvl20: [
                     {
+                        level: '20',
                         lside: '+16% к урону от Feral Impulse',
                         rside: '+8 сек. действия Shapeshift',
                     },
                 ],
                 lvl25: [
                     {
+                        level: '25',
                         lside: '+3 призываемых Lycan Wolf',
                         rside: '+600 к здоровью героев от Howl',
                     },
@@ -12359,24 +12567,28 @@ export default [
             {
                 lvl10: [
                     {
+                        level: '10',
                         lside: '+200 к здоровью',
                         rside: '+25 к скорости атаки',
                     },
                 ],
                 lvl15: [
                     {
+                        level: '15',
                         lside: '+75 к урону Shockwave',
                         rside: '+15 к силе',
                     },
                 ],
                 lvl20: [
                     {
+                        level: '20',
                         lside: '+500 к дальности Skewer icon.png Skewer',
                         rside: '+12 к броне',
                     },
                 ],
                 lvl25: [
                     {
+                        level: '25',
                         lside: '+1 сек. оглушения от Reverse Polarity',
                         rside: '+20% к урону/прорубанию от Empower',
                     },
@@ -12597,24 +12809,28 @@ export default [
             {
                 lvl10: [
                     {
+                        level: '10',
                         lside: '+15% к уклонению',
                         rside: '+20 к урону',
                     },
                 ],
                 lvl15: [
                     {
+                        level: '15',
                         lside: '+20% к краже маны у Mystic Snake',
                         rside: '+30 к скорости атаки',
                     },
                 ],
                 lvl20: [
                     {
+                        level: '20',
                         lside: '+2,5 сек. длительности Stone Gaze',
                         rside: '+700 к мане',
                     },
                 ],
                 lvl25: [
                     {
+                        level: '25',
                         lside: 'Эффекты атаки действуют на все цели Split Shot',
                         rside: '+7 целей для Split Shot',
                     },
@@ -12797,24 +13013,28 @@ export default [
             {
                 lvl10: [
                     {
+                        level: '10',
                         lside: '+20 к урону',
                         rside: '+7 к силе',
                     },
                 ],
                 lvl15: [
                     {
+                        level: '15',
                         lside: '+40 к урону от Poof',
                         rside: '10% вампиризма',
                     },
                 ],
                 lvl20: [
                     {
+                        level: '20',
                         lside: '+15% к уклонению',
                         rside: '-4 сек. перезарядки Earthbind',
                     },
                 ],
                 lvl25: [
                     {
+                        level: '25',
                         lside: '-5 сек. перезарядки Poof',
                         rside: '+600 к здоровью',
                     },
@@ -13027,24 +13247,28 @@ export default [
             {
                 lvl10: [
                     {
+                        level: '10',
                         lside: '+200 к здоровью',
                         rside: '+20 к урону',
                     },
                 ],
                 lvl15: [
                     {
+                        level: '15',
                         lside: '+100 скорости атаки от Leap',
                         rside: '-5 сек. перезарядки Sacred Arrow',
                     },
                 ],
                 lvl20: [
                     {
+                        level: '20',
                         lside: '+25 к сожжению маны',
                         rside: '+12% к урону от способностей',
                     },
                 ],
                 lvl25: [
                     {
+                        level: '25',
                         lside: '-80 сек. перезарядки Moonlight Shadow',
                         rside: 'Sacred Arrow выпускает сразу три стрелы',
                     },
@@ -13320,24 +13544,28 @@ export default [
             {
                 lvl10: [
                     {
+                        level: '10',
                         lside: '+300 к радиусу обзора Tree Dance',
                         rside: '+20 к скорости атаки',
                     },
                 ],
                 lvl15: [
                     {
+                        level: '15',
                         lside: '+75 к урону от Jingu Mastery',
                         rside: '+600 к дальности применения Tree Dance',
                     },
                 ],
                 lvl20: [
                     {
+                        level: '20',
                         lside: '+50% множитель крита от Boundless Strike',
                         rside: '+400 урона от Primal Spring',
                     },
                 ],
                 lvl25: [
                     {
+                        level: '25',
                         lside: '+100 к броне от Wukong\'s Command',
                         rside: 'Дополнительный круг Wukong\'s Command',
                     },
@@ -13593,24 +13821,28 @@ export default [
             {
                 lvl10: [
                     {
+                        level: '10',
                         lside: '+300 к дальности Waveform',
                         rside: '+10 к ловкости',
                     },
                 ],
                 lvl15: [
                     {
+                        level: '15',
                         lside: '+30 к скорости атаки',
                         rside: '+15 сек. к длительности Morph',
                     },
                 ],
                 lvl20: [
                     {
+                        level: '20',
                         lside: 'Атаки во время Waveform',
                         rside: 'Morph действует на союзников',
                     },
                 ],
                 lvl25: [
                     {
+                        level: '25',
                         lside: '+2 цели Adaptive Strike',
                         rside: '2 заряда Waveform',
                     },
@@ -13806,24 +14038,28 @@ export default [
             {
                 lvl10: [
                     {
+                        level: '10',
                         lside: '+10% к урону Mirror Image',
                         rside: '+25 к скорости передвижения',
                     },
                 ],
                 lvl15: [
                     {
+                        level: '15',
                         lside: '+14 к силе',
                         rside: '+15 к ловкости',
                     },
                 ],
                 lvl20: [
                     {
+                        level: '20',
                         lside: '+1 иллюзия от Mirror Image',
                         rside: '-5 сек. перезарядки Ensnare',
                     },
                 ],
                 lvl25: [
                     {
+                        level: '25',
                         lside: '+6 к снижению брони от Rip Tide',
                         rside: '+30% к уклонению',
                     },
@@ -14010,24 +14246,28 @@ export default [
             {
                 lvl10: [
                     {
+                        level: '10',
                         lside: '+40 к скорости передвижения',
                         rside: '+30 к урону',
                     },
                 ],
                 lvl15: [
                     {
+                        level: '15',
                         lside: '+4 призываемых Nature\'s Prophet Treant',
                         rside: '+10 к броне',
                     },
                 ],
                 lvl20: [
                     {
+                        level: '20',
                         lside: '-4 сек. к перезарядке Sprout',
                         rside: '+40 к скорости атаки',
                     },
                 ],
                 lvl25: [
                     {
+                        level: '25',
                         lside: '+100% к здоровью/урону Nature\'s Prophet Treant',
                         rside: 'Teleportation без перезарядки',
                     },
@@ -14259,24 +14499,28 @@ export default [
             {
                 lvl10: [
                     {
+                        level: '10',
                         lside: '+10 к силе',
                         rside: '+40 к урону',
                     },
                 ],
                 lvl15: [
                     {
+                        level: '15',
                         lside: '+16% к замедлению от Ghost Shroud',
                         rside: '+40 к лечению от Death Pulse',
                     },
                 ],
                 lvl20: [
                     {
+                        level: '20',
                         lside: '+80 к скорости атаки',
                         rside: '+20% к сопротивлению магии',
                     },
                 ],
                 lvl25: [
                     {
+                        level: '25',
                         lside: '-1,5 сек. к перезарядке Death Pulse',
                         rside: '+0,6% к урону от Heartstopper Aura',
                     },
@@ -14484,24 +14728,28 @@ export default [
             {
                 lvl10: [
                     {
+                        level: '10',
                         lside: '+200 к мане',
                         rside: '+200 к здоровью',
                     },
                 ],
                 lvl15: [
                     {
+                        level: '15',
                         lside: '+150 к дальности способностей',
                         rside: '+15 к силе',
                     },
                 ],
                 lvl20: [
                     {
+                        level: '20',
                         lside: '+50 к урону',
                         rside: '+50 к скорости передвижения',
                     },
                 ],
                 lvl25: [
                     {
+                        level: '25',
                         lside: '-8 сек. перезарядки Crippling Fear',
                         rside: '+140 к скорости атаки от Hunter in the Night',
                     },
@@ -14689,24 +14937,28 @@ export default [
             {
                 lvl10: [
                     {
+                        level: '10',
                         lside: '+60 золота в минуту',
                         rside: '+6% к урону от способностей',
                     },
                 ],
                 lvl15: [
                     {
+                        level: '15',
                         lside: '+35 к скорости передвижения',
                         rside: '+325 к здоровью',
                     },
                 ],
                 lvl20: [
                     {
+                        level: '20',
                         lside: '+175 к урону от Impale',
                         rside: '+75% к урону от Spiked Carapace',
                     },
                 ],
                 lvl25: [
                     {
+                        level: '25',
                         lside: 'Проход через препятствия в Vendetta',
                         rside: '+100 к ловкости',
                     },
@@ -14965,24 +15217,28 @@ export default [
             {
                 lvl10: [
                     {
+                        level: '10',
                         lside: '+100 к дальности способностей',
                         rside: '+60 золота в минуту',
                     },
                 ],
                 lvl15: [
                     {
+                        level: '15',
                         lside: '+300 к здоровью',
                         rside: '+90 к урону',
                     },
                 ],
                 lvl20: [
                     {
+                        level: '20',
                         lside: '+40 к скорости атаки от Bloodlust',
                         rside: '+40 к силе',
                     },
                 ],
                 lvl25: [
                     {
+                        level: '25',
                         lside: '+275 к урону от Fireblast',
                         rside: '+90 к скорости передвижения',
                     },
@@ -15168,24 +15424,28 @@ export default [
             {
                 lvl10: [
                     {
+                        level: '10',
                         lside: '+75 к радиусу урона от Purification',
                         rside: '+90 золота в минуту',
                     },
                 ],
                 lvl15: [
                     {
+                        level: '15',
                         lside: '+90 к урону',
                         rside: '+35% к получаемому опыту',
                     },
                 ],
                 lvl20: [
                     {
+                        level: '20',
                         lside: '+3 маны в секунду',
                         rside: '+12% к замедлению от Degen Aura',
                     },
                 ],
                 lvl25: [
                     {
+                        level: '25',
                         lside: '+3 сек. к длительности Repel',
                         rside: '+200 к урону/лечению от Purification',
                     },
@@ -15392,24 +15652,28 @@ export default [
             {
                 lvl10: [
                     {
+                        level: '10',
                         lside: '+25% к получаемому опыту',
                         rside: '+1 сек. к макс. длительности Fortune\'s End',
                     },
                 ],
                 lvl15: [
                     {
+                        level: '15',
                         lside: '+90 золота в минуту',
                         rside: '+150 к дальности способностей',
                     },
                 ],
                 lvl20: [
                     {
+                        level: '20',
                         lside: 'False Promise дает невидимость',
                         rside: '+75 к скорости передвижения',
                     },
                 ],
                 lvl25: [
                     {
+                        level: '25',
                         lside: '+2 сек. к длительности False Promise',
                         rside: '-5 сек. к перезарядке Fate\'s Edict',
                     },
@@ -15638,24 +15902,28 @@ export default [
             {
                 lvl10: [
                     {
+                        level: '10',
                         lside: '+20 к скорости атаки',
                         rside: '+250 к здоровью',
                     },
                 ],
                 lvl15: [
                     {
+                        level: '15',
                         lside: '+15% к шансу срабатывания Essence Aura',
                         rside: '+40 к скорости передвижения',
                     },
                 ],
                 lvl20: [
                     {
+                        level: '20',
                         lside: '+2 к множителю Sanity\'s Eclipse',
                         rside: '+20 к силе',
                     },
                 ],
                 lvl25: [
                     {
+                        level: '25',
                         lside: '+15% к вампиризму способностями',
                         rside: '+60 сек. действия украденного интеллекта от Arcane Orb',
                     },
@@ -15895,24 +16163,28 @@ export default [
             {
                 lvl10: [
                     {
+                        level: '10',
                         lside: '+25 к скорости передвижения',
                         rside: '+2 маны в секунду',
                     },
                 ],
                 lvl15: [
                     {
+                        level: '15',
                         lside: '+30 к скорости атаки',
                         rside: ' Rolling Thunder способность Shield Crashперезаряжается 2 сек.',
                     },
                 ],
                 lvl20: [
                     {
+                        level: '20',
                         lside: '+20 к силе',
                         rside: '+30 к урона за удар Swashbuckle',
                     },
                 ],
                 lvl25: [
                     {
+                        level: '25',
                         lside: '-16 сек. перезарядки Rolling Thunder',
                         rside: '-3 сек. перезарядки Swashbuckle',
                     },
@@ -16106,24 +16378,28 @@ export default [
             {
                 lvl10: [
                     {
+                        level: '10',
                         lside: '+15 к урону',
                         rside: '+150 к здоровью',
                     },
                 ],
                 lvl15: [
                     {
+                        level: '15',
                         lside: '+20% к урону соседним целям',
                         rside: '-4 к броне цели атак',
                     },
                 ],
                 lvl20: [
                     {
+                        level: '20',
                         lside: 'Stifling Dagger по двум целям',
                         rside: '20% вампиризма',
                     },
                 ],
                 lvl25: [
                     {
+                        level: '25',
                         lside: '+25% к уклонению Blur',
                         rside: '+5% к шансу крита у Coup de Grace',
                     },
@@ -16369,24 +16645,28 @@ export default [
             {
                 lvl10: [
                     {
+                        level: '10',
                         lside: '+20 к скорости атаки',
                         rside: '+10% к уклонению',
                     },
                 ],
                 lvl15: [
                     {
+                        level: '15',
                         lside: '+125 к урону от Spirit Lance',
                         rside: '+250 к здоровью',
                     },
                 ],
                 lvl20: [
                     {
+                        level: '20',
                         lside: '+4 к максимуму иллюзий от Juxtapose',
                         rside: '+500 к дальности Phantom Rush',
                     },
                 ],
                 lvl25: [
                     {
+                        level: '25',
                         lside: 'Шанс в 30% нанести двойной урон',
                         rside: '-7 сек. перезарядки Doppelganger',
                     },
@@ -16685,24 +16965,28 @@ export default [
             {
                 lvl10: [
                     {
+                        level: '10',
                         lside: '+8% к урону от способностей',
                         rside: '+90 золота в минуту',
                     },
                 ],
                 lvl15: [
                     {
+                        level: '15',
                         lside: '+500 к здоровью',
                         rside: '+60 к урону в секунду от Fire Spirits',
                     },
                 ],
                 lvl20: [
                     {
+                        level: '20',
                         lside: '+1,5 сек. оглушения Supernova',
                         rside: '+1400 к дальности Icarus Dive',
                     },
                 ],
                 lvl25: [
                     {
+                        level: '25',
                         lside: '+2% к урону от макс. здоровья у Sun Ray',
                         rside: '+3 удара на уничтожение Supernova',
                     },
@@ -16936,24 +17220,28 @@ export default [
             {
                 lvl10: [
                     {
+                        level: '10',
                         lside: '+5 к броне',
                         rside: '+10 к интеллекту',
                     },
                 ],
                 lvl15: [
                     {
+                        level: '15',
                         lside: '+50 к урону',
                         rside: '+8% к урону от способностей',
                     },
                 ],
                 lvl20: [
                     {
+                        level: '20',
                         lside: '+40% к скорости и дальности Illusory Orb',
                         rside: '-5 сек. перезарядки Waning Rift',
                     },
                 ],
                 lvl25: [
                     {
+                        level: '25',
                         lside: 'Быстрые атаки по жертвам Dream Coil',
                         rside: '+420 золота в минуту',
                     },
@@ -17149,24 +17437,28 @@ export default [
             {
                 lvl10: [
                     {
+                        level: '10',
                         lside: '+35 к урону от Rot',
                         rside: '+5 к броне',
                     },
                 ],
                 lvl15: [
                     {
+                        level: '15',
                         lside: '+75 к урону',
                         rside: '+13% к вампиризму способностями',
                     },
                 ],
                 lvl20: [
                     {
+                        level: '20',
                         lside: '-15% перезарядки способностей',
                         rside: '+180 золота в минуту',
                     },
                 ],
                 lvl25: [
                     {
+                        level: '25',
                         lside: '+2 силы за заряд Flesh Heap',
                         rside: '+3 сек. к длительности Dismember',
                     },
@@ -17382,24 +17674,28 @@ export default [
             {
                 lvl10: [
                     {
+                        level: '10',
                         lside: '+225 к здоровью',
                         rside: '+25 к скорости передвижения',
                     },
                 ],
                 lvl15: [
                     {
+                        level: '15',
                         lside: '+2 удара по Nether Ward',
                         rside: '-1 сек. к перезарядке Nether Blast',
                     },
                 ],
                 lvl20: [
                     {
+                        level: '20',
                         lside: '+2 сек. к длительности Decrepify',
                         rside: '+25% к лечению от Life Drain',
                     },
                 ],
                 lvl25: [
                     {
+                        level: '25',
                         lside: '+1,75 к урону за единицу маны от Nether Ward',
                         rside: '+200 к урону от Nether Blast',
                     },
@@ -17601,24 +17897,28 @@ export default [
             {
                 lvl10: [
                     {
+                        level: '10',
                         lside: '+10 к силе',
                         rside: '+25 к урону',
                     },
                 ],
                 lvl15: [
                     {
+                        level: '15',
                         lside: '+25 к урону',
                         rside: '-12% перезарядки способностей',
                     },
                 ],
                 lvl20: [
                     {
+                        level: '20',
                         lside: 'Shadow Strike в радиусе 650 вокруг героя',
                         rside: '+30% к вампиризму способностями',
                     },
                 ],
                 lvl25: [
                     {
+                        level: '25',
                         lside: 'Блокировка направленных заклинаний с перезарядкой в 20 сек.',
                         rside: 'Scream of Pain накладывает страх на 1,5 сек',
                     },
@@ -17853,24 +18153,28 @@ export default [
             {
                 lvl10: [
                     {
+                        level: '10',
                         lside: '+15 к ловкости',
                         rside: '+200 к здоровью',
                     },
                 ],
                 lvl15: [
                     {
+                        level: '15',
                         lside: '+4% к скорости передвижения от Unstable Current',
                         rside: '+7 к урону в секунду у Static Link',
                     },
                 ],
                 lvl20: [
                     {
+                        level: '20',
                         lside: '-0,1 сек. интервала разрядов Eye of the Storm',
                         rside: '+10 к броне',
                     },
                 ],
                 lvl25: [
                     {
+                        level: '25',
                         lside: '-3 сек. от интервала у Unstable Current',
                         rside: '+100 к скорости атаки',
                     },
@@ -18060,24 +18364,28 @@ export default [
             {
                 lvl10: [
                     {
+                        level: '10',
                         lside: '+8 к ловкости',
                         rside: '+5 здоровья в секунду',
                     },
                 ],
                 lvl15: [
                     {
+                        level: '15',
                         lside: '-7 сек. перезарядки Smoke Screen',
                         rside: 'Шанс в 20% нанести 150% урона',
                     },
                 ],
                 lvl20: [
                     {
+                        level: '20',
                         lside: '+900 к дальности Blink Strike',
                         rside: '+0,2 урона за ловкость у Cloak and Dagger',
                     },
                 ],
                 lvl25: [
                     {
+                        level: '25',
                         lside: 'Невидимость от Cloak and Dagger не спадает',
                         rside: '+400 к радиусу у Tricks of the Trade',
                     },
@@ -18287,24 +18595,28 @@ export default [
             {
                 lvl10: [
                     {
+                        level: '10',
                         lside: '+60 к урону',
                         rside: '+200 к здоровью',
                     },
                 ],
                 lvl15: [
                     {
+                        level: '15',
                         lside: '45 к снижению урона героев от Fade Bolt',
                         rside: '+100 к дальности способностей',
                     },
                 ],
                 lvl20: [
                     {
+                        level: '20',
                         lside: '+300 к дальности броска Telekinesis',
                         rside: '+5% к эффекту Null Field',
                     },
                 ],
                 lvl25: [
                     {
+                        level: '25',
                         lside: '+75% к урону от украденных способностей',
                         rside: '-15 сек. к перезарядке Telekinesis',
                     },
@@ -18547,24 +18859,28 @@ export default [
             {
                 lvl10: [
                     {
+                        level: '10',
                         lside: '+5 к броне',
                         rside: '+10% к сопротивлению магии',
                     },
                 ],
                 lvl15: [
                     {
+                        level: '15',
                         lside: '+50 к замедлению атаки от Epicenter',
                         rside: '+50 к урону в секунду от Sand Storm',
                     },
                 ],
                 lvl20: [
                     {
+                        level: '20',
                         lside: '+120 золота в минуту',
                         rside: '+350 к здоровью',
                     },
                 ],
                 lvl25: [
                     {
+                        level: '25',
                         lside: '+4 толчка у Epicenter',
                         rside: '+50 здоровья в секунду',
                     },
@@ -18821,24 +19137,28 @@ export default [
             {
                 lvl10: [
                     {
+                        level: '10',
                         lside: '+25% к получаемому опыту',
                         rside: 'Soul Catcher создаёт иллюзию героя при смерти',
                     },
                 ],
                 lvl15: [
                     {
+                        level: '15',
                         lside: '+25% к урону от Shadow Poison',
                         rside: '+40 к скорости передвижения',
                     },
                 ],
                 lvl20: [
                     {
+                        level: '20',
                         lside: '-1,5 сек. к перезарядке Shadow Poison',
                         rside: '-6 сек. к перезарядке Soul Catcher',
                     },
                 ],
                 lvl25: [
                     {
+                        level: '25',
                         lside: '2 заряда способности Disruption',
                         rside: '+500 урона от Demonic Purge',
                     },
@@ -19138,24 +19458,28 @@ export default [
             {
                 lvl10: [
                     {
+                        level: '10',
                         lside: '+20 к скорости атаки',
                         rside: '+10% к урону от способностей',
                     },
                 ],
                 lvl15: [
                     {
+                        level: '15',
                         lside: '+40 к скорости передвижени',
                         rside: 'Аура Presence of the Dark Lord действует на строения',
                     },
                 ],
                 lvl20: [
                     {
+                        level: '20',
                         lside: '+150 к урону от Shadowraze',
                         rside: '+20% к уклонению',
                     },
                 ],
                 lvl25: [
                     {
+                        level: '25',
                         lside: '-40% перезарядки способностей',
                         rside: '3 урона за Necromastery',
                     },
@@ -19337,24 +19661,28 @@ export default [
             {
                 lvl10: [
                     {
+                        level: '10',
                         lside: '+20% к получаемому опыту',
                         rside: '+200 к здоровью',
                     },
                 ],
                 lvl15: [
                     {
+                        level: '15',
                         lside: '-4 сек. к перезарядке Hex',
                         rside: '+125 к дальности способностей',
                     },
                 ],
                 lvl20: [
                     {
+                        level: '20',
                         lside: '+1 атака на уничтожение варда Shadow Shaman Serpent Ward',
                         rside: '+3 сек. действия Shackles',
                     },
                 ],
                 lvl25: [
                     {
+                        level: '25',
                         lside: '+60 к урону Mass Serpent Ward',
                         rside: '+400 к урону от Ether Shock',
                     },
@@ -19554,24 +19882,28 @@ export default [
             {
                 lvl10: [
                     {
+                        level: '10',
                         lside: '+25 к скорости атаки',
                         rside: '+5 к броне',
                     },
                 ],
                 lvl15: [
                     {
+                        level: '15',
                         lside: '+2 к краже интеллекта от Glaives of Wisdom',
                         rside: '+90 золота в минуту',
                     },
                 ],
                 lvl20: [
                     {
+                        level: '20',
                         lside: '+30 к урону от Arcane Curse',
                         rside: '+125 к дальности атаки',
                     },
                 ],
                 lvl25: [
                     {
+                        level: '25',
                         lside: '+2 сек. к длительности Global Silence',
                         rside: '+20% к урону от Glaives of Wisdom',
                     },
@@ -19770,24 +20102,28 @@ export default [
             {
                 lvl10: [
                     {
+                        level: '10',
                         lside: '+8 к интеллекту',
                         rside: '+25 к скорости передвижения',
                     },
                 ],
                 lvl15: [
                     {
+                        level: '15',
                         lside: '+1 снаряд Arcane Bolt',
                         rside: '-8 сек. к перезарядке Ancient Seal',
                     },
                 ],
                 lvl20: [
                     {
+                        level: '20',
                         lside: '+15% к доп. магическому урону от Ancient Seal',
                         rside: 'Неограниченная дальность применения Concussive Shot',
                     },
                 ],
                 lvl25: [
                     {
+                        level: '25',
                         lside: '+600 к урону от Mystic Flare',
                         rside: '+300 золота в минуту',
                     },
@@ -19996,24 +20332,28 @@ export default [
             {
                 lvl10: [
                     {
+                        level: '10',
                         lside: '+25 к урону',
                         rside: '+25 к урону',
                     },
                 ],
                 lvl15: [
                     {
+                        level: '15',
                         lside: '+100 урона от Bash of the Deep',
                         rside: '+300 к здоровью',
                     },
                 ],
                 lvl20: [
                     {
+                        level: '20',
                         lside: '+1000 к радиусу обзора ночью',
                         rside: '+50 к скорости атаки',
                     },
                 ],
                 lvl25: [
                     {
+                        level: '25',
                         lside: 'Эффект от Corrosive Haze нельзя развеять',
                         rside: '+15% к шансу Bash of the Deep',
                     },
@@ -20221,24 +20561,28 @@ export default [
             {
                 lvl10: [
                     {
+                        level: '10',
                         lside: '+10 к ловкости',
                         rside: '+10 к силе',
                     },
                 ],
                 lvl15: [
                     {
+                        level: '15',
                         lside: '20% вампиризма',
                         rside: '+30 к скорости атаки',
                     },
                 ],
                 lvl20: [
                     {
+                        level: '20',
                         lside: '+3 сек. длительности действия Pounce',
                         rside: '+150 к урону от Dark Pact',
                     },
                 ],
                 lvl25: [
                     {
+                        level: '25',
                         lside: '+120 сек. действия Essence Shift',
                         rside: '+1 сек. действия Shadow Dance',
                     },
@@ -20435,24 +20779,28 @@ export default [
             {
                 lvl10: [
                     {
+                        level: '10',
                         lside: '+20 к урону',
                         rside: '-15% перезарядки способностей',
                     },
                 ],
                 lvl15: [
                     {
+                        level: '15',
                         lside: '+25 к урону в секунду от Shrapnel',
                         rside: '+40 к скорости атаки',
                     },
                 ],
                 lvl20: [
                     {
+                        level: '20',
                         lside: '-1,5 сек. подготовки Assassinate',
                         rside: 'Headshot отбрасывает цели на 35 единиц',
                     },
                 ],
                 lvl25: [
                     {
+                        level: '25',
                         lside: '+6 зарядов Shrapnel',
                         rside: '+125 к дальности атаки',
                     },
@@ -20673,24 +21021,28 @@ export default [
             {
                 lvl10: [
                     {
+                        level: '10',
                         lside: '+15 к урону от Desolate',
                         rside: '+5 здоровья в секунду',
                     },
                 ],
                 lvl15: [
                     {
+                        level: '15',
                         lside: '-8 секунд перезарядки Spectral Dagger',
                         rside: '+8 ко всем атрибутам',
                     },
                 ],
                 lvl20: [
                     {
+                        level: '20',
                         lside: '+20% к замедлению/ускорению врагов/себя от Spectral Dagger',
                         rside: '',
                     },
                 ],
                 lvl25: [
                     {
+                        level: '25',
                         lside: '+8 % к Dispersion',
                         rside: 'Иллюзии Haunt наносят на 40% больше урона',
                     },
@@ -20926,24 +21278,28 @@ export default [
             {
                 lvl10: [
                     {
+                        level: '10',
                         lside: '+5 к броне',
                         rside: '+400 к ночному обзору',
                     },
                 ],
                 lvl15: [
                     {
+                        level: '15',
                         lside: '+40 к урону',
                         rside: '+10 здоровья в секунду',
                     },
                 ],
                 lvl20: [
                     {
+                        level: '20',
                         lside: '+400 к скорости Charge of Darkness',
                         rside: '+30% к урону от Greater Bash',
                     },
                 ],
                 lvl25: [
                     {
+                        level: '25',
                         lside: '+800 к здоровью',
                         rside: '+25% к шансу Greater Bash',
                     },
@@ -21159,24 +21515,28 @@ export default [
             {
                 lvl10: [
                     {
+                        level: '10',
                         lside: '+25% к шансу Greater Bash icon.png Grea',
                         rside: '+20 к урону',
                     },
                 ],
                 lvl15: [
                     {
+                        level: '15',
                         lside: '+300 к здоровью',
                         rside: '+80 урона от Static Remnant',
                     },
                 ],
                 lvl20: [
                     {
+                        level: '20',
                         lside: '+30 к скорости атаки',
                         rside: '+0,5 сек. действия Electric Vortex',
                     },
                 ],
                 lvl25: [
                     {
+                        level: '25',
                         lside: 'Создание Static Remnant каждые 500 единиц в Ball Lightning',
                         rside: 'Overload проходит сквозь защиту от магии',
                     },
@@ -21377,24 +21737,28 @@ export default [
             {
                 lvl10: [
                     {
+                        level: '10',
                         lside: '+2 маны в секунду',
                         rside: '+8 к силе',
                     },
                 ],
                 lvl15: [
                     {
+                        level: '15',
                         lside: 'Storm Hammer развеивает положительные эффекты',
                         rside: '+30 к скорости передвижения',
                     },
                 ],
                 lvl20: [
                     {
+                        level: '20',
                         lside: '5 сек. перезарядки Storm Hammer',
                         rside: '25% вампиризма',
                     },
                 ],
                 lvl25: [
                     {
+                        level: '25',
                         lside: '+0,75 сек. оглушения от Storm Hammer',
                         rside: '+40 силы от God\'s Strength',
                     },
@@ -21686,24 +22050,28 @@ export default [
             {
                 lvl10: [
                     {
+                        level: '10',
                         lside: '-4 сек. к перезарядке Proximity Mines',
                         rside: '+30% к получаемому опыту',
                     },
                 ],
                 lvl15: [
                     {
+                        level: '15',
                         lside: '+4 маны в секунду',
                         rside: '+300 к урону от Blast Off!',
                     },
                 ],
                 lvl20: [
                     {
+                        level: '20',
                         lside: '+150 золота в минуту',
                         rside: '+75 к скорости передвижения',
                     },
                 ],
                 lvl25: [
                     {
+                        level: '25',
                         lside: '+25 к скорости передвижения всех мин',
                         rside: '+251 к урону',
                     },
@@ -21934,24 +22302,28 @@ export default [
             {
                 lvl10: [
                     {
+                        level: '10',
                         lside: '+3 ловушки от Psionic Trap',
                         rside: '+25 к скорости атаки',
                     },
                 ],
                 lvl15: [
                     {
+                        level: '15',
                         lside: '+200 к урону от Psionic Trap',
                         rside: '+7 к броне',
                     },
                 ],
                 lvl20: [
                     {
+                        level: '20',
                         lside: '+4 к снижению брони от Meld',
                         rside: 'Refraction развеивает отрицательные эффекты',
                     },
                 ],
                 lvl25: [
                     {
+                        level: '25',
                         lside: '+4 заряда Refraction',
                         rside: 'Psi Blades парализует доп. цели',
                     },
@@ -22167,24 +22539,28 @@ export default [
             {
                 lvl10: [
                     {
+                        level: '10',
                         lside: '+10% к уклонению',
                         rside: '+20 к скорости передвижения',
                     },
                 ],
                 lvl15: [
                     {
+                        level: '15',
                         lside: '+25 к скорости атаки',
                         rside: '+300 к здоровью',
                     },
                 ],
                 lvl20: [
                     {
+                        level: '20',
                         lside: '-10 сек. перезарядки Reflection',
                         rside: '+10 ко всем атрибутам',
                     },
                 ],
                 lvl25: [
                     {
+                        level: '25',
                         lside: '+300 к дальности атаки от Metamorphosis',
                         rside: '-35 сек. перезарядки Sunder',
                     },
@@ -22406,24 +22782,28 @@ export default [
             {
                 lvl10: [
                     {
+                        level: '10',
                         lside: '+80 к урону от Gush',
                         rside: '+25 к скорости передвижения',
                     },
                 ],
                 lvl15: [
                     {
+                        level: '15',
                         lside: '+25 к снижению урона от Anchor Smash',
                         rside: '+40% к получаемому опыту',
                     },
                 ],
                 lvl20: [
                     {
+                        level: '20',
                         lside: '-4 к броне от Gush',
                         rside: '+24 к блокируемому урону у Kraken Shell',
                     },
                 ],
                 lvl25: [
                     {
+                        level: '25',
                         lside: '+250 к урону',
                         rside: '-25% перезарядки способностей',
                     },
@@ -22650,24 +23030,28 @@ export default [
             {
                 lvl10: [
                     {
+                        level: '10',
                         lside: '+25% к получаемому опыту',
                         rside: '+6% к урону от способностей',
                     },
                 ],
                 lvl15: [
                     {
+                        level: '15',
                         lside: '+5 к максимуму эффектов от Reactive Armor',
                         rside: '+100 к урону',
                     },
                 ],
                 lvl20: [
                     {
+                        level: '20',
                         lside: '-10% перезарядки способностей',
                         rside: '+15 к силе',
                     },
                 ],
                 lvl25: [
                     {
+                        level: '25',
                         lside: '+1400 к дальности Timber Chain',
                         rside: '+8% уменьшения атрибутов от Whirling Death',
                     },
@@ -22876,24 +23260,28 @@ export default [
             {
                 lvl10: [
                     {
+                        level: '10',
                         lside: '+75 к дальности способностей',
                         rside: '+6% к урону от способностей',
                     },
                 ],
                 lvl15: [
                     {
+                        level: '15',
                         lside: '+10% к вампиризму способностями',
                         rside: '+40 к скорости передвижения',
                     },
                 ],
                 lvl20: [
                     {
+                        level: '20',
                         lside: '+8 к урону от March of the Machines',
                         rside: '+10 к броне',
                     },
                 ],
                 lvl25: [
                     {
+                        level: '25',
                         lside: '+0,3 сек. оглушения от ракет Heat-Seeking Missile',
                         rside: '+100 к урону от Laser',
                     },
@@ -23094,24 +23482,28 @@ export default [
             {
                 lvl10: [
                     {
+                        level: '10',
                         lside: '+30 к урону',
                         rside: '+20% к сопротивлению магии',
                     },
                 ],
                 lvl15: [
                     {
+                        level: '15',
                         lside: '+125 к урону от Avalanche',
                         rside: '+350 к здоровью',
                     },
                 ],
                 lvl20: [
                     {
+                        level: '20',
                         lside: 'Для Toss не нужна цель',
                         rside: '-7 сек. перезарядки Tree Grab',
                     },
                 ],
                 lvl25: [
                     {
+                        level: '25',
                         lside: '3 заряда Toss',
                         rside: '-12 сек. перезарядки Avalanche',
                     },
@@ -23323,24 +23715,28 @@ export default [
             {
                 lvl10: [
                     {
+                        level: '10',
                         lside: '-10% перезарядки способностей',
                         rside: '+2 блокируемых атаки у Living Armor',
                     },
                 ],
                 lvl15: [
                     {
+                        level: '15',
                         lside: 'Деревья вырастают за 2 секунды',
                         rside: '+90 к урону',
                     },
                 ],
                 lvl20: [
                     {
+                        level: '20',
                         lside: '+40 к урону/лечению от Leech Seed',
                         rside: '+2 сек. оцепенения от Nature\'s Guise',
                     },
                 ],
                 lvl25: [
                     {
+                        level: '25',
                         lside: 'Living Armor применяется по области в 700',
                         rside: '+350 к радиусу Eyes in the Forest и Overgrowth',
                     },
@@ -23586,24 +23982,28 @@ export default [
             {
                 lvl10: [
                     {
+                        level: '10',
                         lside: '+250 к здоровью',
                         rside: '+10 к ловкости',
                     },
                 ],
                 lvl15: [
                     {
+                        level: '15',
                         lside: '+75 к урону от Whirling Axes',
                         rside: '+3 к максимуму эффектов от Fervor',
                     },
                 ],
                 lvl20: [
                     {
+                        level: '20',
                         lside: '+50 к урону',
                         rside: '+20% к уклонению',
                     },
                 ],
                 lvl25: [
                     {
+                        level: '25',
                         lside: 'Battle Trance снимает негативные эффекты',
                         rside: '-6 сек. перезарядки Whirling Axes',
                     },
@@ -23837,24 +24237,28 @@ export default [
             {
                 lvl10: [
                     {
+                        level: '10',
                         lside: '+90 золота в минуту',
                         rside: '+40% к получаемому опыту',
                     },
                 ],
                 lvl15: [
                     {
+                        level: '15',
                         lside: '+150 к урону от Snowball',
                         rside: '+350 к здоровью',
                     },
                 ],
                 lvl20: [
                     {
+                        level: '20',
                         lside: '+100% к критическому урону Walrus Punch',
                         rside: '+300 к скорости Snowball',
                     },
                 ],
                 lvl25: [
                     {
+                        level: '25',
                         lside: '-6 секунд к перезарядке Ice Shards',
                         rside: 'Walrus Punch с шансом в 12% сработает при атаке',
                     },
@@ -24082,24 +24486,28 @@ export default [
             {
                 lvl10: [
                     {
+                        level: '10',
                         lside: '+2 маны в секунду',
                         rside: '+5 к броне',
                     },
                 ],
                 lvl15: [
                     {
+                        level: '15',
                         lside: '+12% к урону от способностей',
                         rside: '+40 к скорости передвижения',
                     },
                 ],
                 lvl20: [
                     {
+                        level: '20',
                         lside: '+125 к дальности способностей',
                         rside: '+60 к скорости атаки',
                     },
                 ],
                 lvl25: [
                     {
+                        level: '25',
                         lside: '+0,4 сек. оцепенения от Pit of Malice',
                         rside: '+50 здоровья в секунду',
                     },
@@ -24355,24 +24763,28 @@ export default [
             {
                 lvl10: [
                     {
+                        level: '10',
                         lside: '+8 здоровья в секунду',
                         rside: '+150 к дальности способностей',
                     },
                 ],
                 lvl15: [
                     {
+                        level: '15',
                         lside: '+30 сек. действия Decay',
                         rside: 'Призыв Tombstone после смерти',
                     },
                 ],
                 lvl20: [
                     {
+                        level: '20',
                         lside: '+4 удара для уничтожения Tombstone',
                         rside: '+30 к урону у Undying Zombie от Tombstone',
                     },
                 ],
                 lvl25: [
                     {
+                        level: '25',
                         lside: '-2 сек. перезарядки Decay',
                         rside: 'Воскрешение с перезарядкой в 200 секунд',
                     },
@@ -24575,24 +24987,28 @@ export default [
             {
                 lvl10: [
                     {
+                        level: '10',
                         lside: '+8 к силе',
                         rside: '+1,75 маны в секунду',
                     },
                 ],
                 lvl15: [
                     {
+                        level: '15',
                         lside: '-1 сек. перезарядки Earthshock',
                         rside: '+16 к ловкости',
                     },
                 ],
                 lvl20: [
                     {
+                        level: '20',
                         lside: '+25 сек. действия Fury Swipes',
                         rside: '+1 сек. действия Enrage',
                     },
                 ],
                 lvl25: [
                     {
+                        level: '25',
                         lside: '+14 к урону от Fury Swipes',
                         rside: '+600 к радиусу Earthshock',
                     },
@@ -24801,24 +25217,28 @@ export default [
             {
                 lvl10: [
                     {
+                        level: '10',
                         lside: '+1 к снижению брони от Wave of Terror',
                         rside: '+15% к сопротивлению магии',
                     },
                 ],
                 lvl15: [
                     {
+                        level: '15',
                         lside: '-6 сек. перезарядки Wave of Terror',
                         rside: '+15 к ловкости',
                     },
                 ],
                 lvl20: [
                     {
+                        level: '20',
                         lside: '+15% к урону от Vengeance Aura',
                         rside: '-5 сек. перезарядки Magic Missile',
                     },
                 ],
                 lvl25: [
                     {
+                        level: '25',
                         lside: 'Magic Missile проходит сквозь иммунитет к магии',
                         rside: '+400 к урону от Magic Missile',
                     },
@@ -25040,24 +25460,28 @@ export default [
             {
                 lvl10: [
                     {
+                        level: '10',
                         lside: '+90 золота в минуту',
                         rside: '-8 сек. перезарядки Venomous Gale',
                     },
                 ],
                 lvl15: [
                     {
+                        level: '15',
                         lside: '+6% замедления от Poison Sting',
                         rside: '+200 к дальности способностей',
                     },
                 ],
                 lvl20: [
                     {
+                        level: '20',
                         lside: 'При попадании Venomous Gale на героя призывает два Plague Ward',
                         rside: '+7 сек. длительности действия Poison Nova',
                     },
                 ],
                 lvl25: [
                     {
+                        level: '25',
                         lside: 'Тройное здоровье/урон варда от Plague Ward',
                         rside: '+800 к урону по области от Poison Nova',
                     },
@@ -25306,25 +25730,29 @@ export default [
             {
                 lvl10: [
                     {
+                        level: '10',
                         lside: '+8% к вампиризму способностями',
                         rside: '+20 к скорости атаки',
                     },
                 ],
                 lvl15: [
                     {
-                        lside: '+6 к урону в секунду от Corrosive Skin',
+                        level: '15'
+,                        lside: '+6 к урону в секунду от Corrosive Skin',
                         rside: '+100 к дальности атаки',
                     },
                 ],
                 lvl20: [
                     {
+                        level: '20',
                         lside: 'Poison Attack действует на постройки',
                         rside: '+100 к урону в секунду от Viper Strike',
                     },
                 ],
                 lvl25: [
                     {
-                        lside: '+120 к урону',
+                        level: '25'
+,                        lside: '+120 к урону',
                         rside: 'Nethertoxin запрещает применять способности',
                     },
                 ], 
@@ -25581,24 +26009,28 @@ export default [
             {
                 lvl10: [
                     {
+                        level: '10',
                         lside: '+30 к урону',
                         rside: '+125 к дальности способностей',
                     },
                 ],
                 lvl15: [
                     {
+                        level: '15',
                         lside: 'Soul Assumption наносит урон по двум целям',
                         rside: '+40% к получаемому опыту',
                     },
                 ],
                 lvl20: [
                     {
+                        level: '20',
                         lside: '+80 к скорости передвижения Visage Familiar',
                         rside: '15 к урону за заряд Soul Assumption',
                     },
                 ],
                 lvl25: [
                     {
+                        level: '25',
                         lside: '+1 Visage Familiar',
                         rside: '-2 сек. к перезарядке Gravekeeper\'s Cloak',
                     },
@@ -25834,24 +26266,28 @@ export default [
             {
                 lvl10: [
                     {
+                        level: '10',
                         lside: '+150 к дальности способностей',
                         rside: '+5% к урону от Fatal Bonds',
                     },
                 ],
                 lvl15: [
                     {
+                        level: '15',
                         lside: '-7 сек. к перезарядке Shadow Word',
                         rside: '+60% к получаемому опыту',
                     },
                 ],
                 lvl20: [
                     {
+                        level: '20',
                         lside: '+300 к радиусу применения Shadow Word',
                         rside: 'При смерти призывается Warlock Golem',
                     },
                 ],
                 lvl25: [
                     {
+                        level: '25',
                         lside: 'Неуязвимость к магии у Warlock Golem',
                         rside: '20 к броне Warlock Golem',
                     },
@@ -26059,24 +26495,28 @@ export default [
             {
                 lvl10: [
                     {
+                        level: '10',
                         lside: '+35% к получаемому опыту',
                         rside: '+20 к сожжению маны',
                     },
                 ],
                 lvl15: [
                     {
+                        level: '15',
                         lside: '+75 урона от Shukuchi',
                         rside: '+12 к силе',
                     },
                 ],
                 lvl20: [
                     {
+                        level: '20',
                         lside: '+2 атаки для убийства от The Swarm',
                         rside: '0,5 снижения брони от The Swarm',
                     },
                 ],
                 lvl25: [
                     {
+                        level: '25',
                         lside: '+1 атака от Geminate Attack',
                         rside: '+200 к скорости передвижения от Shukuchi',
                     },
@@ -26285,24 +26725,28 @@ export default [
             {
                 lvl10: [
                     {
+                        level: '10',
                         lside: '+30% к замедлению от Windrun',
                         rside: '+1,75 маны в секунду',
                     },
                 ],
                 lvl15: [
                     {
+                        level: '15',
                         lside: '+100 к дальности атаки',
                         rside: '+100 урона от Powershot',
                     },
                 ],
                 lvl20: [
                     {
+                        level: '20',
                         lside: 'Windrun даёт невидимость',
                         rside: '+1 сек. действия Shackleshot',
                     },
                 ],
                 lvl25: [
                     {
+                        level: '25',
                         lside: '-30% перезарядки способностей',
                         rside: '+35% к шансу оглушения от Focus Fire',
                     },
@@ -26537,24 +26981,28 @@ export default [
             {
                 lvl10: [
                     {
+                        level: '10',
                         lside: '+60 к урону',
                         rside: '+90 золота в минуту',
                     },
                 ],
                 lvl15: [
                     {
+                        level: '15',
                         lside: '+600 к ночному обзору',
                         rside: '+350 к здоровью',
                     },
                 ],
                 lvl20: [
                     {
+                        level: '20',
                         lside: '-5 сек. к перезарядке Cold Embrace',
                         rside: '15% к замедлению от Arctic Burn',
                     },
                 ],
                 lvl25: [
                     {
+                        level: '25',
                         lside: 'Splinter Blast дает 2 сек. оглушения',
                         rside: '+1,5 сек. к длительности Winter\'s Curse',
                     },
@@ -26764,24 +27212,28 @@ export default [
             {
                 lvl10: [
                     {
+                        level: '10',
                         lside: '+5 к броне',
                         rside: '+75 к урону',
                     },
                 ],
                 lvl15: [
                     {
+                        level: '15',
                         lside: '+120 золота в минуту',
                         rside: '+2 отскока у Paralyzing Cask',
                     },
                 ],
                 lvl20: [
                     {
+                        level: '20',
                         lside: '+1 тик от Maledict',
                         rside: '+125 к дальности атаки Death Ward',
                     },
                 ],
                 lvl25: [
                     {
+                        level: '25',
                         lside: '+75 к урону от Death Ward',
                         rside: '+1.5% к макс. лечению от Voodoo Restoration',
                     },
@@ -27008,24 +27460,28 @@ export default [
             {
                 lvl10: [
                     {
+                        level: '10',
                         lside: '+20 к скорости атаки',
                         rside: '+40 к урону в секунду от Wraithfire Blast',
                     },
                 ],
                 lvl15: [
                     {
+                        level: '15',
                         lside: '+25 к урону скелетов',
                         rside: '+15 к силе',
                     },
                 ],
                 lvl20: [
                     {
+                        level: '20',
                         lside: 'Вдвое больше скелетов',
                         rside: 'Reincarnation больше не требует ману',
                     },
                 ],
                 lvl25: [
                     {
+                        level: '25',
                         lside: 'Срабатывание Reincarnation применяет на ближайших врагов Wraithfire Blast текущего',
                         rside: '+25% к вампиризму от Vampiric Aura',
                     },
@@ -27210,24 +27666,28 @@ export default [
             {
                 lvl10: [
                     {
+                        level: '10',
                         lside: '+25% к получаемому опыту',
                         rside: '+6 к броне',
                     },
                 ],
                 lvl15: [
                     {
+                        level: '15',
                         lside: '+1% к урону от Static Field',
                         rside: '+40 к скорости передвижения',
                     },
                 ],
                 lvl20: [
                     {
+                        level: '20',
                         lside: '+0,5 сек. оглушения от Lightning Bolt',
                         rside: '-15% перезарядки способностей',
                     },
                 ],
                 lvl25: [
                     {
+                        level: '25',
                         lside: '+170 к урону от Arc Lightning',
                         rside: '+275 к дальности способностей',
                     },
