@@ -18,7 +18,7 @@ export default class AllHeroes extends Component {
                         })
                         .map((item, idx) => (
                             <a href="" key={idx} data-text={item.name} onClick={showHero(item)}>
-                                <img src={item.image} alt={item.name} className="heroes-logo" />
+                                <img src={`http://cdn.dota2.com/apps/dota2/images/heroes/${item.name1}_vert.jpg`} alt={item.name} className="heroes-logo" />
                             </a>
                         ))
                     }
@@ -36,7 +36,7 @@ export default class AllHeroes extends Component {
                             })
                             .map((item, idx) => (
                                 <a href="" key={idx} data-text={item.name} onClick={showHero(item)}>
-                                    <img src={item.image} alt={item.name} className="heroes-logo" />
+                                    <img src={`http://cdn.dota2.com/apps/dota2/images/heroes/${item.name1}_vert.jpg`} alt={item.name} className="heroes-logo" />
                                 </a>
                             ))
                         }
@@ -52,7 +52,7 @@ export default class AllHeroes extends Component {
                             })
                             .map((item, idx) => (
                                 <a href="" key={idx} data-text={item.name} onClick={showHero(item)}>
-                                    <img src={item.image} alt={item.name} className="heroes-logo" />
+                                    <img src={`http://cdn.dota2.com/apps/dota2/images/heroes/${item.name1}_vert.jpg`} alt={item.name} className="heroes-logo" />
                                 </a>
                             ))
                         }

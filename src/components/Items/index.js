@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import classnames from 'classnames';
 
+import withFetchData from 'components/HOC/withFetchData';
 import ItemInfo from './ItemInfo';
 import AllItems from './AllItems';
 import ShopButtons from './ShopButtons';
@@ -11,7 +12,9 @@ import imporvedItems from 'cfg/improved-items';
 import './index.scss';
 
 
-export default class Items extends Component {
+class Items extends Component {
+    static url = 'http://www.dota2.com/jsfeed/heropediadata?feeds=itemdata&v=3206368Q9QYH2VRrw8j&l=ru';
+
     state = {
         allShop: false,
         baseShop: false,
@@ -63,6 +66,9 @@ export default class Items extends Component {
     render () {
         const path = this.props.location.pathname;
         const { allShop, baseShop, sideShop, secretShop, currentItem } = this.state;
+        const { data } = this.props;
+        console.log(data);
+
         return (
             <div className="items-container">
                 <Nav path={path} />
@@ -102,3 +108,5 @@ export default class Items extends Component {
         )
     }
 }
+
+export default withFetchData(Items);

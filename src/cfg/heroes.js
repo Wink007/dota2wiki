@@ -1,6 +1,7 @@
 export default [
     {
-        name: 'Abbadon',
+        name: 'Abaddon',
+        name1: 'abaddon',
         image: require("image/heroes/Abaddon_icon.png"),
         characteristic: 'Strength',
         attack: [
@@ -243,6 +244,7 @@ export default [
     },
     {
         name: 'Alchemist',
+        name1: 'alchemist',
         image: require("image/heroes/Alchemist_icon.png"),
         characteristic: 'Strength',
         attack: [
@@ -489,6 +491,7 @@ export default [
     },
     {
         name: 'Ancient Apparition',
+        name1: 'ancient_apparition',
         image: require("image/heroes/Ancient_Apparition_icon.png"),
         characteristic: 'Intelligence',
         attack: [
@@ -754,6 +757,7 @@ export default [
     },
     {
         name: 'Anti-Mage',
+        name1: 'antimage',
         image: require("image/heroes/Anti-Mage_icon.png"),
         characteristic: 'Agility',
         attack: [
@@ -932,6 +936,7 @@ export default [
     },
     {
         name: 'Arc Warden',
+        name1: 'arc_warden',
         image: require("image/heroes/Arc_Warden_icon.png"),
         characteristic: 'Agility',
         attack: [
@@ -1171,6 +1176,7 @@ export default [
     },
     {
         name: 'Axe',
+        name1: 'axe',
         image: require("image/heroes/Axe_icon.png"),
         characteristic: 'Strength',
         attack: [
@@ -1421,6 +1427,7 @@ export default [
     },
     {
         name: 'Bane',
+        name1: 'bane',
         image: require("image/heroes/Bane_icon.png"),
         characteristic: 'Intelligence',
         attack: [
@@ -1632,6 +1639,7 @@ export default [
     },
     {
         name: 'Batrider',
+        name1: 'batrider',
         image: require("image/heroes/Batrider_icon.png"),
         characteristic: 'Intelligence',
         attack: [
@@ -1870,6 +1878,7 @@ export default [
     },
     {
         name: 'Beastmaster',
+        name1: 'beastmaster',
         image: require("image/heroes/Beastmaster_icon.png"),
         characteristic: 'Strength',
         attack: [
@@ -2117,6 +2126,7 @@ export default [
     },
     {
         name: 'Bloodseeker',
+        name1: 'bloodseeker',
         image: require("image/heroes/Bloodseeker_icon.png"),
         characteristic: 'Agility',
         attack: [
@@ -2355,6 +2365,7 @@ export default [
     },
     {
         name: 'Bounty Hunter',
+        name1: 'bounty_hunter',
         image: require("image/heroes/Bounty_Hunter_icon.png"),
         characteristic: 'Agility',
         attack: [
@@ -2592,6 +2603,7 @@ export default [
     },
     {
         name: 'Brewmaster',
+        name1: 'brewmaster',
         image: require("image/heroes/Brewmaster_icon.png"),
         characteristic: 'Strength',
         attack: [
@@ -2820,6 +2832,7 @@ export default [
     },
     {
         name: 'Bristleback',
+        name1: 'bristleback',
         image: require("image/heroes/Bristleback_icon.png"),
         characteristic: 'Strength',
         attack: [
@@ -3072,6 +3085,7 @@ export default [
     },
     {
         name: 'Broodmother',
+        name1: 'broodmother',
         image: require("image/heroes/Broodmother_icon.png"),
         characteristic: 'Agility',
         attack: [
@@ -3299,6 +3313,7 @@ export default [
     },
     {
         name: 'Centaur Warrunner',
+        name1: 'centaur',
         image: require("image/heroes/Centaur_Warrunner_icon.png"),
         characteristic: 'Strength',
         attack: [
@@ -3512,6 +3527,7 @@ export default [
     },
     {
         name: 'Chaos Knight',
+        name1: 'chaos_knight',
         image: require("image/heroes/Chaos_Knight_icon.png"),
         characteristic: 'Strength',
         attack: [
@@ -3754,6 +3770,7 @@ export default [
     },
     {
         name: 'Chen',
+        name1: 'chen',
         image: require("image/heroes/Chen_icon.png"),
         characteristic: 'Intelligence',
         attack: [
@@ -3972,6 +3989,7 @@ export default [
     },
     {
         name: 'Clinkz',
+        name1: 'clinkz',
         image: require("image/heroes/Clinkz_icon.png"),
         characteristic: 'Agility',
         attack: [
@@ -4169,6 +4187,7 @@ export default [
     },
     {
         name: 'Clockwerk',
+        name1: 'rattletrap',
         image: require("image/heroes/Clockwerk_icon.png"),
         characteristic: 'Strength',
         attack: [
@@ -4394,6 +4413,7 @@ export default [
     },
     {
         name: 'Crystal Maiden',
+        name1: 'crystal_maiden',
         image: require("image/heroes/Crystal_Maiden_icon.png"),
         characteristic: 'Intelligence',
         attack: [
@@ -4643,6 +4663,7 @@ export default [
     },
     {
         name: 'Dark Seer',
+        name1: 'dark_seer',
         image: require("image/heroes/Dark_Seer_icon.png"),
         characteristic: 'Intelligence',
         attack: [
@@ -4870,6 +4891,7 @@ export default [
     },
     {
         name: 'Dark Willow',
+        name1: 'dark_willow',
         image: require("image/heroes/Dark_Willow_icon.png"),
         characteristic: 'Intelligence',
         attack: [
@@ -5154,6 +5176,7 @@ export default [
     },
     {
         name: 'Dazzle',
+        name1: 'dazzle',
         image: require("image/heroes/Dazzle_icon.png"),
         characteristic: 'Intelligence',
         attack: [
@@ -5393,6 +5416,7 @@ export default [
     },
     {
         name: 'Death Prophet',
+        name1: 'death_prophet',
         image: require("image/heroes/Death_Prophet_icon.png"),
         characteristic: 'Intelligence',
         attack: [
@@ -5625,6 +5649,7 @@ export default [
     },
     {
         name: 'Disruptor',
+        name1: 'disruptor',
         image: require("image/heroes/Disruptor_icon.png"),
         characteristic: 'Intelligence',
         attack: [
@@ -5857,6 +5882,7 @@ export default [
     },
     {
         name: 'Doom',
+        name1: 'doom_bringer',
         image: require("image/heroes/Doom_icon.png"),
         characteristic: 'Strength',
         attack: [
@@ -6084,6 +6110,7 @@ export default [
     },
     {
         name: 'Dragon Knight',
+        name1: 'dragon_knight',
         image: require("image/heroes/Dragon_Knight_icon.png"),
         characteristic: 'Strength',
         attack: [
@@ -6290,6 +6317,7 @@ export default [
     },
     {
         name: 'Drow Ranger',
+        name1: 'drow_ranger',
         image: require("image/heroes/Drow_Ranger_icon.png"),
         characteristic: 'Agility',
         attack: [
@@ -6511,6 +6539,7 @@ export default [
     },
     {
         name: 'Earth Spirit',
+        name1: 'earth_spirit',
         image: require("image/heroes/Earth_Spirit_icon.png"),
         characteristic: 'Strength',
         attack: [
@@ -6818,6 +6847,7 @@ export default [
     },
     {
         name: 'Earthshaker',
+        name1: 'earthshaker',
         image: require("image/heroes/Earthshaker_icon.png"),
         characteristic: 'Strength',
         attack: [
@@ -7037,6 +7067,7 @@ export default [
     },
     {
         name: 'Elder Titan',
+        name1: 'elder_titan',
         image: require("image/heroes/Elder_Titan_icon.png"),
         characteristic: 'Strength',
         attack: [
@@ -7324,6 +7355,7 @@ export default [
     },
     {
         name: 'Ember Spirit',
+        name1: 'ember_spirit',
         image: require("image/heroes/Ember_Spirit_icon.png"),
         characteristic: 'Agility',
         attack: [
@@ -7600,6 +7632,7 @@ export default [
     },
     {
         name: 'Enchantress',
+        name1: 'enchantress',
         image: require("image/heroes/Enchantress_icon.png"),
         characteristic: 'Intelligence',
         attack: [
@@ -7799,6 +7832,7 @@ export default [
     },
     {
         name: 'Enigma',
+        name1: 'enigma',
         image: require("image/heroes/Enigma_icon.png"),
         characteristic: 'Intelligence',
         attack: [
@@ -8027,6 +8061,7 @@ export default [
     },
     {
         name: 'Faceless Void',
+        name1: 'faceless_void',
         image: require("image/heroes/Faceless_Void_icon.png"),
         characteristic: 'Agility',
         attack: [
@@ -8237,6 +8272,7 @@ export default [
     },
     {
         name: 'Gyrocopter',
+        name1: 'gyrocopter',
         image: require("image/heroes/Gyrocopter_icon.png"),
         characteristic: 'Agility',
         attack: [
@@ -8477,6 +8513,7 @@ export default [
     },
     {
         name: 'Huskar',
+        name1: 'huskar',
         image: require("image/heroes/Huskar_icon.png"),
         characteristic: 'Strength',
         attack: [
@@ -8708,6 +8745,7 @@ export default [
     },
     {
         name: 'Invoker',
+        name1: 'invoker',
         image: require("image/heroes/Invoker_icon.png"),
         characteristic: 'Intelligence',
         attack: [
@@ -8890,6 +8928,7 @@ export default [
     },
     {
         name: 'Io',
+        name1: 'wisp',
         image: require("image/heroes/Io_icon.png"),
         characteristic: 'Strength',
         attack: [
@@ -9182,6 +9221,7 @@ export default [
     },
     {
         name: 'Jakiro',
+        name1: 'jakiro',
         image: require("image/heroes/Jakiro_icon.png"),
         characteristic: 'Intelligence',
         attack: [
@@ -9460,6 +9500,7 @@ export default [
     },
     {
         name: 'Juggernaut',
+        name1: 'juggernaut',
         image: require("image/heroes/Juggernaut_icon.png"),
         characteristic: 'Agility',
         attack: [
@@ -9669,6 +9710,7 @@ export default [
     },
     {
         name: 'Keeper of the Light',
+        name1: 'keeper_of_the_light',
         image: require("image/heroes/Keeper_of_the_Light_icon.png"),
         characteristic: 'Intelligence',
         attack: [
@@ -9969,6 +10011,7 @@ export default [
     },
     {
         name: 'Kunkka',
+        name1: 'kunkka',
         image: require("image/heroes/Kunkka_icon.png"),
         characteristic: 'Strength',
         attack: [
@@ -10231,6 +10274,7 @@ export default [
     },
     {
         name: 'Legion Commander',
+        name1: 'legion_commander',
         image: require("image/heroes/Legion_Commander_icon.png"),
         characteristic: 'Strength',
         attack: [
@@ -10473,6 +10517,7 @@ export default [
     },
     {
         name: 'Leshrac',
+        name1: 'leshrac',
         image: require("image/heroes/Leshrac_icon.png"),
         characteristic: 'Intelligence',
         attack: [
@@ -10728,6 +10773,7 @@ export default [
     },
     {
         name: 'Lich',
+        name1: 'lich',
         image: require("image/heroes/Lich_icon.png"),
         characteristic: 'Intelligence',
         attack: [
@@ -10991,6 +11037,7 @@ export default [
     },
     {
         name: 'Lifestealer',
+        name1: 'life_stealer',
         image: require("image/heroes/Lifestealer_icon.png"),
         characteristic: 'Strength',
         attack: [
@@ -11195,6 +11242,7 @@ export default [
     },
     {
         name: 'Lina',
+        name1: 'lina',
         image: require("image/heroes/Lina_icon.png"),
         characteristic: 'Intelligence',
         attack: [
@@ -11413,6 +11461,7 @@ export default [
     },
     {
         name: 'Lion',
+        name1: 'lion',
         image: require("image/heroes/Lion_icon.png"),
         characteristic: 'Intelligence',
         attack: [
@@ -11641,6 +11690,7 @@ export default [
     },
     {
         name: 'Lone Druid',
+        name1: 'lone_druid',
         image: require("image/heroes/Lone_Druid_icon.png"),
         characteristic: 'Agility',
         attack: [
@@ -11878,6 +11928,7 @@ export default [
     },
     {
         name: 'Luna',
+        name1: 'luna',
         image: require("image/heroes/Luna_icon.png"),
         characteristic: 'Agility',
         attack: [
@@ -12114,6 +12165,7 @@ export default [
     },
     {
         name: 'Lycan',
+        name1: 'lycan',
         image: require("image/heroes/Lycan_icon.png"),
         characteristic: 'Strength',
         attack: [
@@ -12365,6 +12417,7 @@ export default [
     },
     {
         name: 'Magnus',
+        name1: 'magnataur',
         image: require("image/heroes/Magnus_icon.png"),
         characteristic: 'Strength',
         attack: [
@@ -12598,6 +12651,7 @@ export default [
     },
     {
         name: 'Medusa',
+        name1: 'medusa',
         image: require("image/heroes/Medusa_icon.png"),
         characteristic: 'Agility',
         attack: [
@@ -12840,6 +12894,7 @@ export default [
     },
     {
         name: 'Meepo',
+        name1: 'meepo',
         image: require("image/heroes/Meepo_icon.png"),
         characteristic: 'Agility',
         attack: [
@@ -13044,6 +13099,7 @@ export default [
     },
     {
         name: 'Mirana',
+        name1: 'mirana',
         image: require("image/heroes/Mirana_icon.png"),
         characteristic: 'Agility',
         attack: [
@@ -13278,6 +13334,7 @@ export default [
     },
     {
         name: 'Monkey King',
+        name1: 'monkey_king',
         image: require("image/heroes/Monkey_King_icon.png"),
         characteristic: 'Agility',
         attack: [
@@ -13575,6 +13632,7 @@ export default [
     },
     {
         name: 'Morphling',
+        name1: 'morphling',
         image: require("image/heroes/Morphling_icon.png"),
         characteristic: 'Agility',
         attack: [
@@ -13852,6 +13910,7 @@ export default [
     },
     {
         name: 'Naga Siren',
+        name1: 'naga_siren',
         image: require("image/heroes/Naga_Siren_icon.png"),
         characteristic: 'Agility',
         attack: [
@@ -14069,6 +14128,7 @@ export default [
     },
     {
         name: "Nature's Prophet",
+        name1: 'furion',
         image: require("image/heroes/Nature's_Prophet_icon.png"),
         characteristic: 'Intelligence',
         attack: [
@@ -14277,6 +14337,7 @@ export default [
     },
     {
         name: "Necrophos",
+        name1: 'necrolyte',
         image: require("image/heroes/Necrophos_icon.png"),
         characteristic: 'Intelligence',
         attack: [
@@ -14530,6 +14591,7 @@ export default [
     },
     {
         name: "Night Stalker",
+        name1: 'night_stalker',
         image: require("image/heroes/Night_Stalker_icon.png"),
         characteristic: 'Strength',
         attack: [
@@ -14759,6 +14821,7 @@ export default [
     },
     {
         name: "Nyx Assassin",
+        name1: 'nyx_assassin',
         image: require("image/heroes/Nyx_Assassin_icon.png"),
         characteristic: 'Agility',
         attack: [
@@ -14968,6 +15031,7 @@ export default [
     },
     {
         name: "Ogre Magi",
+        name1: 'ogre_magi',
         image: require("image/heroes/Ogre_Magi_icon.png"),
         characteristic: 'Intelligence',
         attack: [
@@ -15248,6 +15312,7 @@ export default [
     },
     {
         name: "Omniknight",
+        name1: 'omniknight',
         image: require("image/heroes/Omniknight_icon.png"),
         characteristic: 'Strength',
         attack: [
@@ -15455,6 +15520,7 @@ export default [
     },
     {
         name: "Oracle",
+        name1: 'oracle',
         image: require("image/heroes/Oracle_icon.png"),
         characteristic: 'Intelligence',
         attack: [
@@ -15683,6 +15749,7 @@ export default [
     },
     {
         name: "Outworld Devourer",
+        name1: 'obsidian_destroyer',
         image: require("image/heroes/Outworld_Devourer_icon.png"),
         characteristic: 'Intelligence',
         attack: [
@@ -15933,6 +16000,7 @@ export default [
     },
     {
         name: "Pangolier",
+        name1: 'pangolier',
         image: require("image/heroes/Pangolier_icon.png"),
         characteristic: 'Agility',
         attack: [
@@ -16194,6 +16262,7 @@ export default [
     },
     {
         name: "Phantom Assassin",
+        name1: 'phantom_assassin',
         image: require("image/heroes/Phantom_Assassin_icon.png"),
         characteristic: 'Agility',
         attack: [
@@ -16409,6 +16478,7 @@ export default [
     },
     {
         name: "Phantom Lancer",
+        name1: 'phantom_lancer',
         image: require("image/heroes/Phantom_Lancer_icon.png"),
         characteristic: 'Agility',
         attack: [
@@ -16676,6 +16746,7 @@ export default [
     },
     {
         name: "Phoenix",
+        name1: 'phoenix',
         image: require("image/heroes/Phoenix_icon.png"),
         characteristic: 'Strength',
         attack: [
@@ -16996,6 +17067,7 @@ export default [
     },
     {
         name: "Puck",
+        name1: 'puck',
         image: require("image/heroes/Puck_icon.png"),
         characteristic: 'Intelligence',
         attack: [
@@ -17251,6 +17323,7 @@ export default [
     },
     {
         name: "Pudge",
+        name1: 'pudge',
         image: require("image/heroes/Pudge_icon.png"),
         characteristic: 'Strength',
         attack: [
@@ -17468,6 +17541,7 @@ export default [
     },
     {
         name: "Pugna",
+        name1: 'pugna',
         image: require("image/heroes/Pugna_icon.png"),
         characteristic: 'Intelligence',
         attack: [
@@ -17705,6 +17779,7 @@ export default [
     },
     {
         name: "Queen of Pain",
+        name1: 'queenofpain',
         image: require("image/heroes/Queen_of_Pain_icon.png"),
         characteristic: 'Intelligence',
         attack: [
@@ -17928,6 +18003,7 @@ export default [
     },
     {
         name: "Razor",
+        name1: 'razor',
         image: require("image/heroes/Razor_icon.png"),
         characteristic: 'Agility',
         attack: [
@@ -18184,6 +18260,7 @@ export default [
     },
     {
         name: "Riki",
+        name1: 'riki',
         image: require("image/heroes/Riki_icon.png"),
         characteristic: 'Agility',
         attack: [
@@ -18395,6 +18472,7 @@ export default [
     },
     {
         name: "Rubick",
+        name1: 'rubick',
         image: require("image/heroes/Rubick_icon.png"),
         characteristic: 'Intelligence',
         attack: [
@@ -18626,6 +18704,7 @@ export default [
     },
     {
         name: "Sand King",
+        name1: 'sand_king',
         image: require("image/heroes/Sand_King_icon.png"),
         characteristic: 'Strength',
         attack: [
@@ -18890,6 +18969,7 @@ export default [
     },
     {
         name: "Shadow Demon",
+        name1: 'shadow_demon',
         image: require("image/heroes/Shadow_Demon_icon.png"),
         characteristic: 'Intelligence',
         attack: [
@@ -19168,6 +19248,7 @@ export default [
     },
     {
         name: "Shadow Fiend",
+        name1: 'nevermore',
         image: require("image/heroes/Shadow_Fiend_icon.png"),
         characteristic: 'Agility',
         attack: [
@@ -19489,6 +19570,7 @@ export default [
     },
     {
         name: "Shadow Shaman",
+        name1: 'shadow_shaman',
         image: require("image/heroes/Shadow_Shaman_icon.png"),
         characteristic: 'Intelligence',
         attack: [
@@ -19692,6 +19774,7 @@ export default [
     },
     {
         name: "Silencer",
+        name1: 'silencer',
         image: require("image/heroes/Silencer_icon.png"),
         characteristic: 'Intelligence',
         attack: [
@@ -19913,6 +19996,7 @@ export default [
     },
     {
         name: "Skywrath Mage",
+        name1: 'skywrath_mage',
         image: require("image/heroes/Skywrath_Mage_icon.png"),
         characteristic: 'Intelligence',
         attack: [
@@ -20133,6 +20217,7 @@ export default [
     },
     {
         name: "Slardar",
+        name1: 'slardar',
         image: require("image/heroes/Slardar_icon.png"),
         characteristic: 'Strength',
         attack: [
@@ -20363,6 +20448,7 @@ export default [
     },
     {
         name: "Slark",
+        name1: 'slark',
         image: require("image/heroes/Slark_icon.png"),
         characteristic: 'Agility',
         attack: [
@@ -20592,6 +20678,7 @@ export default [
     },
     {
         name: "Sniper",
+        name1: 'sniper',
         image: require("image/heroes/Sniper_icon.png"),
         characteristic: 'Agility',
         attack: [
@@ -20810,6 +20897,7 @@ export default [
     },
     {
         name: "Spectre",
+        name1: 'spectre',
         image: require("image/heroes/Spectre_icon.png"),
         characteristic: 'Agility',
         attack: [
@@ -21052,6 +21140,7 @@ export default [
     },
     {
         name: "Spirit Breaker",
+        name1: 'spirit_breaker',
         image: require("image/heroes/Spirit_Breaker_icon.png"),
         characteristic: 'Strength',
         attack: [
@@ -21309,6 +21398,7 @@ export default [
     },
     {
         name: "Storm Spirit",
+        name1: 'storm_spirit',
         image: require("image/heroes/Storm_Spirit_icon.png"),
         characteristic: 'Intelligence',
         attack: [
@@ -21546,6 +21636,7 @@ export default [
     },
     {
         name: "Sven",
+        name1: 'sven',
         image: require("image/heroes/Sven_icon.png"),
         characteristic: 'Strength',
         attack: [
@@ -21768,6 +21859,7 @@ export default [
     },
     {
         name: "Techies",
+        name1: 'techies',
         image: require("image/heroes/Techies_icon.png"),
         characteristic: 'Intelligence',
         attack: [
@@ -22081,6 +22173,7 @@ export default [
     },
     {
         name: "Templar Assassin",
+        name1: 'templar_assassin',
         image: require("image/heroes/Templar_Assassin_icon.png"),
         characteristic: 'Agility',
         attack: [
@@ -22333,6 +22426,7 @@ export default [
     },
     {
         name: "Terrorblade",
+        name1: 'terrorblade',
         image: require("image/heroes/Terrorblade_icon.png"),
         characteristic: 'Agility',
         attack: [
@@ -22570,6 +22664,7 @@ export default [
     },
     {
         name: "Tidehunter",
+        name1: 'tidehunter',
         image: require("image/heroes/Tidehunter_icon.png"),
         characteristic: 'Strength',
         attack: [
@@ -22813,6 +22908,7 @@ export default [
     },
     {
         name: "Timbersaw",
+        name1: 'shredder',
         image: require("image/heroes/Timbersaw_icon.png"),
         characteristic: 'Strength',
         attack: [
@@ -23061,6 +23157,7 @@ export default [
     },
     {
         name: "Tinker",
+        name1: 'tinker',
         image: require("image/heroes/Tinker_icon.png"),
         characteristic: 'Intelligence',
         attack: [
@@ -23291,6 +23388,7 @@ export default [
     },
     {
         name: "Tiny",
+        name1: 'tiny',
         image: require("image/heroes/Tiny_icon.png"),
         characteristic: 'Strength',
         attack: [
@@ -23513,6 +23611,7 @@ export default [
     },
     {
         name: "Treant Protector",
+        name1: 'treant',
         image: require("image/heroes/Treant_Protector_icon.png"),
         characteristic: 'Strength',
         attack: [
@@ -23746,6 +23845,7 @@ export default [
     },
     {
         name: "Troll Warlord",
+        name1: 'troll_warlord',
         image: require("image/heroes/Troll_Warlord_icon.png"),
         characteristic: 'Agility',
         attack: [
@@ -24013,6 +24113,7 @@ export default [
     },
     {
         name: "Tusk",
+        name1: 'tusk',
         image: require("image/heroes/Tusk_icon.png"),
         characteristic: 'Strength',
         attack: [
@@ -24268,6 +24369,7 @@ export default [
     },
     {
         name: "Underlord",
+        name1: 'abyssal_underlord',
         image: require("image/heroes/Underlord_icon.png"),
         characteristic: 'Strength',
         attack: [
@@ -24517,6 +24619,7 @@ export default [
     },
     {
         name: "Undying",
+        name1: 'undying',
         image: require("image/heroes/Undying_icon.png"),
         characteristic: 'Strength',
         attack: [
@@ -24794,6 +24897,7 @@ export default [
     },
     {
         name: "Ursa",
+        name1: 'ursa',
         image: require("image/heroes/Ursa_icon.png"),
         characteristic: 'Agility',
         attack: [
@@ -25018,6 +25122,7 @@ export default [
     },
     {
         name: "Vengeful Spirit",
+        name1: 'vengefulspirit',
         image: require("image/heroes/Vengeful_Spirit_icon.png"),
         characteristic: 'Agility',
         attack: [
@@ -25248,6 +25353,7 @@ export default [
     },
     {
         name: "Venomancer",
+        name1: 'venomancer',
         image: require("image/heroes/Venomancer_icon.png"),
         characteristic: 'Agility',
         attack: [
@@ -25491,6 +25597,7 @@ export default [
     },
     {
         name: "Viper",
+        name1: 'viper',
         image: require("image/heroes/Viper_icon.png"),
         characteristic: 'Agility',
         attack: [
@@ -25737,8 +25844,8 @@ export default [
                 ],
                 lvl15: [
                     {
-                        level: '15'
-,                        lside: '+6 к урону в секунду от Corrosive Skin',
+                        level: '15',
+                        lside: '+6 к урону в секунду от Corrosive Skin',
                         rside: '+100 к дальности атаки',
                     },
                 ],
@@ -25751,8 +25858,8 @@ export default [
                 ],
                 lvl25: [
                     {
-                        level: '25'
-,                        lside: '+120 к урону',
+                        level: '25',
+                        lside: '+120 к урону',
                         rside: 'Nethertoxin запрещает применять способности',
                     },
                 ], 
@@ -25761,6 +25868,7 @@ export default [
     },
     {
         name: "Visage",
+        name1: 'visage',
         image: require("image/heroes/Visage_icon.png"),
         characteristic: 'Intelligence',
         attack: [
@@ -26040,6 +26148,7 @@ export default [
     },
     {
         name: "Warlock",
+        name1: 'warlock',
         image: require("image/heroes/Warlock_icon.png"),
         characteristic: 'Intelligence',
         attack: [
@@ -26297,6 +26406,7 @@ export default [
     },
     {
         name: "Weaver",
+        name1: 'weaver',
         image: require("image/heroes/Weaver_icon.png"),
         characteristic: 'Agility',
         attack: [
@@ -26526,6 +26636,7 @@ export default [
     },
     {
         name: "Windranger",
+        name1: 'windrunner',
         image: require("image/heroes/Windranger_icon.png"),
         characteristic: 'Intelligence',
         attack: [
@@ -26756,6 +26867,7 @@ export default [
     },
     {
         name: "Winter Wyvern",
+        name1: 'winter_wyvern',
         image: require("image/heroes/Winter_Wyvern_icon.png"),
         characteristic: 'Intelligence',
         attack: [
@@ -27012,6 +27124,7 @@ export default [
     },
     {
         name: "Witch Doctor",
+        name1: 'witch_doctor',
         image: require("image/heroes/Witch_Doctor_icon.png"),
         characteristic: 'Intelligence',
         attack: [
@@ -27243,6 +27356,7 @@ export default [
     },
     {
         name: "Wraith King",
+        name1: 'skeleton_king',
         image: require("image/heroes/Wraith_King_icon.png"),
         characteristic: 'Strength',
         attack: [
@@ -27491,6 +27605,7 @@ export default [
     },
     {
         name: "Zeus",
+        name1: 'zuus',
         image: require("image/heroes/Zeus_icon.png"),
         characteristic: 'Intelligence',
         attack: [
