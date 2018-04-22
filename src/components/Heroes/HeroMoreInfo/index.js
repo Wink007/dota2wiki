@@ -42,7 +42,7 @@ export default class HeroMoreInfo extends Component {
                                         <span>{deffence.armor || ''}</span>
                                     </p>
                                     <p>
-                                        <span>Сопрот.магии: </span>
+                                        <span>Сопр.магии: </span>
                                         <span>{deffence.m_resist || ''}</span>
                                     </p>
                                 </div>

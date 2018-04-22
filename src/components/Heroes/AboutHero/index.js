@@ -11,6 +11,7 @@ export default class AboutHero extends Component {
         const 
             { 
                 about,
+                biography,
                 hp,
                 mp,
                 image,
@@ -23,6 +24,7 @@ export default class AboutHero extends Component {
                 imgStr, 
                 imgAgil, 
                 imgInt,
+                roles,
             } = this.props;
 
         return (
@@ -36,7 +38,7 @@ export default class AboutHero extends Component {
                             hp.map((health, index) => (
                                 <p key={index} className="hp">
                                     <span className="health">{health.health}</span>
-                                    <span className="health-restore">{health.restore}</span>
+                                    <span className="health-restore">+{health.restore}</span>
                                 </p>
                             ))
                         }
@@ -44,7 +46,7 @@ export default class AboutHero extends Component {
                             mp.map((mana, index) => (
                                 <p key={index} className="mp">
                                     <span className="mana">{mana.mana}</span>
-                                    <span className="mana-restore">{mana.restore}</span>
+                                    <span className="mana-restore">+{mana.restore}</span>
                                 </p>
                             ))
                         }
@@ -59,7 +61,8 @@ export default class AboutHero extends Component {
                                 skills.some(elem => elem.aghanim_description) && <span className="aghanim"></span>
                             }
                         </p>
-                        <p className="description">{about || ''}</p>
+                        <p className="roles">{roles || ''}</p>
+                        <p className="description">{biography || ''}</p>
                     </div>
                 </div>
                 <div className="skills-wrapper">

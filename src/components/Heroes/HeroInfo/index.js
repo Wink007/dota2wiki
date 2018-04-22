@@ -23,6 +23,7 @@ export default class HeroInfo extends Component {
         }
         const 
             { 
+                about, 
                 attack,
                 biography,
                 characteristic,
@@ -31,10 +32,10 @@ export default class HeroInfo extends Component {
                 hp,
                 mobility,
                 mp,
-                stats,
                 name,
-                about, 
+                roles,
                 skills,
+                stats,
                 talants
             } = currentHero;
         
@@ -50,6 +51,7 @@ export default class HeroInfo extends Component {
                     <TabPanel className="tab-panel">
                         <AboutHero
                             about={about}
+                            biography={biography}
                             currentSkill={currentSkill}
                             image={image}
                             heroName={name}
@@ -57,6 +59,7 @@ export default class HeroInfo extends Component {
                             hp={hp}
                             mp={mp}
                             name={name}
+                            roles={roles}
                             showSkill={showSkill}
                             skills={skills}
                             characteristic={characteristic}

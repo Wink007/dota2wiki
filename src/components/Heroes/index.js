@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 import AllHeroes from './AllHeroes';
 import HeroInfo from './HeroInfo';
-import heroes from 'cfg/heroes';
+import heroes from 'cfg/heroes.json';
 import Nav from '../Nav';
 
 import './index.scss';

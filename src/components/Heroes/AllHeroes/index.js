@@ -9,7 +9,7 @@ export default class AllHeroes extends Component {
         const { heroes, strength, agility, showHero } = this.props;
         return (
             strength ?
-            <div className="heroes">
+            <div className="all-heroes">
                 <div className="characters">Сила</div>
                 <div className="heroes-wrapper">
                     {
@@ -27,7 +27,7 @@ export default class AllHeroes extends Component {
             :
             (
                 agility ?
-                <div className="heroes">
+                <div className="all-heroes">
                     <div className="characters">Ловкость</div>
                     <div className="heroes-wrapper">
                         {
@@ -43,7 +43,7 @@ export default class AllHeroes extends Component {
                     </div>
                 </div>
                 :
-                <div className="heroes">
+                <div className="all-heroes">
                     <div className="characters">Интеллект</div>
                     <div className="heroes-wrapper">
                         {

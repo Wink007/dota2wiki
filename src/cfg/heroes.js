@@ -2,6 +2,7 @@ export default [
     {
         name: 'Abaddon',
         name1: 'abaddon',
+        roles: 'Support - Carry - Durable',
         image: require("image/heroes/Abaddon_icon.png"),
         characteristic: 'Strength',
         attack: [
@@ -235,7 +236,7 @@ export default [
                 lvl25: [
                     {
                         level: '25',
-                        lside: '+25% к замедлению передвижения и +25 к замедлению скорости атаки от Curse of Avernus',
+                        lside: '+25% к замедл. передвиж. и +25 к замедл. скор, атаки от Curse of Avernus',
                         rside: '+225 к здоровью Aphotic Shield',
                     },
                 ], 
@@ -245,6 +246,7 @@ export default [
     {
         name: 'Alchemist',
         name1: 'alchemist',
+        roles: 'Carry - Support - Durable - Disabler - Initiator - Nuker',
         image: require("image/heroes/Alchemist_icon.png"),
         characteristic: 'Strength',
         attack: [
@@ -492,6 +494,7 @@ export default [
     {
         name: 'Ancient Apparition',
         name1: 'ancient_apparition',
+        roles: 'Support - Disabler - Nuker',
         image: require("image/heroes/Ancient_Apparition_icon.png"),
         characteristic: 'Intelligence',
         attack: [
@@ -758,6 +761,7 @@ export default [
     {
         name: 'Anti-Mage',
         name1: 'antimage',
+        roles: 'Carry - Escape - Nuker',
         image: require("image/heroes/Anti-Mage_icon.png"),
         characteristic: 'Agility',
         attack: [
@@ -937,6 +941,7 @@ export default [
     {
         name: 'Arc Warden',
         name1: 'arc_warden',
+        roles: 'Carry - Escape - Nuker',
         image: require("image/heroes/Arc_Warden_icon.png"),
         characteristic: 'Agility',
         attack: [
@@ -1177,6 +1182,7 @@ export default [
     {
         name: 'Axe',
         name1: 'axe',
+        roles: 'Initiator - Durable - Disabler - Jungler',
         image: require("image/heroes/Axe_icon.png"),
         characteristic: 'Strength',
         attack: [
@@ -1428,6 +1434,7 @@ export default [
     {
         name: 'Bane',
         name1: 'bane',
+        roles: 'Support - Disabler - Nuker - Durable',
         image: require("image/heroes/Bane_icon.png"),
         characteristic: 'Intelligence',
         attack: [
@@ -1640,6 +1647,7 @@ export default [
     {
         name: 'Batrider',
         name1: 'batrider',
+        roles: 'Initiator - Jungler - Disabler - Escape',
         image: require("image/heroes/Batrider_icon.png"),
         characteristic: 'Intelligence',
         attack: [
@@ -1879,6 +1887,7 @@ export default [
     {
         name: 'Beastmaster',
         name1: 'beastmaster',
+        roles: 'Initiator - Disabler - Durable - Nuker',
         image: require("image/heroes/Beastmaster_icon.png"),
         characteristic: 'Strength',
         attack: [
@@ -2127,6 +2136,7 @@ export default [
     {
         name: 'Bloodseeker',
         name1: 'bloodseeker',
+        roles: 'Carry - Disabler - Jungler - Nuker - Initiator',
         image: require("image/heroes/Bloodseeker_icon.png"),
         characteristic: 'Agility',
         attack: [
@@ -2366,6 +2376,7 @@ export default [
     {
         name: 'Bounty Hunter',
         name1: 'bounty_hunter',
+        roles: 'Escape - Nuker',
         image: require("image/heroes/Bounty_Hunter_icon.png"),
         characteristic: 'Agility',
         attack: [
@@ -2604,6 +2615,7 @@ export default [
     {
         name: 'Brewmaster',
         name1: 'brewmaster',
+        roles: 'Carry - Initiator - Durable - Disabler - Nuker',
         image: require("image/heroes/Brewmaster_icon.png"),
         characteristic: 'Strength',
         attack: [
@@ -2833,6 +2845,7 @@ export default [
     {
         name: 'Bristleback',
         name1: 'bristleback',
+        roles: 'Carry - Durable - Initiator - Nuker',
         image: require("image/heroes/Bristleback_icon.png"),
         characteristic: 'Strength',
         attack: [
@@ -3086,6 +3099,7 @@ export default [
     {
         name: 'Broodmother',
         name1: 'broodmother',
+        roles: 'Carry - Pusher - Escape - Nuker',
         image: require("image/heroes/Broodmother_icon.png"),
         characteristic: 'Agility',
         attack: [
@@ -3314,6 +3328,7 @@ export default [
     {
         name: 'Centaur Warrunner',
         name1: 'centaur',
+        roles: 'Durable - Initiator - Disabler - Nuker - Escape',
         image: require("image/heroes/Centaur_Warrunner_icon.png"),
         characteristic: 'Strength',
         attack: [
@@ -3528,6 +3543,7 @@ export default [
     {
         name: 'Chaos Knight',
         name1: 'chaos_knight',
+        roles: 'Carry - Disabler - Durable - Pusher - Initiator',
         image: require("image/heroes/Chaos_Knight_icon.png"),
         characteristic: 'Strength',
         attack: [
@@ -3771,6 +3787,7 @@ export default [
     {
         name: 'Chen',
         name1: 'chen',
+        roles: 'Support - Jungler - Pusher',
         image: require("image/heroes/Chen_icon.png"),
         characteristic: 'Intelligence',
         attack: [
@@ -3990,6 +4007,7 @@ export default [
     {
         name: 'Clinkz',
         name1: 'clinkz',
+        roles: 'Carry - Escape - Pusher',
         image: require("image/heroes/Clinkz_icon.png"),
         characteristic: 'Agility',
         attack: [
@@ -4188,6 +4206,7 @@ export default [
     {
         name: 'Clockwerk',
         name1: 'rattletrap',
+        roles: 'Initiator - Disabler - Durable - Nuker',
         image: require("image/heroes/Clockwerk_icon.png"),
         characteristic: 'Strength',
         attack: [
@@ -4414,6 +4433,7 @@ export default [
     {
         name: 'Crystal Maiden',
         name1: 'crystal_maiden',
+        roles: 'Support - Disabler - Nuker - Jungler',
         image: require("image/heroes/Crystal_Maiden_icon.png"),
         characteristic: 'Intelligence',
         attack: [
@@ -4664,6 +4684,7 @@ export default [
     {
         name: 'Dark Seer',
         name1: 'dark_seer',
+        roles: 'Initiator - Jungler - Escape - Disabler',
         image: require("image/heroes/Dark_Seer_icon.png"),
         characteristic: 'Intelligence',
         attack: [
@@ -4904,6 +4925,7 @@ export default [
     {
         name: 'Dark Willow',
         name1: 'dark_willow',
+        roles: 'Support - Nuker - Disabler - Escape',
         image: require("image/heroes/Dark_Willow_icon.png"),
         characteristic: 'Intelligence',
         attack: [
@@ -5195,6 +5217,7 @@ export default [
     {
         name: 'Dazzle',
         name1: 'dazzle',
+        roles: 'Support - Nuker - Disabler',
         image: require("image/heroes/Dazzle_icon.png"),
         characteristic: 'Intelligence',
         attack: [
@@ -5435,6 +5458,7 @@ export default [
     {
         name: 'Death Prophet',
         name1: 'death_prophet',
+        roles: 'Carry - Pusher - Nuker - Disabler',
         image: require("image/heroes/Death_Prophet_icon.png"),
         characteristic: 'Intelligence',
         attack: [
@@ -5668,6 +5692,7 @@ export default [
     {
         name: 'Disruptor',
         name1: 'disruptor',
+        roles: 'Support - Disabler - Nuker - Initiator',
         image: require("image/heroes/Disruptor_icon.png"),
         characteristic: 'Intelligence',
         attack: [
@@ -5901,6 +5926,7 @@ export default [
     {
         name: 'Doom',
         name1: 'doom_bringer',
+        roles: 'Carry - Disabler - Initiator - Durable - Nuker',
         image: require("image/heroes/Doom_icon.png"),
         characteristic: 'Strength',
         attack: [
@@ -6129,6 +6155,7 @@ export default [
     {
         name: 'Dragon Knight',
         name1: 'dragon_knight',
+        roles: 'Carry - Pusher - Durable - Disabler - Initiator - Nuker',
         image: require("image/heroes/Dragon_Knight_icon.png"),
         characteristic: 'Strength',
         attack: [
@@ -6336,6 +6363,7 @@ export default [
     {
         name: 'Drow Ranger',
         name1: 'drow_ranger',
+        roles: 'Carry - Disabler - Pusher',
         image: require("image/heroes/Drow_Ranger_icon.png"),
         characteristic: 'Agility',
         attack: [
@@ -6558,6 +6586,7 @@ export default [
     {
         name: 'Earth Spirit',
         name1: 'earth_spirit',
+        roles: 'Nuker - Escape - Disabler - Initiator - Durable',
         image: require("image/heroes/Earth_Spirit_icon.png"),
         characteristic: 'Strength',
         attack: [
@@ -6866,6 +6895,7 @@ export default [
     {
         name: 'Earthshaker',
         name1: 'earthshaker',
+        roles: 'Support - Initiator - Disabler - Nuker',
         image: require("image/heroes/Earthshaker_icon.png"),
         characteristic: 'Strength',
         attack: [
@@ -7086,6 +7116,7 @@ export default [
     {
         name: 'Elder Titan',
         name1: 'elder_titan',
+        roles: 'Initiator - Disabler - Nuker - Durable',
         image: require("image/heroes/Elder_Titan_icon.png"),
         characteristic: 'Strength',
         attack: [
@@ -7374,6 +7405,7 @@ export default [
     {
         name: 'Ember Spirit',
         name1: 'ember_spirit',
+        roles: 'Carry - Escape - Nuker - Disabler - Initiator',
         image: require("image/heroes/Ember_Spirit_icon.png"),
         characteristic: 'Agility',
         attack: [
@@ -7651,6 +7683,7 @@ export default [
     {
         name: 'Enchantress',
         name1: 'enchantress',
+        roles: 'Support - Jungler - Pusher - Durable - Disabler',
         image: require("image/heroes/Enchantress_icon.png"),
         characteristic: 'Intelligence',
         attack: [
@@ -7851,6 +7884,7 @@ export default [
     {
         name: 'Enigma',
         name1: 'enigma',
+        roles: 'Disabler - Jungler - Initiator - Pusher',
         image: require("image/heroes/Enigma_icon.png"),
         characteristic: 'Intelligence',
         attack: [
@@ -8080,6 +8114,7 @@ export default [
     {
         name: 'Faceless Void',
         name1: 'faceless_void',
+        roles: 'Carry - Initiator - Disabler - Escape - Durable',
         image: require("image/heroes/Faceless_Void_icon.png"),
         characteristic: 'Agility',
         attack: [
@@ -8291,6 +8326,7 @@ export default [
     {
         name: 'Gyrocopter',
         name1: 'gyrocopter',
+        roles: 'Carry - Nuker - Disabler',
         image: require("image/heroes/Gyrocopter_icon.png"),
         characteristic: 'Agility',
         attack: [
@@ -8532,6 +8568,7 @@ export default [
     {
         name: 'Huskar',
         name1: 'huskar',
+        roles: 'Carry - Durable - Initiator',
         image: require("image/heroes/Huskar_icon.png"),
         characteristic: 'Strength',
         attack: [
@@ -8764,6 +8801,7 @@ export default [
     {
         name: 'Invoker',
         name1: 'invoker',
+        roles: 'Carry - Nuker - Disabler - Escape - Pusher',
         image: require("image/heroes/Invoker_icon.png"),
         characteristic: 'Intelligence',
         attack: [
@@ -8947,6 +8985,7 @@ export default [
     {
         name: 'Io',
         name1: 'wisp',
+        roles: 'Support - Escape - Nuker',
         image: require("image/heroes/Io_icon.png"),
         characteristic: 'Strength',
         attack: [
@@ -9240,6 +9279,7 @@ export default [
     {
         name: 'Jakiro',
         name1: 'jakiro',
+        roles: 'Support - Nuker - Pusher - Disabler',
         image: require("image/heroes/Jakiro_icon.png"),
         characteristic: 'Intelligence',
         attack: [
@@ -9519,6 +9559,7 @@ export default [
     {
         name: 'Juggernaut',
         name1: 'juggernaut',
+        roles: 'Carry - Pusher - Escape',
         image: require("image/heroes/Juggernaut_icon.png"),
         characteristic: 'Agility',
         attack: [
@@ -9729,6 +9770,7 @@ export default [
     {
         name: 'Keeper of the Light',
         name1: 'keeper_of_the_light',
+        roles: 'Support - Nuker - Disabler - Jungler',
         image: require("image/heroes/Keeper_of_the_Light_icon.png"),
         characteristic: 'Intelligence',
         attack: [
@@ -10030,6 +10072,7 @@ export default [
     {
         name: 'Kunkka',
         name1: 'kunkka',
+        roles: 'Carry - Support - Disabler - Initiator - Durable - Nuker',
         image: require("image/heroes/Kunkka_icon.png"),
         characteristic: 'Strength',
         attack: [
@@ -10293,6 +10336,7 @@ export default [
     {
         name: 'Legion Commander',
         name1: 'legion_commander',
+        roles: 'Carry - Disabler - Initiator - Durable - Nuker',
         image: require("image/heroes/Legion_Commander_icon.png"),
         characteristic: 'Strength',
         attack: [
@@ -10536,6 +10580,7 @@ export default [
     {
         name: 'Leshrac',
         name1: 'leshrac',
+        roles: 'Carry - Support - Nuker - Pusher - Disabler',
         image: require("image/heroes/Leshrac_icon.png"),
         characteristic: 'Intelligence',
         attack: [
@@ -10792,6 +10837,7 @@ export default [
     {
         name: 'Lich',
         name1: 'lich',
+        roles: 'Support - Nuker',
         image: require("image/heroes/Lich_icon.png"),
         characteristic: 'Intelligence',
         attack: [
@@ -11056,6 +11102,7 @@ export default [
     {
         name: 'Lifestealer',
         name1: 'life_stealer',
+        roles: 'Carry - Durable - Jungler - Escape - Disabler',
         image: require("image/heroes/Lifestealer_icon.png"),
         characteristic: 'Strength',
         attack: [
@@ -11261,6 +11308,7 @@ export default [
     {
         name: 'Lina',
         name1: 'lina',
+        roles: 'Support - Carry - Nuker - Disabler',
         image: require("image/heroes/Lina_icon.png"),
         characteristic: 'Intelligence',
         attack: [
@@ -11480,6 +11528,7 @@ export default [
     {
         name: 'Lion',
         name1: 'lion',
+        roles: 'Support - Disabler - Nuker - Initiator',
         image: require("image/heroes/Lion_icon.png"),
         characteristic: 'Intelligence',
         attack: [
@@ -11709,6 +11758,7 @@ export default [
     {
         name: 'Lone Druid',
         name1: 'lone_druid',
+        roles: 'Carry - Pusher - Jungler - Durable',
         image: require("image/heroes/Lone_Druid_icon.png"),
         characteristic: 'Agility',
         attack: [
@@ -11947,6 +11997,7 @@ export default [
     {
         name: 'Luna',
         name1: 'luna',
+        roles: 'Carry - Nuker - Pusher',
         image: require("image/heroes/Luna_icon.png"),
         characteristic: 'Agility',
         attack: [
@@ -12184,6 +12235,7 @@ export default [
     {
         name: 'Lycan',
         name1: 'lycan',
+        roles: 'Carry - Pusher - Jungler - Durable - Escape',
         image: require("image/heroes/Lycan_icon.png"),
         characteristic: 'Strength',
         attack: [
@@ -12436,6 +12488,7 @@ export default [
     {
         name: 'Magnus',
         name1: 'magnataur',
+        roles: 'Initiator - Disabler - Nuker - Escape',
         image: require("image/heroes/Magnus_icon.png"),
         characteristic: 'Strength',
         attack: [
@@ -12676,6 +12729,7 @@ export default [
     {
         name: 'Medusa',
         name1: 'medusa',
+        roles: 'Carry - Disabler - Durable',
         image: require("image/heroes/Medusa_icon.png"),
         characteristic: 'Agility',
         attack: [
@@ -12919,6 +12973,7 @@ export default [
     {
         name: 'Meepo',
         name1: 'meepo',
+        roles: 'Carry - Escape - Nuker - Disabler - Initiator - Pusher',
         image: require("image/heroes/Meepo_icon.png"),
         characteristic: 'Agility',
         attack: [
@@ -13124,6 +13179,7 @@ export default [
     {
         name: 'Mirana',
         name1: 'mirana',
+        roles: 'Carry - Support - Escape - Nuker - Disabler',
         image: require("image/heroes/Mirana_icon.png"),
         characteristic: 'Agility',
         attack: [
@@ -13359,6 +13415,7 @@ export default [
     {
         name: 'Monkey King',
         name1: 'monkey_king',
+        roles: 'Carry - Escape - Disabler - Initiator',
         image: require("image/heroes/Monkey_King_icon.png"),
         characteristic: 'Agility',
         attack: [
@@ -13657,6 +13714,7 @@ export default [
     {
         name: 'Morphling',
         name1: 'morphling',
+        roles: 'Carry - Escape - Durable - Nuker - Disabler',
         image: require("image/heroes/Morphling_icon.png"),
         characteristic: 'Agility',
         attack: [
@@ -13935,6 +13993,7 @@ export default [
     {
         name: 'Naga Siren',
         name1: 'naga_siren',
+        roles: 'Carry - Support - Pusher - Disabler - Initiator - Escape',
         image: require("image/heroes/Naga_Siren_icon.png"),
         characteristic: 'Agility',
         attack: [
@@ -14153,6 +14212,7 @@ export default [
     {
         name: "Nature's Prophet",
         name1: 'furion',
+        roles: 'Carry - Jungler - Pusher - Escape - Nuker',
         image: require("image/heroes/Nature's_Prophet_icon.png"),
         characteristic: 'Intelligence',
         attack: [
@@ -14362,6 +14422,7 @@ export default [
     {
         name: "Necrophos",
         name1: 'necrolyte',
+        roles: 'Carry - Nuker - Durable - Disabler',
         image: require("image/heroes/Necrophos_icon.png"),
         characteristic: 'Intelligence',
         attack: [
@@ -14616,6 +14677,7 @@ export default [
     {
         name: "Night Stalker",
         name1: 'night_stalker',
+        roles: 'Carry - Initiator - Durable - Disabler - Nuker',
         image: require("image/heroes/Night_Stalker_icon.png"),
         characteristic: 'Strength',
         attack: [
@@ -14846,6 +14908,7 @@ export default [
     {
         name: "Nyx Assassin",
         name1: 'nyx_assassin',
+        roles: 'Disabler - Nuker - Initiator - Escape',
         image: require("image/heroes/Nyx_Assassin_icon.png"),
         characteristic: 'Agility',
         attack: [
@@ -15056,6 +15119,7 @@ export default [
     {
         name: "Ogre Magi",
         name1: 'ogre_magi',
+        roles: 'Support - Nuker - Disabler - Durable - Initiator',
         image: require("image/heroes/Ogre_Magi_icon.png"),
         characteristic: 'Intelligence',
         attack: [
@@ -15331,6 +15395,7 @@ export default [
     {
         name: "Omniknight",
         name1: 'omniknight',
+        roles: 'Support - Durable - Nuker',
         image: require("image/heroes/Omniknight_icon.png"),
         characteristic: 'Strength',
         attack: [
@@ -15539,6 +15604,7 @@ export default [
     {
         name: "Oracle",
         name1: 'oracle',
+        roles: 'Support - Nuker - Disabler - Escape',
         image: require("image/heroes/Oracle_icon.png"),
         characteristic: 'Intelligence',
         attack: [
@@ -15768,6 +15834,7 @@ export default [
     {
         name: "Outworld Devourer",
         name1: 'obsidian_destroyer',
+        roles: 'Carry - Nuker - Disabler',
         image: require("image/heroes/Outworld_Devourer_icon.png"),
         characteristic: 'Intelligence',
         attack: [
@@ -16019,6 +16086,7 @@ export default [
     {
         name: "Pangolier",
         name1: 'pangolier',
+        roles: 'Carry - Nuker - Disabler - Durable - Escape - Initiator',
         image: require("image/heroes/Pangolier_icon.png"),
         characteristic: 'Agility',
         attack: [
@@ -16281,6 +16349,7 @@ export default [
     {
         name: "Phantom Assassin",
         name1: 'phantom_assassin',
+        roles: 'Carry - Escape',
         image: require("image/heroes/Phantom_Assassin_icon.png"),
         characteristic: 'Agility',
         attack: [
@@ -16497,6 +16566,7 @@ export default [
     {
         name: "Phantom Lancer",
         name1: 'phantom_lancer',
+        roles: 'Carry - Escape - Pusher - Nuker',
         image: require("image/heroes/Phantom_Lancer_icon.png"),
         characteristic: 'Agility',
         attack: [
@@ -16765,6 +16835,7 @@ export default [
     {
         name: "Phoenix",
         name1: 'phoenix',
+        roles: 'Support - Nuker - Initiator - Escape - Disabler',
         image: require("image/heroes/Phoenix_icon.png"),
         characteristic: 'Strength',
         attack: [
@@ -17086,6 +17157,7 @@ export default [
     {
         name: "Puck",
         name1: 'puck',
+        roles: 'Initiator - Disabler - Escape - Nuker',
         image: require("image/heroes/Puck_icon.png"),
         characteristic: 'Intelligence',
         attack: [
@@ -17342,6 +17414,7 @@ export default [
     {
         name: "Pudge",
         name1: 'pudge',
+        roles: 'Disabler - Initiator - Durable - Nuker',
         image: require("image/heroes/Pudge_icon.png"),
         characteristic: 'Strength',
         attack: [
@@ -17560,6 +17633,7 @@ export default [
     {
         name: "Pugna",
         name1: 'pugna',
+        roles: 'Nuker - Pusher',
         image: require("image/heroes/Pugna_icon.png"),
         characteristic: 'Intelligence',
         attack: [
@@ -17798,6 +17872,7 @@ export default [
     {
         name: "Queen of Pain",
         name1: 'queenofpain',
+        roles: 'Carry - Nuker - Escape',
         image: require("image/heroes/Queen_of_Pain_icon.png"),
         characteristic: 'Intelligence',
         attack: [
@@ -18022,6 +18097,7 @@ export default [
     {
         name: "Razor",
         name1: 'razor',
+        roles: 'Carry - Durable - Nuker - Pusher',
         image: require("image/heroes/Razor_icon.png"),
         characteristic: 'Agility',
         attack: [
@@ -18285,6 +18361,7 @@ export default [
     {
         name: "Riki",
         name1: 'riki',
+        roles: 'Carry - Escape - Disabler',
         image: require("image/heroes/Riki_icon.png"),
         characteristic: 'Agility',
         attack: [
@@ -18503,6 +18580,7 @@ export default [
     {
         name: "Rubick",
         name1: 'rubick',
+        roles: 'Support - Disabler - Nuker',
         image: require("image/heroes/Rubick_icon.png"),
         characteristic: 'Intelligence',
         attack: [
@@ -18735,6 +18813,7 @@ export default [
     {
         name: "Sand King",
         name1: 'sand_king',
+        roles: 'Initiator - Disabler - Support - Nuker - Escape - Jungler',
         image: require("image/heroes/Sand_King_icon.png"),
         characteristic: 'Strength',
         attack: [
@@ -19000,6 +19079,7 @@ export default [
     {
         name: "Shadow Demon",
         name1: 'shadow_demon',
+        roles: 'Support - Disabler - Initiator - Nuker',
         image: require("image/heroes/Shadow_Demon_icon.png"),
         characteristic: 'Intelligence',
         attack: [
@@ -19279,6 +19359,7 @@ export default [
     {
         name: "Shadow Fiend",
         name1: 'nevermore',
+        roles: 'Carry - Nuker',
         image: require("image/heroes/Shadow_Fiend_icon.png"),
         characteristic: 'Agility',
         attack: [
@@ -19601,6 +19682,7 @@ export default [
     {
         name: "Shadow Shaman",
         name1: 'shadow_shaman',
+        roles: 'Support - Pusher - Disabler - Nuker - Initiator',
         image: require("image/heroes/Shadow_Shaman_icon.png"),
         characteristic: 'Intelligence',
         attack: [
@@ -19805,6 +19887,7 @@ export default [
     {
         name: "Silencer",
         name1: 'silencer',
+        roles: 'Carry - Support - Disabler - Initiator - Nuker',
         image: require("image/heroes/Silencer_icon.png"),
         characteristic: 'Intelligence',
         attack: [
@@ -20027,6 +20110,7 @@ export default [
     {
         name: "Skywrath Mage",
         name1: 'skywrath_mage',
+        roles: 'Support - Nuker - Disabler',
         image: require("image/heroes/Skywrath_Mage_icon.png"),
         characteristic: 'Intelligence',
         attack: [
@@ -20248,6 +20332,7 @@ export default [
     {
         name: "Slardar",
         name1: 'slardar',
+        roles: 'Carry - Durable - Initiator - Disabler - Escape',
         image: require("image/heroes/Slardar_icon.png"),
         characteristic: 'Strength',
         attack: [
@@ -20473,6 +20558,7 @@ export default [
     {
         name: "Slark",
         name1: 'slark',
+        roles: 'Carry - Escape - Disabler - Nuker',
         image: require("image/heroes/Slark_icon.png"),
         characteristic: 'Agility',
         attack: [
@@ -20703,6 +20789,7 @@ export default [
     {
         name: "Sniper",
         name1: 'sniper',
+        roles: 'Carry - Nuker',
         image: require("image/heroes/Sniper_icon.png"),
         characteristic: 'Agility',
         attack: [
@@ -20922,6 +21009,7 @@ export default [
     {
         name: "Spectre",
         name1: 'spectre',
+        roles: 'Carry - Durable - Escape',
         image: require("image/heroes/Spectre_icon.png"),
         characteristic: 'Agility',
         attack: [
@@ -21165,6 +21253,7 @@ export default [
     {
         name: "Spirit Breaker",
         name1: 'spirit_breaker',
+        roles: 'Carry - Initiator - Disabler - Durable - Escape',
         image: require("image/heroes/Spirit_Breaker_icon.png"),
         characteristic: 'Strength',
         attack: [
@@ -21423,6 +21512,7 @@ export default [
     {
         name: "Storm Spirit",
         name1: 'storm_spirit',
+        roles: 'Carry - Escape - Nuker - Initiator - Disabler',
         image: require("image/heroes/Storm_Spirit_icon.png"),
         characteristic: 'Intelligence',
         attack: [
@@ -21661,6 +21751,7 @@ export default [
     {
         name: "Sven",
         name1: 'sven',
+        roles: 'Carry - Disabler - Initiator - Durable - Nuker',
         image: require("image/heroes/Sven_icon.png"),
         characteristic: 'Strength',
         attack: [
@@ -21884,6 +21975,7 @@ export default [
     {
         name: "Techies",
         name1: 'techies',
+        roles: 'Nuker - Disabler',
         image: require("image/heroes/Techies_icon.png"),
         characteristic: 'Intelligence',
         attack: [
@@ -22198,6 +22290,7 @@ export default [
     {
         name: "Templar Assassin",
         name1: 'templar_assassin',
+        roles: 'Carry - Escape',
         image: require("image/heroes/Templar_Assassin_icon.png"),
         characteristic: 'Agility',
         attack: [
@@ -22451,6 +22544,7 @@ export default [
     {
         name: "Terrorblade",
         name1: 'terrorblade',
+        roles: 'Carry - Pusher - Nuker',
         image: require("image/heroes/Terrorblade_icon.png"),
         characteristic: 'Agility',
         attack: [
@@ -22689,6 +22783,7 @@ export default [
     {
         name: "Tidehunter",
         name1: 'tidehunter',
+        roles: 'Initiator - Durable - Disabler - Nuker',
         image: require("image/heroes/Tidehunter_icon.png"),
         characteristic: 'Strength',
         attack: [
@@ -22933,6 +23028,7 @@ export default [
     {
         name: "Timbersaw",
         name1: 'shredder',
+        roles: 'Nuker - Durable - Escape',
         image: require("image/heroes/Timbersaw_icon.png"),
         characteristic: 'Strength',
         attack: [
@@ -23182,6 +23278,7 @@ export default [
     {
         name: "Tinker",
         name1: 'tinker',
+        roles: 'Carry - Nuker - Pusher',
         image: require("image/heroes/Tinker_icon.png"),
         characteristic: 'Intelligence',
         attack: [
@@ -23413,6 +23510,7 @@ export default [
     {
         name: "Tiny",
         name1: 'tiny',
+        roles: 'Carry - Nuker - Pusher - Initiator - Durable - Disabler',
         image: require("image/heroes/Tiny_icon.png"),
         characteristic: 'Strength',
         attack: [
@@ -23636,6 +23734,7 @@ export default [
     {
         name: "Treant Protector",
         name1: 'treant',
+        roles: 'Support - Initiator - Durable - Disabler - Escape',
         image: require("image/heroes/Treant_Protector_icon.png"),
         characteristic: 'Strength',
         attack: [
@@ -23870,6 +23969,7 @@ export default [
     {
         name: "Troll Warlord",
         name1: 'troll_warlord',
+        roles: 'Carry - Pusher - Disabler - Durable',
         image: require("image/heroes/Troll_Warlord_icon.png"),
         characteristic: 'Agility',
         attack: [
@@ -24138,6 +24238,7 @@ export default [
     {
         name: "Tusk",
         name1: 'tusk',
+        roles: 'Initiator - Disabler - Nuker',
         image: require("image/heroes/Tusk_icon.png"),
         characteristic: 'Strength',
         attack: [
@@ -24394,6 +24495,7 @@ export default [
     {
         name: "Underlord",
         name1: 'abyssal_underlord',
+        roles: 'Support - Nuker - Disabler - Durable - Escape',
         image: require("image/heroes/Underlord_icon.png"),
         characteristic: 'Strength',
         attack: [
@@ -24644,6 +24746,7 @@ export default [
     {
         name: "Undying",
         name1: 'undying',
+        roles: 'Support - Durable - Disabler - Nuker',
         image: require("image/heroes/Undying_icon.png"),
         characteristic: 'Strength',
         attack: [
@@ -24922,6 +25025,7 @@ export default [
     {
         name: "Ursa",
         name1: 'ursa',
+        roles: 'Carry - Jungler - Durable - Disabler',
         image: require("image/heroes/Ursa_icon.png"),
         characteristic: 'Agility',
         attack: [
@@ -25147,6 +25251,7 @@ export default [
     {
         name: "Vengeful Spirit",
         name1: 'vengefulspirit',
+        roles: 'Support - Initiator - Disabler - Nuker - Escape',
         image: require("image/heroes/Vengeful_Spirit_icon.png"),
         characteristic: 'Agility',
         attack: [
@@ -25378,6 +25483,7 @@ export default [
     {
         name: "Venomancer",
         name1: 'venomancer',
+        roles: 'Support - Nuker - Initiator - Pusher - Disabler',
         image: require("image/heroes/Venomancer_icon.png"),
         characteristic: 'Agility',
         attack: [
@@ -25622,6 +25728,7 @@ export default [
     {
         name: "Viper",
         name1: 'viper',
+        roles: 'Carry - Durable - Initiator - Disabler',
         image: require("image/heroes/Viper_icon.png"),
         characteristic: 'Agility',
         attack: [
@@ -25893,6 +26000,7 @@ export default [
     {
         name: "Visage",
         name1: 'visage',
+        roles: 'Support - Nuker - Durable - Disabler - Pusher',
         image: require("image/heroes/Visage_icon.png"),
         characteristic: 'Intelligence',
         attack: [
@@ -26173,6 +26281,7 @@ export default [
     {
         name: "Warlock",
         name1: 'warlock',
+        roles: 'Support - Initiator - Disabler',
         image: require("image/heroes/Warlock_icon.png"),
         characteristic: 'Intelligence',
         attack: [
@@ -26431,6 +26540,7 @@ export default [
     {
         name: "Weaver",
         name1: 'weaver',
+        roles: 'Carry - Escape',
         image: require("image/heroes/Weaver_icon.png"),
         characteristic: 'Agility',
         attack: [
@@ -26661,6 +26771,7 @@ export default [
     {
         name: "Windranger",
         name1: 'windrunner',
+        roles: 'Carry - Support - Disabler - Escape - Nuker',
         image: require("image/heroes/Windranger_icon.png"),
         characteristic: 'Intelligence',
         attack: [
@@ -26892,6 +27003,7 @@ export default [
     {
         name: "Winter Wyvern",
         name1: 'winter_wyvern',
+        roles: 'Support - Disabler - Nuker',
         image: require("image/heroes/Winter_Wyvern_icon.png"),
         characteristic: 'Intelligence',
         attack: [
@@ -27149,6 +27261,7 @@ export default [
     {
         name: "Witch Doctor",
         name1: 'witch_doctor',
+        roles: 'Support - Nuker - Disabler',
         image: require("image/heroes/Witch_Doctor_icon.png"),
         characteristic: 'Intelligence',
         attack: [
@@ -27381,6 +27494,7 @@ export default [
     {
         name: "Wraith King",
         name1: 'skeleton_king',
+        roles: 'Carry - Support - Durable - Disabler - Initiator',
         image: require("image/heroes/Wraith_King_icon.png"),
         characteristic: 'Strength',
         attack: [
@@ -27630,6 +27744,7 @@ export default [
     {
         name: "Zeus",
         name1: 'zuus',
+        roles: 'Nuker',
         image: require("image/heroes/Zeus_icon.png"),
         characteristic: 'Intelligence',
         attack: [
